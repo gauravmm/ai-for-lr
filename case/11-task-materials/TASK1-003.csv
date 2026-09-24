@@ -1,0 +1,4 @@
+claim_id,claim_text,source_id,source_locator,source_value,transformation,result,documentary_status,verification_status
+C-01,Decision-relevant claim 1,,,,,,,
+C-02,Decision-relevant claim 2,,,,,,,
+C-03,Decision-relevant claim 3,,,,,,,

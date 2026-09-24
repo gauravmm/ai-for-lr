@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "@xmldom/xmldom": "0.9.12",
+    "ajv": "8.17.1",
+    "jszip": "3.10.1",
+    "pptx-automizer": "0.9.3",
+    "pptxgenjs": "3.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "24.3.0",
+    "tsx": "4.20.5",
+    "typescript": "5.9.2"
+  },
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "name": "encabulation-pptx-generator",
+  "private": true,
+  "scripts": {
+    "build": "node --import tsx scripts/cli.ts build",
+    "inspect": "node --import tsx scripts/cli.ts inspect",
+    "typecheck": "tsc --noEmit",
+    "validate": "node --import tsx scripts/cli.ts validate"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}

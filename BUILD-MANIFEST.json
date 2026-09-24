@@ -1,0 +1,1323 @@
+{
+  "entries": [
+    {
+      "contentHash": "63e1c875630da84dec3409a2e0ffbd1b5bf216d20f80f66fb4e64176a4fabc22",
+      "format": "pdf",
+      "id": "CASE-001",
+      "outputHash": "d83eb836a1996d9b7a4996f984728760eff89e7ae443a467805aa0981a6045a8",
+      "path": "task/case/00-start-here/CASE-001.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "6ae83ebb7d1888861a50846c42459220078cf9a5189abae512a5200d859f1d3a",
+      "format": "md",
+      "id": "INDEX-001",
+      "outputHash": "bd6f84b02275bd3afd9150ada4c23933dcc25d50463421cac3730b21e802c3b7",
+      "path": "task/case/00-start-here/INDEX-001.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "docgen structured serializer",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/content/documents.json",
+      "templateHash": "21262a3cb5337627b0fad9d891c16adb40706bd3e57534416dd02bbe5917d184",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "6ae83ebb7d1888861a50846c42459220078cf9a5189abae512a5200d859f1d3a",
+      "format": "pdf",
+      "id": "INDEX-001",
+      "outputHash": "3cf4cf723078bcfe3f14473d4aadd7d6a1272bdb8bead27555901d0ba058dee5",
+      "path": "task/case/00-start-here/INDEX-001.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "022f7e3f0c66b48bc562c095ca7dac66e6f5b5c473e9058fad68573d6edd19ae",
+      "format": "pdf",
+      "id": "ROLES-001",
+      "outputHash": "ff0421280fcabd401a086c414224d592460dd0654c960a8a2b47bc78e77a5956",
+      "path": "task/case/00-start-here/ROLES-001.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "727ab91ec64dda2737783ab4ee9bfa6236c07dc28cf24a707d077ed2bb1dc8a6",
+      "format": "pdf",
+      "id": "TECH-001",
+      "outputHash": "14ddcbfeba5067aec902a54d2453290da2fd9173f7500e7e7db9ae576636947e",
+      "path": "task/case/00-start-here/TECH-001.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "d408bfc8ef6ab98b0b42963331979e5b57b1e9d6c4b451390c00ed0c598cde3f",
+      "format": "pdf",
+      "id": "GRANT-001",
+      "outputHash": "d5763a98ad729d6f03dd0201960bc0c4c1b0d7370573083b7eb5272733831252",
+      "path": "task/case/01-project-and-grant/GRANT-001.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "95c400bbbd07c175bb533685db10a62d6f3b629b95aef97a7780e1487db6f04d",
+      "format": "pdf",
+      "id": "GRANT-002",
+      "outputHash": "e491c89cec0cade20c36fd81bac5adb8d645b8a86766c7a6093d71a4314e787f",
+      "path": "task/case/01-project-and-grant/GRANT-002.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst semantic preview",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "95c400bbbd07c175bb533685db10a62d6f3b629b95aef97a7780e1487db6f04d",
+      "format": "xlsx",
+      "id": "GRANT-002",
+      "outputHash": "a761de6e9abefaba04d2cc125ec6ef9e8c0ba555bb8b2009cb50cd9a055d6bd8",
+      "path": "task/case/01-project-and-grant/GRANT-002.xlsx",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "ExcelJS",
+      "rendererVersion": "4.4.0",
+      "source": "docgen/content/documents.json",
+      "templateHash": "470615338c4f94e270d4cdd4d94473112b661c0b1e530a82a69bcdac53257c78",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "911881931b3fc10b19944f7e6c5ed6c65605fa297ca27ce9a091030d46392edb",
+      "format": "pdf",
+      "id": "GRANT-003",
+      "outputHash": "f5fe8702229296f6007d023696dbf41aa8f16d7ad13562dab3776908feb01c99",
+      "path": "task/case/01-project-and-grant/GRANT-003.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "dad6818654552795087b1da686bf290075ec39a9cf73f23a607143e7acd65c3c",
+      "format": "pdf",
+      "id": "GRANT-004",
+      "outputHash": "73aee6b29270ddf6e48f215404b9542fc45a822a2d386941fc84fa32de89409e",
+      "path": "task/case/01-project-and-grant/GRANT-004.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "62eaa86a323e70a535da2dc38d0b75462084f743fbc4997c7676829b4821cbe4",
+      "format": "pdf",
+      "id": "PLAN-001",
+      "outputHash": "5bf450ebf9af1d548e90706f8118ae09a28a6fa58b7e1f737c1aedb60630a3dc",
+      "path": "task/case/01-project-and-grant/PLAN-001.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "80904a8fe39f7c3c0ba823f7a63f84bea0e50aee850e0ef192972323670ee3af",
+      "format": "pdf",
+      "id": "RFQ-001",
+      "outputHash": "a16e230df9ba1d824c24a44bb00758841752de7e2c1726e120c8600107c42570",
+      "path": "task/case/02-tender/RFQ-001.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "0d3092c32c1cb9f8a21156f696ef5880a210e05d30844a9120d06a4046724aa8",
+      "format": "pdf",
+      "id": "RFQ-002",
+      "outputHash": "6b41560db2cc8167c3c019a4fa2dcfb7b9436833184ddae87611435aaebd7b0b",
+      "path": "task/case/02-tender/RFQ-002.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst semantic preview",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "0d3092c32c1cb9f8a21156f696ef5880a210e05d30844a9120d06a4046724aa8",
+      "format": "xlsx",
+      "id": "RFQ-002",
+      "outputHash": "a2a33c86106180833cf7e983e5eb4ea76ded7e38036c5d803280bfd282d5b663",
+      "path": "task/case/02-tender/RFQ-002.xlsx",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "ExcelJS",
+      "rendererVersion": "4.4.0",
+      "source": "docgen/content/documents.json",
+      "templateHash": "470615338c4f94e270d4cdd4d94473112b661c0b1e530a82a69bcdac53257c78",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "fb8faf39087a130d4203077b642817768b20acd93e656310641e08499695942e",
+      "format": "pdf",
+      "id": "RFQ-003",
+      "outputHash": "06fb1abe9f9b4a62ddcfb65b5d1dfef07624ff69a9588de8fd16f2e764b16f80",
+      "path": "task/case/02-tender/RFQ-003.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "0cbff46d922be5189519330d767b3e5511b5d7d25ad417b3080e4ddc462a4cb4",
+      "format": "xlsx",
+      "id": "RFQ-004",
+      "outputHash": "e2d3e0d2f2d13fb1cc3738ff80c6547e28040ef930a66290a18d839145dc9638",
+      "path": "task/case/02-tender/RFQ-004.xlsx",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "ExcelJS",
+      "rendererVersion": "4.4.0",
+      "source": "docgen/content/documents.json",
+      "templateHash": "470615338c4f94e270d4cdd4d94473112b661c0b1e530a82a69bcdac53257c78",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "6508f7c23b7f7ddd6d7997c2e58d04b5266286b58a05adba0a2ff0fda26b26ff",
+      "format": "pdf",
+      "id": "RFQ-005",
+      "outputHash": "b8d1053e7b3cfbe8982034b8a0f7cd4b5b785b48b8058eaaefe1ab228e72f719",
+      "path": "task/case/02-tender/RFQ-005.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "deac6eba2487c676a79522789d9f9144930102f4926081d52e3de615a54f2be8",
+      "format": "pdf",
+      "id": "RFQ-006",
+      "outputHash": "4dae3877cc2a0a04172a6647f106e69ab3419077d7b134a1bb419a519523beaa",
+      "path": "task/case/02-tender/RFQ-006.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "73224b22514fbaa1765722b63ee1d134518c0ced65de44e6717f3d08f33e7ab0",
+      "format": "pdf",
+      "id": "NST-001",
+      "outputHash": "48b2ebf36ae881c6040c4aba423f6a699dfa55dc0676cb0bb2098e7d98bce8d8",
+      "path": "task/case/03-northstar/NST-001.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "058c139e6ea8a94fc1a90a043b4f20ce6d0e69801a6de77ba449f6901c1a4ac2",
+      "format": "pdf",
+      "id": "NST-002",
+      "outputHash": "d4dec3529a9b7b0d912ea17eaf7e7e97218d5e21985f14942fed60e45e49208b",
+      "path": "task/case/03-northstar/NST-002.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst semantic preview",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "058c139e6ea8a94fc1a90a043b4f20ce6d0e69801a6de77ba449f6901c1a4ac2",
+      "format": "xlsx",
+      "id": "NST-002",
+      "outputHash": "b4197ef24a566db75706b2865f7d3595f66edd3ec0fd368b6789912795d2bf40",
+      "path": "task/case/03-northstar/NST-002.xlsx",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "ExcelJS",
+      "rendererVersion": "4.4.0",
+      "source": "docgen/content/documents.json",
+      "templateHash": "470615338c4f94e270d4cdd4d94473112b661c0b1e530a82a69bcdac53257c78",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "842b2029455032832ea91180d27b50f98db8a43cd0fc03208c20825f858a254f",
+      "format": "xlsx",
+      "id": "NST-003",
+      "outputHash": "24d6b618e358dac37f9e7a4725b4117a73f2648117ac109723cbb8ea98bc850d",
+      "path": "task/case/03-northstar/NST-003.xlsx",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "ExcelJS",
+      "rendererVersion": "4.4.0",
+      "source": "docgen/content/documents.json",
+      "templateHash": "470615338c4f94e270d4cdd4d94473112b661c0b1e530a82a69bcdac53257c78",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "1aaf3ed14dd977c2f8f1287512f3697aef2ee0ea0262cb147fe4b12ad8ffc429",
+      "format": "pdf",
+      "id": "NST-004",
+      "outputHash": "4eebfb3a05cd60159011669ffc3512ea6eab449b4d21b254fe6c7efc819b33e1",
+      "path": "task/case/03-northstar/NST-004.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "bbadb557113935a8140adb3d97b1180dbca6a9ed4271000bd13ec8a7a326c40c",
+      "format": "pdf",
+      "id": "NST-005",
+      "outputHash": "5959c6d1e92c802b7ef74a912995e8aeb532c029c812e51245005a510bcfed0a",
+      "path": "task/case/03-northstar/NST-005.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "87ea885feea9bfd0be5aafe4929b4c10e3c609fb1b3c7936d5b233cab72758fb",
+      "format": "pdf",
+      "id": "MER-001",
+      "outputHash": "b7771b501a402a62d7df6809b2b05da7aedf6239e790fa14c8ce26cca15d39f5",
+      "path": "task/case/04-meridian/MER-001.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "099c5cd2a38ea4dee3768fe8ae064c0abd2347911dd232dca3dd1a248f56fd2f",
+      "format": "pdf",
+      "id": "MER-002",
+      "outputHash": "aa97ee832c230ec8195a8c6af407121e5b1695de64fcdd52933b99de76d95e94",
+      "path": "task/case/04-meridian/MER-002.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst semantic preview",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "099c5cd2a38ea4dee3768fe8ae064c0abd2347911dd232dca3dd1a248f56fd2f",
+      "format": "xlsx",
+      "id": "MER-002",
+      "outputHash": "991fcf47330c169df60ace2c9ccb3c118e4868964ff9f6558afa9468deb42a12",
+      "path": "task/case/04-meridian/MER-002.xlsx",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "ExcelJS",
+      "rendererVersion": "4.4.0",
+      "source": "docgen/content/documents.json",
+      "templateHash": "470615338c4f94e270d4cdd4d94473112b661c0b1e530a82a69bcdac53257c78",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "a77a42b93453c22f171f466029ad8cf84b05da18b1c469974d766f5f400c511e",
+      "format": "xlsx",
+      "id": "MER-003",
+      "outputHash": "9cb55aa7a4eac2d090ebc247e92b7b1f96a3236b28f58261d3c90285913be70b",
+      "path": "task/case/04-meridian/MER-003.xlsx",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "ExcelJS",
+      "rendererVersion": "4.4.0",
+      "source": "docgen/content/documents.json",
+      "templateHash": "470615338c4f94e270d4cdd4d94473112b661c0b1e530a82a69bcdac53257c78",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "f41b5350c638eb304814b6813cde8201ca526f1d81fa8a1531b77a0352cd4b3d",
+      "format": "pdf",
+      "id": "MER-004",
+      "outputHash": "2fb7c89bee6bd6808e9148aad3062bf9042801b65b2d742bd5b160d0985baf5a",
+      "path": "task/case/04-meridian/MER-004.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "1a3840ffeffb8b64e1c7c43801888d335e54540ff9c2ed8b25a83ca2d0cb952e",
+      "format": "pdf",
+      "id": "MER-005",
+      "outputHash": "dc0553ef64d411d94a511c8d6ef7a3254712979debe8a92cfcb43b3fca601ad3",
+      "path": "task/case/04-meridian/MER-005.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "cfcf3878e93d16a2147971ca6b4731d98f8f28ce42ac1a55ef3ddeac3b1280de",
+      "format": "pdf",
+      "id": "HLX-001",
+      "outputHash": "40b874afc15aa8e3da80ee555b81d5a56441e543cf6a21bedc40e2d56f968bbb",
+      "path": "task/case/05-helix/HLX-001.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "365e9abcbb883b54473e96ec98ea0afec0a91a102bf6fd86b04586925c674e73",
+      "format": "pdf",
+      "id": "HLX-002",
+      "outputHash": "a574629438fe07b9695b819128c758fced12912c20d881b315f99d21e34803d1",
+      "path": "task/case/05-helix/HLX-002.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst semantic preview",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "365e9abcbb883b54473e96ec98ea0afec0a91a102bf6fd86b04586925c674e73",
+      "format": "xlsx",
+      "id": "HLX-002",
+      "outputHash": "0cbcb08865e9d2f3fa824b1d7d782a820ad2b18e7bf8b78f6d763186e69ac5ac",
+      "path": "task/case/05-helix/HLX-002.xlsx",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "ExcelJS",
+      "rendererVersion": "4.4.0",
+      "source": "docgen/content/documents.json",
+      "templateHash": "470615338c4f94e270d4cdd4d94473112b661c0b1e530a82a69bcdac53257c78",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "4b3f9db70a86d657846a13dc95820013ea2832fe31c41af2db5522559eb07bdf",
+      "format": "xlsx",
+      "id": "HLX-003",
+      "outputHash": "dfbe94abe835a5d269cf43cdc8360a232899638cf21cce080722fcbfaa6c0d6c",
+      "path": "task/case/05-helix/HLX-003.xlsx",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "ExcelJS",
+      "rendererVersion": "4.4.0",
+      "source": "docgen/content/documents.json",
+      "templateHash": "470615338c4f94e270d4cdd4d94473112b661c0b1e530a82a69bcdac53257c78",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "dbe5f9e76d9967f34926785799c89135e2cfb8db72d4db46fe298e368484c737",
+      "format": "pdf",
+      "id": "HLX-004",
+      "outputHash": "6a3eeb23c13d8aae5c99489e19469b614e70c8cbfa1de192ed82ffbcaab6e78e",
+      "path": "task/case/05-helix/HLX-004.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "2932f2ba6fbe9b4e677b1f8f0e1e84797bf135cf1e6517e7f5f04567d531e9a1",
+      "format": "pdf",
+      "id": "HLX-005",
+      "outputHash": "218cf0452dca7ba1719c92c93bc0bc8c23b6d04dd61cc4f304ea6d507debdcac",
+      "path": "task/case/05-helix/HLX-005.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "e8212e7d280a62b9341a849583f916bac9d30a90f7c483c3080fd9d70f7d276b",
+      "format": "pdf",
+      "id": "PRG-001",
+      "outputHash": "5c40adaaaf3d864ba61763c1dcf57f41889af5893fb9bb11ba0493db8b8ef38f",
+      "path": "task/case/06-peregrine/PRG-001.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "2e35efc9cabbe58fb860e201585fffe1a075abd94ebd5ea93b76abea12c0a90e",
+      "format": "pdf",
+      "id": "PRG-002",
+      "outputHash": "dd335d433c679ad7940bd2ca32f1c0b842bf7cf17c26c1e3924d7749d3a96901",
+      "path": "task/case/06-peregrine/PRG-002.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst semantic preview",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "2e35efc9cabbe58fb860e201585fffe1a075abd94ebd5ea93b76abea12c0a90e",
+      "format": "xlsx",
+      "id": "PRG-002",
+      "outputHash": "38091c6b37bf2467715f626370ce7fb905f4919d2c2f50211886fa5318f1bb38",
+      "path": "task/case/06-peregrine/PRG-002.xlsx",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "ExcelJS",
+      "rendererVersion": "4.4.0",
+      "source": "docgen/content/documents.json",
+      "templateHash": "470615338c4f94e270d4cdd4d94473112b661c0b1e530a82a69bcdac53257c78",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "6e21afca0ea982c9fa31e8a78b10cecf262353276026141ce8db70ebd09e8e4b",
+      "format": "xlsx",
+      "id": "PRG-003",
+      "outputHash": "dc252d3a08f8657fb40938917da72ab65cdbe70faf5e7ed62f2ceaebaecd4caf",
+      "path": "task/case/06-peregrine/PRG-003.xlsx",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "ExcelJS",
+      "rendererVersion": "4.4.0",
+      "source": "docgen/content/documents.json",
+      "templateHash": "470615338c4f94e270d4cdd4d94473112b661c0b1e530a82a69bcdac53257c78",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "217b66ca5431bcc5784afeed68f053433a211fc7409fc3420274219ea2121695",
+      "format": "pdf",
+      "id": "PRG-004",
+      "outputHash": "64babfcde4a48be914f9bace114e11e71dad5fbd4ee57d0d9d746dfdd7bf442c",
+      "path": "task/case/06-peregrine/PRG-004.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "e37df05ca8eb24f7b2aaa89a02c8c9e30ce62859eb52822b4f52c74b50333761",
+      "format": "pdf",
+      "id": "PRG-005",
+      "outputHash": "136186974bd64dc775b49124c1b81c2ca00b2c9dddf18039ee7d079e42378ff5",
+      "path": "task/case/06-peregrine/PRG-005.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "6b9a7d5d8b40c7412bdd9bad2a32c9a63cc06f41bf8324de027059ad0e6c12c3",
+      "format": "pdf",
+      "id": "APR-001",
+      "outputHash": "5090a01139c996ee734097997404fa4be2d2b33737e580e19ca7a5bb2d965a9b",
+      "path": "task/case/07-aperture/APR-001.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "578b7931214353847cd6c802a7ea5c9292cc2ac6eb2b94e762706b23d7bbab37",
+      "format": "pdf",
+      "id": "APR-002",
+      "outputHash": "8d1efb42b1e62e2d9efbb76aed3961a7a7df53c59d0a5c89bf54e36d6d86b56e",
+      "path": "task/case/07-aperture/APR-002.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst semantic preview",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "578b7931214353847cd6c802a7ea5c9292cc2ac6eb2b94e762706b23d7bbab37",
+      "format": "xlsx",
+      "id": "APR-002",
+      "outputHash": "2d68e29d5912b3f8e5a1131dfbecdcaa8a5ddaef1f9b269e14ca51ab9edfb354",
+      "path": "task/case/07-aperture/APR-002.xlsx",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "ExcelJS",
+      "rendererVersion": "4.4.0",
+      "source": "docgen/content/documents.json",
+      "templateHash": "470615338c4f94e270d4cdd4d94473112b661c0b1e530a82a69bcdac53257c78",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "4fe751169c78211d305c5dad89b72c51596f5bb7b8e073192f9464e13467b15b",
+      "format": "xlsx",
+      "id": "APR-003",
+      "outputHash": "0497b82453994505d432ff1e9831d25c6df7d549c591f1f5c4c44d95109c8f78",
+      "path": "task/case/07-aperture/APR-003.xlsx",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "ExcelJS",
+      "rendererVersion": "4.4.0",
+      "source": "docgen/content/documents.json",
+      "templateHash": "470615338c4f94e270d4cdd4d94473112b661c0b1e530a82a69bcdac53257c78",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "3456e50b699b76dcf2347f42fbd5301caaaf83d261bdbb037b6022dae6fcf6bc",
+      "format": "pdf",
+      "id": "APR-004",
+      "outputHash": "ca3fffe9a4cc68dcd8b98d89ba933524c9a4688b1156019ead568f409e22f6bd",
+      "path": "task/case/07-aperture/APR-004.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "60718a89d6a45fe65a87b1de85516f2f076fe1989206b18e609a147102062bb6",
+      "format": "pdf",
+      "id": "APR-005",
+      "outputHash": "3790c566b4b0f9d63d2dd008e5d496f5b0575b66f020608b071ea1d02e7e1de1",
+      "path": "task/case/07-aperture/APR-005.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "9592500248acdf316b91cc2c78b8154f54fa1cec8ec8a667b17017e3854f435a",
+      "format": "xlsx",
+      "id": "CLAR-001",
+      "outputHash": "812d0deb261b8b28fcaaf681107f71b04da2bd9a5156d4ceb37d14ee183af609",
+      "path": "task/case/08-correspondence/CLAR-001.xlsx",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "ExcelJS",
+      "rendererVersion": "4.4.0",
+      "source": "docgen/content/documents.json",
+      "templateHash": "470615338c4f94e270d4cdd4d94473112b661c0b1e530a82a69bcdac53257c78",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "ad9d549a7238cb45551e6c8869a4660f24fb033f9819a13b2615a15d00b9bc2b",
+      "format": "eml",
+      "id": "EMAIL-001",
+      "outputHash": "3bbf10a5c00ea6a7db524fcbc3fb57a6f1599ce1a10f8d3f8ad5308988e1b56e",
+      "path": "task/case/08-correspondence/EMAIL-001.eml",
+      "permittedUnstableMetadata": [],
+      "renderer": "docgen structured serializer",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/content/documents.json",
+      "templateHash": "d3f5e0dbff07fb49030011bf3ba51beffd0ab785c04c3145404accb6aca7ce96",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "ad9d549a7238cb45551e6c8869a4660f24fb033f9819a13b2615a15d00b9bc2b",
+      "format": "pdf",
+      "id": "EMAIL-001",
+      "outputHash": "9fc2787fd8d19d1ee59e25b6683759148566c789ec953ae0139f2efd1260e7b8",
+      "path": "task/case/08-correspondence/EMAIL-001.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "9b19805756ebc6c99f1d1af71fb3882ac25e4b89b5ccbe6ac045226e94487cff",
+      "format": "eml",
+      "id": "EMAIL-002",
+      "outputHash": "2c53481e1a5bf01e16ac408cd9dfc398e38f09c97caba74028915cbef359fef6",
+      "path": "task/case/08-correspondence/EMAIL-002.eml",
+      "permittedUnstableMetadata": [],
+      "renderer": "docgen structured serializer",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/content/documents.json",
+      "templateHash": "d3f5e0dbff07fb49030011bf3ba51beffd0ab785c04c3145404accb6aca7ce96",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "9b19805756ebc6c99f1d1af71fb3882ac25e4b89b5ccbe6ac045226e94487cff",
+      "format": "pdf",
+      "id": "EMAIL-002",
+      "outputHash": "a9346af20df98cf6089ac5a1241555b41a7fe1061bee7f99dc8ac67541c77d45",
+      "path": "task/case/08-correspondence/EMAIL-002.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "916275176eea3e1ecfb1a13e12fcaa2c8560650177004d8ef30e961b2bca9017",
+      "format": "eml",
+      "id": "EMAIL-003",
+      "outputHash": "0591450e1aea4640e44955808df587496f611496bcd2e715bcae224ba0ecfd0f",
+      "path": "task/case/08-correspondence/EMAIL-003.eml",
+      "permittedUnstableMetadata": [],
+      "renderer": "docgen structured serializer",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/content/documents.json",
+      "templateHash": "d3f5e0dbff07fb49030011bf3ba51beffd0ab785c04c3145404accb6aca7ce96",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "916275176eea3e1ecfb1a13e12fcaa2c8560650177004d8ef30e961b2bca9017",
+      "format": "pdf",
+      "id": "EMAIL-003",
+      "outputHash": "94a528e930b42d1f1e92283011cba0d410da3fd6a863fa3d6717aaa8859ff522",
+      "path": "task/case/08-correspondence/EMAIL-003.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "d12a5100a2e1e24f68024c6deb3b50ad4217f3a781ba32748a2ddeb100238f7f",
+      "format": "eml",
+      "id": "EMAIL-004",
+      "outputHash": "a13f8da639059721d2997e749bcfd1425c76ec6121387087776fb046bf66b610",
+      "path": "task/case/08-correspondence/EMAIL-004.eml",
+      "permittedUnstableMetadata": [],
+      "renderer": "docgen structured serializer",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/content/documents.json",
+      "templateHash": "d3f5e0dbff07fb49030011bf3ba51beffd0ab785c04c3145404accb6aca7ce96",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "d12a5100a2e1e24f68024c6deb3b50ad4217f3a781ba32748a2ddeb100238f7f",
+      "format": "pdf",
+      "id": "EMAIL-004",
+      "outputHash": "7f24bfc3f13d98d1100cc78ca949bfe031fd1cab170859468ca8af37a0a3913d",
+      "path": "task/case/08-correspondence/EMAIL-004.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "9468fec902237b75552739e8534b4f9296d3ee07d297b4a2ccf83483bdc25705",
+      "format": "xlsx",
+      "id": "EVAL-001",
+      "outputHash": "0e43504514e23589db393f6575e74e5ddf1a56f57060b7d129ad96c09f6c8717",
+      "path": "task/case/09-evaluation/EVAL-001.xlsx",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "ExcelJS",
+      "rendererVersion": "4.4.0",
+      "source": "docgen/content/documents.json",
+      "templateHash": "470615338c4f94e270d4cdd4d94473112b661c0b1e530a82a69bcdac53257c78",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "8c42aa69627f1b222b7bba6ccda8f475e040f32ea4c6064ff5a06dd55a6dd03a",
+      "format": "csv",
+      "id": "EVAL-002",
+      "outputHash": "4b15442eafadccce0adac3fcf77540c0f1fba2e5f03cdafeedaf83c04e9ff674",
+      "path": "task/case/09-evaluation/EVAL-002.csv",
+      "permittedUnstableMetadata": [],
+      "renderer": "docgen structured serializer",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/content/documents.json",
+      "templateHash": "53bb9b0b38ac812554abeb88ea6d56760d07ec147a75e8761c4f57ecc298218f",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "8c42aa69627f1b222b7bba6ccda8f475e040f32ea4c6064ff5a06dd55a6dd03a",
+      "format": "pdf",
+      "id": "EVAL-002",
+      "outputHash": "a22bfbc7f230b95e5c9a62d3551f93f25e5637a6c8a4da04981c18172287dc8c",
+      "path": "task/case/09-evaluation/EVAL-002.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "c12699659b93d0b5dc8147779f9113e16b7ae694aab98ce88ada67d8c275e1be",
+      "format": "pdf",
+      "id": "EVAL-003",
+      "outputHash": "398efca3bddb6e723025f3b7e837c6bf9e7a7cd3b9ad428afeaec951c9a84bd0",
+      "path": "task/case/09-evaluation/EVAL-003.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "54828cfbdc66c753300276dd5597ae884da2da656a0cf91ba51704d987f81326",
+      "format": "docx",
+      "id": "INITIAL-001",
+      "outputHash": "58c2d5e7cbef20fa8734c777a446484be4028a5331c733538c03cb1ef96e0f26",
+      "path": "task/case/10-initial-output/INITIAL-001.docx",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "docx",
+      "rendererVersion": "9.5.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "70f536298f07c7b1a6a1cb2ef85afac85f71bca2fadc27dbd2207aac01b8f5a7",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "54828cfbdc66c753300276dd5597ae884da2da656a0cf91ba51704d987f81326",
+      "format": "pdf",
+      "id": "INITIAL-001",
+      "outputHash": "e5a590eafa07c48de769823791c3564c500c0827c46fec8780a7c2e7562f816a",
+      "path": "task/case/10-initial-output/INITIAL-001.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "072ce7dc7f392ddf8b66cef0f23a809ceb13130d13e0d5a4fae0ee7d8d1ecc35",
+      "format": "html",
+      "id": "INITIAL-002",
+      "outputHash": "32461f42831be55d16b194e6f0df725318a7d35958d03bc7327d88b75247c3b1",
+      "path": "task/case/10-initial-output/INITIAL-002.html",
+      "permittedUnstableMetadata": [],
+      "renderer": "docgen structured serializer",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e5e239560bc125a20ff2ac1fea50915bc198dd4f5b5256ec447a8a71e00132b3",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "072ce7dc7f392ddf8b66cef0f23a809ceb13130d13e0d5a4fae0ee7d8d1ecc35",
+      "format": "pdf",
+      "id": "INITIAL-002",
+      "outputHash": "d5be59d07dae834e15429d46e10c9df6e19d705ecf85bbb7e27eff6246fb0140",
+      "path": "task/case/10-initial-output/INITIAL-002.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "782104d08d28a6613575a242058a5349289ef025d717b9e0b0c36b573c634e8d",
+      "format": "pdf",
+      "id": "INITIAL-003",
+      "outputHash": "5a3c9961ef9e6a7e078988fd54eb27847e3cfb01d5f4a6466941b75d81cb019f",
+      "path": "task/case/10-initial-output/INITIAL-003.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst semantic preview",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "782104d08d28a6613575a242058a5349289ef025d717b9e0b0c36b573c634e8d",
+      "format": "pptx",
+      "id": "INITIAL-003",
+      "outputHash": "5d68592a0aa59040a6d63958c57148344434c392bb49552e5c2991d7b987642f",
+      "path": "task/case/10-initial-output/INITIAL-003.pptx",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "pptx-automizer",
+      "rendererVersion": "0.9.3",
+      "source": "docgen/content/documents.json",
+      "templateHash": "4493a93eef5b4a665043113467c15024e8fb78b4467973f7d17007f707ae1b11",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "86719c0480d018f5a2bb51a75adbb93d1b6eeb0ccf904290dee47a4f395a17ce",
+      "format": "pdf",
+      "id": "TASK1-001",
+      "outputHash": "7ddeaf3873e7a61d0bc03d116a2f1137df618cf778b245350a364ca9b8fcc34d",
+      "path": "task/case/11-task-materials/TASK1-001.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "4fb0d1714b9b35f388db663b7d138ac659a3e3d7a84d3b41d9e2243553c9bf7b",
+      "format": "md",
+      "id": "TASK1-002",
+      "outputHash": "412f3460b687e0361ece3923b1f2fa089993942f018b2d548acbef6d1cee7ebf",
+      "path": "task/case/11-task-materials/TASK1-002.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "docgen structured serializer",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/content/documents.json",
+      "templateHash": "21262a3cb5337627b0fad9d891c16adb40706bd3e57534416dd02bbe5917d184",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "4fb0d1714b9b35f388db663b7d138ac659a3e3d7a84d3b41d9e2243553c9bf7b",
+      "format": "pdf",
+      "id": "TASK1-002",
+      "outputHash": "64d218b72864b09e606b1fa4bfa622ee5d1a6f345ba749d8764932227c7b359b",
+      "path": "task/case/11-task-materials/TASK1-002.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "a70dc1928a4e50cefade8edc401d993902108a5ee4a58f40e570a5c32eb519f4",
+      "format": "csv",
+      "id": "TASK1-003",
+      "outputHash": "4abd0f44a29f8b20c2cb540a7497c3eec5f0fb8dbdd9a01abbdc2712b127068f",
+      "path": "task/case/11-task-materials/TASK1-003.csv",
+      "permittedUnstableMetadata": [],
+      "renderer": "docgen structured serializer",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/schemas/attribution.schema.json",
+      "templateHash": "53bb9b0b38ac812554abeb88ea6d56760d07ec147a75e8761c4f57ecc298218f",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "a70dc1928a4e50cefade8edc401d993902108a5ee4a58f40e570a5c32eb519f4",
+      "format": "json",
+      "id": "TASK1-003",
+      "outputHash": "a70dc1928a4e50cefade8edc401d993902108a5ee4a58f40e570a5c32eb519f4",
+      "path": "task/case/11-task-materials/TASK1-003.json",
+      "permittedUnstableMetadata": [],
+      "renderer": "docgen structured serializer",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/schemas/attribution.schema.json",
+      "templateHash": "02bd175f329720378ce83dd56a1b6b1f5291a60182d6c54b5e0d1e8d248a267a",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "a70dc1928a4e50cefade8edc401d993902108a5ee4a58f40e570a5c32eb519f4",
+      "format": "xlsx",
+      "id": "TASK1-003",
+      "outputHash": "3194905f1a7f75b03c9f0c7527225b48cf4fd5a22e93cc7f7cf1dc728cc80199",
+      "path": "task/case/11-task-materials/TASK1-003.xlsx",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "ExcelJS",
+      "rendererVersion": "4.4.0",
+      "source": "docgen/schemas/attribution.schema.json",
+      "templateHash": "470615338c4f94e270d4cdd4d94473112b661c0b1e530a82a69bcdac53257c78",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "1ee0ed1f3d9184bbdbe9f6ef0ccf8116f7d296cd518526b946a5b37c6fd36652",
+      "format": "pdf",
+      "id": "TASK2-001",
+      "outputHash": "aa3db6d4f9c61a15463e8b0a7fd90b1043dde31e181a295788316a0c274ebac5",
+      "path": "task/case/11-task-materials/TASK2-001.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "147e627109716537cd7801add9038d7a8e398f57b34a8d99f1754030ac61bef9",
+      "format": "pptx",
+      "id": "TASK2-002",
+      "outputHash": "4493a93eef5b4a665043113467c15024e8fb78b4467973f7d17007f707ae1b11",
+      "path": "task/case/11-task-materials/TASK2-002.pptx",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "pptx-automizer",
+      "rendererVersion": "0.9.3",
+      "source": "docgen/content/documents.json",
+      "templateHash": "4493a93eef5b4a665043113467c15024e8fb78b4467973f7d17007f707ae1b11",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "b4eb9b9709d17fc86371caf75d5c73071b5ece684420ae72b68fb0110a3cb828",
+      "format": "md",
+      "id": "TASK3-001",
+      "outputHash": "e7f587445074128cdcd4e34036b31a9955554df5e5731c2943d53cf4f5c1f9dc",
+      "path": "task/case/11-task-materials/TASK3-001.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "docgen structured serializer",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/content/documents.json",
+      "templateHash": "21262a3cb5337627b0fad9d891c16adb40706bd3e57534416dd02bbe5917d184",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "b4eb9b9709d17fc86371caf75d5c73071b5ece684420ae72b68fb0110a3cb828",
+      "format": "pdf",
+      "id": "TASK3-001",
+      "outputHash": "d466c3524727f93c2725c66350ba9b9d19962316c932b8a7acf33606e0c36f32",
+      "path": "task/case/11-task-materials/TASK3-001.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "3cb757dca44bab41c12c7a9733e6374adaceaf492df6af69094229eb0c066585",
+      "format": "pdf",
+      "id": "TASK3-002",
+      "outputHash": "1ac863d528e50f6947e123378e6223b0764d48a2aeacc4f8b4623f5813ec09f8",
+      "path": "task/case/11-task-materials/TASK3-002.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "e8d4e2e673f4caa0853963254253c2e846e846d2ec83964cff8384dd8c64f68e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "40460e6c95da165ed3c7e114a125db80187e5b30c26fed3a4ec10fdd871f231b",
+      "format": "md",
+      "id": "BUNDLE-README",
+      "outputHash": "40460e6c95da165ed3c7e114a125db80187e5b30c26fed3a4ec10fdd871f231b",
+      "path": "task/README.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/templates/task-README.md",
+      "templateHash": "40460e6c95da165ed3c7e114a125db80187e5b30c26fed3a4ec10fdd871f231b",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "4a592521e29b445da676958a1e1fc49f55494b40e65ffe4962315b90cb4e8654",
+      "format": "mjs",
+      "id": "SKILL-BOUNDARY",
+      "outputHash": "4a592521e29b445da676958a1e1fc49f55494b40e65ffe4962315b90cb4e8654",
+      "path": "task/skills/boundary-test/broker.mjs",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/boundary-test/broker.mjs",
+      "templateHash": "4a592521e29b445da676958a1e1fc49f55494b40e65ffe4962315b90cb4e8654",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "ca9864fa5343a5df1e4b2872f6f77252c9b5ecb46270725f7fc78345164bff5b",
+      "format": "md",
+      "id": "SKILL-BOUNDARY",
+      "outputHash": "ca9864fa5343a5df1e4b2872f6f77252c9b5ecb46270725f7fc78345164bff5b",
+      "path": "task/skills/boundary-test/README.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/boundary-test/README.md",
+      "templateHash": "ca9864fa5343a5df1e4b2872f6f77252c9b5ecb46270725f7fc78345164bff5b",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "a8bdd34b2f496bd288f72f3721f454a951f678dd2f34b4f6e8e0e6a490fd1893",
+      "format": "asset",
+      "id": "SKILL-PPTX",
+      "outputHash": "a8bdd34b2f496bd288f72f3721f454a951f678dd2f34b4f6e8e0e6a490fd1893",
+      "path": "task/skills/pptx-generator/.gitignore",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/pptx-generator/.gitignore",
+      "templateHash": "a8bdd34b2f496bd288f72f3721f454a951f678dd2f34b4f6e8e0e6a490fd1893",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "0452259c1fabd54b36744d8acd41e03d7820987e6a6e4a231f5b596afe9f8eec",
+      "format": "json",
+      "id": "SKILL-PPTX",
+      "outputHash": "0452259c1fabd54b36744d8acd41e03d7820987e6a6e4a231f5b596afe9f8eec",
+      "path": "task/skills/pptx-generator/examples/invalid-coordinates.json",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/pptx-generator/examples/invalid-coordinates.json",
+      "templateHash": "0452259c1fabd54b36744d8acd41e03d7820987e6a6e4a231f5b596afe9f8eec",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "77be94e96896816138727ebe1ca7cdde5a6a054c0c7c6af3fb8a47422cd84674",
+      "format": "json",
+      "id": "SKILL-PPTX",
+      "outputHash": "77be94e96896816138727ebe1ca7cdde5a6a054c0c7c6af3fb8a47422cd84674",
+      "path": "task/skills/pptx-generator/examples/valid-generic.json",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/pptx-generator/examples/valid-generic.json",
+      "templateHash": "77be94e96896816138727ebe1ca7cdde5a6a054c0c7c6af3fb8a47422cd84674",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "20411e8f5d263da47893f8f908d28b9a44d119b6a5456d56dfd18ff8e40f5404",
+      "format": "json",
+      "id": "SKILL-PPTX",
+      "outputHash": "20411e8f5d263da47893f8f908d28b9a44d119b6a5456d56dfd18ff8e40f5404",
+      "path": "task/skills/pptx-generator/package-lock.json",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/pptx-generator/package-lock.json",
+      "templateHash": "20411e8f5d263da47893f8f908d28b9a44d119b6a5456d56dfd18ff8e40f5404",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "c7b5d5a8b20b235d62070b957114b86ed8b85b9b94304f12467275ded8070ed7",
+      "format": "json",
+      "id": "SKILL-PPTX",
+      "outputHash": "b07aeb82265df3815269b438d4b68e4ded431362d182517db6c8cee43efa623a",
+      "path": "task/skills/pptx-generator/package.json",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy with student script filter",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/pptx-generator/package.json",
+      "templateHash": "c7b5d5a8b20b235d62070b957114b86ed8b85b9b94304f12467275ded8070ed7",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "28d377b013ea936d9b36f435c03bd8cd859fc407f21d2e589e6d7cfd29f2bb19",
+      "format": "md",
+      "id": "SKILL-PPTX",
+      "outputHash": "28d377b013ea936d9b36f435c03bd8cd859fc407f21d2e589e6d7cfd29f2bb19",
+      "path": "task/skills/pptx-generator/references/limitations.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/pptx-generator/references/limitations.md",
+      "templateHash": "28d377b013ea936d9b36f435c03bd8cd859fc407f21d2e589e6d7cfd29f2bb19",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "81b5fe53d71087c4baf9d4888f5408967f00cbb21a4d10c32211b5f597904e52",
+      "format": "ts",
+      "id": "SKILL-PPTX",
+      "outputHash": "81b5fe53d71087c4baf9d4888f5408967f00cbb21a4d10c32211b5f597904e52",
+      "path": "task/skills/pptx-generator/scripts/cli.ts",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/pptx-generator/scripts/cli.ts",
+      "templateHash": "81b5fe53d71087c4baf9d4888f5408967f00cbb21a4d10c32211b5f597904e52",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "f761b43f9f017d771cd06856c147d7a37123b744d84b7514ba14e4bdbce71f75",
+      "format": "md",
+      "id": "SKILL-PPTX",
+      "outputHash": "f761b43f9f017d771cd06856c147d7a37123b744d84b7514ba14e4bdbce71f75",
+      "path": "task/skills/pptx-generator/SKILL.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/pptx-generator/SKILL.md",
+      "templateHash": "f761b43f9f017d771cd06856c147d7a37123b744d84b7514ba14e4bdbce71f75",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "d3fb5bc98104a1babe86e7be5ae6c0e7a0acea48446f4a0f740ca299c355ad3d",
+      "format": "json",
+      "id": "SKILL-PPTX",
+      "outputHash": "d3fb5bc98104a1babe86e7be5ae6c0e7a0acea48446f4a0f740ca299c355ad3d",
+      "path": "task/skills/pptx-generator/slide-plan.schema.json",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/pptx-generator/slide-plan.schema.json",
+      "templateHash": "d3fb5bc98104a1babe86e7be5ae6c0e7a0acea48446f4a0f740ca299c355ad3d",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "2408add9c74ad7b0bc1cea0ba3c6f9458a879530e1ccdac10c5f5bec44ef7325",
+      "format": "json",
+      "id": "SKILL-PPTX",
+      "outputHash": "2408add9c74ad7b0bc1cea0ba3c6f9458a879530e1ccdac10c5f5bec44ef7325",
+      "path": "task/skills/pptx-generator/tsconfig.json",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/pptx-generator/tsconfig.json",
+      "templateHash": "2408add9c74ad7b0bc1cea0ba3c6f9458a879530e1ccdac10c5f5bec44ef7325",
+      "visibility": "student-safe"
+    }
+  ],
+  "generatedAt": "2026-09-24T00:00:00.000Z",
+  "schemaVersion": 1
+}
