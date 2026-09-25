@@ -160,8 +160,12 @@ async function build(template: string, planFile: string, output: string) {
     for (let i = 1; i <= 3; i++) {
       const bar = elements.get(`SCORE_BAR_${i}`), track = elements.get(`SCORE_TRACK_${i}`);
       if (!bar || !track) fail(`Missing score bar/track ${i}`);
-      const score = plan.comparison[i - 1]?.score ?? 0;
-      slide.modifyElement(`SCORE_BAR_${i}`, [modify.setPosition({ w: Math.max(1, Math.round(track.boundsEmu.cx * score / 100)) })]);
+      const item = plan.comparison[i - 1];
+      if (item) slide.modifyElement(`SCORE_BAR_${i}`, [modify.setPosition({ w: Math.max(1, Math.round(track.boundsEmu.cx * item.score / 100)) })]);
+      else {
+        slide.modifyElement(`SCORE_BAR_${i}`, [modify.setPosition({ x: 0, y: 0, w: 1, h: 1 })]);
+        slide.modifyElement(`SCORE_TRACK_${i}`, [modify.setPosition({ x: 0, y: 0, w: 1, h: 1 })]);
+      }
     }
   });
   await mkdir(path.dirname(fullOutput), { recursive: true });
