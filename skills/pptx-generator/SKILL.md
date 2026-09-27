@@ -1,6 +1,6 @@
 ---
 name: pptx-generator
-description: Build a short (1-4 slide) editable leadership deck from the supplied A*STAR-branded corporate PowerPoint template and a verified semantic slide plan. Use for Task 2 slide creation or revision; the tool does not verify procurement claims.
+description: Build a short (1-4 slide) editable leadership deck from the supplied corporate PowerPoint template and a verified semantic slide plan. Use for Task 2 slide creation or revision; the tool does not verify procurement claims.
 ---
 
 # Leadership deck generator

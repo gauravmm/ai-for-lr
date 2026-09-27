@@ -107,7 +107,7 @@
       "contentHash": "95c400bbbd07c175bb533685db10a62d6f3b629b95aef97a7780e1487db6f04d",
       "format": "xlsx",
       "id": "GRANT-002",
-      "outputHash": "7fab67a7942eacc409c0e21a720d2113f6e53a66e33ed310b460dd57dde421d8",
+      "outputHash": "29228e6f1c491a06d5cb6391d7da961e84b9696851d88da39c374f3ea0003380",
       "path": "task/case/01-project-and-grant/GRANT-002.xlsx",
       "permittedUnstableMetadata": [
         "container creation timestamps and ZIP entry metadata"
@@ -197,7 +197,7 @@
       "contentHash": "0d3092c32c1cb9f8a21156f696ef5880a210e05d30844a9120d06a4046724aa8",
       "format": "xlsx",
       "id": "RFQ-002",
-      "outputHash": "7f49a25b32df0f1a8441f9db8608146d40f5e2821e32ea6982b6ca577cc5da03",
+      "outputHash": "41106fda4a4cfb0619d846ab9deb50025dffdd0257202e7a44f3f2da4f3849bb",
       "path": "task/case/02-tender/RFQ-002.xlsx",
       "permittedUnstableMetadata": [
         "container creation timestamps and ZIP entry metadata"
@@ -227,7 +227,7 @@
       "contentHash": "0cbff46d922be5189519330d767b3e5511b5d7d25ad417b3080e4ddc462a4cb4",
       "format": "xlsx",
       "id": "RFQ-004",
-      "outputHash": "48e1c9e62efd225ac68dbf5efcda647eb3d921972304c438cc034315eda2f3a2",
+      "outputHash": "8131a08d2fd8b72cd53f24fe8946d80a20e1ceaec84cfe56a8e36d1972cfb811",
       "path": "task/case/02-tender/RFQ-004.xlsx",
       "permittedUnstableMetadata": [
         "container creation timestamps and ZIP entry metadata"
@@ -302,7 +302,7 @@
       "contentHash": "fb90ff7b5ea9f424ced4c79e7679b0ff1df4addb026b4481ad4f072de965a2f9",
       "format": "xlsx",
       "id": "APR-002",
-      "outputHash": "a0c6b7e69272174f1e89bc2fd4a89e67a873d8f0450aefb7924d8add9f25802f",
+      "outputHash": "1f52cf2e21aeec7909fd8e303d0df22ac5c02595f7ea90cd98e95bedffd1338b",
       "path": "task/case/03-proposals/aperture/APR-002.xlsx",
       "permittedUnstableMetadata": [
         "container creation timestamps and ZIP entry metadata"
@@ -317,7 +317,7 @@
       "contentHash": "9015e1b0b75f32daa18530a78dc23cba483910949de0509400711248617e4d3c",
       "format": "xlsx",
       "id": "APR-003",
-      "outputHash": "951632af3716054bb86aec4aaa5c8fab6ffdaa8e4665d514ae76a57f306d62c4",
+      "outputHash": "6ef485b9fdc17035aed5440fa9415a739e2eb4f35d1ced8e3ba3fcae63040e03",
       "path": "task/case/03-proposals/aperture/APR-003.xlsx",
       "permittedUnstableMetadata": [
         "container creation timestamps and ZIP entry metadata"
@@ -362,7 +362,7 @@
       "contentHash": "e20a3892e27be28eeff106a2cbdc6c72d8381a7e52bf20265fe0d6bc87ba3c99",
       "format": "xlsx",
       "id": "CLAR-001",
-      "outputHash": "d2045a6b114dc32673d5f0c228b105c10c1b63731f53ee59015b7614c5170df7",
+      "outputHash": "84d44790b5310e6527d7deb8675ade3f592f495e092e2a8332fa86fd2c04d834",
       "path": "task/case/03-proposals/CLAR-001.xlsx",
       "permittedUnstableMetadata": [
         "container creation timestamps and ZIP entry metadata"
@@ -422,7 +422,7 @@
       "contentHash": "4a80b8dffa4ff5520aaa1642056bf6bb64f329b050d3ad8d305ef53661ba580c",
       "format": "xlsx",
       "id": "HLX-002",
-      "outputHash": "e11f528ad176676e679ee67d68bdb6a2c65926ee67b56a3e7713779506504c77",
+      "outputHash": "7c83a79b0b0b56af79c6477eccf21852405c642cdf755be65a7edf3a6c12ebdd",
       "path": "task/case/03-proposals/helix/HLX-002.xlsx",
       "permittedUnstableMetadata": [
         "container creation timestamps and ZIP entry metadata"
@@ -437,7 +437,7 @@
       "contentHash": "ed46dca5ed744280a84241d5af5fd737f2dfcefedb77349cb21d5bd627cd2119",
       "format": "xlsx",
       "id": "HLX-003",
-      "outputHash": "f9e54cb9c03a781aa26cdb2d048db71063efc5fb5c385dac4c1263175889a8b1",
+      "outputHash": "bfd11024f9aa0e400228983750a1f1aed38662a3bad4e37c0ade22e26a0667fa",
       "path": "task/case/03-proposals/helix/HLX-003.xlsx",
       "permittedUnstableMetadata": [
         "container creation timestamps and ZIP entry metadata"
@@ -527,7 +527,7 @@
       "contentHash": "6abbbee4bad80437535ccd6c32e5b2ce908c7a6794a12918b4b49c38322b5974",
       "format": "xlsx",
       "id": "MER-002",
-      "outputHash": "44f9ced3d810656fc2b837c5e3acf3b721da971cc89e4f78d7f758d224fc617f",
+      "outputHash": "2560969a1ae17da5165b7d524741b4312b9e3382f85d75bed035f5e92c35ae5e",
       "path": "task/case/03-proposals/meridian/MER-002.xlsx",
       "permittedUnstableMetadata": [
         "container creation timestamps and ZIP entry metadata"
@@ -542,7 +542,7 @@
       "contentHash": "ba8ce0fc348870030e10d0cb9643e44cc89ce04111f686b8a1ea2afadedc992b",
       "format": "xlsx",
       "id": "MER-003",
-      "outputHash": "b7ca11efc4f78405bb38a55211cd5b9d30fcc67be7ef1b5990152e435e158624",
+      "outputHash": "03acbf11c10de5fe448e7893d6aa9a3dc25e9a429582f71e816fcb94d0a827b7",
       "path": "task/case/03-proposals/meridian/MER-003.xlsx",
       "permittedUnstableMetadata": [
         "container creation timestamps and ZIP entry metadata"
@@ -632,7 +632,7 @@
       "contentHash": "37e2e52e813393a0db2b0f5b821f650e80ae97ffb6deae208e630199a4537439",
       "format": "xlsx",
       "id": "NST-002",
-      "outputHash": "1b40db8a182ba7deb1c3badb8498791f30c567b61e0b78fbb01fb82829acb510",
+      "outputHash": "419f701aed8394301c6b722553359ef304be4113fcb438a01de78e52e1f36f5e",
       "path": "task/case/03-proposals/northstar/NST-002.xlsx",
       "permittedUnstableMetadata": [
         "container creation timestamps and ZIP entry metadata"
@@ -647,7 +647,7 @@
       "contentHash": "c10415cccaa4274c33e47ff77e83a5bbe4237ab0398da40e95569d6315386787",
       "format": "xlsx",
       "id": "NST-003",
-      "outputHash": "8d33a7b999adfa4f348016917d8d63968d812b52e09854a3a8d86d46a946fd53",
+      "outputHash": "6e07237785bf32d5a32b46c77e7e2cdbaed1e79e4bb2131469bb76eaf82a3082",
       "path": "task/case/03-proposals/northstar/NST-003.xlsx",
       "permittedUnstableMetadata": [
         "container creation timestamps and ZIP entry metadata"
@@ -737,7 +737,7 @@
       "contentHash": "61141709093aa656838af55962c82a39e6b0e76d902c924f69f372933f5aa2c7",
       "format": "xlsx",
       "id": "PRG-002",
-      "outputHash": "18c3ec7ca1902c7bb111a2e0961f54874d54a53d85df402c7984ce8d60ef70db",
+      "outputHash": "813803b26ad378a9fb5f954dd4fb6c3ff0d4cdc4711733bb8878d8888f83be62",
       "path": "task/case/03-proposals/peregrine/PRG-002.xlsx",
       "permittedUnstableMetadata": [
         "container creation timestamps and ZIP entry metadata"
@@ -752,7 +752,7 @@
       "contentHash": "9145273d6ba7544a484785aa7500e35377d6917b33f96074e16c711fd9faa4bb",
       "format": "xlsx",
       "id": "PRG-003",
-      "outputHash": "e377499980adffa5c7d11f0bd6a0349bca8c5c86c9d81800047b8c0f6fc7d8e2",
+      "outputHash": "597960997de586c7268391ab8755c9270feb1e922b305da84591de9a52906f1d",
       "path": "task/case/03-proposals/peregrine/PRG-003.xlsx",
       "permittedUnstableMetadata": [
         "container creation timestamps and ZIP entry metadata"
@@ -797,7 +797,7 @@
       "contentHash": "6b43cd44433060998dedd25ae3770489ec0c318578c52940b00e2452adf10ec6",
       "format": "xlsx",
       "id": "EVAL-001",
-      "outputHash": "d832ec79dfee01473687dc2f0beabebfd25622a0f64cb825b6703f0a73be62dc",
+      "outputHash": "683db82c73049a64d4f1ddad1fdd390ccac62e19da64b9d41c5a5a36510fee6e",
       "path": "task/case/04-evaluation/EVAL-001.xlsx",
       "permittedUnstableMetadata": [
         "container creation timestamps and ZIP entry metadata"
@@ -855,7 +855,7 @@
       "contentHash": "c51954dcb397cb8c14aa03f8190a754be6b9fed5571695052266c0888df04de4",
       "format": "docx",
       "id": "INITIAL-001",
-      "outputHash": "3689d935f9af33ab173ffd37c05615a5289b1a5651b15d72e37761fe18ecee4f",
+      "outputHash": "25047ebbe7ae1f7e6ec43c0897005bc7271088cb7a21879862493444dcd7a493",
       "path": "task/case/05-initial-output/INITIAL-001.docx",
       "permittedUnstableMetadata": [
         "container creation timestamps and ZIP entry metadata"
@@ -928,7 +928,7 @@
       "contentHash": "c7204af45fddb784630bf8de0db5cde0ce2745a47471ee10195c3a6265a1ab9d",
       "format": "pptx",
       "id": "INITIAL-003",
-      "outputHash": "7828b4f50625f405127fa2a2d6d2f9b0052ee34d2e773f9b0ef737d64c240904",
+      "outputHash": "d080bb38fb4aa7883ef53faef2288788607f543b2bca755d4530f9366a274615",
       "path": "task/case/05-initial-output/INITIAL-003.pptx",
       "permittedUnstableMetadata": [
         "container creation timestamps and ZIP entry metadata"
@@ -936,7 +936,7 @@
       "renderer": "pptx-automizer",
       "rendererVersion": "0.9.3",
       "source": "docgen/content/documents.json",
-      "templateHash": "f3448d9539ce4c0e91b437a92d0c0039e0ae462113d502425e447ae3aa88c8cc",
+      "templateHash": "aa92a44e01bf516db8d5487aa026fb3a19d99e7faf4355904c28a10f492636e0",
       "visibility": "student-safe"
     },
     {
@@ -1012,7 +1012,7 @@
       "contentHash": "a70dc1928a4e50cefade8edc401d993902108a5ee4a58f40e570a5c32eb519f4",
       "format": "xlsx",
       "id": "TASK1-003",
-      "outputHash": "f6ab943cfad75042e39f635b6bbe1cb40bb476163bb5b0c22f462868fd222e7f",
+      "outputHash": "e47cfa47498ebfff356ac001fd3873bc1f3cf9b1707d76fac4a8426e4223bcc0",
       "path": "task/case/06-task-materials/TASK1-003.xlsx",
       "permittedUnstableMetadata": [
         "container creation timestamps and ZIP entry metadata"
@@ -1042,7 +1042,7 @@
       "contentHash": "b7e85144eebceafd040bdb592f0310123cc68d456ab775bfa169e1ff498a82c9",
       "format": "pptx",
       "id": "TASK2-002",
-      "outputHash": "f3448d9539ce4c0e91b437a92d0c0039e0ae462113d502425e447ae3aa88c8cc",
+      "outputHash": "aa92a44e01bf516db8d5487aa026fb3a19d99e7faf4355904c28a10f492636e0",
       "path": "task/case/06-task-materials/TASK2-002.pptx",
       "permittedUnstableMetadata": [
         "container creation timestamps and ZIP entry metadata"
@@ -1050,7 +1050,7 @@
       "renderer": "pptx-automizer",
       "rendererVersion": "0.9.3",
       "source": "docgen/content/documents.json",
-      "templateHash": "f3448d9539ce4c0e91b437a92d0c0039e0ae462113d502425e447ae3aa88c8cc",
+      "templateHash": "aa92a44e01bf516db8d5487aa026fb3a19d99e7faf4355904c28a10f492636e0",
       "visibility": "student-safe"
     },
     {
@@ -1201,42 +1201,42 @@
       "visibility": "student-safe"
     },
     {
-      "contentHash": "3c060013b367938eebd74884d2ac50a3819654d772e3a02795bc0a0267bc0f8b",
+      "contentHash": "e62f5bcef47c0deb21d581dee24924c22ae7361bf4b8fcd662fc3d7e79cdfc0e",
       "format": "md",
       "id": "SKILL-PPTX",
-      "outputHash": "3c060013b367938eebd74884d2ac50a3819654d772e3a02795bc0a0267bc0f8b",
+      "outputHash": "e62f5bcef47c0deb21d581dee24924c22ae7361bf4b8fcd662fc3d7e79cdfc0e",
       "path": "task/skills/pptx-generator/references/limitations.md",
       "permittedUnstableMetadata": [],
       "renderer": "copy",
       "rendererVersion": "0.1.0",
       "source": "docgen/skills/pptx-generator/references/limitations.md",
-      "templateHash": "3c060013b367938eebd74884d2ac50a3819654d772e3a02795bc0a0267bc0f8b",
+      "templateHash": "e62f5bcef47c0deb21d581dee24924c22ae7361bf4b8fcd662fc3d7e79cdfc0e",
       "visibility": "student-safe"
     },
     {
-      "contentHash": "ad4caa9f0f0ad5ab9231d8f810679e4cddcc62a40d26e578a5e6d766f8b2e889",
+      "contentHash": "6f10d6a990d4eb106d755a2b10166f0ab41ac5e9776f1c538654825c335c87d0",
       "format": "ts",
       "id": "SKILL-PPTX",
-      "outputHash": "ad4caa9f0f0ad5ab9231d8f810679e4cddcc62a40d26e578a5e6d766f8b2e889",
+      "outputHash": "6f10d6a990d4eb106d755a2b10166f0ab41ac5e9776f1c538654825c335c87d0",
       "path": "task/skills/pptx-generator/scripts/cli.ts",
       "permittedUnstableMetadata": [],
       "renderer": "copy",
       "rendererVersion": "0.1.0",
       "source": "docgen/skills/pptx-generator/scripts/cli.ts",
-      "templateHash": "ad4caa9f0f0ad5ab9231d8f810679e4cddcc62a40d26e578a5e6d766f8b2e889",
+      "templateHash": "6f10d6a990d4eb106d755a2b10166f0ab41ac5e9776f1c538654825c335c87d0",
       "visibility": "student-safe"
     },
     {
-      "contentHash": "404b85538f1357299efe4f7428bbe083df79e9d69a58132f931874e3808ea788",
+      "contentHash": "22a1f0231a08b98b1b49ec6a69283a69258cbca6ceecfb37d6463c543c5f8539",
       "format": "md",
       "id": "SKILL-PPTX",
-      "outputHash": "404b85538f1357299efe4f7428bbe083df79e9d69a58132f931874e3808ea788",
+      "outputHash": "22a1f0231a08b98b1b49ec6a69283a69258cbca6ceecfb37d6463c543c5f8539",
       "path": "task/skills/pptx-generator/SKILL.md",
       "permittedUnstableMetadata": [],
       "renderer": "copy",
       "rendererVersion": "0.1.0",
       "source": "docgen/skills/pptx-generator/SKILL.md",
-      "templateHash": "404b85538f1357299efe4f7428bbe083df79e9d69a58132f931874e3808ea788",
+      "templateHash": "22a1f0231a08b98b1b49ec6a69283a69258cbca6ceecfb37d6463c543c5f8539",
       "visibility": "student-safe"
     },
     {
