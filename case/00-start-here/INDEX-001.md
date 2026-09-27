@@ -2,7 +2,7 @@
 
 INDEX-001 · Version 1.0 · 2026-09-03 · Procurement Office · generated_summary
 
-Fictional training case; all people, organisations, products, rules and events are invented. This is not A*STAR policy or Singapore procurement law.
+Fictional training case; all people, organisations, products, rules and events are invented. This is not organisational policy or Singapore procurement law.
 
 INDEX-001 §1 — Evidence is arranged by project, tender, bidder, correspondence and evaluation. Use the document ID and locator in every claim-to-source record. The index describes availability and status; it does not rank evidence.
 
