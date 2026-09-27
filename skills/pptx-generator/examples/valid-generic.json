@@ -1,21 +1,25 @@
 {
   "schemaVersion": 1,
-  "archetype": "decision_summary",
   "audience": "Executive approval committee",
-  "title": "Illustrative procurement decision",
-  "recommendation": "Bid Alpha leads among compliant proposals",
-  "decision": "Approve the next review step for Bid Alpha",
-  "gates": [
-    { "vendor": "Bid Alpha", "status": "PASS", "reason": "All mandatory gates met" },
-    { "vendor": "Bid Beta", "status": "PASS", "reason": "All mandatory gates met" },
-    { "vendor": "Bid Gamma", "status": "FAIL", "reason": "One mandatory gate unmet" }
-  ],
-  "comparison": [
-    { "vendor": "Bid Alpha", "score": 82.5, "label": "Illustrative score" },
-    { "vendor": "Bid Beta", "score": 76.0, "label": "Illustrative score" }
-  ],
   "sources": [
     { "documentId": "SOURCE-001", "locator": "requirements table" },
     { "documentId": "SOURCE-002", "locator": "evaluation rows" }
+  ],
+  "slides": [
+    {
+      "archetype": "decision_summary",
+      "title": "Illustrative procurement decision",
+      "recommendation": "Bid Alpha leads among compliant proposals",
+      "decision": "Approve the next review step for Bid Alpha",
+      "gates": [
+        { "vendor": "Bid Alpha", "status": "PASS", "reason": "All mandatory gates met" },
+        { "vendor": "Bid Beta", "status": "PASS", "reason": "All mandatory gates met" },
+        { "vendor": "Bid Gamma", "status": "FAIL", "reason": "One mandatory gate unmet" }
+      ],
+      "comparison": [
+        { "vendor": "Bid Alpha", "score": 82.5, "label": "Illustrative score" },
+        { "vendor": "Bid Beta", "score": 76.0, "label": "Illustrative score" }
+      ]
+    }
   ]
 }

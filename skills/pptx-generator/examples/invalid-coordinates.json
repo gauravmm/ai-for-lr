@@ -1,21 +1,25 @@
 {
   "schemaVersion": 1,
-  "archetype": "decision_summary",
   "audience": "Executive approval committee",
-  "title": "Illustrative decision slide",
-  "recommendation": "Vendor A is highest scoring",
-  "decision": "Approve Vendor A",
-  "gates": [
-    { "vendor": "Vendor A", "status": "PASS", "reason": "All gates" },
-    { "vendor": "Vendor B", "status": "PASS", "reason": "All gates" }
-  ],
-  "comparison": [
-    { "vendor": "Vendor A", "score": 82.5, "label": "Compliant" },
-    { "vendor": "Vendor B", "score": 76.0, "label": "Compliant" }
-  ],
   "sources": [
     { "documentId": "RFQ-002", "locator": "M1-M7" },
     { "documentId": "EVAL-001", "locator": "scores" }
+  ],
+  "slides": [
+    {
+      "archetype": "decision_summary",
+      "title": "Illustrative decision slide",
+      "recommendation": "Vendor A is highest scoring",
+      "decision": "Approve Vendor A",
+      "gates": [
+        { "vendor": "Vendor A", "status": "PASS", "reason": "All gates" },
+        { "vendor": "Vendor B", "status": "PASS", "reason": "All gates" }
+      ],
+      "comparison": [
+        { "vendor": "Vendor A", "score": 82.5, "label": "Compliant" },
+        { "vendor": "Vendor B", "score": 76.0, "label": "Compliant" }
+      ]
+    }
   ],
   "x": 50
 }
