@@ -1,0 +1,7 @@
+# PPTX generator maintenance
+
+Install with `npm ci`, run `npm run typecheck`, and verify a neutral example through both PPTX generation and LibreOffice PDF rendering after dependency changes. Student usage is documented in `SKILL.md`. Update the distribution's dependency manifests with `npm run sync:student-deps` from `docgen/`; a full corpus build also copies the remaining skill documentation.
+
+The scoped `pptxgenjs` → `image-size` override pins version `2.0.4` to fix malformed-image infinite-loop advisories [GHSA-5p2g-fcmc-qvqq](https://github.com/advisories/GHSA-5p2g-fcmc-qvqq) and [GHSA-w3rx-r6r6-pgpr](https://github.com/advisories/GHSA-w3rx-r6r6-pgpr). The installed `pptxgenjs` version `3.12.0` declares the legacy dependency but its shipped JavaScript contains no import or use of `image-size`; the override therefore does not change an image parsing call in that release. Recheck that assumption and remove the override when upgrading `pptxgenjs` or `pptx-automizer`. Keep the supplied corporate template as the regression fixture.
+
+Ajv is pinned to `8.18.0`, including the fix for [GHSA-2g4f-4pwh-qvx6](https://github.com/advisories/GHSA-2g4f-4pwh-qvx6). The CLI uses strict schema validation without enabling `$data`. Run `npm audit --package-lock-only` when refreshing dependencies; the generator and PPTX skill lockfiles both reported zero known vulnerabilities after the September 2026 update.
