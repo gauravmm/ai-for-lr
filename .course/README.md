@@ -4,7 +4,7 @@ Open this repository directly in a GitHub Codespace. The parent workshop checkou
 
 The first attachment offers the **Course: sign in** task. Allow automatic tasks if VS Code asks, or run `course login` in a terminal. Enter your approved email and masked Course Password. Enter a blank email to skip. No course capture runs before successful login; personal Claude credentials are preserved. Login only looks up your instructor-assigned external provider key. It does not activate a key or start/reset its clock or allowance.
 
-After signing in, reload the VS Code window and start a **new** Claude chat, or run `claude` in the terminal. The helper configures the external endpoint and main/auxiliary models returned by `https://llm.ocelli.vision`; inference goes directly to that provider. Existing personal or resumed unknown conversations are excluded from course upload. In the CLI, `/status` should show the configured Anthropic base URL and auth token source. A fresh browser Codespaces test will verify the extension's authentication prompt and remote settings behavior.
+After signing in, reload the VS Code window and start a **new** Claude chat, or run `claude` in the terminal. The helper configures the external endpoint and main/auxiliary models returned by `https://clm.ocelli.vision`; inference goes directly to that provider. Existing personal or resumed unknown conversations are excluded from course upload. In the CLI, `/status` should show the configured Anthropic base URL and auth token source. A fresh browser Codespaces test will verify the extension's authentication prompt and remote settings behavior.
 
 Useful commands:
 

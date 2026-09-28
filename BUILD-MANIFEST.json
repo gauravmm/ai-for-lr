@@ -1,42 +1,42 @@
 {
   "entries": [
     {
-      "contentHash": "17d507aaaad88202b36d114c70a4b4d8795d0be139f3af04935848b34d15ebda",
+      "contentHash": "0eae7e37e2794ceac6542af92ece857a78e926b2617c9fbbbd86e9af05dd95e0",
       "format": "json",
       "id": "BUNDLE-TASK-ROOT",
-      "outputHash": "17d507aaaad88202b36d114c70a4b4d8795d0be139f3af04935848b34d15ebda",
+      "outputHash": "0eae7e37e2794ceac6542af92ece857a78e926b2617c9fbbbd86e9af05dd95e0",
       "path": "task/.course/config.json",
       "permittedUnstableMetadata": [],
       "renderer": "copy",
       "rendererVersion": "0.1.0",
       "source": "docgen/templates/task-root/.course/config.json",
-      "templateHash": "17d507aaaad88202b36d114c70a4b4d8795d0be139f3af04935848b34d15ebda",
+      "templateHash": "0eae7e37e2794ceac6542af92ece857a78e926b2617c9fbbbd86e9af05dd95e0",
       "visibility": "student-safe"
     },
     {
-      "contentHash": "fa895d70cd80365088f39320a4bcb470e52fdbde9adadc7c09e47a96e336f49f",
+      "contentHash": "78be9a24fa7ab7f7391962e1197e526db744dbe38e4f504f59b930483c04b475",
       "format": "py",
       "id": "BUNDLE-TASK-ROOT",
-      "outputHash": "fa895d70cd80365088f39320a4bcb470e52fdbde9adadc7c09e47a96e336f49f",
+      "outputHash": "78be9a24fa7ab7f7391962e1197e526db744dbe38e4f504f59b930483c04b475",
       "path": "task/.course/course.py",
       "permittedUnstableMetadata": [],
       "renderer": "copy",
       "rendererVersion": "0.1.0",
       "source": "docgen/templates/task-root/.course/course.py",
-      "templateHash": "fa895d70cd80365088f39320a4bcb470e52fdbde9adadc7c09e47a96e336f49f",
+      "templateHash": "78be9a24fa7ab7f7391962e1197e526db744dbe38e4f504f59b930483c04b475",
       "visibility": "student-safe"
     },
     {
-      "contentHash": "beda1f0fd83cc7838efef6c88399365d0f36580f81b731c5be7e79da4567a632",
+      "contentHash": "5ef2b66c47ef5a73b4f40b1e6610f1aa8278e65f64116e181940c76e4071774a",
       "format": "md",
       "id": "BUNDLE-TASK-ROOT",
-      "outputHash": "beda1f0fd83cc7838efef6c88399365d0f36580f81b731c5be7e79da4567a632",
+      "outputHash": "5ef2b66c47ef5a73b4f40b1e6610f1aa8278e65f64116e181940c76e4071774a",
       "path": "task/.course/README.md",
       "permittedUnstableMetadata": [],
       "renderer": "copy",
       "rendererVersion": "0.1.0",
       "source": "docgen/templates/task-root/.course/README.md",
-      "templateHash": "beda1f0fd83cc7838efef6c88399365d0f36580f81b731c5be7e79da4567a632",
+      "templateHash": "5ef2b66c47ef5a73b4f40b1e6610f1aa8278e65f64116e181940c76e4071774a",
       "visibility": "student-safe"
     },
     {

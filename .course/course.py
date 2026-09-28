@@ -267,7 +267,7 @@ class Course:
                 pending_path.unlink()
 
     def request(self, path, body=None, enrollment=None):
-        headers = {"Content-Type": "application/json", "Accept": "application/json"}
+        headers = {"Content-Type": "application/json", "Accept": "application/json", "User-Agent": "AI-for-CLM-Course/0.1"}
         if enrollment:
             headers["Authorization"] = "Bearer " + enrollment["upload_token"]
         server = enrollment.get("server", self.server) if enrollment else self.server
