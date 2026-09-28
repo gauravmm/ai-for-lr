@@ -15,7 +15,7 @@ RUN ln -s ../lib/node_modules/npm/bin/npm-cli.js /usr/local/bin/npm \
 COPY .devcontainer/claude-package*.json /opt/claude/
 RUN cd /opt/claude && mv claude-package.json package.json && mv claude-package-lock.json package-lock.json \
     && npm ci --omit=dev && npm cache clean --force
-COPY .course/course.py /opt/course/course.py
+COPY .course/course.py .course/adapter.ts /opt/course/
 COPY .devcontainer/course /usr/local/bin/course
 COPY .devcontainer/claude /usr/local/bin/claude
 RUN chmod 755 /usr/local/bin/course /usr/local/bin/claude \

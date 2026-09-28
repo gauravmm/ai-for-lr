@@ -1,18 +1,26 @@
 {
   "name": "AI for CLM student workshop",
-  "build": { "dockerfile": "Dockerfile", "context": ".." },
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
   "remoteUser": "vscode",
   "updateContentCommand": "python3 .course/course.py dependencies",
   "postCreateCommand": "python3 .course/course.py setup",
   "postStartCommand": "python3 .course/course.py start",
   "customizations": {
     "vscode": {
-      "extensions": ["anthropic.claude-code@2.1.283"],
+      "extensions": [
+        "anthropic.claude-code@2.1.283"
+      ],
       "settings": {
         "extensions.autoUpdate": false,
         "extensions.autoCheckUpdates": false
       }
     }
   },
-  "shutdownAction": "stopContainer"
+  "shutdownAction": "stopContainer",
+  "otherPortsAttributes": {
+    "onAutoForward": "ignore"
+  }
 }

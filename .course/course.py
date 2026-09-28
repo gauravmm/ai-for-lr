@@ -15,6 +15,8 @@ import random
 import re
 import shlex
 import shutil
+import socket
+import secrets
 import subprocess
 import sys
 import tempfile
@@ -24,6 +26,8 @@ import urllib.parse
 import urllib.request
 import uuid
 
+ADAPTER_START_TIMEOUT = 5.0
+ADAPTER_PROCESSES = {}
 MAX_CHUNK = 512 * 1024
 ID = re.compile(r"^[A-Za-z0-9_-]{1,128}$")
 SKIP_DIRS = {".git", "node_modules", ".venv", "__pycache__", "output", "outputs", ".course-state"}
@@ -254,6 +258,12 @@ class Course:
             os.chmod(self.home / "lock", 0o600)
             fcntl.flock(lock, fcntl.LOCK_EX)
             data = read_json(self.path, {"installation_id": str(uuid.uuid4()), "active": None, "enrollments": {}})
+            adapter_pending_path = self.home / "adapter-pending.json"
+            adapter_pending = read_json(adapter_pending_path)
+            if adapter_pending:
+                if adapter_pending["enrollment_id"] not in data["enrollments"]:
+                    self.stop_adapter(adapter_pending)
+                adapter_pending_path.unlink()
             pending_path = self.home / "editor-pending.json"
             pending = read_json(pending_path)
             if pending and recover_editor:
@@ -262,6 +272,9 @@ class Course:
                 pending_path.unlink()
             yield data
             atomic(self.path, data)
+            adapter_pending = read_json(adapter_pending_path)
+            if adapter_pending and adapter_pending["enrollment_id"] in data["enrollments"]:
+                adapter_pending_path.unlink()
             pending = read_json(pending_path)
             if pending and pending["enrollment_id"] in data["enrollments"]:
                 pending_path.unlink()
@@ -300,19 +313,132 @@ class Course:
         # Claude Code's documented format is one Name: Value pair per line.
         return f"X-API-Key: {key}\nX-System-Name: {system}"
 
+    def prepare_adapter(self, enrollment):
+        if not enrollment.get("eip_api_key"):
+            return
+        self.custom_headers(enrollment)
+        if enrollment.get("adapter"):
+            return
+        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as listener:
+            listener.bind(("127.0.0.1", 0))
+            port = listener.getsockname()[1]
+        directory = self.home / enrollment["enrollment_id"]
+        enrollment["adapter"] = {"url": f"http://127.0.0.1:{port}", "port": port,
+                                 "local_token": secrets.token_urlsafe(32),
+                                 "config_path": str(directory / "adapter.json"),
+                                 "ready_path": str(directory / "adapter-ready.json")}
+
+    def adapter_metadata(self, enrollment):
+        adapter = enrollment.get("adapter")
+        if not isinstance(adapter, dict):
+            raise ValueError("Course adapter configuration is missing; run course login again.")
+        port = adapter.get("port")
+        if not isinstance(port, int) or not 1024 <= port <= 65535 or adapter.get("url") != f"http://127.0.0.1:{port}":
+            raise ValueError("Invalid local course adapter address")
+        token = adapter.get("local_token")
+        if not isinstance(token, str) or not re.fullmatch(r"[A-Za-z0-9_-]{32,128}", token):
+            raise ValueError("Invalid local course adapter authentication")
+        directory = self.home / enrollment["enrollment_id"]
+        for field, name in (("config_path", "adapter.json"), ("ready_path", "adapter-ready.json")):
+            if adapter.get(field) != str(directory / name) or not safe_path(Path(adapter[field]), self.home):
+                raise ValueError("Invalid private course adapter path")
+        return adapter
+
+    def adapter_request(self, adapter, path, body=None):
+        request = urllib.request.Request(adapter["url"] + path,
+            data=None if body is None else json.dumps(body).encode(),
+            headers={"Authorization": "Bearer " + adapter["local_token"], "Content-Type": "application/json"})
+        # Never permit environment proxy settings or redirects to forward the loopback token.
+        with urllib.request.build_opener(urllib.request.ProxyHandler({}), NoRedirect).open(request, timeout=0.5) as response:
+            return json.load(response)
+
+    def adapter_healthy(self, enrollment):
+        adapter = self.adapter_metadata(enrollment)
+        try:
+            ready = read_json(Path(adapter["ready_path"]))
+            if not Path(adapter["config_path"]).is_file() or not ready or ready.get("url") != adapter["url"]:
+                return False
+            if not isinstance(ready.get("pid"), int) or ready["pid"] <= 0:
+                return False
+            return self.adapter_request(adapter, "/healthz").get("status") == "ok"
+        except (OSError, ValueError, urllib.error.URLError):
+            return False
+
+    def ensure_adapter(self, enrollment):
+        if not enrollment.get("eip_api_key"):
+            return
+        if not self.active(enrollment):
+            self.stop_adapter(enrollment)
+            raise ValueError("Course adapter access has ended. Run course login after the instructor updates access.")
+        adapter = self.adapter_metadata(enrollment)
+        if self.adapter_healthy(enrollment):
+            return
+        config = {"upstream_base_url": enrollment["inference_base_url"], "api_key": enrollment["api_key"],
+                  "eip_api_key": enrollment["eip_api_key"], "eip_system_name": enrollment["eip_system_name"],
+                  "models": sorted(set(enrollment["models"].values())), "local_token": adapter["local_token"],
+                  "expires_at": enrollment["expires_at"], "port": adapter["port"]}
+        config_path = Path(adapter["config_path"])
+        config_path.parent.mkdir(parents=True, exist_ok=True, mode=0o700)
+        os.chmod(config_path.parent, 0o700)
+        ready_path = Path(adapter["ready_path"])
+        ready_path.unlink(missing_ok=True)
+        atomic(config_path, config)
+        binary = Path(__file__).resolve().with_name("adapter.ts")
+        process = None
+        try:
+            process = subprocess.Popen(["node", str(binary), "--config", str(config_path), "--ready-file", str(ready_path)],
+                                       stdin=subprocess.DEVNULL, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
+                                       start_new_session=True, close_fds=True)
+            ADAPTER_PROCESSES[str(config_path)] = process
+            deadline = time.monotonic() + ADAPTER_START_TIMEOUT
+            while time.monotonic() < deadline:
+                if process.poll() is not None:
+                    break
+                if self.adapter_healthy(enrollment):
+                    return
+                time.sleep(0.05)
+        except OSError:
+            pass
+        self.stop_adapter(enrollment)
+        raise ValueError("Course adapter failed to start. Run course start to retry or ask the instructor; direct inference fallback is disabled.")
+
+    def stop_adapter(self, enrollment):
+        if not enrollment.get("adapter"):
+            return
+        adapter = self.adapter_metadata(enrollment)
+        # Deletion revokes admissions and aborts inflight requests in the adapter itself.
+        Path(adapter["config_path"]).unlink(missing_ok=True)
+        try:
+            self.adapter_request(adapter, "/shutdown", {})
+        except (OSError, ValueError, urllib.error.URLError):
+            pass
+        process = ADAPTER_PROCESSES.pop(adapter["config_path"], None)
+        if process is not None:
+            try:
+                process.wait(timeout=2)
+            except subprocess.TimeoutExpired:
+                pass  # Never signal a PID loaded from a ready file or kill an unrelated listener.
+        Path(adapter["ready_path"]).unlink(missing_ok=True)
+
     def environment(self, enrollment):
-        direct = enrollment["inference_base_url"].rstrip("/") == "https://api.anthropic.com"
-        return {"ANTHROPIC_AUTH_TOKEN": "" if direct else enrollment["api_key"],
-                "ANTHROPIC_API_KEY": enrollment["api_key"] if direct else "", "CLAUDE_CODE_OAUTH_TOKEN": "",
-                "ANTHROPIC_BASE_URL": enrollment["inference_base_url"],
-                "ANTHROPIC_CUSTOM_HEADERS": self.custom_headers(enrollment),
-                "ANTHROPIC_MODEL": enrollment["models"]["main"],
-                "ANTHROPIC_DEFAULT_OPUS_MODEL": enrollment["models"]["main"],
-                "ANTHROPIC_DEFAULT_SONNET_MODEL": enrollment["models"]["main"],
-                "ANTHROPIC_DEFAULT_HAIKU_MODEL": enrollment["models"]["small"],
-                "CLAUDE_CODE_SUBAGENT_MODEL": enrollment["models"]["small"],
-                "CLAUDE_CONFIG_DIR": enrollment["config_dir"],
-                "DISABLE_AUTOUPDATER": "1"}
+        proxied = bool(enrollment.get("eip_api_key") or enrollment.get("adapter"))
+        adapter = self.adapter_metadata(enrollment) if proxied else None
+        direct = not proxied and enrollment["inference_base_url"].rstrip("/") == "https://api.anthropic.com"
+        env = {"ANTHROPIC_AUTH_TOKEN": adapter["local_token"] if adapter else "" if direct else enrollment["api_key"],
+               "ANTHROPIC_API_KEY": enrollment["api_key"] if direct else "", "CLAUDE_CODE_OAUTH_TOKEN": "",
+               "ANTHROPIC_BASE_URL": adapter["url"] if adapter else enrollment["inference_base_url"],
+               "ANTHROPIC_CUSTOM_HEADERS": "",
+               "ANTHROPIC_MODEL": enrollment["models"]["main"],
+               "ANTHROPIC_DEFAULT_OPUS_MODEL": enrollment["models"]["main"],
+               "ANTHROPIC_DEFAULT_SONNET_MODEL": enrollment["models"]["main"],
+               "ANTHROPIC_DEFAULT_HAIKU_MODEL": enrollment["models"]["small"],
+               "CLAUDE_CODE_SUBAGENT_MODEL": enrollment["models"]["small"],
+               "CLAUDE_CONFIG_DIR": enrollment["config_dir"],
+               "DISABLE_AUTOUPDATER": "1"}
+        if adapter:
+            env["MAX_THINKING_TOKENS"] = "0"
+            env["ENABLE_TOOL_SEARCH"] = "false"
+        return env
 
     def editor_paths(self):
         custom = os.environ.get("VSCODE_AGENT_FOLDER")
@@ -390,6 +516,7 @@ class Course:
         with self.state() as state:
             old = state["enrollments"].get(state["active"])
             if if_needed and self.active(old):
+                self.ensure_adapter(old)
                 print("Course access configured. Start a new Claude chat; use course status for details.")
                 self.describe_access(old)
                 return
@@ -435,6 +562,7 @@ class Course:
         if old:
             self.collect(old)
             old["ended_at"] = now()
+            self.stop_adapter(old)
             old.pop("eip_api_key", None)
             old.pop("eip_system_name", None)
             state["active"] = None
@@ -442,8 +570,17 @@ class Course:
             self.restore_editor(old)
         enrollment = dict(response, enrolled_at=now(), sessions={}, server=self.server,
                           config_dir=str(self.home / response["enrollment_id"] / "claude"))
-        # A separate Claude directory for each enrollment excludes all personal/pre-login data.
-        self.configure(enrollment)
+        # Prepare the private, stable endpoint before editor configuration. No upstream fallback exists.
+        self.prepare_adapter(enrollment)
+        if enrollment.get("adapter"):
+            atomic(self.home / "adapter-pending.json", {"enrollment_id": enrollment["enrollment_id"], "adapter": enrollment["adapter"]})
+        try:
+            self.ensure_adapter(enrollment)
+            self.configure(enrollment)
+        except Exception:
+            self.stop_adapter(enrollment)
+            (self.home / "adapter-pending.json").unlink(missing_ok=True)
+            raise
         state["enrollments"][response["enrollment_id"]] = enrollment
         state["active"] = response["enrollment_id"]
 
@@ -468,7 +605,7 @@ class Course:
             self.collect(enrollment)
 
     def redact(self, text, enrollment):
-        for value in (enrollment.get("api_key"), enrollment.get("upload_token"), enrollment.get("eip_api_key")):
+        for value in (enrollment.get("api_key"), enrollment.get("upload_token"), enrollment.get("eip_api_key"), enrollment.get("adapter", {}).get("local_token")):
             if value:
                 text = text.replace(value, "[REDACTED_COURSE_SECRET]")
                 text = text.replace(json.dumps(value)[1:-1], "[REDACTED_COURSE_SECRET]")
@@ -637,6 +774,13 @@ class Course:
         with self.state() as state:
             for enrollment in state["enrollments"].values():
                 self.collect(enrollment)
+                if self.active(enrollment) and enrollment.get("eip_api_key"):
+                    try:
+                        self.ensure_adapter(enrollment)
+                        enrollment.pop("adapter_error", None)
+                    except ValueError as exc:
+                        enrollment["adapter_error"] = str(exc)
+                        had_error = True
                 if not self.active(enrollment) and enrollment.get("editor_patches"):
                     try:
                         self.restore_editor(enrollment)
@@ -645,12 +789,14 @@ class Course:
                         enrollment["editor_error"] = "Fix editor settings syntax/permissions so course settings can be restored."
                         had_error = True
                 if not self.active(enrollment):
+                    self.stop_adapter(enrollment)
                     enrollment.pop("eip_api_key", None)
                     enrollment.pop("eip_system_name", None)
                 if time.time() > timestamp(enrollment["enrolled_at"]) + 30 * 86400:
                     shutil.rmtree(self.home / enrollment["enrollment_id"], ignore_errors=True)
                     enrollment["sessions"] = {}
                     enrollment["pending"] = {}
+                    enrollment.pop("adapter", None)
                     for field in ("api_key", "upload_token", "eip_api_key", "eip_system_name"):
                         enrollment.pop(field, None)
         # State and its pending payloads are now durable. Hook registration remains responsive during HTTP.
@@ -689,6 +835,12 @@ class Course:
         with self.state() as state:
             if not state["enrollments"]:
                 return
+            enrollment = state["enrollments"].get(state["active"])
+            if self.active(enrollment):
+                self.ensure_adapter(enrollment)
+            else:
+                for previous in state["enrollments"].values():
+                    self.stop_adapter(previous)
         subprocess.Popen([sys.executable, str(Path(__file__).resolve()), "--workspace", str(self.workspace), "watch"],
                          stdin=subprocess.DEVNULL, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
                          start_new_session=True, close_fds=True)
@@ -704,6 +856,8 @@ class Course:
         print(f"Queued chunks: {len(enrollment.get('pending', {}))}")
         if enrollment.get("upload_error"):
             print(enrollment["upload_error"])
+        if enrollment.get("adapter_error"):
+            print(enrollment["adapter_error"])
         try:
             status = self.request("/api/lease", enrollment=enrollment)
             fields = (("credential_mode", "expiry_source", "expires_at", "provider_expires_at")
@@ -724,6 +878,7 @@ class Course:
             enrollment.pop("eip_api_key", None)
             enrollment.pop("eip_system_name", None)
             state["active"] = None
+        self.stop_adapter(enrollment)
         with self.state(recover_editor=False) as state:
             current = state["enrollments"][enrollment["enrollment_id"]]
             try:
@@ -778,6 +933,7 @@ class Course:
             if enrollment:
                 if not self.active(enrollment):
                     raise ValueError("Course access expired. Ask the instructor and run course login after an offline update.")
+                self.ensure_adapter(enrollment)
                 for key in ("ANTHROPIC_API_KEY", "CLAUDE_CODE_OAUTH_TOKEN", "ANTHROPIC_AUTH_TOKEN", "ANTHROPIC_CUSTOM_HEADERS"):
                     env.pop(key, None)
                 env.update(self.environment(enrollment))
