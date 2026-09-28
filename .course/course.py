@@ -285,11 +285,27 @@ class Course:
     def active(enrollment):
         return bool(enrollment and not enrollment.get("ended_at") and timestamp(enrollment["expires_at"]) > time.time())
 
+    @staticmethod
+    def custom_headers(enrollment):
+        key, system = enrollment.get("eip_api_key"), enrollment.get("eip_system_name")
+        if key is None:
+            if system is not None:
+                raise ValueError("EIP system name requires an EIP API key")
+            return ""  # Clear inherited gateway credentials for every non-EIP enrollment.
+        for field, value in (("EIP API key", key), ("EIP system name", system)):
+            if not isinstance(value, str) or not value or any(ord(char) < 33 or ord(char) > 126 for char in value):
+                raise ValueError(f"{field} must be nonempty printable ASCII without whitespace")
+        if enrollment["inference_base_url"].rstrip("/") == "https://api.anthropic.com":
+            raise ValueError("EIP headers require a gateway endpoint, not the native Anthropic API")
+        # Claude Code's documented format is one Name: Value pair per line.
+        return f"X-API-Key: {key}\nX-System-Name: {system}"
+
     def environment(self, enrollment):
         direct = enrollment["inference_base_url"].rstrip("/") == "https://api.anthropic.com"
         return {"ANTHROPIC_AUTH_TOKEN": "" if direct else enrollment["api_key"],
                 "ANTHROPIC_API_KEY": enrollment["api_key"] if direct else "", "CLAUDE_CODE_OAUTH_TOKEN": "",
                 "ANTHROPIC_BASE_URL": enrollment["inference_base_url"],
+                "ANTHROPIC_CUSTOM_HEADERS": self.custom_headers(enrollment),
                 "ANTHROPIC_MODEL": enrollment["models"]["main"],
                 "ANTHROPIC_DEFAULT_OPUS_MODEL": enrollment["models"]["main"],
                 "ANTHROPIC_DEFAULT_SONNET_MODEL": enrollment["models"]["main"],
@@ -414,10 +430,13 @@ class Course:
                              else "The instructor-configured access has expired")
         if not all(isinstance(response["models"].get(k), str) and response["models"][k] for k in ("main", "small")):
             raise ValueError("Keyserver must configure main and small models")
+        self.custom_headers(response)  # Validate before writing secrets or changing an existing enrollment.
         old = state["enrollments"].get(state["active"])
         if old:
             self.collect(old)
             old["ended_at"] = now()
+            old.pop("eip_api_key", None)
+            old.pop("eip_system_name", None)
             state["active"] = None
             atomic(self.path, state)  # A later settings failure must not reactivate the old enrollment.
             self.restore_editor(old)
@@ -449,7 +468,7 @@ class Course:
             self.collect(enrollment)
 
     def redact(self, text, enrollment):
-        for value in (enrollment.get("api_key"), enrollment.get("upload_token")):
+        for value in (enrollment.get("api_key"), enrollment.get("upload_token"), enrollment.get("eip_api_key")):
             if value:
                 text = text.replace(value, "[REDACTED_COURSE_SECRET]")
                 text = text.replace(json.dumps(value)[1:-1], "[REDACTED_COURSE_SECRET]")
@@ -459,6 +478,7 @@ class Course:
         text = re.sub(r"\bAKIA[A-Z0-9]{16}\b", "[REDACTED_AWS_KEY]", text)
         text = re.sub(r"(?i)((?:[A-Z0-9_]*(?:API_KEY|SECRET_ACCESS_KEY|PASSWORD|AUTH_TOKEN|ACCESS_TOKEN|GITHUB_TOKEN))\s*=\s*)[^\s\\\"]+", r"\1[REDACTED_CREDENTIAL]", text)
         text = re.sub(r"(?i)(Authorization:\s*Bearer\s+)[A-Za-z0-9_.~-]+", r"\1[REDACTED_CREDENTIAL]", text)
+        text = re.sub(r"(?i)(X-API-Key:\s*)[^\s\\\"']+", r"\1[REDACTED_CREDENTIAL]", text)
         return text
 
     def sanitize_record(self, value, session):
@@ -624,11 +644,14 @@ class Course:
                     except (ValueError, OSError):
                         enrollment["editor_error"] = "Fix editor settings syntax/permissions so course settings can be restored."
                         had_error = True
+                if not self.active(enrollment):
+                    enrollment.pop("eip_api_key", None)
+                    enrollment.pop("eip_system_name", None)
                 if time.time() > timestamp(enrollment["enrolled_at"]) + 30 * 86400:
                     shutil.rmtree(self.home / enrollment["enrollment_id"], ignore_errors=True)
                     enrollment["sessions"] = {}
                     enrollment["pending"] = {}
-                    for field in ("api_key", "upload_token"):
+                    for field in ("api_key", "upload_token", "eip_api_key", "eip_system_name"):
                         enrollment.pop(field, None)
         # State and its pending payloads are now durable. Hook registration remains responsive during HTTP.
         for enrollment in state["enrollments"].values():
@@ -698,6 +721,8 @@ class Course:
             if not enrollment:
                 return
             enrollment["ended_at"] = now()
+            enrollment.pop("eip_api_key", None)
+            enrollment.pop("eip_system_name", None)
             state["active"] = None
         with self.state(recover_editor=False) as state:
             current = state["enrollments"][enrollment["enrollment_id"]]
@@ -753,7 +778,7 @@ class Course:
             if enrollment:
                 if not self.active(enrollment):
                     raise ValueError("Course access expired. Ask the instructor and run course login after an offline update.")
-                for key in ("ANTHROPIC_API_KEY", "CLAUDE_CODE_OAUTH_TOKEN", "ANTHROPIC_AUTH_TOKEN"):
+                for key in ("ANTHROPIC_API_KEY", "CLAUDE_CODE_OAUTH_TOKEN", "ANTHROPIC_AUTH_TOKEN", "ANTHROPIC_CUSTOM_HEADERS"):
                     env.pop(key, None)
                 env.update(self.environment(enrollment))
         os.execve(binary, [binary] + arguments, env)
