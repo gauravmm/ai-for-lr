@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "audience": "Executive approval committee",
   "sources": [
-    { "documentId": "RFQ-002", "locator": "M1-M7" },
-    { "documentId": "EVAL-001", "locator": "scores" }
+    { "documentId": "RFQ-02", "locator": "M1-M7" },
+    { "documentId": "EVAL-01", "locator": "scores" }
   ],
   "slides": [
     {

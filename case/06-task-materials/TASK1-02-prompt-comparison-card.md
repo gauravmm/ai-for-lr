@@ -1,0 +1,11 @@
+# Prompt comparison card
+
+TASK1-02 · Version 1.0 · 2026-09-03 · Workshop Team · approved
+
+Fictional training case; all people, organisations, products, rules and events are invented.
+
+TASK1-02 Simple — Simple prompt: Please check and fix this tender analysis.
+
+TASK1-02 Structured — Structured prompt: Using the supplied files, identify each decision-relevant claim in the initial recommendation. For each claim, record an atomic claim ID, the exact source document and locator, the extracted source value, any calculation or interpretation, documentary status and a verification status. Compare source authority and dates where records differ. Recalculate mandatory gates before weighted scores. Produce an inspectable attribution table; mark missing or conflicting evidence as unresolved and do not invent facts. Then give a corrected recommendation with references to the table.
+
+TASK1-02 §3 — Use identical evidence and tool access for both trials. Compare inspectability and correction quality, not just how fluent the final answer sounds.

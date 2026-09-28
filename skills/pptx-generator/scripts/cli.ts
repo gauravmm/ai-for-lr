@@ -36,7 +36,7 @@ const packageDir = path.resolve(import.meta.dirname, '..');
 const schema = JSON.parse(await readFile(path.join(packageDir, 'slide-plan.schema.json'), 'utf8'));
 const ajv = new Ajv2020({ allErrors: true, strict: true, multipleOfPrecision: 8 });
 const validateSchema = ajv.compile(schema);
-const licenseLine = 'Fictional training case; not organisational policy or Singapore procurement law.';
+const licenseLine = 'Fictional training case.';
 
 // Every slide carries these three fields regardless of archetype (deck-level audience
 // and sources land on each slide's own AUDIENCE / SOURCE_NOTES shapes).
