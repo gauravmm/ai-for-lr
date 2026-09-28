@@ -12,8 +12,8 @@ framework and drawing from the practical experiences of GovTech, CSA, and indust
 Grab and Microsoft who had experimented with it.
 
 OpenClaw is an open-source AI agent platform that acts as an autonomous personal assistant through
-common chat interfaces such as Telegram and Slack. Itcan automate everyday tasks such as compiling
-research, handling customer enquiries or debugging code. Itwas launched with limited security controls
+common chat interfaces such as Telegram and Slack. It can automate everyday tasks such as compiling
+research, handling customer enquiries or debugging code. It was launched with limited security controls
 and deploying it safely is non-trivial. Concerns include its lack of maturity and hardening, access control
 and authentication gaps, exposure of sensitive data, supply chain risks from third-party skills, and
 memory poisoning risks.

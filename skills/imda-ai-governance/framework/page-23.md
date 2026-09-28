@@ -12,7 +12,7 @@ traceability and accountability today for humans. As organisations deploy more a
 which interact across organisation boundaries, identity management needs to be extended to agents to
 track individual agent behaviour and establish who holds accountability for each agent.
 
-Thisis an evolving space, and gaps exist today in terms of handling agent identity robustly. For example,
+This is an evolving space, and gaps exist today in terms of handling agent identity robustly. For example,
 current authorisation systems typically have pre-defined, static scopes. However, to operate safely in more
 complex scenarios, agents require fine-grained permissions that may change dynamically depending on the
 context, risk levels, and task objectives. Current authentication systems are also typically based on a single,

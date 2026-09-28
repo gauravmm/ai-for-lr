@@ -11,7 +11,7 @@ As an agentic system becomes more complex, small modifications can cascade into 
 safeguard against this, consider:
 
 •
-Definingtriggers for a change review process. This can include technical triggers (model updates,
+Defining triggers for a change review process. This can include technical triggers (model updates,
 tool modifications), environmental triggers (domain shifts, business context changes),
 performance triggers (anomalous behaviour, degraded performance), and regulatory triggers
 (changes in compliance requirements).

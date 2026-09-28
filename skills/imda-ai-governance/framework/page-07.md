@@ -22,7 +22,7 @@ external knowledge sources.
 In addition, an agent has other components that enable it to complete more complex tasks:
 
 4.
-Planningand reasoning: The model is usually trained to reason and plan, meaning that it can output
+Planning and reasoning: The model is usually trained to reason and plan, meaning that it can output
 a series of steps needed for a task.
 
 5.
@@ -56,7 +56,7 @@ c.
 Human approvals: Requirements for a human to review or approve agent actions.
 
 8.
-Log ging and monitoring
+Logging and monitoring
 : Records agent actions, decisions, and interactions across all
 components to enable monitoring, debugging, and accountability.
 

@@ -39,7 +39,7 @@ Foundational knowledge on agents
 
 o
 Relevant use cases, so that the users understand how to best integrate the agents into
-their day-to-day work, and the scenarios under which the use of agentsshould be restricted
+their day-to-day work, and the scenarios under which the use of agents should be restricted
 (e.g. do not use an agent for confidential data)
 o
 Instructing the agents e.g. general best practices in prompting

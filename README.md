@@ -36,13 +36,17 @@ Use identical evidence and tool access for both trials. Compare inspectability a
 
 Use `attribution.schema.json` to validate field presence and status vocabulary. Add rows as needed; one material claim may depend on several source records.
 
-## Task 2: Leadership slide
+**Check your work:** when you have finished, type `/check-my-task-1` in the Claude chat for a review of your conclusion, table and verification prompt. The skill is in `skills/check-my-task-1/` and runs only when you ask for it.
 
-Timebox: 15 minutes. Prepare one editable leadership slide for the Executive Approval Committee from your verified Task 1 result. State one main message and the approval or next action sought. Use the `pptx-generator` skill in `skills/pptx-generator/`, which bundles the corporate slide template.
+## Task 2: Leadership deck
 
-Show mandatory compliance as a gate before any weighted comparison. Compare only eligible bids by score; do not imply a failed bid merely ranked lower. Reproduce verified figures and keep compact exact source notes on the slide or in its supporting material.
+Timebox: 15 minutes. Prepare a corrected, editable version of the initial leadership deck (INITIAL-03) for the Executive Approval Committee from your verified Task 1 result. The new deck should look like INITIAL-03: keep its slides, their order and layout, and update the content. State one main message and the approval or next action sought. Use the `pptx-generator` skill in `skills/pptx-generator/`, which bundles the corporate slide template.
+
+Show mandatory compliance as a gate before any weighted comparison. Compare only eligible bids by score; do not imply a failed bid merely ranked lower. Reproduce verified figures and keep compact exact source notes on the slides or in their supporting material.
 
 Check that every numerical and categorical slide claim matches the source and that the visual emphasis does not conceal uncertainty. Human due diligence and approval remain necessary.
+
+**Check your work:** when you have finished, type `/check-my-task-2` in the Claude chat for a review of your deck against your Task 1 record. The skill is in `skills/check-my-task-2/` and runs only when you ask for it.
 
 ## Task 3: Bounded workflow [35 minutes]
 
