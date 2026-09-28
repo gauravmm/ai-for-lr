@@ -286,8 +286,9 @@ class Course:
         return bool(enrollment and not enrollment.get("ended_at") and timestamp(enrollment["expires_at"]) > time.time())
 
     def environment(self, enrollment):
-        return {"ANTHROPIC_AUTH_TOKEN": enrollment["api_key"],
-                "ANTHROPIC_API_KEY": "", "CLAUDE_CODE_OAUTH_TOKEN": "",
+        direct = enrollment["inference_base_url"].rstrip("/") == "https://api.anthropic.com"
+        return {"ANTHROPIC_AUTH_TOKEN": "" if direct else enrollment["api_key"],
+                "ANTHROPIC_API_KEY": enrollment["api_key"] if direct else "", "CLAUDE_CODE_OAUTH_TOKEN": "",
                 "ANTHROPIC_BASE_URL": enrollment["inference_base_url"],
                 "ANTHROPIC_MODEL": enrollment["models"]["main"],
                 "ANTHROPIC_DEFAULT_OPUS_MODEL": enrollment["models"]["main"],
