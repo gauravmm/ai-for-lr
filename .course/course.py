@@ -358,11 +358,23 @@ class Course:
             atomic(path, current)
         enrollment.pop("editor_patches", None)
 
+    @staticmethod
+    def describe_access(enrollment):
+        if enrollment.get("credential_mode") == "shared":
+            print(f"Course collection cutoff: {enrollment['expires_at']}.")
+            print("Shared provider key: spend limits and provider expiry are controlled externally; no per-student allowance is configured.")
+        else:
+            print(f"Configured access expiry: {enrollment['expires_at']}.")
+            allowance = enrollment.get("allowance_usd")
+            if allowance is not None:
+                print(f"Imported participant allowance: USD {allowance} (metadata may be stale).")
+
     def login(self, if_needed=False):
         with self.state() as state:
             old = state["enrollments"].get(state["active"])
             if if_needed and self.active(old):
-                print(f"Course access configured until {old['expires_at']}. Start a new Claude chat; use course status for details.")
+                print("Course access configured. Start a new Claude chat; use course status for details.")
+                self.describe_access(old)
                 return
         if not sys.stdin.isatty():
             print("Run course login in an interactive terminal to receive your course key.")
@@ -385,7 +397,7 @@ class Course:
         password = None
         self.start()
         print("Course access configured. Reload the VS Code window, then start a NEW Claude conversation. Terminal: claude")
-        print(f"Provider expiry: {response['expires_at']}. Allowance: USD {response['allowance_usd']} (imported metadata).")
+        self.describe_access(response)
 
     def accept_enrollment(self, state, response):
         for field in ("enrollment_id", "lease_id", "api_key", "inference_base_url", "models", "expires_at", "upload_token", "upload_expires_at"):
@@ -397,7 +409,8 @@ class Course:
         if base.scheme != "https" or not base.hostname or base.username or base.password:
             raise ValueError("Inference endpoint must use HTTPS")
         if timestamp(response["expires_at"]) <= time.time():
-            raise ValueError("The instructor-configured key has expired")
+            raise ValueError("The course collection window has ended" if response.get("credential_mode") == "shared"
+                             else "The instructor-configured access has expired")
         if not all(isinstance(response["models"].get(k), str) and response["models"][k] for k in ("main", "small")):
             raise ValueError("Keyserver must configure main and small models")
         old = state["enrollments"].get(state["active"])
@@ -662,14 +675,17 @@ class Course:
         if not enrollment:
             print("Not enrolled. Run course login to opt in.")
             return
-        print(f"Course access: {'configured' if self.active(enrollment) else 'ended'}; expiry {enrollment['expires_at']}")
-        print(f"Imported allowance: USD {enrollment['allowance_usd']}; collection {'on' if self.active(enrollment) else 'off'}")
+        print(f"Course access: {'configured' if self.active(enrollment) else 'ended'}; collection {'on' if self.active(enrollment) else 'off'}")
+        self.describe_access(enrollment)
         print(f"Queued chunks: {len(enrollment.get('pending', {}))}")
         if enrollment.get("upload_error"):
             print(enrollment["upload_error"])
         try:
             status = self.request("/api/lease", enrollment=enrollment)
-            print(json.dumps({k: status[k] for k in ("expires_at", "allowance_usd", "usage", "budget_revision") if k in status}, indent=2))
+            fields = (("credential_mode", "expiry_source", "expires_at", "provider_expires_at")
+                      if status.get("credential_mode", enrollment.get("credential_mode")) == "shared"
+                      else ("expires_at", "allowance_usd", "usage", "budget_revision"))
+            print(json.dumps({k: status[k] for k in fields if k in status}, indent=2))
         except ValueError as exc:
             print(str(exc))
 
@@ -695,7 +711,7 @@ class Course:
             self.request("/api/logout", {}, enrollment)
         except (ValueError, OSError):
             print("Server unavailable; collection is stopped locally. Queued records will retry until upload expiry.")
-        print("Course collection stopped. Close existing Claude chats and reload VS Code. The provider key remains subject to its configured expiry.")
+        print("Course collection stopped. Close existing Claude chats and reload VS Code. Provider access remains controlled externally.")
 
     def boundary(self, arguments):
         parser = argparse.ArgumentParser(prog="course boundary")

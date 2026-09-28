@@ -14,29 +14,29 @@
       "visibility": "student-safe"
     },
     {
-      "contentHash": "78be9a24fa7ab7f7391962e1197e526db744dbe38e4f504f59b930483c04b475",
+      "contentHash": "514088360c689e675366f62685362e3c00387ac19d6b4296c6c573b11c3ae20f",
       "format": "py",
       "id": "BUNDLE-TASK-ROOT",
-      "outputHash": "78be9a24fa7ab7f7391962e1197e526db744dbe38e4f504f59b930483c04b475",
+      "outputHash": "514088360c689e675366f62685362e3c00387ac19d6b4296c6c573b11c3ae20f",
       "path": "task/.course/course.py",
       "permittedUnstableMetadata": [],
       "renderer": "copy",
       "rendererVersion": "0.1.0",
       "source": "docgen/templates/task-root/.course/course.py",
-      "templateHash": "78be9a24fa7ab7f7391962e1197e526db744dbe38e4f504f59b930483c04b475",
+      "templateHash": "514088360c689e675366f62685362e3c00387ac19d6b4296c6c573b11c3ae20f",
       "visibility": "student-safe"
     },
     {
-      "contentHash": "5ef2b66c47ef5a73b4f40b1e6610f1aa8278e65f64116e181940c76e4071774a",
+      "contentHash": "a75c0e2c76d6bce95f8e10f7d36c7bb6ac0c7e69beaa61ba4e8ae3e10f950d80",
       "format": "md",
       "id": "BUNDLE-TASK-ROOT",
-      "outputHash": "5ef2b66c47ef5a73b4f40b1e6610f1aa8278e65f64116e181940c76e4071774a",
+      "outputHash": "a75c0e2c76d6bce95f8e10f7d36c7bb6ac0c7e69beaa61ba4e8ae3e10f950d80",
       "path": "task/.course/README.md",
       "permittedUnstableMetadata": [],
       "renderer": "copy",
       "rendererVersion": "0.1.0",
       "source": "docgen/templates/task-root/.course/README.md",
-      "templateHash": "5ef2b66c47ef5a73b4f40b1e6610f1aa8278e65f64116e181940c76e4071774a",
+      "templateHash": "a75c0e2c76d6bce95f8e10f7d36c7bb6ac0c7e69beaa61ba4e8ae3e10f950d80",
       "visibility": "student-safe"
     },
     {
