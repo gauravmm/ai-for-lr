@@ -2,6 +2,10 @@
 
 This student bundle is generated from the structured sources in the parent repository's `docgen/` directory. Start with `case/00-start-here/CASE-01-executive-case-brief.pdf`. The three workshop tasks are described below.
 
+## Codespaces setup
+
+Open this repository directly in a GitHub Codespace and wait for setup to finish. Run `course login` in the terminal, or use the **Course: sign in** task. Enter your approved email and Course Password; leave the email blank to skip. Course login enables instructor-funded Claude access and shares new course conversations and tool results for review, retained for 30 days. After login, reload the editor and start a new Claude chat. Use `course status` to check access and `course logout` to stop collection. See [setup and recovery instructions](.course/README.md).
+
 ## Task 1: Verification
 
 Timebox: 15 minutes. Leadership has received INITIAL-01–03. Check the decision-relevant claims against the complete case bundle, using exact source locations and the tender's authority rules. Correct the recommendation if the evidence requires it.

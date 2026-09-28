@@ -1,0 +1,12 @@
+{
+  "version": "2.0.0",
+  "tasks": [{
+    "label": "Course: sign in",
+    "type": "shell",
+    "command": "course login --if-needed",
+    "options": {"cwd": "${workspaceFolder}"},
+    "runOptions": {"runOn": "folderOpen"},
+    "presentation": {"reveal": "always", "panel": "dedicated", "focus": true},
+    "problemMatcher": []
+  }]
+}

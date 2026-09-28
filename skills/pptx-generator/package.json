@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "@xmldom/xmldom": "0.9.12",
-    "ajv": "8.17.1",
+    "ajv": "8.18.0",
     "jszip": "3.10.1",
     "pptx-automizer": "0.9.3"
   },
@@ -14,6 +14,11 @@
     "node": ">=24 <25"
   },
   "name": "encabulation-pptx-generator",
+  "overrides": {
+    "pptxgenjs": {
+      "image-size": "2.0.4"
+    }
+  },
   "private": true,
   "scripts": {
     "build": "node --import tsx scripts/cli.ts build",
