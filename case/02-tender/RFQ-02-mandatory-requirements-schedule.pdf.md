@@ -14,7 +14,7 @@ Fictional training case; all people, organisations, products, rules and events a
 | M4 | Raw readings and event logs export as CSV or JSON without continuing hosted service | Submitted technical schedule |
 | M5 | Price includes installation, SAT and training for eight staff | Submitted commercial and implementation schedules |
 | M6 | Warranty, two PM visits yearly and two-business-day response from SAT through 31 March 2030 | Submitted service schedule |
-| M7 | Mandatory commitment documented in proposal or formal pre-close amendment; conditional email does not amend | Submitted record and RFQ-06 |
+| M7 | Mandatory commitment documented in the submitted proposal or a formal pre-close addendum | Submitted record and RFQ-06 |
 
 ## RFQ-02 §2 Reading the schedule
 

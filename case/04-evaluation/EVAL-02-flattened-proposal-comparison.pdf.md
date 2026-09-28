@@ -14,7 +14,7 @@ Fictional training case; all people, organisations, products, rules and events a
 | Peregrine | 296000 | 24 | 2027-01-10 | Yes | Fail M3 |  |
 | Aperture | 468000 | 72 | 2027-03-15 | Yes | Fail M1, M2 |  |
 
-EVAL-02 §1 — Exported comparison for quick review. Support commencement, duration, documentary status and any extension price are not columns in this flattened view.
+EVAL-02 §1 — Exported comparison for quick review.
 
 ## EVAL-02 §2 Comparison file provenance
 

@@ -24,7 +24,7 @@ Fictional training case; all people, organisations, products, rules and events a
 | Peregrine | — | — | — | — | Not scored |
 | Aperture | — | — | — | — | Not scored |
 
-EVAL-01 §1 — Working workbook. Northstar's support end date is a typed input sourced at thread level from EMAIL-02; the M6 and M7 gate cells follow that input. Scores are arithmetically calculated from locked panel scores.
+EVAL-01 §1 — Working workbook. Gate inputs were entered by the panel secretary from the evaluation file. Scores are arithmetically calculated from locked panel scores.
 
 ## Workbook cells
 
