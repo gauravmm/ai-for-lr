@@ -1,0 +1,58 @@
+# IMDA Model AI Governance Framework for Agentic AI v1.5 — page 46
+
+Model AI Governance Framework for Agentic AI
+| Enable end - user responsibility
+
+46
+
+2.4 Enable end-user responsibility
+
+Ultimately, end users are the ones who use and rely on agents, and human accountability also extends
+to these users. Organisations should provide sufficient information to end users to promote trust and
+enable responsible use.
+
+Organisations should consider:
+
+•
+Transparency: Users should be informed of the agents’ capabilities (e.g. scope of agent’s access
+to user’s data, actions the agent can take) and the contact points whom users can escalate to if the
+agent malfunctions.
+•
+Education: Users should be educated on proper use and oversight of agents (e.g. training should be
+provided on an agent’s range of actions, common failure modes like hallucinations, usage policies
+for data), as well as the potential loss of trade craft i.e. as agents take over more functions, basic
+operational knowledge could be eroded. Hence sufficient training (especially in areas where agents
+are prevalent) should be provided to ensure that humans retain core skills.
+
+2.4.1
+Different users, different needs
+
+Organisations should cater to different users with different information needs, to enable such users
+to use AI responsibly. Broadly, there are two main archetypes of end-users – those who interact with
+agents, and those who integrate agents into their work processes or oversee them.
+
+2.4.2
+Users who interact with agents
+
+Such users usually interact with agents that act on behalf of the organisation e.g. customer service or
+sales agents. These agents tend to be external facing, although they can also be deployed within the
+organisation e.g. a human resource agent that interacts with other users in the organisation.
+
+For these users, focus on transparency. Organisations should share pertinent information to foster trust
+and facilitate proper usage of agents. Such information can include:
+
+Users who interact with agents
+e.g. customer service, HR agents
+–
+mostly external
+- facing
+
+Users who integrate agents into their
+
+work processes
+e.g. coding assistants, enterprise
+workflows – mostly internal
+- facing
+
+Focus on transparency
+Layer on education and training

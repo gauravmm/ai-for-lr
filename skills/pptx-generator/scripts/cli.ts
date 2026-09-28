@@ -1,4 +1,4 @@
-import { Automizer, modify } from 'pptx-automizer';
+import { Automizer, modify, type XmlElement } from 'pptx-automizer';
 import { Ajv2020 } from 'ajv/dist/2020.js';
 import JSZip from 'jszip';
 import { DOMParser } from '@xmldom/xmldom';
@@ -15,7 +15,7 @@ const execFileAsync = promisify(execFile);
 // Physical order of archetype source slides in corporate-template.pptx. Must match
 // scripts/make-template.ts's TEMPLATE_ARCHETYPES constant exactly: inspect()/build()
 // identify a source slide by its position in the template file, not by name.
-const TEMPLATE_ARCHETYPES = ['decision_summary', 'gate_focus', 'context', 'cover'] as const;
+const TEMPLATE_ARCHETYPES = ['decision_summary', 'gate_focus', 'context', 'cover', 'overview'] as const;
 type Archetype = (typeof TEMPLATE_ARCHETYPES)[number];
 const slideNumber = Object.fromEntries(TEMPLATE_ARCHETYPES.map((a, i) => [a, i + 1])) as Record<Archetype, number>;
 
@@ -23,10 +23,11 @@ type Gate = { vendor: string; status: 'PASS' | 'FAIL' | 'UNVERIFIED'; reason: st
 type Comparison = { vendor: string; score: number; label: string };
 type Criterion = { name: string; weight: number };
 type Source = { documentId: string; locator: string };
-type GateComparisonSlide = { archetype: 'decision_summary' | 'gate_focus'; title: string; recommendation: string; decision: string; gates: Gate[]; comparison: Comparison[] };
+type GateComparisonSlide = { archetype: 'decision_summary' | 'gate_focus'; title: string; recommendation?: string; decision?: string; gates: Gate[]; comparison: Comparison[] };
 type ContextSlide = { archetype: 'context'; title: string; problem: string; mandatoryGates: string[]; criteria: Criterion[] };
 type CoverSlide = { archetype: 'cover'; title: string; subtitle: string };
-type PlanSlide = GateComparisonSlide | ContextSlide | CoverSlide;
+type OverviewSlide = { archetype: 'overview'; title: string; summary: string; facts: { label: string; value: string }[] };
+type PlanSlide = GateComparisonSlide | ContextSlide | CoverSlide | OverviewSlide;
 type Plan = { schemaVersion: 1; audience: string; sources: Source[]; slides: PlanSlide[] };
 
 type Element = { name: string; id: string; creationId: string; type: string; visualType: string; position: { x: number; y: number; cx: number; cy: number }; hasTextBody: boolean; getText: () => string[]; getXmlElement: () => { getElementsByTagName: (tag: string) => { length: number } } };
@@ -57,12 +58,15 @@ const CONTEXT_REQUIRED = [
   ...[1, 2, 3, 4].flatMap(i => [`CRITERION_NAME_${i}`, `CRITERION_WEIGHT_${i}`]),
 ];
 const COVER_REQUIRED = [...SHARED, 'SUBTITLE'];
+const OVERVIEW_REQUIRED = [...SHARED, 'SUMMARY', ...[1, 2, 3, 4].flatMap(i => [`FACT_LABEL_${i}`, `FACT_VALUE_${i}`])];
+// Gate status text colours: PASS green, FAIL red (brand accent2); UNVERIFIED keeps the template's muted grey.
+const STATUS_COLOR: Partial<Record<Gate['status'], string>> = { PASS: '1E8449', FAIL: 'DA291C' };
 
 function requiredFor(archetype: Archetype): string[] {
-  return archetype === 'context' ? CONTEXT_REQUIRED : archetype === 'cover' ? COVER_REQUIRED : GATE_COMPARISON_REQUIRED;
+  return archetype === 'context' ? CONTEXT_REQUIRED : archetype === 'cover' ? COVER_REQUIRED : archetype === 'overview' ? OVERVIEW_REQUIRED : GATE_COMPARISON_REQUIRED;
 }
 function staticFor(archetype: Archetype): string[] {
-  return archetype === 'context' ? CONTEXT_STATIC : archetype === 'cover' ? [] : GATE_COMPARISON_STATIC;
+  return archetype === 'context' ? CONTEXT_STATIC : archetype === 'cover' || archetype === 'overview' ? [] : GATE_COMPARISON_STATIC;
 }
 
 function option(args: string[], name: string, requiredOption = true): string | undefined {
@@ -156,7 +160,7 @@ async function inspect(template: string) {
 function nameMap(elements: { name: string; boundsEmu: { cx: number } }[]) { return new Map(elements.map(e => [e.name, e])); }
 
 function sourceText(sources: Source[]) {
-  return `Sources: ${sources.map(s => `${s.documentId} ${s.locator}`).join('; ')}. ${licenseLine}`;
+  return `Sources: ${sources.length ? sources.map(s => `${s.documentId} ${s.locator}`).join('; ') : 'N/A'}. ${licenseLine}`;
 }
 
 function planTextFor(plan: Plan, slide: PlanSlide): Record<string, string> {
@@ -172,8 +176,16 @@ function planTextFor(plan: Plan, slide: PlanSlide): Record<string, string> {
     return fields;
   }
   if (slide.archetype === 'cover') { fields.SUBTITLE = slide.subtitle; return fields; }
-  fields.RECOMMENDATION = slide.recommendation;
-  fields.DECISION = slide.decision;
+  if (slide.archetype === 'overview') {
+    fields.SUMMARY = slide.summary;
+    for (let i = 1; i <= 4; i++) {
+      fields[`FACT_LABEL_${i}`] = slide.facts[i - 1]?.label ?? '';
+      fields[`FACT_VALUE_${i}`] = slide.facts[i - 1]?.value ?? '';
+    }
+    return fields;
+  }
+  fields.RECOMMENDATION = slide.recommendation ?? '';
+  fields.DECISION = slide.decision ?? '';
   for (let i = 1; i <= 5; i++) {
     const item = slide.gates[i - 1];
     fields[`GATE_VENDOR_${i}`] = item?.vendor ?? '';
@@ -209,7 +221,17 @@ async function build(template: string, planFile: string, output: string) {
       const actualNames = new Set(actual.map(e => e.name));
       for (const name of required) if (!actualNames.has(name)) fail(`Source slide lost required element ${name}`);
       for (const [name, value] of Object.entries(planTextFor(plan, slide))) s.modifyElement(name, [modify.setText(value)]);
+      const hide = (name: string) => s.modifyElement(name, [modify.setPosition({ x: 0, y: 0, w: 1, h: 1 })]);
+      if (slide.archetype === 'overview') {
+        for (let i = slide.facts.length + 1; i <= 4; i++) { hide(`FACT_CARD_${i}`); hide(`FACT_ACCENT_${i}`); }
+      }
       if (slide.archetype === 'decision_summary' || slide.archetype === 'gate_focus') {
+        if (!slide.recommendation) { hide('RECOMMENDATION_PANEL'); hide('RECOMMENDATION_ACCENT'); }
+        if (!slide.decision) hide('DECISION_PANEL');
+        slide.gates.forEach((gate, index) => {
+          const color = STATUS_COLOR[gate.status];
+          if (color) s.modifyElement(`GATE_STATUS_${index + 1}`, [(element: XmlElement) => { for (const fill of Array.from(element.getElementsByTagName('a:srgbClr'))) (fill as XmlElement).setAttribute('val', color); }]);
+        });
         for (let i = 1; i <= 3; i++) {
           const bar = elements.get(`SCORE_BAR_${i}`), track = elements.get(`SCORE_TRACK_${i}`);
           if (!bar || !track) fail(`Missing score bar/track ${i}`);
@@ -298,7 +320,11 @@ async function render(pptxFile: string, requireRender: boolean) {
 // Rough per-shape text-capacity heuristic: how many characters of Open Sans at a given
 // point size can plausibly fit across `lines` lines of the shape's actual output width.
 // It cannot prove legibility; it catches gross overflow before a human reviews the render.
-function fontSizeFor(name: string, archetype: Archetype): number {
+// Mirrors make-template.ts, including its 13pt floor.
+function fontSizeFor(name: string, archetype: Archetype): number { return Math.max(13, templateFontSize(name, archetype)); }
+function templateFontSize(name: string, archetype: Archetype): number {
+  if (name === 'SUMMARY' || name.startsWith('FACT_VALUE_')) return 18;
+  if (name.startsWith('FACT_LABEL_')) return 13;
   if (name === 'TITLE') return archetype === 'cover' ? 26 : 24;
   if (name === 'SUBTITLE') return 14;
   if (name === 'RECOMMENDATION') return 15;
@@ -315,6 +341,8 @@ function fontSizeFor(name: string, archetype: Archetype): number {
 function linesFor(name: string): number {
   if (name === 'SOURCE_NOTES') return 2;
   if (name === 'PROBLEM') return 4;
+  if (name === 'SUMMARY') return 3;
+  if (name.startsWith('FACT_VALUE_')) return 2;
   if (name === 'TITLE' || name === 'SUBTITLE') return 2;
   return 1;
 }

@@ -1,0 +1,73 @@
+# IMDA Model AI Governance Framework for Agentic AI v1.5 — page 34
+
+Model AI Governance Framework for Agentic AI
+| Implement technical controls and processes
+
+34
+
+o
+However, in certain cases where risks are harder to define through fixed rules, model-
+based safeguards can be most effective e.g. to detect harmful content, which can manifest
+in different ways.
+
+•
+Runtime controls: As agents interact with users and systems in real time, static safeguards
+configured at design time may not be sufficient to catch every risk. Runtime controls address this
+by monitoring and intervening during execution, such as rate limits to prevent excessive tool use or
+input validation to catch harmful responses before they are acted upon.
+
+For illustration, these are some sample controls for agents. For a more comprehensive list, organisations
+can refer to CSA’s Draft Addendum on Securing Agentic AI and GovTech’s Agentic Risk and Capability
+Framework.
+
+Planning
+•
+Prompt agent to reflect on whether its plan adheres to user instructions
+•
+Prompt the agent to summarise its understanding and request clarification from the
+user before proceeding
+•
+Log the agent’s plan and reasoning for the user to evaluate and verify
+Tools
+•
+Configure tools to require strict input formats
+•
+Apply the principle of least privilege to limit tools available to each agent, enforced
+through robust authentication and authorisation
+•
+For data-related tools:
+
+o
+Do not grant agent write access to tables in sensitive databases unless
+strictly required
+o
+Configure agent to let user take over control when keying in sensitive data
+(e.g. passwords, API keys)
+Protocols
+•
+Use standardised protocols where applicable (e.g. agentic commerce protocols
+when agent is handling a financial transaction)
+•
+For MCP servers:
+
+o
+Whitelist trusted servers and only allow agent to interact with servers on
+that whitelist
+o
+Sandbox any code execution
+Multi-agent
+interactions
+
+•
+Require agents to communicate through structured schemas such as typed
+function calls rather than free text, to reduce unintended instructions passing
+between agents
+•
+Limit shared memory access between agents
+
+MCP as a governance layer
+
+While usually considered as a connectivity protocol, MCP can potentially act as a governance
+layer as it sits between the agent and the enterprise systems it accesses. Organisations can
+consider defining controls on the MCP layer, such as filtering sensitive data that passes through
+the servers, logging all agent-to-system interactions, or whitelisting only trusted servers.

@@ -1,10 +1,36 @@
 {
   "entries": [
     {
-      "contentHash": "0d754ea9bc0e8e5230ae57e97185b4ab216d05fa8543dea78e8e29c0929c0f3a",
+      "contentHash": "a587ef3af7e25db55beda55853dc43060bde591f2b1344946998a4b9688a2f92",
+      "format": "json",
+      "id": "BUNDLE-TASK-ROOT",
+      "outputHash": "a587ef3af7e25db55beda55853dc43060bde591f2b1344946998a4b9688a2f92",
+      "path": "task/.vscode.student/settings.json",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/templates/task-root/.vscode.student/settings.json",
+      "templateHash": "a587ef3af7e25db55beda55853dc43060bde591f2b1344946998a4b9688a2f92",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "5024407c04f4cd846497e6affc9d5b6fe8d12ae678176af8aaf98e98d60ed66e",
+      "format": "json",
+      "id": "BUNDLE-ATTRIBUTION-SCHEMA",
+      "outputHash": "5024407c04f4cd846497e6affc9d5b6fe8d12ae678176af8aaf98e98d60ed66e",
+      "path": "task/attribution.schema.json",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/schemas/attribution.schema.json",
+      "templateHash": "5024407c04f4cd846497e6affc9d5b6fe8d12ae678176af8aaf98e98d60ed66e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "90203e7fc5af616d75a8f2a72c65e93ffa7e263f93adc1f794dbee0f77cb22a3",
       "format": "pdf",
       "id": "CASE-01",
-      "outputHash": "be6b300cd9b824d7f44870b60e0ad000e98fb355059f4ae961176c0fccad27db",
+      "outputHash": "da81d5cd0f0450b8a06d34ac6f1beb87a817e993afe696ad9321281101966986",
       "path": "task/case/00-start-here/CASE-01-executive-case-brief.pdf",
       "permittedUnstableMetadata": [
         "container creation timestamps and ZIP entry metadata"
@@ -31,6 +57,21 @@
       "visibility": "student-safe"
     },
     {
+      "contentHash": "b67ae64cfdd491adcac29d783abde572ea572c242a522131b677b5f4fcab1dbb",
+      "format": "pdf",
+      "id": "EMAIL-01",
+      "outputHash": "7b1f68d72e2a0294e896309b3ac0fba207aa8616717f364f4d5c394e8fed50b5",
+      "path": "task/case/01-project-and-grant/EMAIL-01-internal-clarification-on-project-end-service.pdf",
+      "permittedUnstableMetadata": [
+        "container creation timestamps and ZIP entry metadata"
+      ],
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
+      "source": "docgen/content/documents.json",
+      "templateHash": "8358bbf7343bca2d52d17aa270752746afb6c1d683f0aaae6ead8c7a2eabf52e",
+      "visibility": "student-safe"
+    },
+    {
       "contentHash": "996cb31ffce469cb0fd0081c1cfb8386a6938411ef9c2c5e83c2a9e432bc0775",
       "format": "pdf",
       "id": "GRANT-01",
@@ -46,7 +87,7 @@
       "visibility": "student-safe"
     },
     {
-      "contentHash": "e3417cce09d148ff4a06ecc99262eb790c6d8247473f8dff5f0ba8e10e433d6e",
+      "contentHash": "5b6eb677ff2fde655ed033e78f15a155b66d81d3a2b9be7b55d9d87559ba84d3",
       "format": "pdf",
       "id": "GRANT-02",
       "outputHash": "695702c9f44758d58b534e1998e3a684910ff60b6239df691ac51b9eedc59e6f",
@@ -54,25 +95,23 @@
       "permittedUnstableMetadata": [
         "container creation timestamps and ZIP entry metadata"
       ],
-      "renderer": "Typst semantic preview",
+      "renderer": "Typst",
       "rendererVersion": "0.13.1",
       "source": "docgen/content/documents.json",
       "templateHash": "2b2192282259352f5d32df3e20e38886f69405470f15b31cd2dee407b8e1bcf0",
       "visibility": "student-safe"
     },
     {
-      "contentHash": "e3417cce09d148ff4a06ecc99262eb790c6d8247473f8dff5f0ba8e10e433d6e",
-      "format": "xlsx",
+      "contentHash": "5b6eb677ff2fde655ed033e78f15a155b66d81d3a2b9be7b55d9d87559ba84d3",
+      "format": "pdf.md",
       "id": "GRANT-02",
-      "outputHash": "38294f9a14c74133cde2f1ccecaa84311155fed9da03877fc5ccdca2de457b81",
-      "path": "task/case/01-project-and-grant/GRANT-02-approved-equipment-budget-schedule.xlsx",
-      "permittedUnstableMetadata": [
-        "container creation timestamps and ZIP entry metadata"
-      ],
-      "renderer": "ExcelJS",
-      "rendererVersion": "4.4.0",
+      "outputHash": "87a1a6feb65d8f502ea936d0fb0e347228d91497d47e154a3b79a15fb5890d2d",
+      "path": "task/case/01-project-and-grant/GRANT-02-approved-equipment-budget-schedule.pdf.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "docgen structured serializer",
+      "rendererVersion": "0.1.0",
       "source": "docgen/content/documents.json",
-      "templateHash": "470615338c4f94e270d4cdd4d94473112b661c0b1e530a82a69bcdac53257c78",
+      "templateHash": "696b2aab253ea543cf7dd5f8d3e4a344100fd621c43d31e2f5366207047efaed",
       "visibility": "student-safe"
     },
     {
@@ -136,7 +175,7 @@
       "visibility": "student-safe"
     },
     {
-      "contentHash": "b7c4ecd3f7e1283570b587ce5faa46410ff6c82d87259191a003ddb8ead6625f",
+      "contentHash": "529a72a17517f48db0ceb84dabd3b82531da527ecf03ac4a77cd354f8eb97bd2",
       "format": "pdf",
       "id": "RFQ-02",
       "outputHash": "d652013d928978f0987b3695fd2e4de8cff2145151f609f4fd2d8b37ebe9dddf",
@@ -144,25 +183,23 @@
       "permittedUnstableMetadata": [
         "container creation timestamps and ZIP entry metadata"
       ],
-      "renderer": "Typst semantic preview",
+      "renderer": "Typst",
       "rendererVersion": "0.13.1",
       "source": "docgen/content/documents.json",
       "templateHash": "2b2192282259352f5d32df3e20e38886f69405470f15b31cd2dee407b8e1bcf0",
       "visibility": "student-safe"
     },
     {
-      "contentHash": "b7c4ecd3f7e1283570b587ce5faa46410ff6c82d87259191a003ddb8ead6625f",
-      "format": "xlsx",
+      "contentHash": "529a72a17517f48db0ceb84dabd3b82531da527ecf03ac4a77cd354f8eb97bd2",
+      "format": "pdf.md",
       "id": "RFQ-02",
-      "outputHash": "f2585c014cbdbca396237f945d7932daeec4facbd2dd3f15b4c66e536a4d6245",
-      "path": "task/case/02-tender/RFQ-02-mandatory-requirements-schedule.xlsx",
-      "permittedUnstableMetadata": [
-        "container creation timestamps and ZIP entry metadata"
-      ],
-      "renderer": "ExcelJS",
-      "rendererVersion": "4.4.0",
+      "outputHash": "efba3c2da3d807621593699d71c04c3e48ca415b6c6282742cba3cb48c355d99",
+      "path": "task/case/02-tender/RFQ-02-mandatory-requirements-schedule.pdf.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "docgen structured serializer",
+      "rendererVersion": "0.1.0",
       "source": "docgen/content/documents.json",
-      "templateHash": "470615338c4f94e270d4cdd4d94473112b661c0b1e530a82a69bcdac53257c78",
+      "templateHash": "696b2aab253ea543cf7dd5f8d3e4a344100fd621c43d31e2f5366207047efaed",
       "visibility": "student-safe"
     },
     {
@@ -181,18 +218,31 @@
       "visibility": "student-safe"
     },
     {
-      "contentHash": "0c3445bc78d39791c4b61a6d27d3eabfb1ea87122f7973f2ac4bb5ca903747ce",
-      "format": "xlsx",
+      "contentHash": "045587a2b9db610bb8a9859f2078ad1cf232c50985a7c5240b0860cf5e3d8ae1",
+      "format": "pdf",
       "id": "RFQ-04",
-      "outputHash": "80f857cc452c71e291e9addeed454aac1fe2d4ea1cb320b4ecadffda7695f0b9",
-      "path": "task/case/02-tender/RFQ-04-commercial-response-template.xlsx",
+      "outputHash": "3242bda172b4ac835fc213897092b5b75550ce757b44eb78383d764a4c270723",
+      "path": "task/case/02-tender/RFQ-04-commercial-response-template.pdf",
       "permittedUnstableMetadata": [
         "container creation timestamps and ZIP entry metadata"
       ],
-      "renderer": "ExcelJS",
-      "rendererVersion": "4.4.0",
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
       "source": "docgen/content/documents.json",
-      "templateHash": "470615338c4f94e270d4cdd4d94473112b661c0b1e530a82a69bcdac53257c78",
+      "templateHash": "2b2192282259352f5d32df3e20e38886f69405470f15b31cd2dee407b8e1bcf0",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "045587a2b9db610bb8a9859f2078ad1cf232c50985a7c5240b0860cf5e3d8ae1",
+      "format": "pdf.md",
+      "id": "RFQ-04",
+      "outputHash": "f36cda838e0c12f1c9b4066937d60b0981b54697ec4a9988555c67d8c66dc50b",
+      "path": "task/case/02-tender/RFQ-04-commercial-response-template.pdf.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "docgen structured serializer",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/content/documents.json",
+      "templateHash": "696b2aab253ea543cf7dd5f8d3e4a344100fd621c43d31e2f5366207047efaed",
       "visibility": "student-safe"
     },
     {
@@ -241,7 +291,7 @@
       "visibility": "student-safe"
     },
     {
-      "contentHash": "a6439fd939f9c45e64a7cce31db2840173cb9197a1844a6d451a7e51d4845347",
+      "contentHash": "c9d95c281a4d735527c25dd4cae252bdc7256c853655c5be49254a043e19e336",
       "format": "pdf",
       "id": "APR-02",
       "outputHash": "08f487594c4fe6af8be2bab356ae1a641b62bedfb6f7085dd4f251326953d7ea",
@@ -249,40 +299,51 @@
       "permittedUnstableMetadata": [
         "container creation timestamps and ZIP entry metadata"
       ],
-      "renderer": "Typst semantic preview",
+      "renderer": "Typst",
       "rendererVersion": "0.13.1",
       "source": "docgen/content/documents.json",
       "templateHash": "2b2192282259352f5d32df3e20e38886f69405470f15b31cd2dee407b8e1bcf0",
       "visibility": "student-safe"
     },
     {
-      "contentHash": "a6439fd939f9c45e64a7cce31db2840173cb9197a1844a6d451a7e51d4845347",
-      "format": "xlsx",
+      "contentHash": "c9d95c281a4d735527c25dd4cae252bdc7256c853655c5be49254a043e19e336",
+      "format": "pdf.md",
       "id": "APR-02",
-      "outputHash": "4bd659ad887b4d6d45c4a6ffe9cc4872c5a1c9c83fb8c1db0de4fa28f2d86ed8",
-      "path": "task/case/03-proposals/aperture/APR-02-aperture-technical-compliance-schedule.xlsx",
-      "permittedUnstableMetadata": [
-        "container creation timestamps and ZIP entry metadata"
-      ],
-      "renderer": "ExcelJS",
-      "rendererVersion": "4.4.0",
+      "outputHash": "09362ec174c3e9a671a04846633fb3da4f6506fa9fd0ab4a88e963ec77e594bf",
+      "path": "task/case/03-proposals/aperture/APR-02-aperture-technical-compliance-schedule.pdf.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "docgen structured serializer",
+      "rendererVersion": "0.1.0",
       "source": "docgen/content/documents.json",
-      "templateHash": "470615338c4f94e270d4cdd4d94473112b661c0b1e530a82a69bcdac53257c78",
+      "templateHash": "696b2aab253ea543cf7dd5f8d3e4a344100fd621c43d31e2f5366207047efaed",
       "visibility": "student-safe"
     },
     {
-      "contentHash": "21d03c3a7118c00b42ce18e86cc45b03b46a3b2a4a863b2e72228addedd80aa4",
-      "format": "xlsx",
+      "contentHash": "6702d9ee49ec34543d7c25bc8b5e407b221b48121b6afcf77e334fe6c1ecd240",
+      "format": "pdf",
       "id": "APR-03",
-      "outputHash": "5a00783ef9907fd24b3b15545b24d012bc57a5f5716279adf59486f72799c495",
-      "path": "task/case/03-proposals/aperture/APR-03-aperture-commercial-schedule.xlsx",
+      "outputHash": "b19e2264583711746effc985b38dfbd1e19d7fc3015f18b241b7ea31bd934e90",
+      "path": "task/case/03-proposals/aperture/APR-03-aperture-commercial-schedule.pdf",
       "permittedUnstableMetadata": [
         "container creation timestamps and ZIP entry metadata"
       ],
-      "renderer": "ExcelJS",
-      "rendererVersion": "4.4.0",
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
       "source": "docgen/content/documents.json",
-      "templateHash": "470615338c4f94e270d4cdd4d94473112b661c0b1e530a82a69bcdac53257c78",
+      "templateHash": "2b2192282259352f5d32df3e20e38886f69405470f15b31cd2dee407b8e1bcf0",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "6702d9ee49ec34543d7c25bc8b5e407b221b48121b6afcf77e334fe6c1ecd240",
+      "format": "pdf.md",
+      "id": "APR-03",
+      "outputHash": "f15c88bbac3b01c820e88ac5a67ebb5c2af70ac0c7c24d0aa715e56fbadb1011",
+      "path": "task/case/03-proposals/aperture/APR-03-aperture-commercial-schedule.pdf.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "docgen structured serializer",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/content/documents.json",
+      "templateHash": "696b2aab253ea543cf7dd5f8d3e4a344100fd621c43d31e2f5366207047efaed",
       "visibility": "student-safe"
     },
     {
@@ -316,36 +377,6 @@
       "visibility": "student-safe"
     },
     {
-      "contentHash": "94cee176787953476f21d3d35dee650fff0dcfb6b47f1394b6148f65a66811eb",
-      "format": "xlsx",
-      "id": "CLAR-01",
-      "outputHash": "49dd02c5e2430c3b16ea322b2a867c0d68fcab8406ef89f0a26e0cb4b27ef944",
-      "path": "task/case/03-proposals/CLAR-01-clarification-and-addendum-log.xlsx",
-      "permittedUnstableMetadata": [
-        "container creation timestamps and ZIP entry metadata"
-      ],
-      "renderer": "ExcelJS",
-      "rendererVersion": "4.4.0",
-      "source": "docgen/content/documents.json",
-      "templateHash": "470615338c4f94e270d4cdd4d94473112b661c0b1e530a82a69bcdac53257c78",
-      "visibility": "student-safe"
-    },
-    {
-      "contentHash": "09d0b5c10d802a11b1aaa4ab4d3b076269356778fec136136ddf429d78cb9707",
-      "format": "pdf",
-      "id": "EMAIL-01",
-      "outputHash": "7b1f68d72e2a0294e896309b3ac0fba207aa8616717f364f4d5c394e8fed50b5",
-      "path": "task/case/03-proposals/EMAIL-01-internal-clarification-on-project-end-service.pdf",
-      "permittedUnstableMetadata": [
-        "container creation timestamps and ZIP entry metadata"
-      ],
-      "renderer": "Typst",
-      "rendererVersion": "0.13.1",
-      "source": "docgen/content/documents.json",
-      "templateHash": "8358bbf7343bca2d52d17aa270752746afb6c1d683f0aaae6ead8c7a2eabf52e",
-      "visibility": "student-safe"
-    },
-    {
       "contentHash": "713ce6a473bc9214abb30bc3670eed8f715a6d0d000a50ca109e33d35df582e7",
       "format": "pdf",
       "id": "HLX-01",
@@ -361,7 +392,7 @@
       "visibility": "student-safe"
     },
     {
-      "contentHash": "c14aed355d5b5392f51dd757cc5d31966bc6df74a5a62a33da4834033427795c",
+      "contentHash": "185b414539ed415f00c2ea34a5b8e8978c11158cfedbb292d3ad0e3901e76c85",
       "format": "pdf",
       "id": "HLX-02",
       "outputHash": "b1db7f354f11ce14bb2af4a320e0d6f328ee6978daa40bf7b32575716a0d8551",
@@ -369,40 +400,51 @@
       "permittedUnstableMetadata": [
         "container creation timestamps and ZIP entry metadata"
       ],
-      "renderer": "Typst semantic preview",
+      "renderer": "Typst",
       "rendererVersion": "0.13.1",
       "source": "docgen/content/documents.json",
       "templateHash": "2b2192282259352f5d32df3e20e38886f69405470f15b31cd2dee407b8e1bcf0",
       "visibility": "student-safe"
     },
     {
-      "contentHash": "c14aed355d5b5392f51dd757cc5d31966bc6df74a5a62a33da4834033427795c",
-      "format": "xlsx",
+      "contentHash": "185b414539ed415f00c2ea34a5b8e8978c11158cfedbb292d3ad0e3901e76c85",
+      "format": "pdf.md",
       "id": "HLX-02",
-      "outputHash": "6735c1a557ee67eee3217b5a88162be2d4c7b2741d1cf1487a41b0ae103f6e7c",
-      "path": "task/case/03-proposals/helix/HLX-02-helix-technical-compliance-schedule.xlsx",
-      "permittedUnstableMetadata": [
-        "container creation timestamps and ZIP entry metadata"
-      ],
-      "renderer": "ExcelJS",
-      "rendererVersion": "4.4.0",
+      "outputHash": "e83011899110dfb7aa9bf49bffe35a3d82f0225a8a6d1fdc201f6599778d2144",
+      "path": "task/case/03-proposals/helix/HLX-02-helix-technical-compliance-schedule.pdf.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "docgen structured serializer",
+      "rendererVersion": "0.1.0",
       "source": "docgen/content/documents.json",
-      "templateHash": "470615338c4f94e270d4cdd4d94473112b661c0b1e530a82a69bcdac53257c78",
+      "templateHash": "696b2aab253ea543cf7dd5f8d3e4a344100fd621c43d31e2f5366207047efaed",
       "visibility": "student-safe"
     },
     {
-      "contentHash": "7e5f065e138b88045de775c8f0ff980de0a0323f53b57f42d6b9d10224c342b8",
-      "format": "xlsx",
+      "contentHash": "6eb268b60a5d97ac1fcda6873c73e638e5588bd34b0600318e378d2289505529",
+      "format": "pdf",
       "id": "HLX-03",
-      "outputHash": "a246d666771ade0d7e07e25db25c7a7353b572a8cb6407239e342021cae60186",
-      "path": "task/case/03-proposals/helix/HLX-03-helix-commercial-schedule.xlsx",
+      "outputHash": "f7d1a6703418d2ea9f90d70b57f98de72aa5a13957e42dfaa0b431cc7ef22aa2",
+      "path": "task/case/03-proposals/helix/HLX-03-helix-commercial-schedule.pdf",
       "permittedUnstableMetadata": [
         "container creation timestamps and ZIP entry metadata"
       ],
-      "renderer": "ExcelJS",
-      "rendererVersion": "4.4.0",
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
       "source": "docgen/content/documents.json",
-      "templateHash": "470615338c4f94e270d4cdd4d94473112b661c0b1e530a82a69bcdac53257c78",
+      "templateHash": "2b2192282259352f5d32df3e20e38886f69405470f15b31cd2dee407b8e1bcf0",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "6eb268b60a5d97ac1fcda6873c73e638e5588bd34b0600318e378d2289505529",
+      "format": "pdf.md",
+      "id": "HLX-03",
+      "outputHash": "cac41df71edb4e7fd2a6163c39bece629557f8c28cea57960a796ee2c6894823",
+      "path": "task/case/03-proposals/helix/HLX-03-helix-commercial-schedule.pdf.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "docgen structured serializer",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/content/documents.json",
+      "templateHash": "696b2aab253ea543cf7dd5f8d3e4a344100fd621c43d31e2f5366207047efaed",
       "visibility": "student-safe"
     },
     {
@@ -466,7 +508,7 @@
       "visibility": "student-safe"
     },
     {
-      "contentHash": "43594a2d95d504976368e19ea6f57bb4af05ffd657df56d9455ec56ebb621e23",
+      "contentHash": "44fe4eb826f3de49c20232c4916040e6c5c16db22be45a41b007bed309f96030",
       "format": "pdf",
       "id": "MER-02",
       "outputHash": "2fc9294a7fd1e37daeb40e984bc1adc176a3b7212335285ee53999bd23cd102b",
@@ -474,40 +516,51 @@
       "permittedUnstableMetadata": [
         "container creation timestamps and ZIP entry metadata"
       ],
-      "renderer": "Typst semantic preview",
+      "renderer": "Typst",
       "rendererVersion": "0.13.1",
       "source": "docgen/content/documents.json",
       "templateHash": "2b2192282259352f5d32df3e20e38886f69405470f15b31cd2dee407b8e1bcf0",
       "visibility": "student-safe"
     },
     {
-      "contentHash": "43594a2d95d504976368e19ea6f57bb4af05ffd657df56d9455ec56ebb621e23",
-      "format": "xlsx",
+      "contentHash": "44fe4eb826f3de49c20232c4916040e6c5c16db22be45a41b007bed309f96030",
+      "format": "pdf.md",
       "id": "MER-02",
-      "outputHash": "240b9e0663ee9ff8d4e1ea3a17e3111d29e2303a7c7cc20fcfbcec5916282f97",
-      "path": "task/case/03-proposals/meridian/MER-02-meridian-technical-compliance-schedule.xlsx",
-      "permittedUnstableMetadata": [
-        "container creation timestamps and ZIP entry metadata"
-      ],
-      "renderer": "ExcelJS",
-      "rendererVersion": "4.4.0",
+      "outputHash": "40e30f56ab15e3802485642ddd13d2e71ccd17b2d3135b99831558f41fb75d99",
+      "path": "task/case/03-proposals/meridian/MER-02-meridian-technical-compliance-schedule.pdf.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "docgen structured serializer",
+      "rendererVersion": "0.1.0",
       "source": "docgen/content/documents.json",
-      "templateHash": "470615338c4f94e270d4cdd4d94473112b661c0b1e530a82a69bcdac53257c78",
+      "templateHash": "696b2aab253ea543cf7dd5f8d3e4a344100fd621c43d31e2f5366207047efaed",
       "visibility": "student-safe"
     },
     {
-      "contentHash": "66a25a8f3673e9e98358b49e91f2360a59db93485ece604619b61b895874d155",
-      "format": "xlsx",
+      "contentHash": "4cf383e394fb6b446d11041b30e4057c3b99004c69f24f16804065a8facf87e0",
+      "format": "pdf",
       "id": "MER-03",
-      "outputHash": "2e7f6d89bd8ad09b1fb040da49cf1bbe419c2db146a08099802da6ea86b504cc",
-      "path": "task/case/03-proposals/meridian/MER-03-meridian-commercial-schedule.xlsx",
+      "outputHash": "774223cfbae0e437bc6288081731787b6dbee64d9a5aa89f4ed7059b23b26038",
+      "path": "task/case/03-proposals/meridian/MER-03-meridian-commercial-schedule.pdf",
       "permittedUnstableMetadata": [
         "container creation timestamps and ZIP entry metadata"
       ],
-      "renderer": "ExcelJS",
-      "rendererVersion": "4.4.0",
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
       "source": "docgen/content/documents.json",
-      "templateHash": "470615338c4f94e270d4cdd4d94473112b661c0b1e530a82a69bcdac53257c78",
+      "templateHash": "2b2192282259352f5d32df3e20e38886f69405470f15b31cd2dee407b8e1bcf0",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "4cf383e394fb6b446d11041b30e4057c3b99004c69f24f16804065a8facf87e0",
+      "format": "pdf.md",
+      "id": "MER-03",
+      "outputHash": "a3a17ddd471458f2d79a6ad5a663a377a26d2333dbcc2b957a663d0fdb91feb5",
+      "path": "task/case/03-proposals/meridian/MER-03-meridian-commercial-schedule.pdf.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "docgen structured serializer",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/content/documents.json",
+      "templateHash": "696b2aab253ea543cf7dd5f8d3e4a344100fd621c43d31e2f5366207047efaed",
       "visibility": "student-safe"
     },
     {
@@ -571,7 +624,7 @@
       "visibility": "student-safe"
     },
     {
-      "contentHash": "704183ab2158ea9862b7b7f3cab7a74c9c4ec0f27c96960746df205b078e94a4",
+      "contentHash": "daf62372140090e2787970dc36f1f9db53250379f1fa6a6f3a4c9dce16787e83",
       "format": "pdf",
       "id": "NST-02",
       "outputHash": "d851eda568334c7b0d54c1e17c3829709267d4aff89f49724fa45323fb422346",
@@ -579,40 +632,51 @@
       "permittedUnstableMetadata": [
         "container creation timestamps and ZIP entry metadata"
       ],
-      "renderer": "Typst semantic preview",
+      "renderer": "Typst",
       "rendererVersion": "0.13.1",
       "source": "docgen/content/documents.json",
       "templateHash": "2b2192282259352f5d32df3e20e38886f69405470f15b31cd2dee407b8e1bcf0",
       "visibility": "student-safe"
     },
     {
-      "contentHash": "704183ab2158ea9862b7b7f3cab7a74c9c4ec0f27c96960746df205b078e94a4",
-      "format": "xlsx",
+      "contentHash": "daf62372140090e2787970dc36f1f9db53250379f1fa6a6f3a4c9dce16787e83",
+      "format": "pdf.md",
       "id": "NST-02",
-      "outputHash": "1bafefd73cae1c015bfc9ee92490f987fe021333155cb2895e1e83acb5ecf792",
-      "path": "task/case/03-proposals/northstar/NST-02-northstar-technical-compliance-schedule.xlsx",
-      "permittedUnstableMetadata": [
-        "container creation timestamps and ZIP entry metadata"
-      ],
-      "renderer": "ExcelJS",
-      "rendererVersion": "4.4.0",
+      "outputHash": "de45dc08f04f7c1dcde16f39d4e8647ac4fb4e7a69a3c337b45fc6573118ea32",
+      "path": "task/case/03-proposals/northstar/NST-02-northstar-technical-compliance-schedule.pdf.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "docgen structured serializer",
+      "rendererVersion": "0.1.0",
       "source": "docgen/content/documents.json",
-      "templateHash": "470615338c4f94e270d4cdd4d94473112b661c0b1e530a82a69bcdac53257c78",
+      "templateHash": "696b2aab253ea543cf7dd5f8d3e4a344100fd621c43d31e2f5366207047efaed",
       "visibility": "student-safe"
     },
     {
-      "contentHash": "41abe1cf71a2b1d76d3b752de1fdba0599dde8ca8d8f75a8a97ac002d15d9852",
-      "format": "xlsx",
+      "contentHash": "ae2ada282e2ff47c514f6d1d586c7e885a90694904a876c6c162dcc2a7635bd6",
+      "format": "pdf",
       "id": "NST-03",
-      "outputHash": "bb30754546d3b993e22843e5e2676c4c61caf5930da1a2754992edf9b4bcb3a5",
-      "path": "task/case/03-proposals/northstar/NST-03-northstar-commercial-schedule.xlsx",
+      "outputHash": "233ac0ebff69118091973198f63546143b6bded002179f965305e64e19bfc496",
+      "path": "task/case/03-proposals/northstar/NST-03-northstar-commercial-schedule.pdf",
       "permittedUnstableMetadata": [
         "container creation timestamps and ZIP entry metadata"
       ],
-      "renderer": "ExcelJS",
-      "rendererVersion": "4.4.0",
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
       "source": "docgen/content/documents.json",
-      "templateHash": "470615338c4f94e270d4cdd4d94473112b661c0b1e530a82a69bcdac53257c78",
+      "templateHash": "2b2192282259352f5d32df3e20e38886f69405470f15b31cd2dee407b8e1bcf0",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "ae2ada282e2ff47c514f6d1d586c7e885a90694904a876c6c162dcc2a7635bd6",
+      "format": "pdf.md",
+      "id": "NST-03",
+      "outputHash": "b392c1b5774f476e34ae74847168871733da310f55ce93701da1a54a97834f68",
+      "path": "task/case/03-proposals/northstar/NST-03-northstar-commercial-schedule.pdf.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "docgen structured serializer",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/content/documents.json",
+      "templateHash": "696b2aab253ea543cf7dd5f8d3e4a344100fd621c43d31e2f5366207047efaed",
       "visibility": "student-safe"
     },
     {
@@ -676,7 +740,7 @@
       "visibility": "student-safe"
     },
     {
-      "contentHash": "8c4a595ec05951234f69ce448cdde7aaa13e5e91fad1cdb42f9d76b0fed775e5",
+      "contentHash": "8d3150ff8fab59c2c74b0679f8110670466e024a05a596a09c347f7766813ae3",
       "format": "pdf",
       "id": "PRG-02",
       "outputHash": "f2521ea6f1c4d15dae320da3ea2a6d548aee4c58a79f6982cc83834bf26a0193",
@@ -684,40 +748,51 @@
       "permittedUnstableMetadata": [
         "container creation timestamps and ZIP entry metadata"
       ],
-      "renderer": "Typst semantic preview",
+      "renderer": "Typst",
       "rendererVersion": "0.13.1",
       "source": "docgen/content/documents.json",
       "templateHash": "2b2192282259352f5d32df3e20e38886f69405470f15b31cd2dee407b8e1bcf0",
       "visibility": "student-safe"
     },
     {
-      "contentHash": "8c4a595ec05951234f69ce448cdde7aaa13e5e91fad1cdb42f9d76b0fed775e5",
-      "format": "xlsx",
+      "contentHash": "8d3150ff8fab59c2c74b0679f8110670466e024a05a596a09c347f7766813ae3",
+      "format": "pdf.md",
       "id": "PRG-02",
-      "outputHash": "b9221164b0b63ed2caec9a6dfcc1ce50b6fa48fbaf8c2b563d19e7e6520bce1a",
-      "path": "task/case/03-proposals/peregrine/PRG-02-peregrine-technical-compliance-schedule.xlsx",
-      "permittedUnstableMetadata": [
-        "container creation timestamps and ZIP entry metadata"
-      ],
-      "renderer": "ExcelJS",
-      "rendererVersion": "4.4.0",
+      "outputHash": "77ab18686a868e5bdc3ec6adb36206df115b1c06f2a3d624020c2a3c0625829f",
+      "path": "task/case/03-proposals/peregrine/PRG-02-peregrine-technical-compliance-schedule.pdf.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "docgen structured serializer",
+      "rendererVersion": "0.1.0",
       "source": "docgen/content/documents.json",
-      "templateHash": "470615338c4f94e270d4cdd4d94473112b661c0b1e530a82a69bcdac53257c78",
+      "templateHash": "696b2aab253ea543cf7dd5f8d3e4a344100fd621c43d31e2f5366207047efaed",
       "visibility": "student-safe"
     },
     {
-      "contentHash": "1e4a5423f61d8a1399908f06f97dc5b622e7800b442561f979098bc533bc80ee",
-      "format": "xlsx",
+      "contentHash": "fe510100daa224c5ef527872fa467203730ae6984c6800b17f0501dd9a42ea92",
+      "format": "pdf",
       "id": "PRG-03",
-      "outputHash": "6a8f1470ba32d3621c075609df4da17a70a67a27d9b36e273098bfa7af0de821",
-      "path": "task/case/03-proposals/peregrine/PRG-03-peregrine-commercial-schedule.xlsx",
+      "outputHash": "f53dadef976ac193f9276478e912d29e2a34c03f7af7d7e6ed287dfeaf4749cb",
+      "path": "task/case/03-proposals/peregrine/PRG-03-peregrine-commercial-schedule.pdf",
       "permittedUnstableMetadata": [
         "container creation timestamps and ZIP entry metadata"
       ],
-      "renderer": "ExcelJS",
-      "rendererVersion": "4.4.0",
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
       "source": "docgen/content/documents.json",
-      "templateHash": "470615338c4f94e270d4cdd4d94473112b661c0b1e530a82a69bcdac53257c78",
+      "templateHash": "2b2192282259352f5d32df3e20e38886f69405470f15b31cd2dee407b8e1bcf0",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "fe510100daa224c5ef527872fa467203730ae6984c6800b17f0501dd9a42ea92",
+      "format": "pdf.md",
+      "id": "PRG-03",
+      "outputHash": "701fceb8ebfc7f5beb739ce105103c5bbc48f27cc81bb047cde209c8e7bc4364",
+      "path": "task/case/03-proposals/peregrine/PRG-03-peregrine-commercial-schedule.pdf.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "docgen structured serializer",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/content/documents.json",
+      "templateHash": "696b2aab253ea543cf7dd5f8d3e4a344100fd621c43d31e2f5366207047efaed",
       "visibility": "student-safe"
     },
     {
@@ -751,35 +826,35 @@
       "visibility": "student-safe"
     },
     {
-      "contentHash": "3ba9e005bfb81e89f55ea710da2a05b783b6fda508c20498cc306a7872864541",
-      "format": "xlsx",
+      "contentHash": "4f1e980bf276b6eb69d9a39b1778617b09fc4373c86d15a38cd3c8dce9cc55b3",
+      "format": "pdf",
       "id": "EVAL-01",
-      "outputHash": "a82199f713f96249b986390d5072397ac87692ec847301d397a02346c701defd",
-      "path": "task/case/04-evaluation/EVAL-01-tender-compliance-and-weighted-scoring-workbook.xlsx",
+      "outputHash": "0259b3d41abf480f4309f22ea287e62c0102976dc55985a6c0647c3209e538aa",
+      "path": "task/case/04-evaluation/EVAL-01-tender-compliance-and-weighted-scoring-workbook.pdf",
       "permittedUnstableMetadata": [
         "container creation timestamps and ZIP entry metadata"
       ],
-      "renderer": "ExcelJS",
-      "rendererVersion": "4.4.0",
+      "renderer": "Typst",
+      "rendererVersion": "0.13.1",
       "source": "docgen/content/documents.json",
-      "templateHash": "470615338c4f94e270d4cdd4d94473112b661c0b1e530a82a69bcdac53257c78",
+      "templateHash": "2b2192282259352f5d32df3e20e38886f69405470f15b31cd2dee407b8e1bcf0",
       "visibility": "student-safe"
     },
     {
-      "contentHash": "e68018591db67b68bd16133b0d62a70f6eeb8d07fbd8c74065289a8a32bc8810",
-      "format": "csv",
-      "id": "EVAL-02",
-      "outputHash": "4b15442eafadccce0adac3fcf77540c0f1fba2e5f03cdafeedaf83c04e9ff674",
-      "path": "task/case/04-evaluation/EVAL-02-flattened-proposal-comparison.csv",
+      "contentHash": "4f1e980bf276b6eb69d9a39b1778617b09fc4373c86d15a38cd3c8dce9cc55b3",
+      "format": "pdf.md",
+      "id": "EVAL-01",
+      "outputHash": "8e9406818ed94679bc97b6efcaa2524232c39909d097a324219a82d694371e5b",
+      "path": "task/case/04-evaluation/EVAL-01-tender-compliance-and-weighted-scoring-workbook.pdf.md",
       "permittedUnstableMetadata": [],
       "renderer": "docgen structured serializer",
       "rendererVersion": "0.1.0",
       "source": "docgen/content/documents.json",
-      "templateHash": "53bb9b0b38ac812554abeb88ea6d56760d07ec147a75e8761c4f57ecc298218f",
+      "templateHash": "696b2aab253ea543cf7dd5f8d3e4a344100fd621c43d31e2f5366207047efaed",
       "visibility": "student-safe"
     },
     {
-      "contentHash": "e68018591db67b68bd16133b0d62a70f6eeb8d07fbd8c74065289a8a32bc8810",
+      "contentHash": "846dc7510e555dccd72f9dec2a7a65e376b17b69baa915c0959e85d4ea150c5e",
       "format": "pdf",
       "id": "EVAL-02",
       "outputHash": "ab20308798b325b074568ec65f15bba96af3915823cbb77f6a0298d7aa56c805",
@@ -791,6 +866,19 @@
       "rendererVersion": "0.13.1",
       "source": "docgen/content/documents.json",
       "templateHash": "2b2192282259352f5d32df3e20e38886f69405470f15b31cd2dee407b8e1bcf0",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "846dc7510e555dccd72f9dec2a7a65e376b17b69baa915c0959e85d4ea150c5e",
+      "format": "pdf.md",
+      "id": "EVAL-02",
+      "outputHash": "32c05b5506f8978d709b6be846881f0dd5bb920de4546279cd716e9a50f02236",
+      "path": "task/case/04-evaluation/EVAL-02-flattened-proposal-comparison.pdf.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "docgen structured serializer",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/content/documents.json",
+      "templateHash": "696b2aab253ea543cf7dd5f8d3e4a344100fd621c43d31e2f5366207047efaed",
       "visibility": "student-safe"
     },
     {
@@ -809,25 +897,10 @@
       "visibility": "student-safe"
     },
     {
-      "contentHash": "8d8f8ed44f764d903558ba8b06df5b107084a8c82a9724b71625127736f43f35",
-      "format": "docx",
-      "id": "INITIAL-01",
-      "outputHash": "396e7f3df27bafc09705099c0cd69c789ee2ebf5546e54c07d4c600cda4fa499",
-      "path": "task/case/05-initial-output/INITIAL-01-ai-generated-tender-evaluation-memo.docx",
-      "permittedUnstableMetadata": [
-        "container creation timestamps and ZIP entry metadata"
-      ],
-      "renderer": "docx",
-      "rendererVersion": "9.5.1",
-      "source": "docgen/content/documents.json",
-      "templateHash": "70f536298f07c7b1a6a1cb2ef85afac85f71bca2fadc27dbd2207aac01b8f5a7",
-      "visibility": "student-safe"
-    },
-    {
-      "contentHash": "8d8f8ed44f764d903558ba8b06df5b107084a8c82a9724b71625127736f43f35",
+      "contentHash": "b3a98a7aff1291ba8e92f992b699a11d9f81df626ed517a95d0ed6f4658e2acd",
       "format": "pdf",
       "id": "INITIAL-01",
-      "outputHash": "aa63a279eb9820caea2a1cd2269c7aecaa9757ea31cd3dc4ba27d2e0b86e817c",
+      "outputHash": "0b6ba54da5e423297c5df052ed51dcdab820f5fd4a07a9325fa355ae18697f8c",
       "path": "task/case/05-initial-output/INITIAL-01-ai-generated-tender-evaluation-memo.pdf",
       "permittedUnstableMetadata": [
         "container creation timestamps and ZIP entry metadata"
@@ -839,53 +912,38 @@
       "visibility": "student-safe"
     },
     {
-      "contentHash": "aa9abaf3b98d3a8db5489835c313d753293e245ee8a8c1f407ad5a08d00c8c7b",
-      "format": "html",
-      "id": "INITIAL-02",
-      "outputHash": "5e3f911e0cd01d4873fb6b3ae27f69521595d42ed9d3c4f2550b3dbc49649581",
-      "path": "task/case/05-initial-output/INITIAL-02-leadership-comparison-dashboard.html",
-      "permittedUnstableMetadata": [],
-      "renderer": "docgen structured serializer",
-      "rendererVersion": "0.1.0",
-      "source": "docgen/content/documents.json",
-      "templateHash": "e5e239560bc125a20ff2ac1fea50915bc198dd4f5b5256ec447a8a71e00132b3",
-      "visibility": "student-safe"
-    },
-    {
-      "contentHash": "aa9abaf3b98d3a8db5489835c313d753293e245ee8a8c1f407ad5a08d00c8c7b",
-      "format": "pdf",
-      "id": "INITIAL-02",
-      "outputHash": "0a00c8a3af434dcf97531893141ef220fcb7ccf40a3b74ba59141adcab771979",
-      "path": "task/case/05-initial-output/INITIAL-02-leadership-comparison-dashboard.pdf",
-      "permittedUnstableMetadata": [
-        "container creation timestamps and ZIP entry metadata"
-      ],
-      "renderer": "Typst",
-      "rendererVersion": "0.13.1",
-      "source": "docgen/content/documents.json",
-      "templateHash": "2b2192282259352f5d32df3e20e38886f69405470f15b31cd2dee407b8e1bcf0",
-      "visibility": "student-safe"
-    },
-    {
-      "contentHash": "4420258747ac987d87d59c353ce19e1476843ab279c4d31283430b737bbdcbe6",
+      "contentHash": "77ce6db3f327f01a3ffcede01fbaf736fecc9a2ebab0a3408033ead61d700135",
       "format": "pdf",
       "id": "INITIAL-03",
-      "outputHash": "8e3d6424c5e3ab8877668b6f474e441a95e02ba74b7f8866e45c4193ebce8ba2",
+      "outputHash": "644b7d39b5c86d227e33a214ecafbabe0376965a2fb1630e585d1fa2c95c42a4",
       "path": "task/case/05-initial-output/INITIAL-03-initial-leadership-selection-deck.pdf",
       "permittedUnstableMetadata": [
         "container creation timestamps and ZIP entry metadata"
       ],
-      "renderer": "Typst semantic preview",
-      "rendererVersion": "0.13.1",
+      "renderer": "LibreOffice",
+      "rendererVersion": "devcontainer-pinned",
       "source": "docgen/content/documents.json",
-      "templateHash": "2b2192282259352f5d32df3e20e38886f69405470f15b31cd2dee407b8e1bcf0",
+      "templateHash": "191fee7dc96261c170b52819527534520e860643c165b5a45e34cf61f2a52701",
       "visibility": "student-safe"
     },
     {
-      "contentHash": "4420258747ac987d87d59c353ce19e1476843ab279c4d31283430b737bbdcbe6",
+      "contentHash": "77ce6db3f327f01a3ffcede01fbaf736fecc9a2ebab0a3408033ead61d700135",
+      "format": "pdf.md",
+      "id": "INITIAL-03",
+      "outputHash": "6412ea6995c70dee19a08d05e09bfd70e3d73d4465f9bc98bad9c07f2b3cf3db",
+      "path": "task/case/05-initial-output/INITIAL-03-initial-leadership-selection-deck.pdf.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "docgen structured serializer",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/content/documents.json",
+      "templateHash": "696b2aab253ea543cf7dd5f8d3e4a344100fd621c43d31e2f5366207047efaed",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "77ce6db3f327f01a3ffcede01fbaf736fecc9a2ebab0a3408033ead61d700135",
       "format": "pptx",
       "id": "INITIAL-03",
-      "outputHash": "3ebf4d7105448017f486b14a7ad9734d832c7e7bbcada2f27d6aa29baa84c63a",
+      "outputHash": "58bfa7898471c05540904796fdd40c921fc88da98bd13d39cc38746339992bc5",
       "path": "task/case/05-initial-output/INITIAL-03-initial-leadership-selection-deck.pptx",
       "permittedUnstableMetadata": [
         "container creation timestamps and ZIP entry metadata"
@@ -893,177 +951,33 @@
       "renderer": "pptx-automizer",
       "rendererVersion": "0.9.3",
       "source": "docgen/content/documents.json",
-      "templateHash": "5da87248497839495f3704e6560f7ffe97d7dd4edaf21f9f5a4fae63b5aca707",
+      "templateHash": "191fee7dc96261c170b52819527534520e860643c165b5a45e34cf61f2a52701",
       "visibility": "student-safe"
     },
     {
-      "contentHash": "91275c715d819809b1291c6032972249a006f4ea1a33a8b8057b73119926f927",
-      "format": "pdf",
-      "id": "TASK1-01",
-      "outputHash": "02d18dd64569fd57e14fa50e83c564eb88a145e0125c7dcb4558e34bae9a037d",
-      "path": "task/case/06-task-materials/TASK1-01-task-1-verification-brief.pdf",
-      "permittedUnstableMetadata": [
-        "container creation timestamps and ZIP entry metadata"
-      ],
-      "renderer": "Typst",
-      "rendererVersion": "0.13.1",
-      "source": "docgen/content/documents.json",
-      "templateHash": "2b2192282259352f5d32df3e20e38886f69405470f15b31cd2dee407b8e1bcf0",
-      "visibility": "student-safe"
-    },
-    {
-      "contentHash": "5ac57e21e9817693dcf2cc561550b1fd37d5718579ed348a40fe49761671c29d",
-      "format": "md",
-      "id": "TASK1-02",
-      "outputHash": "bb1033aaaefa0df4e62249ab69890b83803f0567777c0adf9830ebc6147f191c",
-      "path": "task/case/06-task-materials/TASK1-02-prompt-comparison-card.md",
+      "contentHash": "e59f044de3437fb56a29f1caed8782c47cd8a2749ea5c933f4831ee708e45642",
+      "format": "student",
+      "id": "BUNDLE-TASK-ROOT",
+      "outputHash": "e59f044de3437fb56a29f1caed8782c47cd8a2749ea5c933f4831ee708e45642",
+      "path": "task/CLAUDE.md.student",
       "permittedUnstableMetadata": [],
-      "renderer": "docgen structured serializer",
+      "renderer": "copy",
       "rendererVersion": "0.1.0",
-      "source": "docgen/content/documents.json",
-      "templateHash": "21262a3cb5337627b0fad9d891c16adb40706bd3e57534416dd02bbe5917d184",
+      "source": "docgen/templates/task-root/CLAUDE.md.student",
+      "templateHash": "e59f044de3437fb56a29f1caed8782c47cd8a2749ea5c933f4831ee708e45642",
       "visibility": "student-safe"
     },
     {
-      "contentHash": "5ac57e21e9817693dcf2cc561550b1fd37d5718579ed348a40fe49761671c29d",
-      "format": "pdf",
-      "id": "TASK1-02",
-      "outputHash": "121f813edc53834482e4d88bceeae9988cd80ff07ab5fb9fe662de8f697df256",
-      "path": "task/case/06-task-materials/TASK1-02-prompt-comparison-card.pdf",
-      "permittedUnstableMetadata": [
-        "container creation timestamps and ZIP entry metadata"
-      ],
-      "renderer": "Typst",
-      "rendererVersion": "0.13.1",
-      "source": "docgen/content/documents.json",
-      "templateHash": "2b2192282259352f5d32df3e20e38886f69405470f15b31cd2dee407b8e1bcf0",
-      "visibility": "student-safe"
-    },
-    {
-      "contentHash": "5024407c04f4cd846497e6affc9d5b6fe8d12ae678176af8aaf98e98d60ed66e",
-      "format": "csv",
-      "id": "TASK1-03",
-      "outputHash": "4abd0f44a29f8b20c2cb540a7497c3eec5f0fb8dbdd9a01abbdc2712b127068f",
-      "path": "task/case/06-task-materials/TASK1-03-attribution-chain-starter-table.csv",
-      "permittedUnstableMetadata": [],
-      "renderer": "docgen structured serializer",
-      "rendererVersion": "0.1.0",
-      "source": "docgen/schemas/attribution.schema.json",
-      "templateHash": "53bb9b0b38ac812554abeb88ea6d56760d07ec147a75e8761c4f57ecc298218f",
-      "visibility": "student-safe"
-    },
-    {
-      "contentHash": "5024407c04f4cd846497e6affc9d5b6fe8d12ae678176af8aaf98e98d60ed66e",
-      "format": "json",
-      "id": "TASK1-03",
-      "outputHash": "5024407c04f4cd846497e6affc9d5b6fe8d12ae678176af8aaf98e98d60ed66e",
-      "path": "task/case/06-task-materials/TASK1-03-attribution-chain-starter-table.json",
-      "permittedUnstableMetadata": [],
-      "renderer": "docgen structured serializer",
-      "rendererVersion": "0.1.0",
-      "source": "docgen/schemas/attribution.schema.json",
-      "templateHash": "02bd175f329720378ce83dd56a1b6b1f5291a60182d6c54b5e0d1e8d248a267a",
-      "visibility": "student-safe"
-    },
-    {
-      "contentHash": "5024407c04f4cd846497e6affc9d5b6fe8d12ae678176af8aaf98e98d60ed66e",
-      "format": "xlsx",
-      "id": "TASK1-03",
-      "outputHash": "8c78f618722ef7349ac9a3658c2645c379bc06317c00ea8a62777fd71fe48fe4",
-      "path": "task/case/06-task-materials/TASK1-03-attribution-chain-starter-table.xlsx",
-      "permittedUnstableMetadata": [
-        "container creation timestamps and ZIP entry metadata"
-      ],
-      "renderer": "ExcelJS",
-      "rendererVersion": "4.4.0",
-      "source": "docgen/schemas/attribution.schema.json",
-      "templateHash": "470615338c4f94e270d4cdd4d94473112b661c0b1e530a82a69bcdac53257c78",
-      "visibility": "student-safe"
-    },
-    {
-      "contentHash": "f536983809105be00a7fedc36135099899c3dfc9dd469fc66e1f56b568aa181d",
-      "format": "pdf",
-      "id": "TASK2-01",
-      "outputHash": "dbd86a06c7fff867d670f8a75cd4143961f758cd5280c64288db551d75a36289",
-      "path": "task/case/06-task-materials/TASK2-01-task-2-leadership-slide-brief.pdf",
-      "permittedUnstableMetadata": [
-        "container creation timestamps and ZIP entry metadata"
-      ],
-      "renderer": "Typst",
-      "rendererVersion": "0.13.1",
-      "source": "docgen/content/documents.json",
-      "templateHash": "2b2192282259352f5d32df3e20e38886f69405470f15b31cd2dee407b8e1bcf0",
-      "visibility": "student-safe"
-    },
-    {
-      "contentHash": "39c8f3246c253e37f1f514ff3a7162e2ea00f6c6f90fb169fa54e9cda71dba50",
-      "format": "pptx",
-      "id": "TASK2-02",
-      "outputHash": "5da87248497839495f3704e6560f7ffe97d7dd4edaf21f9f5a4fae63b5aca707",
-      "path": "task/case/06-task-materials/TASK2-02-leadership-slide-template-content-guide.pptx",
-      "permittedUnstableMetadata": [
-        "container creation timestamps and ZIP entry metadata"
-      ],
-      "renderer": "pptx-automizer",
-      "rendererVersion": "0.9.3",
-      "source": "docgen/content/documents.json",
-      "templateHash": "5da87248497839495f3704e6560f7ffe97d7dd4edaf21f9f5a4fae63b5aca707",
-      "visibility": "student-safe"
-    },
-    {
-      "contentHash": "2bedb61673a99024f2af0432f85e11a9707596c0aa45876da8804b4b59a02181",
-      "format": "md",
-      "id": "TASK3-01",
-      "outputHash": "5cdad4fd93bce42549cb5c2946d5e4e0c640942168815a2e0aefb71361169e4f",
-      "path": "task/case/06-task-materials/TASK3-01-bounded-tender-analysis-workflow-blueprint.md",
-      "permittedUnstableMetadata": [],
-      "renderer": "docgen structured serializer",
-      "rendererVersion": "0.1.0",
-      "source": "docgen/content/documents.json",
-      "templateHash": "21262a3cb5337627b0fad9d891c16adb40706bd3e57534416dd02bbe5917d184",
-      "visibility": "student-safe"
-    },
-    {
-      "contentHash": "2bedb61673a99024f2af0432f85e11a9707596c0aa45876da8804b4b59a02181",
-      "format": "pdf",
-      "id": "TASK3-01",
-      "outputHash": "595784ff23867cac2d4025f7da46ef42512f1808648f6a8d602455df1a6b4f1f",
-      "path": "task/case/06-task-materials/TASK3-01-bounded-tender-analysis-workflow-blueprint.pdf",
-      "permittedUnstableMetadata": [
-        "container creation timestamps and ZIP entry metadata"
-      ],
-      "renderer": "Typst",
-      "rendererVersion": "0.13.1",
-      "source": "docgen/content/documents.json",
-      "templateHash": "2b2192282259352f5d32df3e20e38886f69405470f15b31cd2dee407b8e1bcf0",
-      "visibility": "student-safe"
-    },
-    {
-      "contentHash": "a5bd3752fc0090919a0ae182abda904d2ca34acd37d4528596da51d2ebf1da93",
-      "format": "pdf",
-      "id": "TASK3-02",
-      "outputHash": "347b464bba6be76cd76b8849ce3b0f2935769f9b883194f590bd95aa3d80cfb7",
-      "path": "task/case/06-task-materials/TASK3-02-boundary-test-cards.pdf",
-      "permittedUnstableMetadata": [
-        "container creation timestamps and ZIP entry metadata"
-      ],
-      "renderer": "Typst",
-      "rendererVersion": "0.13.1",
-      "source": "docgen/content/documents.json",
-      "templateHash": "2b2192282259352f5d32df3e20e38886f69405470f15b31cd2dee407b8e1bcf0",
-      "visibility": "student-safe"
-    },
-    {
-      "contentHash": "586937a240f952d391d36926e8cda030f98478851d6ce8437db1ad1c74205fce",
+      "contentHash": "4c603245017f00d35779c258c82dfec3ca220d3812fa90fcb7c387bdb1a9f95f",
       "format": "md",
       "id": "BUNDLE-README",
-      "outputHash": "586937a240f952d391d36926e8cda030f98478851d6ce8437db1ad1c74205fce",
+      "outputHash": "4c603245017f00d35779c258c82dfec3ca220d3812fa90fcb7c387bdb1a9f95f",
       "path": "task/README.md",
       "permittedUnstableMetadata": [],
       "renderer": "copy",
       "rendererVersion": "0.1.0",
       "source": "docgen/templates/task-README.md",
-      "templateHash": "586937a240f952d391d36926e8cda030f98478851d6ce8437db1ad1c74205fce",
+      "templateHash": "4c603245017f00d35779c258c82dfec3ca220d3812fa90fcb7c387bdb1a9f95f",
       "visibility": "student-safe"
     },
     {
@@ -1093,6 +1007,708 @@
       "visibility": "student-safe"
     },
     {
+      "contentHash": "3650d3aa15097dba6b12d0b2ac10f995a63566647821627f554e75e0b96eef66",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "3650d3aa15097dba6b12d0b2ac10f995a63566647821627f554e75e0b96eef66",
+      "path": "task/skills/imda-ai-governance/framework/page-01.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-01.md",
+      "templateHash": "3650d3aa15097dba6b12d0b2ac10f995a63566647821627f554e75e0b96eef66",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "3cbb8178182c09dbce8b93aa0801e4b64cff8e4eb5fbf77423b8671453b45e16",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "3cbb8178182c09dbce8b93aa0801e4b64cff8e4eb5fbf77423b8671453b45e16",
+      "path": "task/skills/imda-ai-governance/framework/page-02.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-02.md",
+      "templateHash": "3cbb8178182c09dbce8b93aa0801e4b64cff8e4eb5fbf77423b8671453b45e16",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "29f292abb5a32a33cd44572b965701cb2ca1d78ab63fd8b880ef9449933a4094",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "29f292abb5a32a33cd44572b965701cb2ca1d78ab63fd8b880ef9449933a4094",
+      "path": "task/skills/imda-ai-governance/framework/page-03.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-03.md",
+      "templateHash": "29f292abb5a32a33cd44572b965701cb2ca1d78ab63fd8b880ef9449933a4094",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "5fc8771e92b2e7aefb205100b398365d1c520390be98f62f2f1c23fa9b4ac023",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "5fc8771e92b2e7aefb205100b398365d1c520390be98f62f2f1c23fa9b4ac023",
+      "path": "task/skills/imda-ai-governance/framework/page-04.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-04.md",
+      "templateHash": "5fc8771e92b2e7aefb205100b398365d1c520390be98f62f2f1c23fa9b4ac023",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "3021f4b897e5dcfd0379fdec9e3f698285ec9036f3cf992692a4a78aa1bd44e2",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "3021f4b897e5dcfd0379fdec9e3f698285ec9036f3cf992692a4a78aa1bd44e2",
+      "path": "task/skills/imda-ai-governance/framework/page-05.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-05.md",
+      "templateHash": "3021f4b897e5dcfd0379fdec9e3f698285ec9036f3cf992692a4a78aa1bd44e2",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "21a9258ea8ab6638b88cdf19c8035b20b1780b58aa82c1fad9954d9ffce697cf",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "21a9258ea8ab6638b88cdf19c8035b20b1780b58aa82c1fad9954d9ffce697cf",
+      "path": "task/skills/imda-ai-governance/framework/page-06.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-06.md",
+      "templateHash": "21a9258ea8ab6638b88cdf19c8035b20b1780b58aa82c1fad9954d9ffce697cf",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "5314c12f3dff06304822c966565b2bf202faa3366580789161eee1f66dce253a",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "5314c12f3dff06304822c966565b2bf202faa3366580789161eee1f66dce253a",
+      "path": "task/skills/imda-ai-governance/framework/page-07.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-07.md",
+      "templateHash": "5314c12f3dff06304822c966565b2bf202faa3366580789161eee1f66dce253a",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "d66dd8f8aa0dc6bc6444f79ec0ff72b87bc6e925ad487c281bbad764b8d771e3",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "d66dd8f8aa0dc6bc6444f79ec0ff72b87bc6e925ad487c281bbad764b8d771e3",
+      "path": "task/skills/imda-ai-governance/framework/page-08.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-08.md",
+      "templateHash": "d66dd8f8aa0dc6bc6444f79ec0ff72b87bc6e925ad487c281bbad764b8d771e3",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "8f81ea619db1baa93745478371937a1b3a65ad2eb87db7861752afe53ee75a26",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "8f81ea619db1baa93745478371937a1b3a65ad2eb87db7861752afe53ee75a26",
+      "path": "task/skills/imda-ai-governance/framework/page-09.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-09.md",
+      "templateHash": "8f81ea619db1baa93745478371937a1b3a65ad2eb87db7861752afe53ee75a26",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "b24e930786adaf9cd1986f3e36366dfc7ed1eaf76dcb2c543eac35194317f9f4",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "b24e930786adaf9cd1986f3e36366dfc7ed1eaf76dcb2c543eac35194317f9f4",
+      "path": "task/skills/imda-ai-governance/framework/page-10.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-10.md",
+      "templateHash": "b24e930786adaf9cd1986f3e36366dfc7ed1eaf76dcb2c543eac35194317f9f4",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "bfb66c8689981daecf12a8418797aa46f042a847c83aacd6586f234d76c80895",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "bfb66c8689981daecf12a8418797aa46f042a847c83aacd6586f234d76c80895",
+      "path": "task/skills/imda-ai-governance/framework/page-11.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-11.md",
+      "templateHash": "bfb66c8689981daecf12a8418797aa46f042a847c83aacd6586f234d76c80895",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "1e693735bf11c3c01fe948ee26a0f67f6b3455d769ea7910c91aca4341673a84",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "1e693735bf11c3c01fe948ee26a0f67f6b3455d769ea7910c91aca4341673a84",
+      "path": "task/skills/imda-ai-governance/framework/page-12.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-12.md",
+      "templateHash": "1e693735bf11c3c01fe948ee26a0f67f6b3455d769ea7910c91aca4341673a84",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "fcaf26a4481818b4a38d4e0ac62937eb67882350d375b617f2bceb10b7ae8c7f",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "fcaf26a4481818b4a38d4e0ac62937eb67882350d375b617f2bceb10b7ae8c7f",
+      "path": "task/skills/imda-ai-governance/framework/page-13.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-13.md",
+      "templateHash": "fcaf26a4481818b4a38d4e0ac62937eb67882350d375b617f2bceb10b7ae8c7f",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "93e904233e75539c50e0a9a627af09ce865484e0b383274082cb846c0c0dfaf8",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "93e904233e75539c50e0a9a627af09ce865484e0b383274082cb846c0c0dfaf8",
+      "path": "task/skills/imda-ai-governance/framework/page-14.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-14.md",
+      "templateHash": "93e904233e75539c50e0a9a627af09ce865484e0b383274082cb846c0c0dfaf8",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "7c2b5016dacef1c6b35b549a35a6b0b1ce2b2bb5b542c77d8ae62e00e4dd0eae",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "7c2b5016dacef1c6b35b549a35a6b0b1ce2b2bb5b542c77d8ae62e00e4dd0eae",
+      "path": "task/skills/imda-ai-governance/framework/page-15.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-15.md",
+      "templateHash": "7c2b5016dacef1c6b35b549a35a6b0b1ce2b2bb5b542c77d8ae62e00e4dd0eae",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "e19a0422e9505d441f14d34a8c3667d0d831688bc2992ab59c1f01b2c8988303",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "e19a0422e9505d441f14d34a8c3667d0d831688bc2992ab59c1f01b2c8988303",
+      "path": "task/skills/imda-ai-governance/framework/page-16.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-16.md",
+      "templateHash": "e19a0422e9505d441f14d34a8c3667d0d831688bc2992ab59c1f01b2c8988303",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "f2464e247d94e84db15f567380a59cd385ee358d488834c205d71f5e58db43d1",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "f2464e247d94e84db15f567380a59cd385ee358d488834c205d71f5e58db43d1",
+      "path": "task/skills/imda-ai-governance/framework/page-17.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-17.md",
+      "templateHash": "f2464e247d94e84db15f567380a59cd385ee358d488834c205d71f5e58db43d1",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "4b99f92af557d9791eaccf274c95e6b90db5b58c0a934e8ec06def1317c282a4",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "4b99f92af557d9791eaccf274c95e6b90db5b58c0a934e8ec06def1317c282a4",
+      "path": "task/skills/imda-ai-governance/framework/page-18.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-18.md",
+      "templateHash": "4b99f92af557d9791eaccf274c95e6b90db5b58c0a934e8ec06def1317c282a4",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "a19ba633690f375a524316a30aa6d5cc35051922cc3d8eb539726c47d1abdf8e",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "a19ba633690f375a524316a30aa6d5cc35051922cc3d8eb539726c47d1abdf8e",
+      "path": "task/skills/imda-ai-governance/framework/page-19.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-19.md",
+      "templateHash": "a19ba633690f375a524316a30aa6d5cc35051922cc3d8eb539726c47d1abdf8e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "6441fbd9218c871da71db807f7662feb8319527b96a10b3661724c15de838b9a",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "6441fbd9218c871da71db807f7662feb8319527b96a10b3661724c15de838b9a",
+      "path": "task/skills/imda-ai-governance/framework/page-20.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-20.md",
+      "templateHash": "6441fbd9218c871da71db807f7662feb8319527b96a10b3661724c15de838b9a",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "11a3ec3ddde15eeb4acee2dc51bfb614ba8ca3a99c35737c06c8ee7b1e5d26b9",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "11a3ec3ddde15eeb4acee2dc51bfb614ba8ca3a99c35737c06c8ee7b1e5d26b9",
+      "path": "task/skills/imda-ai-governance/framework/page-21.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-21.md",
+      "templateHash": "11a3ec3ddde15eeb4acee2dc51bfb614ba8ca3a99c35737c06c8ee7b1e5d26b9",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "13ebcb6936cf2b86eaacf6be9f98b936ea9b75ee83649ce9469ef799a41f6de2",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "13ebcb6936cf2b86eaacf6be9f98b936ea9b75ee83649ce9469ef799a41f6de2",
+      "path": "task/skills/imda-ai-governance/framework/page-22.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-22.md",
+      "templateHash": "13ebcb6936cf2b86eaacf6be9f98b936ea9b75ee83649ce9469ef799a41f6de2",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "d794ab5a78cdd6474ff4b3ef4689946d3b83ce0baf8b42b2bfc4070e58e1f647",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "d794ab5a78cdd6474ff4b3ef4689946d3b83ce0baf8b42b2bfc4070e58e1f647",
+      "path": "task/skills/imda-ai-governance/framework/page-23.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-23.md",
+      "templateHash": "d794ab5a78cdd6474ff4b3ef4689946d3b83ce0baf8b42b2bfc4070e58e1f647",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "1ed776c5cd34a3025557ccf6debf8b2111806fc1396e227c54ca0ba55bb41e90",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "1ed776c5cd34a3025557ccf6debf8b2111806fc1396e227c54ca0ba55bb41e90",
+      "path": "task/skills/imda-ai-governance/framework/page-24.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-24.md",
+      "templateHash": "1ed776c5cd34a3025557ccf6debf8b2111806fc1396e227c54ca0ba55bb41e90",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "e377e8ed3867628ba1c339d0be2bed81ccf4719e6589e9702fcdc6afb840b201",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "e377e8ed3867628ba1c339d0be2bed81ccf4719e6589e9702fcdc6afb840b201",
+      "path": "task/skills/imda-ai-governance/framework/page-25.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-25.md",
+      "templateHash": "e377e8ed3867628ba1c339d0be2bed81ccf4719e6589e9702fcdc6afb840b201",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "ff638d4b92e041a545302858a6642bcb3499b2c1b098f96b8b7ca64f838a0409",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "ff638d4b92e041a545302858a6642bcb3499b2c1b098f96b8b7ca64f838a0409",
+      "path": "task/skills/imda-ai-governance/framework/page-26.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-26.md",
+      "templateHash": "ff638d4b92e041a545302858a6642bcb3499b2c1b098f96b8b7ca64f838a0409",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "14413b22d00b87db64e7020f6ab21845819da67f5df64238e731803b1a7567e0",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "14413b22d00b87db64e7020f6ab21845819da67f5df64238e731803b1a7567e0",
+      "path": "task/skills/imda-ai-governance/framework/page-27.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-27.md",
+      "templateHash": "14413b22d00b87db64e7020f6ab21845819da67f5df64238e731803b1a7567e0",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "44b1ddfeb3ad2e23cba92c0055bc60a607904caf33ec585665f4dc7ea1ccb489",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "44b1ddfeb3ad2e23cba92c0055bc60a607904caf33ec585665f4dc7ea1ccb489",
+      "path": "task/skills/imda-ai-governance/framework/page-28.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-28.md",
+      "templateHash": "44b1ddfeb3ad2e23cba92c0055bc60a607904caf33ec585665f4dc7ea1ccb489",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "434800ca84553090f3e36d2b923f980b23747da3f1bccaf54d28a4aef4ea3f09",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "434800ca84553090f3e36d2b923f980b23747da3f1bccaf54d28a4aef4ea3f09",
+      "path": "task/skills/imda-ai-governance/framework/page-29.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-29.md",
+      "templateHash": "434800ca84553090f3e36d2b923f980b23747da3f1bccaf54d28a4aef4ea3f09",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "c90cdade1315940b407c43bf7f36f5f4fc9e5a6e09093779714d8be5d0e47797",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "c90cdade1315940b407c43bf7f36f5f4fc9e5a6e09093779714d8be5d0e47797",
+      "path": "task/skills/imda-ai-governance/framework/page-30.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-30.md",
+      "templateHash": "c90cdade1315940b407c43bf7f36f5f4fc9e5a6e09093779714d8be5d0e47797",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "8b79a181319b54acf25117cae37a128e1410d1b509619e8106b2c32be20efd99",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "8b79a181319b54acf25117cae37a128e1410d1b509619e8106b2c32be20efd99",
+      "path": "task/skills/imda-ai-governance/framework/page-31.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-31.md",
+      "templateHash": "8b79a181319b54acf25117cae37a128e1410d1b509619e8106b2c32be20efd99",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "4e103ef451353078805767bad81fdb295d7fc12d27dc594c1b443b201855419e",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "4e103ef451353078805767bad81fdb295d7fc12d27dc594c1b443b201855419e",
+      "path": "task/skills/imda-ai-governance/framework/page-32.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-32.md",
+      "templateHash": "4e103ef451353078805767bad81fdb295d7fc12d27dc594c1b443b201855419e",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "a6c7b2025a2d72314d26d98e428f0a8b5ec5ba19463b08bb5d52b65c8365c566",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "a6c7b2025a2d72314d26d98e428f0a8b5ec5ba19463b08bb5d52b65c8365c566",
+      "path": "task/skills/imda-ai-governance/framework/page-33.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-33.md",
+      "templateHash": "a6c7b2025a2d72314d26d98e428f0a8b5ec5ba19463b08bb5d52b65c8365c566",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "8f30570b0aec4adb101713b901bf6a3a3d20095a35704a434653ec821b253461",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "8f30570b0aec4adb101713b901bf6a3a3d20095a35704a434653ec821b253461",
+      "path": "task/skills/imda-ai-governance/framework/page-34.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-34.md",
+      "templateHash": "8f30570b0aec4adb101713b901bf6a3a3d20095a35704a434653ec821b253461",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "5ddc8916f85c49eb41dfeb11d4819dc195d24cd170b8262d30818efe94d06892",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "5ddc8916f85c49eb41dfeb11d4819dc195d24cd170b8262d30818efe94d06892",
+      "path": "task/skills/imda-ai-governance/framework/page-35.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-35.md",
+      "templateHash": "5ddc8916f85c49eb41dfeb11d4819dc195d24cd170b8262d30818efe94d06892",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "dd7d4b58208d684a94567edb38b1e491d0161f68d33cdf44737c7b0e73aa3be1",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "dd7d4b58208d684a94567edb38b1e491d0161f68d33cdf44737c7b0e73aa3be1",
+      "path": "task/skills/imda-ai-governance/framework/page-36.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-36.md",
+      "templateHash": "dd7d4b58208d684a94567edb38b1e491d0161f68d33cdf44737c7b0e73aa3be1",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "0530b8d35b991db9e7049d5a59fe508a7229ad1bb533d785792ae9d733a377ce",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "0530b8d35b991db9e7049d5a59fe508a7229ad1bb533d785792ae9d733a377ce",
+      "path": "task/skills/imda-ai-governance/framework/page-37.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-37.md",
+      "templateHash": "0530b8d35b991db9e7049d5a59fe508a7229ad1bb533d785792ae9d733a377ce",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "4f2ea7c9288d1b657377f65a82e94b26ccd4029dc8338256b36ab56dc1f92e78",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "4f2ea7c9288d1b657377f65a82e94b26ccd4029dc8338256b36ab56dc1f92e78",
+      "path": "task/skills/imda-ai-governance/framework/page-38.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-38.md",
+      "templateHash": "4f2ea7c9288d1b657377f65a82e94b26ccd4029dc8338256b36ab56dc1f92e78",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "d372362c35741de977ef5eae6e2167baa644a58d66fdd4cf165e8364fa9103dd",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "d372362c35741de977ef5eae6e2167baa644a58d66fdd4cf165e8364fa9103dd",
+      "path": "task/skills/imda-ai-governance/framework/page-39.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-39.md",
+      "templateHash": "d372362c35741de977ef5eae6e2167baa644a58d66fdd4cf165e8364fa9103dd",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "3bc3aca7c97b7b59e337ce3a4bee36e5d5b93be4cbb9710aa1a503a6105313f2",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "3bc3aca7c97b7b59e337ce3a4bee36e5d5b93be4cbb9710aa1a503a6105313f2",
+      "path": "task/skills/imda-ai-governance/framework/page-40.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-40.md",
+      "templateHash": "3bc3aca7c97b7b59e337ce3a4bee36e5d5b93be4cbb9710aa1a503a6105313f2",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "33092e3205abb29951e0a99cfeeb146db6979a702c115d09771b3730bcf5983f",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "33092e3205abb29951e0a99cfeeb146db6979a702c115d09771b3730bcf5983f",
+      "path": "task/skills/imda-ai-governance/framework/page-41.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-41.md",
+      "templateHash": "33092e3205abb29951e0a99cfeeb146db6979a702c115d09771b3730bcf5983f",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "8615d26c286d8767543366372ee001ebb6c7abcc6a18657a17aa4ae74fc62fa3",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "8615d26c286d8767543366372ee001ebb6c7abcc6a18657a17aa4ae74fc62fa3",
+      "path": "task/skills/imda-ai-governance/framework/page-42.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-42.md",
+      "templateHash": "8615d26c286d8767543366372ee001ebb6c7abcc6a18657a17aa4ae74fc62fa3",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "6370f0afa10efa71798a7d52681a5b75efd968419957531b29d39121995338cb",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "6370f0afa10efa71798a7d52681a5b75efd968419957531b29d39121995338cb",
+      "path": "task/skills/imda-ai-governance/framework/page-43.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-43.md",
+      "templateHash": "6370f0afa10efa71798a7d52681a5b75efd968419957531b29d39121995338cb",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "2fc904487f554896eb3ba033ec0839f16c120996a2616a1e8654b13228668d93",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "2fc904487f554896eb3ba033ec0839f16c120996a2616a1e8654b13228668d93",
+      "path": "task/skills/imda-ai-governance/framework/page-44.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-44.md",
+      "templateHash": "2fc904487f554896eb3ba033ec0839f16c120996a2616a1e8654b13228668d93",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "7325989be8be73ca2aac5717391f04c20d051cf7557bbf2c3de970fb39a914f8",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "7325989be8be73ca2aac5717391f04c20d051cf7557bbf2c3de970fb39a914f8",
+      "path": "task/skills/imda-ai-governance/framework/page-45.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-45.md",
+      "templateHash": "7325989be8be73ca2aac5717391f04c20d051cf7557bbf2c3de970fb39a914f8",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "f48e3424fc26e05631562c2f24bd84451a4f5ba9e79bb99fe7a97db8bac6073b",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "f48e3424fc26e05631562c2f24bd84451a4f5ba9e79bb99fe7a97db8bac6073b",
+      "path": "task/skills/imda-ai-governance/framework/page-46.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-46.md",
+      "templateHash": "f48e3424fc26e05631562c2f24bd84451a4f5ba9e79bb99fe7a97db8bac6073b",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "40ed66e95606f391b3900a3dd989404ddf304c766f1801e504a02f13c05ed1c7",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "40ed66e95606f391b3900a3dd989404ddf304c766f1801e504a02f13c05ed1c7",
+      "path": "task/skills/imda-ai-governance/framework/page-47.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-47.md",
+      "templateHash": "40ed66e95606f391b3900a3dd989404ddf304c766f1801e504a02f13c05ed1c7",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "77478ee5995f50af0ff9fd761f8ee635e2fb093d6d82ba165ceccd56a3548942",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "77478ee5995f50af0ff9fd761f8ee635e2fb093d6d82ba165ceccd56a3548942",
+      "path": "task/skills/imda-ai-governance/framework/page-48.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-48.md",
+      "templateHash": "77478ee5995f50af0ff9fd761f8ee635e2fb093d6d82ba165ceccd56a3548942",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "259bd3e66cd9751a9591228f22557099b251ee3a0578091b11963200aecfbc69",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "259bd3e66cd9751a9591228f22557099b251ee3a0578091b11963200aecfbc69",
+      "path": "task/skills/imda-ai-governance/framework/page-49.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-49.md",
+      "templateHash": "259bd3e66cd9751a9591228f22557099b251ee3a0578091b11963200aecfbc69",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "2e8f0c6f520d1d1ce25d1aeb68b3859d405d32ae75a88abaaa0fc31a4a6c5079",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "2e8f0c6f520d1d1ce25d1aeb68b3859d405d32ae75a88abaaa0fc31a4a6c5079",
+      "path": "task/skills/imda-ai-governance/framework/page-50.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-50.md",
+      "templateHash": "2e8f0c6f520d1d1ce25d1aeb68b3859d405d32ae75a88abaaa0fc31a4a6c5079",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "ce4d20245cdb882750320dee23f51c3156cbd17f344cc0f9b23cf6d6bd59ee57",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "ce4d20245cdb882750320dee23f51c3156cbd17f344cc0f9b23cf6d6bd59ee57",
+      "path": "task/skills/imda-ai-governance/framework/page-51.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-51.md",
+      "templateHash": "ce4d20245cdb882750320dee23f51c3156cbd17f344cc0f9b23cf6d6bd59ee57",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "7b45d8d95974b403790607cdb2f5f5300a950973640d9748ce20ed52ea15904f",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "7b45d8d95974b403790607cdb2f5f5300a950973640d9748ce20ed52ea15904f",
+      "path": "task/skills/imda-ai-governance/framework/page-52.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-52.md",
+      "templateHash": "7b45d8d95974b403790607cdb2f5f5300a950973640d9748ce20ed52ea15904f",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "f59248d3b238b32e8f8615bce0806cbbd5795b5ba14e2579124f888a59a8c60d",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "f59248d3b238b32e8f8615bce0806cbbd5795b5ba14e2579124f888a59a8c60d",
+      "path": "task/skills/imda-ai-governance/framework/page-53.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/framework/page-53.md",
+      "templateHash": "f59248d3b238b32e8f8615bce0806cbbd5795b5ba14e2579124f888a59a8c60d",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "21e9176ddc694f1a31bafea977af1d8fb730366653af0a035bb2c950f8156f9e",
+      "format": "md",
+      "id": "SKILL-IMDA",
+      "outputHash": "21e9176ddc694f1a31bafea977af1d8fb730366653af0a035bb2c950f8156f9e",
+      "path": "task/skills/imda-ai-governance/SKILL.md",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/imda-ai-governance/SKILL.md",
+      "templateHash": "21e9176ddc694f1a31bafea977af1d8fb730366653af0a035bb2c950f8156f9e",
+      "visibility": "student-safe"
+    },
+    {
       "contentHash": "a8bdd34b2f496bd288f72f3721f454a951f678dd2f34b4f6e8e0e6a490fd1893",
       "format": "asset",
       "id": "SKILL-PPTX",
@@ -1103,6 +1719,19 @@
       "rendererVersion": "0.1.0",
       "source": "docgen/skills/pptx-generator/.gitignore",
       "templateHash": "a8bdd34b2f496bd288f72f3721f454a951f678dd2f34b4f6e8e0e6a490fd1893",
+      "visibility": "student-safe"
+    },
+    {
+      "contentHash": "191fee7dc96261c170b52819527534520e860643c165b5a45e34cf61f2a52701",
+      "format": "pptx",
+      "id": "SKILL-PPTX",
+      "outputHash": "191fee7dc96261c170b52819527534520e860643c165b5a45e34cf61f2a52701",
+      "path": "task/skills/pptx-generator/assets/corporate-template.pptx",
+      "permittedUnstableMetadata": [],
+      "renderer": "copy",
+      "rendererVersion": "0.1.0",
+      "source": "docgen/skills/pptx-generator/assets/corporate-template.pptx",
+      "templateHash": "191fee7dc96261c170b52819527534520e860643c165b5a45e34cf61f2a52701",
       "visibility": "student-safe"
     },
     {
@@ -1171,42 +1800,42 @@
       "visibility": "student-safe"
     },
     {
-      "contentHash": "3c56240f0e3a11d576bd8d4f39fde480218c78261101dd055c97c76862b96930",
+      "contentHash": "9f5f7967f5a68ea59f314f14e34539ec5f30061e5cebd58df446a63d9c0700a4",
       "format": "ts",
       "id": "SKILL-PPTX",
-      "outputHash": "3c56240f0e3a11d576bd8d4f39fde480218c78261101dd055c97c76862b96930",
+      "outputHash": "9f5f7967f5a68ea59f314f14e34539ec5f30061e5cebd58df446a63d9c0700a4",
       "path": "task/skills/pptx-generator/scripts/cli.ts",
       "permittedUnstableMetadata": [],
       "renderer": "copy",
       "rendererVersion": "0.1.0",
       "source": "docgen/skills/pptx-generator/scripts/cli.ts",
-      "templateHash": "3c56240f0e3a11d576bd8d4f39fde480218c78261101dd055c97c76862b96930",
+      "templateHash": "9f5f7967f5a68ea59f314f14e34539ec5f30061e5cebd58df446a63d9c0700a4",
       "visibility": "student-safe"
     },
     {
-      "contentHash": "22a1f0231a08b98b1b49ec6a69283a69258cbca6ceecfb37d6463c543c5f8539",
+      "contentHash": "3802d7da227fc1b3a234a4897e2dde16eae7ad095b5637afb28f2f3831012826",
       "format": "md",
       "id": "SKILL-PPTX",
-      "outputHash": "22a1f0231a08b98b1b49ec6a69283a69258cbca6ceecfb37d6463c543c5f8539",
+      "outputHash": "3802d7da227fc1b3a234a4897e2dde16eae7ad095b5637afb28f2f3831012826",
       "path": "task/skills/pptx-generator/SKILL.md",
       "permittedUnstableMetadata": [],
       "renderer": "copy",
       "rendererVersion": "0.1.0",
       "source": "docgen/skills/pptx-generator/SKILL.md",
-      "templateHash": "22a1f0231a08b98b1b49ec6a69283a69258cbca6ceecfb37d6463c543c5f8539",
+      "templateHash": "3802d7da227fc1b3a234a4897e2dde16eae7ad095b5637afb28f2f3831012826",
       "visibility": "student-safe"
     },
     {
-      "contentHash": "0d12aa8ea7a663ce3982f27a6b3fd99c84f66414bcccddb2db18be1cdd106b6c",
+      "contentHash": "6deaa2f7fc4b38c8744cc6dc71c6fa6f4c8a8b7ae7dc27807003cba9a7d7df47",
       "format": "json",
       "id": "SKILL-PPTX",
-      "outputHash": "0d12aa8ea7a663ce3982f27a6b3fd99c84f66414bcccddb2db18be1cdd106b6c",
+      "outputHash": "6deaa2f7fc4b38c8744cc6dc71c6fa6f4c8a8b7ae7dc27807003cba9a7d7df47",
       "path": "task/skills/pptx-generator/slide-plan.schema.json",
       "permittedUnstableMetadata": [],
       "renderer": "copy",
       "rendererVersion": "0.1.0",
       "source": "docgen/skills/pptx-generator/slide-plan.schema.json",
-      "templateHash": "0d12aa8ea7a663ce3982f27a6b3fd99c84f66414bcccddb2db18be1cdd106b6c",
+      "templateHash": "6deaa2f7fc4b38c8744cc6dc71c6fa6f4c8a8b7ae7dc27807003cba9a7d7df47",
       "visibility": "student-safe"
     },
     {

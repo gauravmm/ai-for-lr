@@ -1,0 +1,92 @@
+# IMDA Model AI Governance Framework for Agentic AI v1.5 — page 2
+
+Contents
+
+Executive Summary
+3
+
+What’s new in this version
+.. 5
+
+1
+Introduction to Agentic AI
+6
+
+1.1
+What is Agentic AI? ............................................................................................. 6
+
+1.1.1
+Core components of an agent ...................................................................................6
+
+1.1.2
+Multi-agent setups....................................................................................................8
+
+1.1.3
+How agent design affects the limits and capabilities of each agent .............................8
+
+1.2
+Risks of Agentic AI..............................................................................................10
+
+1.2.1
+Sources of risk........................................................................................................10
+
+1.2.2
+Types of risk ...........................................................................................................11
+
+1.2.3
+Systemic and multi-agent risks................................................................................11
+
+2
+Model AI Governance Framework for Agentic AI
+13
+
+2.1
+Assess and bound the risks upfront.....................................................................15
+
+2.1.1
+Determine suitable use cases for agent deployment ................................................15
+
+2.1.2
+Bound risks through design by defining agents limits and permissions......................19
+
+2.2
+Make humans meaningfully accountable ............................................................25
+
+2.2.1
+Clear allocation of responsibilities within and outside the organisation ....................25
+
+2.2.2
+Design for meaningful human oversight...................................................................29
+
+2.3
+Implement technical controls and processes ......................................................33
+
+2.3.1
+During design and development, use technical controls...........................................33
+
+2.3.2
+Before deploying, test agents ..................................................................................38
+
+2.3.3
+When deploying, continuously monitor and test.......................................................42
+
+2.4
+Enable end-user responsibility ...........................................................................46
+
+2.4.1
+Different users, different needs...............................................................................46
+
+2.4.2
+Users who interact with agents................................................................................46
+
+2.4.3
+Users who integrate agents into their work processes ..............................................47
+
+Annex A: Further resources
+50
+
+Annex B: Call for feedback and case studies
+...... 52
+
+Acknowledgements
+53

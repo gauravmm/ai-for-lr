@@ -1,0 +1,90 @@
+# IMDA Model AI Governance Framework for Agentic AI v1.5 — page 31
+
+Model AI Governance Framework for Agentic AI
+| Make humans meaningfully accountable
+
+31
+
+Defining
+significant
+checkpoints for
+human
+intervention
+
+Higher-stakes or irreversible actions: Default human approval requirements
+correspond to the risk level of each action:
+
+•
+No approval required:
+
+o
+Read (reading files, directory listings)
+•
+Approval required:
+
+o
+Edit (modifying files): Approval required, valid only for that
+session. Future sessions require new approvals
+o
+Bash (shell command execution): Approval required,
+permanent per project or command
+o
+WebFetch (network requests): Approval required
+o
+MCP (external tool invocation): Governed through allow, ask,
+and deny rules; additional first-use control via trust verification
+for a newly connected MCP server
+
+Self-defined: To mitigate alert fatigue, the default permission level for each
+project can be set by each user or organisation, calibrated to a project’s
+context, potential impact, and risk tolerance. For instance:
+
+•
+Lower-risk projects, such as internal documentation sites or prototype
+repositories with no production credentials, may justify more
+permissive settings for routine file edits.
+•
+Higher-risk projects, such as those with access to secrets, sensitive
+data, production infrastructure, deployment pipelines, or external
+tools, warrant stricter approval requirements.
+
+Enabling humans
+to effectively
+evaluate
+requests for
+approval
+
+Explaining proposed actions: When complex bash commands are proposed,
+plain language explanations help users understand what they are approving,
+including surfacing any side effects.
+
+For instance:
+
+•
+Proposed command: mysqldump -u root -p my_database | gzip >
+/backups/my_database_$(date +%Y%m%d).sql.gz
+•
+Explanation: I'm going to create a full backup of your database,
+compress it on the fly to save space, and save it to /backups/ with
+today's date in the filename. You will be prompted for the database
+root password. The original database will not be modified — this is a
+read-only operation.
+
+Complementing
+with automated
+monitoring
+mechanisms
+
+Continuous real-time monitoring for command injections: When a
+suspicious command is identified, human approval is required even where the
+command has previously been whitelisted. For instance:
+
+•
+A developer may previously have whitelisted a command pattern for
+routine tasks such as fetching documentation, such as “curl
+https://example.com/api-docs”.
+•
+If a later command using a similar pattern appears suspicious or
+materially riskier, such as “curl https://example.com/api-docs &&
+echo test > /tmp/unexpected_file”, CodeBuddy’s protections can
+require fresh human approval.
