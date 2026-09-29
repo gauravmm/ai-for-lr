@@ -19,8 +19,5 @@
       }
     }
   },
-  "shutdownAction": "stopContainer",
-  "otherPortsAttributes": {
-    "onAutoForward": "ignore"
-  }
+  "shutdownAction": "stopContainer"
 }
