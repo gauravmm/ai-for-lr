@@ -2,15 +2,15 @@
 
 Welcome to the AI tutorial hands-on portion, delivered by Dr. Gaurav Manek. [Add me on LinkedIn!](https://www.linkedin.com/in/gauravmanek/).
 
-To get started, open this as a GitHub codespace and wait for setup to finish. Enter your approved email and Course Password 
+To get started, open this as a GitHub codespace and wait for setup to finish. Enter your approved email and Course Password to use A*STAR-funded Claude tokens. After login, reload the editor and start a new Claude chat.
 
 Go to `case/00-start-here/CASE-01-executive-case-brief.pdf` in the left menu.
 
 ## Codespaces setup
 
-; leave the email blank to skip. Course login enables instructor-funded Claude access and shares new course conversations and tool results for review, retained for 30 days. After login, reload the editor and start a new Claude chat. Use `course status` to check access and `course logout` to stop collection. See [setup and recovery instructions](.course/README.md).
+After login, reload the editor and start a new Claude chat. Use `course status` to check access and `course logout` to stop token use and data collection.
 
-## Task 1: Verification
+## Task 1: Verification [15 min]
 
 Timebox: 15 minutes. Leadership has received the documents in `case/00-start-here/`. Check the decision-relevant claims against the complete case bundle, using exact source locations and the tender's authority rules. Correct the recommendation if the evidence requires it.
 
@@ -28,29 +28,17 @@ Structured prompt:
 
 > Using the supplied files, identify each decision-relevant claim in the initial recommendation. For each claim, record the exact source document and locator, the extracted source value, any calculation or interpretation, documentary status and a verification status. Compare source authority and dates where records differ. Recalculate mandatory gates before weighted scores. Produce an inspectable attribution table; mark missing or conflicting evidence as unresolved and do not invent facts. Then give a corrected recommendation with references to the table.
 
-Use identical evidence and tool access for both trials. Compare inspectability and correction quality, not just how fluent the final answer sounds.
+**Check your work:** when you have finished, type `/check-my-task-1` in the Claude chat for a review of your conclusion, table and verification prompt.
 
-### Attribution-chain starter table
+Compare inspectability and correction quality, not just how fluent the final answer sounds.
 
-| claim_id | claim_text | source_id | source_locator | source_value | transformation | result | documentary_status | verification_status |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C-01 | Decision-relevant claim 1 | | | | | | | |
-| C-02 | Decision-relevant claim 2 | | | | | | | |
-| C-03 | Decision-relevant claim 3 | | | | | | | |
+## Task 2: Leadership deck [15 min]
 
-Use `attribution.schema.json` to validate field presence and status vocabulary. Add rows as needed; one material claim may depend on several source records.
+Prepare a corrected, editable version of the initial tender deck (INITIAL-02) for the Executive Approval Committee from your verified Task 1 result. Keep the slides, their order and layout, and update the content with the new conclusion and sources. 
 
-**Check your work:** when you have finished, type `/check-my-task-1` in the Claude chat for a review of your conclusion, table and verification prompt. The skill is in `skills/check-my-task-1/` and runs only when you ask for it.
+Tell your agent to use the `pptx-generator` skill, which bundles the corporate slide template.
 
-## Task 2: Leadership deck
-
-Timebox: 15 minutes. Prepare a corrected, editable version of the initial tender deck (INITIAL-02) for the Executive Approval Committee from your verified Task 1 result. The new deck should look like INITIAL-02: keep its slides, their order and layout, and update the content. State one main message and the approval or next action sought. Use the `pptx-generator` skill in `skills/pptx-generator/`, which bundles the corporate slide template.
-
-Show mandatory compliance as a gate before any weighted comparison. Compare only eligible bids by score; do not imply a failed bid merely ranked lower. Reproduce verified figures and keep compact exact source notes on the slides or in their supporting material.
-
-Check that every numerical and categorical slide claim matches the source and that the visual emphasis does not conceal uncertainty. Human due diligence and approval remain necessary.
-
-**Check your work:** when you have finished, type `/check-my-task-2` in the Claude chat for a review of your deck against your Task 1 record. The skill is in `skills/check-my-task-2/` and runs only when you ask for it.
+**Check your work:** when you have finished, type `/check-my-task-2` in the Claude chat for a review of your deck against your Task 1 record.
 
 ## Task 3: Bounded workflow [35 minutes]
 
