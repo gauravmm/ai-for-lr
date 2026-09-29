@@ -1,0 +1,12 @@
+{
+  "model": "claude-opus-5",
+  "availableModels": ["claude-opus-5", "claude-sonnet-5"],
+  "availableModelsMatch": "exact",
+  "modelPicker": {
+    "replaceBuiltInOptions": true,
+    "options": [
+      {"model": "claude-opus-5", "label": "Opus 5"},
+      {"model": "claude-sonnet-5", "label": "Sonnet 5"}
+    ]
+  }
+}

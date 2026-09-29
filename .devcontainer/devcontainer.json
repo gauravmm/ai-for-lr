@@ -11,7 +11,8 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "anthropic.claude-code@2.1.283"
+        "anthropic.claude-code@2.1.283",
+        "mathematic.vscode-pdf@0.2.6"
       ],
       "settings": {
         "extensions.autoUpdate": false,

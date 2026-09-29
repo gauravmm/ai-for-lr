@@ -2,7 +2,7 @@
 
 Welcome to the AI tutorial hands-on portion, delivered by Dr. Gaurav Manek. [Add me on LinkedIn!](https://www.linkedin.com/in/gauravmanek/).
 
-To get started, open this as a GitHub codespace and wait for setup to finish. Enter your approved email and Course Password to use A*STAR-funded Claude tokens. After login, reload the editor and start a new Claude chat.
+To get started, open this as a GitHub codespace and wait for setup to finish. Enter your approved email and Course Password to use A*STAR-funded Claude tokens. The password is shown as you type. After login, reload the editor and start a new Claude chat. Claude starts on Opus 5; the model list also includes Sonnet 5.
 
 Go to `case/00-start-here/CASE-01-executive-case-brief.pdf` in the left menu.
 
@@ -39,6 +39,10 @@ Prepare a corrected, editable version of the initial tender deck (INITIAL-02) fo
 Tell your agent to use the `pptx-generator` skill, which bundles the corporate slide template.
 
 **Check your work:** when you have finished, type `/check-my-task-2` in the Claude chat for a review of your deck against your Task 1 record.
+
+### Checkpoint: What's your usage?
+
+Try running `/usage` to see how much money it cost to run the task so far. Run `/context` to see what information is currently in the context window (the short-term memory).
 
 ## Task 3: Bounded workflow [35 minutes]
 

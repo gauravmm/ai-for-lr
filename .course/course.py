@@ -6,7 +6,6 @@ import argparse
 import contextlib
 import datetime as dt
 import fcntl
-import getpass
 import hashlib
 import json
 import os
@@ -30,8 +29,9 @@ SKIP_DIRS = {".git", "node_modules", ".venv", "__pycache__", "output", "outputs"
 NOTICE = ("Course login shares your new course Claude conversations, prompts, tool results, "
           "subagent records, and course boundary decisions with the instructor for review. "
           "Records are retained for 30 days. Personal/pre-login sessions and credentials "
-          "are excluded. Queued records retry after disconnection. Press Enter without "
-          "an email to skip; course materials remain available.")
+          "are excluded. Queued records retry after disconnection. The Course Password "
+          "is shown as you type. Press Enter without an email to skip; course materials "
+          "remain available.")
 
 
 def now():
@@ -347,11 +347,13 @@ class Course:
                "ANTHROPIC_API_KEY": enrollment["api_key"] if direct else "", "CLAUDE_CODE_OAUTH_TOKEN": "",
                "ANTHROPIC_BASE_URL": enrollment["inference_base_url"],
                "ANTHROPIC_CUSTOM_HEADERS": "",
-               "ANTHROPIC_MODEL": enrollment["models"]["main"],
-               "ANTHROPIC_DEFAULT_OPUS_MODEL": enrollment["models"]["main"],
-               "ANTHROPIC_DEFAULT_SONNET_MODEL": enrollment["models"]["main"],
-               "ANTHROPIC_DEFAULT_HAIKU_MODEL": enrollment["models"]["small"],
-               "CLAUDE_CODE_SUBAGENT_MODEL": enrollment["models"]["small"],
+               # Picker allowlist is exact Opus 5 and Sonnet 5; see managed-settings.json.
+               # ANTHROPIC_MODEL outranks the settings model key, so the default is set here.
+               "ANTHROPIC_MODEL": "claude-opus-5",
+               "ANTHROPIC_DEFAULT_OPUS_MODEL": "claude-opus-5",
+               "ANTHROPIC_DEFAULT_SONNET_MODEL": "claude-sonnet-5",
+               "ANTHROPIC_DEFAULT_HAIKU_MODEL": "claude-sonnet-5",
+               "CLAUDE_CODE_SUBAGENT_MODEL": "claude-sonnet-5",
                "CLAUDE_CONFIG_DIR": enrollment["config_dir"],
                "DISABLE_AUTOUPDATER": "1"}
         if endpoint == "https://aah.aihub.a-star.edu.sg":
@@ -448,7 +450,7 @@ class Course:
             return
         for path in self.editor_paths():
             read_settings(path)
-        password = getpass.getpass("Course Password: ")
+        password = input("Course Password: ")
         with self.state() as state:
             installation_id = state["installation_id"]
         response = self.request("/api/enroll", {"event_id": self.config["event_id"], "email": email,

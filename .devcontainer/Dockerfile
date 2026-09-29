@@ -18,7 +18,9 @@ RUN cd /opt/claude && mv claude-package.json package.json && mv claude-package-l
 COPY .course/course.py /opt/course/course.py
 COPY .devcontainer/course /usr/local/bin/course
 COPY .devcontainer/claude /usr/local/bin/claude
+COPY .devcontainer/managed-settings.json /etc/claude-code/managed-settings.json
 RUN chmod 755 /usr/local/bin/course /usr/local/bin/claude \
+    && chmod 644 /etc/claude-code/managed-settings.json \
     && node --version && python --version && uv --version \
     && /opt/claude/node_modules/.bin/claude --version && libreoffice --version \
     && fc-match 'Open Sans'
