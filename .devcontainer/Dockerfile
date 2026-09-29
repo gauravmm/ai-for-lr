@@ -26,4 +26,6 @@ RUN chmod 755 /usr/local/bin/course /usr/local/bin/claude \
     && fc-match 'Open Sans'
 ENV DISABLE_AUTOUPDATER=1
 USER vscode
+# The PDF extension reads this before its one-time sponsor prompt. Seed it before the editor attaches.
+RUN python3 -c 'import importlib.util; s=importlib.util.spec_from_file_location("course","/opt/course/course.py"); m=importlib.util.module_from_spec(s); s.loader.exec_module(m); m.dismiss_pdf_support_prompt()'
 WORKDIR /workspaces/task

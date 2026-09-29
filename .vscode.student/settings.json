@@ -8,5 +8,7 @@
   "github.copilot.enable": {
     "*": false
   },
-  "workbench.secondarySideBar.defaultVisibility": "hidden"
+  "workbench.secondarySideBar.defaultVisibility": "visible",
+  "claudeCode.preferredLocation": "sidebar",
+  "task.allowAutomaticTasks": "on"
 }

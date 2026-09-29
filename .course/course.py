@@ -14,6 +14,7 @@ import random
 import re
 import shlex
 import shutil
+import sqlite3
 import subprocess
 import sys
 import tempfile
@@ -739,6 +740,7 @@ class Course:
                 time.sleep(delay + random.uniform(0, 5))
 
     def start(self):
+        dismiss_pdf_support_prompt()
         with self.state() as state:
             if not state["enrollments"]:
                 return
@@ -839,7 +841,43 @@ class Course:
         os.execve(binary, [binary] + arguments, env)
 
 
+def dismiss_pdf_support_prompt():
+    """The PDF viewer has no setting for its one-time sponsor prompt. Mark that prompt shown."""
+    for relative in (".vscode-server/data/User/globalStorage/state.vscdb", ".vscode/User/globalStorage/state.vscdb"):
+        path = Path.home() / relative
+        try:
+            path.parent.mkdir(parents=True, exist_ok=True, mode=0o700)
+            connection = sqlite3.connect(path, timeout=1)
+        except (OSError, sqlite3.Error):
+            continue
+        try:
+            connection.execute("CREATE TABLE IF NOT EXISTS ItemTable (key TEXT UNIQUE ON CONFLICT REPLACE, value BLOB)")
+            row = connection.execute("SELECT value FROM ItemTable WHERE key = ?", ("mathematic.vscode-pdf",)).fetchone()
+            state = {}
+            if row and row[0]:
+                raw = row[0].decode() if isinstance(row[0], bytes) else row[0]
+                try:
+                    parsed = json.loads(raw)
+                except json.JSONDecodeError:
+                    parsed = None
+                if isinstance(parsed, dict):
+                    state = parsed
+            if state.get("supportPromptShown") is True:
+                continue
+            state["supportPromptShown"] = True
+            connection.execute(
+                "INSERT INTO ItemTable (key, value) VALUES (?, ?) ON CONFLICT(key) DO UPDATE SET value = excluded.value",
+                ("mathematic.vscode-pdf", json.dumps(state)),
+            )
+            connection.commit()
+        except sqlite3.Error:
+            continue
+        finally:
+            connection.close()
+
+
 def dependencies(workspace):
+    dismiss_pdf_support_prompt()
     subprocess.run(["npm", "ci", "--include=dev", "--prefix", str(workspace / "skills/pptx-generator")], check=True)
 
 
