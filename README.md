@@ -1,6 +1,8 @@
 # Encabulation Reliability Test Platform case
 
-This student bundle is generated from the structured sources in the parent repository's `docgen/` directory. Start with `case/00-start-here/CASE-01-executive-case-brief.pdf`. The three workshop tasks are described below.
+Welcome to the A*STAR Leadership Retreat AI tutorial. [Add me on LinkedIn!](https://www.linkedin.com/in/gauravmanek/)
+
+Go to `case/00-start-here/CASE-01-executive-case-brief.pdf` in the left menu.
 
 ## Codespaces setup
 
@@ -8,7 +10,7 @@ Open this repository directly in a GitHub Codespace and wait for setup to finish
 
 ## Task 1: Verification
 
-Timebox: 15 minutes. Leadership has received INITIAL-01–03. Check the decision-relevant claims against the complete case bundle, using exact source locations and the tender's authority rules. Correct the recommendation if the evidence requires it.
+Timebox: 15 minutes. Leadership has received the documents in `case/00-start-here/`. Check the decision-relevant claims against the complete case bundle, using exact source locations and the tender's authority rules. Correct the recommendation if the evidence requires it.
 
 Deliver one corrected key conclusion, a short claim-to-source table and one reusable verification prompt. Record the source value, transformation, documentary status, uncertainty and what changed. A genuine gap should be recorded as unresolved rather than filled by assumption.
 
@@ -40,7 +42,7 @@ Use `attribution.schema.json` to validate field presence and status vocabulary. 
 
 ## Task 2: Leadership deck
 
-Timebox: 15 minutes. Prepare a corrected, editable version of the initial leadership deck (INITIAL-03) for the Executive Approval Committee from your verified Task 1 result. The new deck should look like INITIAL-03: keep its slides, their order and layout, and update the content. State one main message and the approval or next action sought. Use the `pptx-generator` skill in `skills/pptx-generator/`, which bundles the corporate slide template.
+Timebox: 15 minutes. Prepare a corrected, editable version of the initial tender deck (INITIAL-02) for the Executive Approval Committee from your verified Task 1 result. The new deck should look like INITIAL-02: keep its slides, their order and layout, and update the content. State one main message and the approval or next action sought. Use the `pptx-generator` skill in `skills/pptx-generator/`, which bundles the corporate slide template.
 
 Show mandatory compliance as a gate before any weighted comparison. Compare only eligible bids by score; do not imply a failed bid merely ranked lower. Reproduce verified figures and keep compact exact source notes on the slides or in their supporting material.
 

@@ -6,7 +6,7 @@ disable-model-invocation: true
 
 # Check my Task 2
 
-The participant asks you to review their Task 2 deck: a corrected, editable version of the initial leadership deck (INITIAL-03) built with the `pptx-generator` skill from their verified Task 1 result (see `README.md`, Task 2). Act as a careful reviewer, not a co-author. Point to what needs fixing and why; do not rebuild the deck unless they ask.
+The participant asks you to review their Task 2 deck: a corrected, editable version of the initial tender deck (INITIAL-02) built with the `pptx-generator` skill from their verified Task 1 result (see `README.md`, Task 2). Act as a careful reviewer, not a co-author. Point to what needs fixing and why; do not rebuild the deck unless they ask.
 
 Judge the deck against their Task 1 record and the case files you open during this review, not against an earlier conversation.
 
@@ -19,7 +19,7 @@ Judge the deck against their Task 1 record and the case files you open during th
 
 Keep a list of findings with the slide number each one affects.
 
-1. **Same shape as INITIAL-03.** Compare with `case/05-initial-output/INITIAL-03-initial-leadership-selection-deck.pdf.md`. The deck has the same slides in the same order with the same layouts (`overview`, `context`, `gate_focus`), and only the content has changed.
+1. **Same shape as INITIAL-02.** Compare with `case/00-start-here/INITIAL-02-tender-deck.pdf.md`. The deck has the same slides in the same order with the same layouts (`overview`, `context`, `gate_focus`), and only the content has changed.
 2. **Every figure traces.** Each number, date, price, score and PASS/FAIL on the slides matches a row in the Task 1 record, and that row's source. List any value with no row behind it.
 3. **Gate before scores.** Mandatory compliance appears before any weighted comparison. Only bids that pass every gate appear in the score comparison; a failed bid must not look like a lower-ranked option.
 4. **One message, one ask.** The title or recommendation states one main message, and the deck names the approval or next action sought. It does not claim to award the contract.
