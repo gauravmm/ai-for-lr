@@ -347,13 +347,13 @@ class Course:
                "ANTHROPIC_API_KEY": enrollment["api_key"] if direct else "", "CLAUDE_CODE_OAUTH_TOKEN": "",
                "ANTHROPIC_BASE_URL": enrollment["inference_base_url"],
                "ANTHROPIC_CUSTOM_HEADERS": "",
-               # Picker allowlist is exact Opus 5 and Sonnet 5; see managed-settings.json.
+               # Picker allowlist is exact Opus 5.5 and Sonnet 5.5; see managed-settings.json.
                # ANTHROPIC_MODEL outranks the settings model key, so the default is set here.
-               "ANTHROPIC_MODEL": "claude-opus-5",
-               "ANTHROPIC_DEFAULT_OPUS_MODEL": "claude-opus-5",
-               "ANTHROPIC_DEFAULT_SONNET_MODEL": "claude-sonnet-5",
-               "ANTHROPIC_DEFAULT_HAIKU_MODEL": "claude-sonnet-5",
-               "CLAUDE_CODE_SUBAGENT_MODEL": "claude-sonnet-5",
+               "ANTHROPIC_MODEL": "global-anthropic.claude-opus-5-5",
+               "ANTHROPIC_DEFAULT_OPUS_MODEL": "global-anthropic.claude-opus-5-5",
+               "ANTHROPIC_DEFAULT_SONNET_MODEL": "global-anthropic.claude-sonnet-5-5",
+               "ANTHROPIC_DEFAULT_HAIKU_MODEL": "global-anthropic.claude-sonnet-5-5",
+               "CLAUDE_CODE_SUBAGENT_MODEL": "global-anthropic.claude-sonnet-5-5",
                "CLAUDE_CONFIG_DIR": enrollment["config_dir"],
                "DISABLE_AUTOUPDATER": "1"}
         if endpoint == "https://aah.aihub.a-star.edu.sg":
