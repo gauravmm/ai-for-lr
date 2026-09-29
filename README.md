@@ -1,12 +1,14 @@
-# Encabulation Reliability Test Platform case
+# A*STAR Leadership Retreat AI tutorial
 
-Welcome to the A*STAR Leadership Retreat AI tutorial. [Add me on LinkedIn!](https://www.linkedin.com/in/gauravmanek/)
+Welcome to the AI tutorial hands-on portion, delivered by Dr. Gaurav Manek. [Add me on LinkedIn!](https://www.linkedin.com/in/gauravmanek/).
+
+To get started, open this as a GitHub codespace and wait for setup to finish. Enter your approved email and Course Password 
 
 Go to `case/00-start-here/CASE-01-executive-case-brief.pdf` in the left menu.
 
 ## Codespaces setup
 
-Open this repository directly in a GitHub Codespace and wait for setup to finish. Run `course login` in the terminal, or use the **Course: sign in** task. Enter your approved email and Course Password; leave the email blank to skip. Course login enables instructor-funded Claude access and shares new course conversations and tool results for review, retained for 30 days. After login, reload the editor and start a new Claude chat. Use `course status` to check access and `course logout` to stop collection. See [setup and recovery instructions](.course/README.md).
+; leave the email blank to skip. Course login enables instructor-funded Claude access and shares new course conversations and tool results for review, retained for 30 days. After login, reload the editor and start a new Claude chat. Use `course status` to check access and `course logout` to stop collection. See [setup and recovery instructions](.course/README.md).
 
 ## Task 1: Verification
 
