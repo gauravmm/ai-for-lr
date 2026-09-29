@@ -16,7 +16,14 @@
       ],
       "settings": {
         "extensions.autoUpdate": false,
-        "extensions.autoCheckUpdates": false
+        "extensions.autoCheckUpdates": false,
+        "chat.disableAIFeatures": true,
+        "chat.commandCenter.enabled": false,
+        "chat.agent.enabled": false,
+        "github.copilot.enable": {
+          "*": false
+        },
+        "workbench.secondarySideBar.defaultVisibility": "hidden"
       }
     }
   },
