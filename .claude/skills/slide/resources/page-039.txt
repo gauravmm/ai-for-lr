@@ -1,0 +1,24 @@
+5.2 The Four Pillars 38
+
+
+                           A.   Assess and bound the risks upfront
+                                is an agent appropriate? what is the minimum
+                                authority it needs? what’s the blast radius?
+
+
+                           B.
+                            Make humans meaningfully accountable
+                            name individuals, responsibilities, and require human
+                            approval at real decision points.
+
+
+                           C.   Implement technical controls and processes
+                                enforce safeguards structurally for provable
+                                guarantees, not only in the prompt.
+
+
+                           D.   Enable end-user responsibility
+                                equip end-users and consumers to operate and
+                                oversee the agent responsibly.
+
+manek.sg/aileaders                                                              27 / 56

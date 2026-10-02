@@ -1,0 +1,18 @@
+6.9 Erroneous action: policy and control
+
+        Seven Risks                      The problem
+     1. Erroneous actions
+                                         The LLM misreads or misfiles a document, and the
+     2. Unauthorized actions             error flows into every later answer.
+     3. Biased or unfair actions
+     4. Data breaches                    Policy questions
+     5. Disrupt connected systems        • Which conclusions need human sign-off?
+     6. Speed and volume                 • errors are “safe” to fix when discovered?
+     7. Cascading effects                • Who owns the correction?
+        Four Pillars
+     A. Assess and bound risks           Pillars B & D: Owners and users verify
+     B. Make humans accountable          Document owners (Pillar B) review what goes in
+     C. Technical controls               and own corrections, end users (Pillar D) need a
+     D. Enable end-user responsibility   due-diligence process before trusting output.
+
+manek.sg/aileaders                                                                          43 / 56

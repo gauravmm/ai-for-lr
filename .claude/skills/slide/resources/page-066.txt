@@ -1,0 +1,21 @@
+7.1 Our Task
+
+
+        INGEST                        VERIFY                         DRAFT                    REVIEW
+                                        Aperture
+
+                                           Helix
+     Extract docs                                                  Synthesize                   Write
+                                        Meridian
+      & criteria                                                    & score                     slide
+                                        Northstar
+
+                                        Peregrine
+Understand the requirements       Check each bid for         Score each correct bid using   Update the slides
+                              completeness and correctness     the competitive criteria
+
+
+     Your goal is to design and build a repeatable and dependable AI procurement advisor.
+
+
+manek.sg/aileaders                                                                                         46 / 56

@@ -373,10 +373,13 @@ class Course:
         atomic(directory / "settings.json", {"cleanupPeriodDays": 30, "hooks": {event: hook for event in
                ("SessionStart", "SessionEnd", "Stop", "PostToolUse", "PostToolUseFailure", "SubagentStop", "PreCompact")}})
         (directory / "skills").mkdir(exist_ok=True, mode=0o700)
-        for skill in (self.workspace / "skills").iterdir():
+        for skill in (self.workspace / ".claude/skills").iterdir():
             if skill.is_dir() and not skill.is_symlink() and (skill / "SKILL.md").exists():
                 destination = directory / "skills" / skill.name
-                if not destination.exists():
+                # Refresh enrollment links created before skills moved into .claude.
+                if destination.is_symlink() and destination.readlink() == self.workspace / "skills" / skill.name:
+                    destination.unlink()
+                if not destination.exists() and not destination.is_symlink():
                     destination.symlink_to(skill, target_is_directory=True)
         patches = []
         for path in self.editor_paths():
@@ -811,7 +814,7 @@ class Course:
             audit.parent.mkdir(parents=True, exist_ok=True, mode=0o700)
             sessions[sid]["boundary_path"] = str(audit)
         try:
-            subprocess.run(["node", str(self.workspace / "skills/boundary-test/broker.mjs"), "request",
+            subprocess.run(["node", str(self.workspace / ".claude/skills/boundary-test/broker.mjs"), "request",
                             "--mount", args.mount, "--resource", args.resource, "--audit", str(audit)], check=True)
         finally:
             with self.state() as state:
@@ -872,7 +875,7 @@ def dismiss_pdf_support_prompt():
 
 def dependencies(workspace):
     dismiss_pdf_support_prompt()
-    subprocess.run(["npm", "ci", "--include=dev", "--prefix", str(workspace / "skills/pptx-generator")], check=True)
+    subprocess.run(["npm", "ci", "--include=dev", "--prefix", str(workspace / ".claude/skills/pptx-generator")], check=True)
 
 
 def smoke(workspace):
@@ -880,7 +883,7 @@ def smoke(workspace):
                     ["/opt/claude/node_modules/.bin/claude", "--version"], ["libreoffice", "--version"], ["fc-match", "Open Sans"]):
         subprocess.run(command, check=True)
     with tempfile.TemporaryDirectory(prefix="course-pptx-") as directory:
-        skill = workspace / "skills/pptx-generator"
+        skill = workspace / ".claude/skills/pptx-generator"
         common = ["--template", "assets/corporate-template.pptx", "--plan", "examples/valid-generic.json",
                   "--output", directory + "/smoke.pptx"]
         subprocess.run(["node", "--import", "tsx", "scripts/cli.ts", "build"] + common, cwd=skill, check=True)
@@ -904,7 +907,7 @@ def main():
             smoke(workspace)
         elif args.command == "setup":
             print(f"Activated {activate(workspace)} templates.")
-            if not (workspace / "skills/pptx-generator/node_modules/tsx").exists():
+            if not (workspace / ".claude/skills/pptx-generator/node_modules/tsx").exists():
                 dependencies(workspace)
             smoke(workspace)
             print("Ready. Run course login, or allow the Course: sign in editor task.")

@@ -1,0 +1,21 @@
+References
+    42. David Odomirok and Zheng Xue, JPMorgan Chase Private Bank.
+        Investment Research with LangGraph: Ask D.A.V.I.D..
+        LangChain Interrupt, May 2025. Primary conference presentation; 95% time-reduction figure
+        unverified.
+    43. Hippocratic AI.
+        Hippocratic AI Launches Polaris 5.0.
+        2026 company announcement. Patient-volume, clinician-validation and safety statistics are
+        company-reported. Scope: non-diagnostic clinical conversations.
+    44. Klarna.
+        AI assistant handles two-thirds of customer service chats.
+        27 February 2024. Company release: work equivalent to 700 agents; projected US$40 million profit
+        improvement.
+    45. Charles Daly, Bloomberg.
+        Klarna Slows AI-Driven Job Cuts With Call for Real People.
+        8 May 2025. CEO interview; full text requires a subscription.
+
+
+
+
+manek.sg/aileaders                                                                                     55 / 56

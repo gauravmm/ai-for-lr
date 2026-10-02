@@ -1,0 +1,19 @@
+3.3 What does it this look like?
+
+
+
+
+    • Everyday AI apps hide what           Your input →
+      happens behind the scenes.
+    • Today, you’ll get a first taste
+      of the professional AI tools
+      your technical teams use.             Tool call →
+
+    • You’ll see the full trace: your     Tool output →
+      input, tool calls, tool outputs,
+      and the agent’s response.          Agent output →
+
+
+
+
+manek.sg/aileaders                                        18 / 56

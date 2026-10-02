@@ -1,0 +1,44 @@
+2.6 Cost of AI by Launch Date 23 24 25 26                                      New     →       12+ months
+
+                                         60                                                                                                                                    Claude Opus 5.5
+
+
+                                                  The AI revolution is ongoing, not
+                                                                                                                                                                Claude Sonnet 5.5
+                                                                                                                                                                                                 GPT-6 Astra
+                                                                                                                                                              Gemini 4 Argon
+                                                  complete.                                                                                                     GPT-6.1 Sol                        Claude Fable 5.1
+Artificial Analysis Intelligence Index
+
+
+
+
+                                         50                                                                                       Muse Spark 1.3
+                                                                                                                         MiMo-V2.6-Pro             Grok 4.7
+                                                                                                                                                                         Kimi K3
+                                                Highest intelligence prior to 9 Jun 2026                GLM 5.3 Flash
+                                                                                                                                               GLM 5.3
+                                                                                  DeepSeek V4.1 Flash
+                                         40
+                                                       Qwen3.8 27B
+
+
+
+
+                                         30
+
+
+
+
+                                         20
+
+
+
+
+                                         10
+                                                  →      OpenRouter volume
+
+                                              $0.001                                       $0.01                                   $0.10                                              $1.00
+                                                                                     Cost per task (100K input / 8K output tokens), log scale
+
+          manek.sg/aileaders                                                                                                                                                                             14 / 56

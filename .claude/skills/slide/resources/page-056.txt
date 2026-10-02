@@ -1,0 +1,19 @@
+6.4 AI-driven AI analysis
+
+
+
+    The simplest solution is to have a single ATLAS chatbot and tell it who can see which files.
+    What is the problem with this?
+    1. Use AI to analyze ATLAS
+
+      /slide “IMCB ATLAS”. In ATLAS, explain what could go wrong with one
+      shared chatbot?
+
+    2. Apply the governance framework
+
+      /imda-ai-governance Explain the risks and controls in a table.
+
+
+
+
+manek.sg/aileaders                                                                                 38 / 56
