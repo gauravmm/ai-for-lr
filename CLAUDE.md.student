@@ -7,4 +7,4 @@ Some PDFs in `case/` have a hidden Markdown companion, `X.pdf.md`, beside `X.pdf
 - Whenever `X.pdf.md` exists, read it instead of `X.pdf`. It carries the same document text, plus every spreadsheet cell by sheet, row and column letter with stored results and formulas, and avoids PDF table-extraction errors.
 - When citing, use the document's table and row locators (for example `PRG-02 T1 T-01`) or workbook cell references (for example `Mandatory Gate!J2`).
 
-The `check-my-task-1` and `check-my-task-2` skills in `skills/` are for participants to run themselves. Do not open, read or apply them unless the user invokes that skill by name (for example `/check-my-task-1`).
+Use the `slide` skill in `skills/slide/` when participants ask about a presentation slide or want a course concept explained. Its resources contain slide images, searchable text, and source excerpts; slide numbers match the presentation footer.

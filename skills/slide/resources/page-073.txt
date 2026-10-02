@@ -1,0 +1,21 @@
+References
+    35. Aditya Mehta, TechCrunch. AI hallucination nearly triggers US military operation. 18 September
+        2026.
+    36. Menghua Xia et al.
+        DREAM: On hallucinations in AI-generated content for nuclear medicine imaging.
+        arXiv:2506.13995v2, 18 June 2025. Sections III-IV; displayed image is Figure 5.
+    37. Reuters. South Africa withdraws draft AI policy over fictitious references. 27 April 2026. Screenshot:
+        Reuters republication on MyJoyOnline, 28 April 2026.
+    38. Infocomm Media Development Authority (IMDA). Model AI Governance Framework for Agentic AI.
+        Version 1.5. Published 20 May 2026; updated 5 June 2026. Local PDF and extracts in references/
+        imda-agentic-ai/.
+    39. International Organization for Standardization / International Electrotechnical Commission.
+        ISO/IEC 42001:2023 — Artificial intelligence — Management system.
+        First edition, December 2023.
+    40. OWASP GenAI Security Project, Agentic Security Initiative.
+        Agentic AI — Threats and Mitigations.
+        Version 1.0, 17 February 2025.
+    41. Summer Yue.
+        First-person account of OpenClaw deleting her inbox.
+        22 February 2026. Post and screenshots; does not establish permanent loss of all messages.
+manek.sg/aileaders                                                                                           53 / 55

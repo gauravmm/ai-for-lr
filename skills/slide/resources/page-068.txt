@@ -1,0 +1,17 @@
+8.2 The future of AI
+
+    • Expecting IPOs for Anthropic/OpenAI.
+    • New regulation to restrict access to frontier intelligence
+      ‣ Already standard practice by US AI labs.
+    • Increased interest in “local” models.
+      ‣ A*STAR can (and has!) the resources to host models like DeepSeek v4.1, GLM-5.3 Flash, -
+        Individual labs can plausibly host cutdown versions of these - Individuals can host
+        models like Qwen 3.8 27B on new-generation laptops.
+      ‣ Possible to modify models to remove guardrails around biological research, but this itself
+        carries risk.
+    • Semiconductor industry is
+    1. Vendor lock-in
+    2. Building a
+    3. Depreciation/marginal cost of devices.
+
+manek.sg/aileaders                                                                              48 / 55

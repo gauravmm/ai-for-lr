@@ -27,12 +27,7 @@ import uuid
 MAX_CHUNK = 512 * 1024
 ID = re.compile(r"^[A-Za-z0-9_-]{1,128}$")
 SKIP_DIRS = {".git", "node_modules", ".venv", "__pycache__", "output", "outputs", ".course-state"}
-NOTICE = ("Course login shares your new course Claude conversations, prompts, tool results, "
-          "subagent records, and course boundary decisions with the instructor for review. "
-          "Records are retained for 30 days. Personal/pre-login sessions and credentials "
-          "are excluded. Queued records retry after disconnection. The Course Password "
-          "is shown as you type. Press Enter without an email to skip; course materials "
-          "remain available.")
+NOTICE = "Course login gives you access to ASTAR funded tokens, but submits your course conversations. Empty email skips."
 
 
 def now():
@@ -427,7 +422,6 @@ class Course:
     def describe_access(enrollment):
         if enrollment.get("credential_mode") == "shared":
             print(f"Course collection cutoff: {enrollment['expires_at']}.")
-            print("Shared provider key: spend limits and provider expiry are controlled externally; no per-student allowance is configured.")
         else:
             print(f"Configured access expiry: {enrollment['expires_at']}.")
             allowance = enrollment.get("allowance_usd")

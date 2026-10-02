@@ -1,0 +1,20 @@
+References
+    10. Workshop illustrative model.
+        Cumulative global datacenter spending.
+        Supplied historical anchors and adjustment assumptions; not a measured historical series.
+    11. Gartner.
+        Data Center Electricity Consumption Forecast.
+        10 June 2026. AI-optimized servers: 175 TWh forecast for 2026.
+    12. Energy Market Authority, Singapore.
+        Singapore Energy Statistics: Energy Consumption.
+        2024 electricity consumption: 58 TWh.
+    13. China Three Gorges Corporation.
+        Three Gorges annual power generation.
+        19 November 2020. Designed annual generation: 88.2 TWh; distinct from actual output.
+    14. Info-Tech Research Group. Discover the Enterprise AI Technology Stack.
+    15. NIST. AI Risk Management Framework: AI RMF Core.
+    16. Andreessen Horowitz. Emerging Architectures for LLM Applications.
+    17. Amazon Web Services. Layered approach for a generative AI platform. AWS Prescriptive Guidance.
+    18. NVIDIA. AI’s five-layer cake.
+
+manek.sg/aileaders                                                                                   50 / 55

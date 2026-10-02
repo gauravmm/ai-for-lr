@@ -10,6 +10,8 @@ Go to `case/00-start-here/CASE-01-executive-case-brief.pdf` in the left menu.
 
 After login, reload the editor and start a new Claude chat. Use `course status` to check access and `course logout` to stop token use and data collection.
 
+To revisit the presentation, type `/slide <number>` using the number shown at the bottom of the slide, or ask “Check the slides and explain XYZ concept to me.” Claude can consult slide images, searchable text, and the speaker notes in the slide source.
+
 ## Task 1: Verification [15 min]
 
 Timebox: 15 minutes. Leadership has received the documents in `case/00-start-here/`. Check the decision-relevant claims against the complete case bundle, using exact source locations and the tender's authority rules. Correct the recommendation if the evidence requires it.
@@ -28,17 +30,13 @@ Structured prompt:
 
 > Using the supplied files, identify each decision-relevant claim in the initial recommendation. For each claim, record the exact source document and locator, the extracted source value, any calculation or interpretation, documentary status and a verification status. Compare source authority and dates where records differ. Recalculate mandatory gates before weighted scores. Produce an inspectable attribution table; mark missing or conflicting evidence as unresolved and do not invent facts. Then give a corrected recommendation with references to the table.
 
-**Check your work:** when you have finished, type `/check-my-task-1` in the Claude chat for a review of your conclusion, table and verification prompt.
-
 Compare inspectability and correction quality, not just how fluent the final answer sounds.
 
 ## Task 2: Leadership deck [15 min]
 
-Prepare a corrected, editable version of the initial tender deck (INITIAL-02) for the Executive Approval Committee from your verified Task 1 result. Keep the slides, their order and layout, and update the content with the new conclusion and sources. 
+Prepare a corrected, editable version of the initial tender deck (INITIAL-02) for the Executive Approval Committee from your verified Task 1 result. Keep the slides, their order and layout, and update the content with the new conclusion and sources.
 
 Tell your agent to use the `pptx-generator` skill, which bundles the corporate slide template.
-
-**Check your work:** when you have finished, type `/check-my-task-2` in the Claude chat for a review of your deck against your Task 1 record.
 
 ### Checkpoint: What's your usage?
 

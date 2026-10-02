@@ -1,0 +1,20 @@
+References
+    26. Artificial Analysis. Muse Spark 1.3 (max). Read 2 October 2026. AAII 48 under Intelligence Index
+        v4.3.2; later benchmark reading than the stored September snapshot.
+    27. Tobias Groot and Matias Valdenegro-Toro. Overconfidence is Key: Verbalized Uncertainty Evaluation
+        in Large Language and Vision-Language Models. TrustNLP 2024, pp. 145-171.
+    28. Sharma et al. Towards Understanding Sycophancy in Language Models. 2023.
+    29. Shapira et al. Clever Hans or Neural Theory of Mind? Stress Testing Social Reasoning in Large
+        Language Models. arXiv:2305.14763, 2023.
+    30. Anthropic. Sycophancy to Subterfuge: Investigating Reward Tampering in Language Models. 17 June
+        2024. Controlled training experiments; not established as common production behavior.
+    31. John R. Searle.
+        Minds, brains, and programs.
+        Behavioral and Brain Sciences 3(3), 417-424, 1980. Chinese Room argument.
+    32. Wallace et al. The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions. OpenAI,
+        2024.
+    33. Liu et al. Lost in the Middle: How Language Models Use Long Contexts. arXiv:2307.03172 (2023);
+        Transactions of the Association for Computational Linguistics, 2024.
+    34. Anthropic. Project Vend, phase one. 27 June 2025. Claude Sonnet 3.7 running a real office shop with
+        Andon Labs.
+manek.sg/aileaders                                                                                          52 / 55

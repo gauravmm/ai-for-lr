@@ -1,0 +1,17 @@
+4.2 Theory of Mind: Understanding Intentions
+    Project Vend: an AI shopkeeper34
+    Anthropic ran an experiment with an AI
+    shopkeeper that could set prices.
+    • Employees persuaded it to offer discounts
+      and give away stock.
+    • 25% employee discount when
+      approximately 99% of customers were
+      employees.
+    • Products sold below cost; the shop lost
+      money.
+
+    Should the agent represent the owners
+    or shoppers interests?
+
+                                                  Anthropic · 27 June 202534
+manek.sg/aileaders                                                             21 / 55

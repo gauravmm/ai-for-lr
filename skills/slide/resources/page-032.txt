@@ -1,0 +1,18 @@
+4.3 Hallucinations
+
+
+    Hallucination: the model        TechCrunch35
+
+    states something confidently,
+    fluently, and wrong.
+
+    An American military AI
+    hallucinated nuclear
+    weapons components on a
+    Chinese vessel’s cargo
+    manifest.7
+    “entirely false” but it also
+    “almost started a war”
+
+
+manek.sg/aileaders                            22 / 55
