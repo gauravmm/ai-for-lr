@@ -373,6 +373,13 @@ class Course:
         atomic(directory / "settings.json", {"cleanupPeriodDays": 30, "hooks": {event: hook for event in
                ("SessionStart", "SessionEnd", "Stop", "PostToolUse", "PostToolUseFailure", "SubagentStop", "PreCompact")}})
         (directory / "skills").mkdir(exist_ok=True, mode=0o700)
+        # Drop the old course-owned link after the slide skill is renamed to slides.
+        if (self.workspace / ".claude/skills/slides/SKILL.md").is_file():
+            previous = directory / "skills/slide"
+            if previous.is_symlink() and previous.readlink() in (
+                self.workspace / ".claude/skills/slide", self.workspace / "skills/slide"
+            ):
+                previous.unlink()
         for skill in (self.workspace / ".claude/skills").iterdir():
             if skill.is_dir() and not skill.is_symlink() and (skill / "SKILL.md").exists():
                 destination = directory / "skills" / skill.name

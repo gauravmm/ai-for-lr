@@ -1,0 +1,19 @@
+6.2 IMCB ATLAS: Document Flow
+                             Producers             AT L A S           Consumers
+                                 ED                   PA                  ED
+
+                                 PI 1                LOA                  PI 1
+
+                                 PI 2         PI 1 Project Update         PI 2
+
+                             Contracts        PI 2 Project Update      Contracts
+
+                                 HR                Appraisal              HR
+
+                              Tech-biz             Licensing            Tech-biz
+                                  ⋯                                         ⋯
+
+          AT L A S
+                                      Each consumer asks questions about the
+                                         documents relevant to their role.
+manek.sg/aileaders                                                                 37 / 60

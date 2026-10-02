@@ -1,0 +1,16 @@
+6.4 AI-driven AI analysis
+
+    The simplest solution is to have a single ATLAS chatbot and tell it who can see which files.
+    What business risk does this expose you to?
+    1. Use AI to analyze ATLAS
+      /slides Explain what could go wrong if ATLAS had one shared
+      chatbot without access control?
+
+    2. Apply the governance framework
+      Explain with /imda-ai-governance the risks for an executive
+      audience in two sentences.
+
+    3. Control the risk
+      Explain a technical control for this.
+
+manek.sg/aileaders                                                                                 39 / 60

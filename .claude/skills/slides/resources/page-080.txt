@@ -1,0 +1,21 @@
+References
+    35. Wallace et al. The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions. OpenAI,
+        2024.
+    36. Liu et al. Lost in the Middle: How Language Models Use Long Contexts. arXiv:2307.03172 (2023);
+        Transactions of the Association for Computational Linguistics, 2024.
+    37. Anthropic. Project Vend, phase one. 27 June 2025. Claude Sonnet 3.7 running a real office shop with
+        Andon Labs.
+    38. Aditya Mehta, TechCrunch. AI hallucination nearly triggers US military operation. 18 September
+        2026.
+    39. Menghua Xia et al.
+        DREAM: On hallucinations in AI-generated content for nuclear medicine imaging.
+        arXiv:2506.13995v2, 18 June 2025. Sections III-IV; displayed image is Figure 5.
+    40. Reuters. South Africa withdraws draft AI policy over fictitious references. 27 April 2026. Screenshot:
+        Reuters republication on MyJoyOnline, 28 April 2026.
+    41. Infocomm Media Development Authority (IMDA). Model AI Governance Framework for Agentic AI.
+        Version 1.5. Published 20 May 2026; updated 5 June 2026. Local PDF and extracts in references/
+        imda-agentic-ai/.
+
+
+
+manek.sg/aileaders                                                                                           58 / 60

@@ -2,23 +2,11 @@
 
 Welcome to the AI tutorial hands-on portion, delivered by Dr. Gaurav Manek. [Add me on LinkedIn!](https://www.linkedin.com/in/gauravmanek/).
 
-To get started, open this as a GitHub codespace and wait for setup to finish. Enter your approved email and Course Password to use A*STAR-funded Claude tokens. The password is shown as you type. After login, reload the editor and start a new Claude chat. Claude starts on Opus 5.5; the model list also includes Sonnet 5.5.
+To get started, open this as a GitHub codespace and wait for setup to finish. Enter your approved email and Course Password to use A*STAR-funded Claude tokens.
 
-Go to `case/00-start-here/CASE-01-executive-case-brief.pdf` in the left menu.
+## AI Questions
 
-## Codespaces setup
-
-After login, reload the editor and start a new Claude chat. Use `course status` to check access and `course logout` to stop token use and data collection.
-
-To revisit the presentation, type `/slide <number>` using the number shown at the bottom of the slide, or ask “Check the slides and explain XYZ concept to me.” Claude can consult slide images, searchable text, and the speaker notes in the slide source.
-
-## Task 1: Verification [15 min]
-
-Timebox: 15 minutes. Leadership has received the documents in `case/00-start-here/`. Check the decision-relevant claims against the complete case bundle, using exact source locations and the tender's authority rules. Correct the recommendation if the evidence requires it.
-
-Deliver one corrected key conclusion, a short claim-to-source table and one reusable verification prompt. Record the source value, transformation, documentary status, uncertainty and what changed. A genuine gap should be recorded as unresolved rather than filled by assumption.
-
-The same files and tool access should be used for the simple and structured prompt trials. Work on a representative subset of material claims yourself.
+To revisit the presentation, type `/slides <number>` using the number shown at the bottom of the slide, or ask “Check the slides and explain XYZ concept to me.” Claude can consult slide images, searchable text, and the speaker notes in the slide source.
 
 ### Prompt comparison
 
@@ -42,7 +30,7 @@ Tell your agent to use the `pptx-generator` skill, which bundles the corporate s
 
 Try running `/usage` to see how much money it cost to run the task so far. Run `/context` to see what information is currently in the context window (the short-term memory).
 
-## Task 3: Bounded workflow [35 minutes]
+## Task 3: Bounded workflow [40 minutes]
 
 Develop the strategy and have your AI agent develop the workflow (write it in PROMPT.md) and complete the risk analysis workflow blueprint below.
 

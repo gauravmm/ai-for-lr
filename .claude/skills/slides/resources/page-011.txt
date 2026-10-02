@@ -1,0 +1,21 @@
+1.3 Who Controls What in AI
+
+                            1. Business need
+                            Outcomes · priorities · success metrics
+     Your direct control
+                            2. Policy                                        This workshop.
+                            Rules · accountability · human oversight
+
+                            3. Orchestration
+                            Workflows · integrations · approvals
+           Your technical
+              team owns
+                            4. Engineering
+                            Tools · prompts · evaluation · deployment
+
+                            5. Infrastructure                                Background.
+                            Inference · latency · capacity · cost
+      External providers
+                            model     chips      power      data
+                             dev                           centres network
+manek.sg/aileaders                                                                            7 / 60
