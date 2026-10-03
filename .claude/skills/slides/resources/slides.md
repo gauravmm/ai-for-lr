@@ -1324,27 +1324,47 @@ ocelliq.com/astar-lr                                                            
 7.5 Verify: stage boundaries
 
 
+      Stage and purpose        Each bidder has a verifier that checks all seven mandatory
+                               gates.
+      Accountable owner        The Evaluation Panel is accountable for each gate decision.
+
+      Allowed data and tools   Read only the criteria and assigned bid; use a reader and
+                               calculator.
+
+      Permitted actions        Recommend pass, fail or unresolved for each gate, citing the
+                               evidence.
+
+      Human approvals          The Panel approves gates; Procurement, Finance or the PI
+                               resolves disputes.
+
+      Prohibited actions       Do not invent terms, use another bid’s evidence or contact
+                               suppliers.
+
+      Stop and escalation      Pause until the responsible reviewer resolves missing or
+                               conflicting evidence.
+
+ocelliq.com/astar-lr                                                                          55 / 74
+
+## Slide 56 · PDF page 84 · Verify:stage boundaries
+
+[Slide image](page-084.png)
+
+7.5 Verify: stage boundaries
 
 
-      Stage            One verifier per bidder; all seven gates.
-      Owner            Evaluation Panel.
-      Allowed          Criteria + own bid; reader/calculator.
-      Permitted        Recommend pass, fail or unresolved.
-      Approval         Panel; Mira, Joel or PI for disputes.
-      Prohibited       Invented terms, rival bids, contact.
-      Stop             Missing/conflicting facts → named reviewer.
-      Log              Gate, source, calculation and open issue.
 
-     Technical team: implement the agreed tool and file limits.
+
+      Evidence log          Record sources, calculations, gate decisions and any
+                            unresolved issues.
 
 
 
 
-ocelliq.com/astar-lr                                                 55 / 74
+ocelliq.com/astar-lr                                                               56 / 74
 
-## Slide 56 · PDF page 87 · Ingest:preserve the evidence
+## Slide 57 · PDF page 88 · Ingest:preserve the evidence
 
-[Slide image](page-087.png)
+[Slide image](page-088.png)
 
 7.6 Ingest: preserve the evidence
 
@@ -1364,11 +1384,11 @@ ocelliq.com/astar-lr                                                 55 / 74
      C. Technical controls
      D. Enable end-user responsibility
 
-ocelliq.com/astar-lr                                                                       56 / 74
+ocelliq.com/astar-lr                                                                       57 / 74
 
-## Slide 57 · PDF page 88 · Ingest:stage boundaries
+## Slide 58 · PDF page 89 · Ingest:stage boundaries
 
-[Slide image](page-088.png)
+[Slide image](page-089.png)
 
 7.7 Ingest: stage boundaries
 
@@ -1383,16 +1403,15 @@ ocelliq.com/astar-lr                                                            
      Stop: Unclear criteria → Mira; resolve
                                                     Log: Files, clauses, versions and exceptions.
      before handoff.
-     Technical team: implement the agreed tool and file limits.
 
 
 
 
-ocelliq.com/astar-lr                                                                                57 / 74
+ocelliq.com/astar-lr                                                                                58 / 74
 
-## Slide 58 · PDF page 92 · Draft:settle gates before scoring
+## Slide 59 · PDF page 93 · Draft:settle gates before scoring
 
-[Slide image](page-092.png)
+[Slide image](page-093.png)
 
 7.8 Draft: settle gates before scoring
 
@@ -1411,11 +1430,11 @@ ocelliq.com/astar-lr                                                            
      C. Technical controls
      D. Enable end-user responsibility
 
-ocelliq.com/astar-lr                                                                           58 / 74
+ocelliq.com/astar-lr                                                                           59 / 74
 
-## Slide 59 · PDF page 93 · Draft:stage boundaries
+## Slide 60 · PDF page 94 · Draft:stage boundaries
 
-[Slide image](page-093.png)
+[Slide image](page-094.png)
 
 7.9 Draft: stage boundaries
 
@@ -1423,24 +1442,23 @@ ocelliq.com/astar-lr                                                            
 
 
      Stage: Synthesise results and calculate
-                                                   Owner: Evaluation Panel; Joel checks costs.
+                                                  Owner: Evaluation Panel; Joel checks costs.
      scores.
-     Allowed: Reviewed packets; calculator/        Permitted: Score eligible bids; draft
-     writer.                                       narrative.
-     Approval: Panel gates/scores; Finance         Prohibited: New scores, invented prices,
-     arithmetic.                                   award.
-     Stop: Open gate/stale packet → originating    Log: Input versions, formulae and draft
-     reviewer.                                     changes.
-     Technical team: implement the agreed tool and file limits.
+     Allowed: Reviewed packets; calculator/       Permitted: Score eligible bids; draft
+     writer.                                      narrative.
+     Approval: Panel gates/scores; Finance        Prohibited: New scores, invented prices,
+     arithmetic.                                  award.
+     Stop: Open gate/stale packet → originating   Log: Input versions, formulae and draft
+     reviewer.                                    changes.
 
 
 
 
-ocelliq.com/astar-lr                                                                             59 / 74
+ocelliq.com/astar-lr                                                                            60 / 74
 
-## Slide 60 · PDF page 97 · Review:make human approval meaningful
+## Slide 61 · PDF page 98 · Review:make human approval meaningful
 
-[Slide image](page-097.png)
+[Slide image](page-098.png)
 
 7.10 Review: make human approval meaningful
 
@@ -1460,53 +1478,30 @@ ocelliq.com/astar-lr                                                            
      C. Technical controls
      D. Enable end-user responsibility
 
-ocelliq.com/astar-lr                                                                          60 / 74
+ocelliq.com/astar-lr                                                                          61 / 74
 
-## Slide 61 · PDF page 98 · Review:stage boundaries
+## Slide 62 · PDF page 99 · Review:stage boundaries
 
-[Slide image](page-098.png)
+[Slide image](page-099.png)
 
 7.11 Review: stage boundaries
 
 
 
 
-     Stage: Prepare leadership slide and review    Owner: Mira Tan; specialists check their
-     pack.                                         claims.
-     Allowed: Draft, excerpts, review records;     Permitted: Reconcile claims; expose open
-     writer.                                       issues.
-     Approval: Procurement routing; committee      Prohibited: Contact, amendments, invented
-     award.                                        sign-off.
-     Stop: Missing/stale approval → Mira; hold     Log: Claims, edits, reviewer, decision and
-     release.                                      version.
-     Technical team: implement the agreed tool and file limits.
+     Stage: Prepare leadership slide and review   Owner: Mira Tan; specialists check their
+     pack.                                        claims.
+     Allowed: Draft, excerpts, review records;    Permitted: Reconcile claims; expose open
+     writer.                                      issues.
+     Approval: Procurement routing; committee     Prohibited: Contact, amendments, invented
+     award.                                       sign-off.
+     Stop: Missing/stale approval → Mira; hold    Log: Claims, edits, reviewer, decision and
+     release.                                     version.
 
 
 
 
-ocelliq.com/astar-lr                                                                        61 / 74
-
-## Slide 62 · PDF page 99 · Ask your AI
-
-[Slide image](page-099.png)
-
-7.12 Ask your AI
-
-
-
-
-     • Get help prompting
-     • Find the biggest risks
-     • Understand agent isolation
-     • Define minimum access
-     • Make human review meaningful
-     • Handle conflicting evidence
-     • Test the controls
-
-
-
-
-ocelliq.com/astar-lr                  62 / 74
+ocelliq.com/astar-lr                                                                       62 / 74
 
 ## Slide unnumbered · PDF page 101 · Where do we go from here?
 
@@ -1547,12 +1542,12 @@ ocelliq.com/astar-lr                                                            
 
 
 
-     ..
+                                  IBM Training Manual, 1979
 
 
 
 
-ocelliq.com/astar-lr              65 / 74
+ocelliq.com/astar-lr                                     65 / 74
 
 ## Slide 66 · PDF page 104 · The future of AI
 

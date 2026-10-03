@@ -1,6 +1,6 @@
 {
   "deck": "01-intro",
-  "pdf_sha256": "f2e01f6adc0e4fe504a5e15e9a3d40dc4d00f420f1beecda169b03853be6c12d",
+  "pdf_sha256": "a3cddf2495e49b092c513681630d970f21b2874ac6fcbe0200a90013fdc07d6e",
   "renderer": {
     "version": "pdftoppm version 24.02.0",
     "scale_to": 1600
@@ -396,56 +396,56 @@
       "slide": 55,
       "title": "Verify:stage boundaries",
       "image": "page-083.png",
-      "image_sha256": "e2bd265a7458124022e41720a0c452bc6476f3aa8d407556dd060c9712cc8fd3"
+      "image_sha256": "1fd5c44851025cfbdc67cb644edfe24c35a8a4df4412eb22c527e00180d89622"
     },
     {
-      "page": 87,
+      "page": 84,
       "slide": 56,
-      "title": "Ingest:preserve the evidence",
-      "image": "page-087.png",
-      "image_sha256": "cdff1aa563caa3904d11fc07a437d139ee38c512b5ec2a3270dcb25724ceb598"
+      "title": "Verify:stage boundaries",
+      "image": "page-084.png",
+      "image_sha256": "c870c28a7a71fd4fec1f18a843d804a5be7368389dedc53f9a0e11d0d890e3c1"
     },
     {
       "page": 88,
       "slide": 57,
-      "title": "Ingest:stage boundaries",
+      "title": "Ingest:preserve the evidence",
       "image": "page-088.png",
-      "image_sha256": "5b17da5ff3309d41a970d7b25c1d5635a383e27b3e647df28176553ca7fad2ec"
+      "image_sha256": "4e305fffa6b5944d819373bd791e30cc855a07964bf6ab5cc0022a433606182a"
     },
     {
-      "page": 92,
+      "page": 89,
       "slide": 58,
-      "title": "Draft:settle gates before scoring",
-      "image": "page-092.png",
-      "image_sha256": "a131c5bc9d2037a6312aa8f1d544d9a1e9475def62cb4499a6cd9e267063f1a9"
+      "title": "Ingest:stage boundaries",
+      "image": "page-089.png",
+      "image_sha256": "f490860543d40aea8dfe553d07776ca016e88edf8d0f1ab03617890661752cd7"
     },
     {
       "page": 93,
       "slide": 59,
-      "title": "Draft:stage boundaries",
+      "title": "Draft:settle gates before scoring",
       "image": "page-093.png",
-      "image_sha256": "2f2296c6909fb0c5078b18e49f03f3fb24eb605a7a05f5ec78d13cfd293dfce8"
+      "image_sha256": "52138ac89ff50bb094a14043d498f27280ed80d11e536de176b12b4d43784eea"
     },
     {
-      "page": 97,
+      "page": 94,
       "slide": 60,
-      "title": "Review:make human approval meaningful",
-      "image": "page-097.png",
-      "image_sha256": "7342b41bdda5c6a175169cf653270239f4731cfb58d31a6da4ab688be53ac61c"
+      "title": "Draft:stage boundaries",
+      "image": "page-094.png",
+      "image_sha256": "ae8a253f4920683fa762ba37117cfc3ef0934b1e1e6b7d13e6a32049d161005f"
     },
     {
       "page": 98,
       "slide": 61,
-      "title": "Review:stage boundaries",
+      "title": "Review:make human approval meaningful",
       "image": "page-098.png",
-      "image_sha256": "4839cbd359892cbe8be84a03529b80ca5eb6b221e8946be7e0579779a88dcec8"
+      "image_sha256": "5383ce1e683301d3258bf9b574b9032c459787e279da9db42033589131c8e51b"
     },
     {
       "page": 99,
       "slide": 62,
-      "title": "Ask your AI",
+      "title": "Review:stage boundaries",
       "image": "page-099.png",
-      "image_sha256": "46d7882d194039005c23db7f07f0319c41368b476d7af598e72b67f4f829ab1e"
+      "image_sha256": "ee35d0d056afaa94ead76cd0d09a97b1ab1e47e4f6ab45535d8bc98899560413"
     },
     {
       "page": 101,
@@ -466,7 +466,7 @@
       "slide": 65,
       "title": "Humans are still in charge",
       "image": "page-103.png",
-      "image_sha256": "4f4f32423fdd1dad37cdb93288c883ffd5aac7cdbb16b106cb404ae4e3c9c340"
+      "image_sha256": "47840a60324c83ee3ef982e64089b0a4bddcbe749515742d7209093bc2feb23f"
     },
     {
       "page": 104,
@@ -920,49 +920,49 @@
     {
       "number": 56,
       "pages": [
-        87
+        84
       ],
-      "title": "Ingest:preserve the evidence",
-      "image": "page-087.png"
+      "title": "Verify:stage boundaries",
+      "image": "page-084.png"
     },
     {
       "number": 57,
       "pages": [
         88
       ],
-      "title": "Ingest:stage boundaries",
+      "title": "Ingest:preserve the evidence",
       "image": "page-088.png"
     },
     {
       "number": 58,
       "pages": [
-        92
+        89
       ],
-      "title": "Draft:settle gates before scoring",
-      "image": "page-092.png"
+      "title": "Ingest:stage boundaries",
+      "image": "page-089.png"
     },
     {
       "number": 59,
       "pages": [
         93
       ],
-      "title": "Draft:stage boundaries",
+      "title": "Draft:settle gates before scoring",
       "image": "page-093.png"
     },
     {
       "number": 60,
       "pages": [
-        97
+        94
       ],
-      "title": "Review:make human approval meaningful",
-      "image": "page-097.png"
+      "title": "Draft:stage boundaries",
+      "image": "page-094.png"
     },
     {
       "number": 61,
       "pages": [
         98
       ],
-      "title": "Review:stage boundaries",
+      "title": "Review:make human approval meaningful",
       "image": "page-098.png"
     },
     {
@@ -970,7 +970,7 @@
       "pages": [
         99
       ],
-      "title": "Ask your AI",
+      "title": "Review:stage boundaries",
       "image": "page-099.png"
     },
     {
