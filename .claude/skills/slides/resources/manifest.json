@@ -1,6 +1,6 @@
 {
   "deck": "01-intro",
-  "pdf_sha256": "aabcf2925ced84cb8bca33b3e453062687c6d32a893bcb6808df6dd7dccd0ac1",
+  "pdf_sha256": "116c4019a3562bdd6efdfda8a3965429ed0d6b7ef83d497d2f1cdd99e5d405b9",
   "renderer": {
     "version": "pdftoppm version 24.02.0",
     "scale_to": 1600
@@ -389,7 +389,7 @@
       "slide": 54,
       "title": "Verify:check each offered commitment",
       "image": "page-082.png",
-      "image_sha256": "3b5a88241813925162ed5df75cf5b39c0af33b844a4256f7c4420e95d092f2ef"
+      "image_sha256": "0708f755e01c70d3b7301b87bd6313fbee1f1f5ef0d70185b9ccf1267f793ff3"
     },
     {
       "page": 83,
@@ -410,7 +410,7 @@
       "slide": 57,
       "title": "Ingest:preserve the evidence",
       "image": "page-088.png",
-      "image_sha256": "43d10e1c0738e026afa5bbe0fcead844da193288c904002b582bd944d2669623"
+      "image_sha256": "3ea2211cab001320cf2a92062f89f7f3bca6039345401c161c986b64eaad082b"
     },
     {
       "page": 89,
@@ -431,7 +431,7 @@
       "slide": 60,
       "title": "Draft:settle gates before scoring",
       "image": "page-094.png",
-      "image_sha256": "f6d8e3db207f71b6c6ecf48603d28195070659d6801f66f2ded1e2a26bbf5729"
+      "image_sha256": "2124a62d55bcd5001665986c14a6b4c9f2f9392b85efed012c3a9cdb18fc3574"
     },
     {
       "page": 95,
@@ -452,7 +452,7 @@
       "slide": 63,
       "title": "Review:make human approval meaningful",
       "image": "page-100.png",
-      "image_sha256": "d8555eb08c6c4cd66f7d7b26e94b9495f64fb8a270e1d0b50dab6d9b5c4dd34f"
+      "image_sha256": "71858be8c3c0e6757db80466d1a4507376cdd9e7d336d0f9f0efa75557b2ad52"
     },
     {
       "page": 101,

@@ -1299,23 +1299,21 @@ ocelliq.com/astar-lr                                                            
 
 7.4 Verify: check each offered commitment
 
-
          Seven Risks                     • Use evidence from another bidder.
       1. Erroneous actions               • Miss a mandatory gate or misread a date or price.
-      2. Unauthorized actions
-      3. Biased or unfair actions
-                                         • Treat a future promise as a submitted
-      4. Data breaches                     commitment.
-      5. Disrupt connected systems       • Pass an unresolved conflict to the next stage.
+      2. Unauthorized actions            • Treat a future promise as a submitted
+      3. Biased or unfair actions          commitment.
+      4. Data breaches                   • Pass an unresolved conflict to the next stage.
+      5. Disrupt connected systems
+                                          What would you want to check before accepting
       6. Speed and volume
-      7. Cascading effects                What would you want to check before accepting
-        Four Pillars                      a pass?
+                                          a pass?
+      7. Cascading effects
+        Four Pillars
      A. Assess and bound risks
      B. Make humans accountable
      C. Technical controls
      D. Enable end-user responsibility
-
-
 
 ocelliq.com/astar-lr                                                                       54 / 78
 
@@ -1379,23 +1377,21 @@ ocelliq.com/astar-lr                                                            
 
 7.7 Ingest: preserve the evidence
 
-
          Seven Risks                     • Extract the wrong clause, date or table row.
       1. Erroneous actions               • Treat a generated summary as an authoritative
-      2. Unauthorized actions
-      3. Biased or unfair actions
-                                           source.
-      4. Data breaches                   • Follow instructions hidden inside a document.
-      5. Disrupt connected systems       • Read material outside the assigned case.
+      2. Unauthorized actions              source.
+      3. Biased or unfair actions        • Follow instructions hidden inside a document.
+      4. Data breaches                   • Read material outside the assigned case.
+      5. Disrupt connected systems
+                                          Which sources should the next stage be able to
       6. Speed and volume
-      7. Cascading effects                Which sources should the next stage be able to
-        Four Pillars                      trace?
+                                          trace?
+      7. Cascading effects
+        Four Pillars
      A. Assess and bound risks
      B. Make humans accountable
      C. Technical controls
      D. Enable end-user responsibility
-
-
 
 ocelliq.com/astar-lr                                                                       57 / 78
 
@@ -1458,23 +1454,20 @@ ocelliq.com/astar-lr                                                            
 
 7.10 Draft: settle gates before scoring
 
-
          Seven Risks                     • Rank a bid using an unsupported gate result.
       1. Erroneous actions               • Invent scores, weights or a missing price.
-      2. Unauthorized actions
-      3. Biased or unfair actions
-                                         • Lose a conflict when combining verifier reports.
-      4. Data breaches                   • Use a stale packet after evidence changes.
+      2. Unauthorized actions            • Lose a conflict when combining verifier reports.
+      3. Biased or unfair actions        • Use a stale packet after evidence changes.
+      4. Data breaches
+                                           What must be settled before a bid can be ranked?
       5. Disrupt connected systems
-      6. Speed and volume                  What must be settled before a bid can be ranked?
+      6. Speed and volume
       7. Cascading effects
         Four Pillars
      A. Assess and bound risks
      B. Make humans accountable
      C. Technical controls
      D. Enable end-user responsibility
-
-
 
 ocelliq.com/astar-lr                                                                          60 / 78
 
@@ -1538,23 +1531,21 @@ ocelliq.com/astar-lr                                                            
 
 7.13 Review: make human approval meaningful
 
-
          Seven Risks                     • Leave a decisive caveat out of a polished slide.
       1. Erroneous actions               • Mistake a draft recommendation for approval.
-      2. Unauthorized actions
-      3. Biased or unfair actions
-                                         • Rubber-stamp claims without checking sources.
-      4. Data breaches                   • Use an approval for an outdated version.
+      2. Unauthorized actions            • Rubber-stamp claims without checking sources.
+      3. Biased or unfair actions        • Use an approval for an outdated version.
+      4. Data breaches
+                                          What evidence would help a reviewer make a
       5. Disrupt connected systems
-      6. Speed and volume                 What evidence would help a reviewer make a
-      7. Cascading effects                real decision?
+                                          real decision?
+      6. Speed and volume
+      7. Cascading effects
         Four Pillars
      A. Assess and bound risks
      B. Make humans accountable
      C. Technical controls
      D. Enable end-user responsibility
-
-
 
 ocelliq.com/astar-lr                                                                          63 / 78
 
