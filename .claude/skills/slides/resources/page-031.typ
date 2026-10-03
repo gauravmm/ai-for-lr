@@ -1,1 +1,0 @@
-= LLM intelligence \ ≠ Human intelligence
