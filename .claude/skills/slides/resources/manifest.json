@@ -1,6 +1,6 @@
 {
   "deck": "01-intro",
-  "pdf_sha256": "b4fb651ff0d04e42590344cd8ffca17eaa8a7cf0f4c97e0500c5a8af2cb1e8ac",
+  "pdf_sha256": "f2e01f6adc0e4fe504a5e15e9a3d40dc4d00f420f1beecda169b03853be6c12d",
   "renderer": {
     "version": "pdftoppm version 24.02.0",
     "scale_to": 1600
@@ -396,7 +396,7 @@
       "slide": 55,
       "title": "Verify:stage boundaries",
       "image": "page-083.png",
-      "image_sha256": "038e505826eca5924f10483395480109644029222b381497cd823d38803e6b78"
+      "image_sha256": "e2bd265a7458124022e41720a0c452bc6476f3aa8d407556dd060c9712cc8fd3"
     },
     {
       "page": 87,

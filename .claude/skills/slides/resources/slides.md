@@ -1326,21 +1326,21 @@ ocelliq.com/astar-lr                                                            
 
 
 
-     Stage: One verifier per bidder; all seven
-                                                   Owner: Evaluation Panel.
-     gates.
-     Allowed: Criteria + own bid; reader/          Permitted: Recommend pass, fail or
-     calculator.                                   unresolved.
-     Approval: Panel; Mira, Joel or PI for         Prohibited: Invented terms, rival bids,
-     disputes.                                     contact.
-     Stop: Missing/conflicting facts → named       Log: Gate, source, calculation and open
-     reviewer.                                     issue.
+      Stage            One verifier per bidder; all seven gates.
+      Owner            Evaluation Panel.
+      Allowed          Criteria + own bid; reader/calculator.
+      Permitted        Recommend pass, fail or unresolved.
+      Approval         Panel; Mira, Joel or PI for disputes.
+      Prohibited       Invented terms, rival bids, contact.
+      Stop             Missing/conflicting facts → named reviewer.
+      Log              Gate, source, calculation and open issue.
+
      Technical team: implement the agreed tool and file limits.
 
 
 
 
-ocelliq.com/astar-lr                                                                         55 / 74
+ocelliq.com/astar-lr                                                 55 / 74
 
 ## Slide 56 · PDF page 87 · Ingest:preserve the evidence
 
