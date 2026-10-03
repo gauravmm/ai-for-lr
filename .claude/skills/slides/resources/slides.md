@@ -1293,30 +1293,35 @@ Understand the requirements       Check each bid for         Score each correct 
 
 ocelliq.com/astar-lr                                                                                       53 / 78
 
-## Slide 54 · PDF page 79 · Verify:check each offered commitment
+## Slide 54 · PDF page 82 · Verify:check each offered commitment
 
-[Slide image](page-079.png)
+[Slide image](page-082.png)
 
 7.4 Verify: check each offered commitment
 
 
+         Seven Risks                     • Use evidence from another bidder.
+      1. Erroneous actions               • Miss a mandatory gate or misread a date or price.
+      2. Unauthorized actions
+      3. Biased or unfair actions
+                                         • Treat a future promise as a submitted
+      4. Data breaches                     commitment.
+      5. Disrupt connected systems       • Pass an unresolved conflict to the next stage.
+      6. Speed and volume
+      7. Cascading effects                What would you want to check before accepting
+        Four Pillars                      a pass?
+     A. Assess and bound risks
+     B. Make humans accountable
+     C. Technical controls
+     D. Enable end-user responsibility
 
 
-     • Miss a mandatory gate or misread a date or price.
-     • Treat a future promise as a submitted commitment.
-     • Use evidence from another bidder.
-     • Pass an unresolved conflict to the next stage.
 
-      What would you want to check before accepting a pass?
+ocelliq.com/astar-lr                                                                       54 / 78
 
+## Slide 55 · PDF page 83 · Verify:risk assessment
 
-
-
-ocelliq.com/astar-lr                                          54 / 78
-
-## Slide 55 · PDF page 80 · Verify:risk assessment
-
-[Slide image](page-080.png)
+[Slide image](page-083.png)
 
 7.5 Verify: risk assessment
 
@@ -1343,9 +1348,9 @@ ocelliq.com/astar-lr                                          54 / 78
 
 ocelliq.com/astar-lr                                                                              55 / 78
 
-## Slide 56 · PDF page 81 · Verify:stage boundaries
+## Slide 56 · PDF page 84 · Verify:stage boundaries
 
-[Slide image](page-081.png)
+[Slide image](page-084.png)
 
 7.6 Verify: stage boundaries
 
@@ -1368,30 +1373,35 @@ ocelliq.com/astar-lr                                                            
 
 ocelliq.com/astar-lr                                                                         56 / 78
 
-## Slide 57 · PDF page 82 · Ingest:preserve the evidence
+## Slide 57 · PDF page 88 · Ingest:preserve the evidence
 
-[Slide image](page-082.png)
+[Slide image](page-088.png)
 
 7.7 Ingest: preserve the evidence
 
 
+         Seven Risks                     • Extract the wrong clause, date or table row.
+      1. Erroneous actions               • Treat a generated summary as an authoritative
+      2. Unauthorized actions
+      3. Biased or unfair actions
+                                           source.
+      4. Data breaches                   • Follow instructions hidden inside a document.
+      5. Disrupt connected systems       • Read material outside the assigned case.
+      6. Speed and volume
+      7. Cascading effects                Which sources should the next stage be able to
+        Four Pillars                      trace?
+     A. Assess and bound risks
+     B. Make humans accountable
+     C. Technical controls
+     D. Enable end-user responsibility
 
 
-     • Extract the wrong clause, date or table row.
-     • Treat a generated summary as an authoritative source.
-     • Follow instructions hidden inside a document.
-     • Read material outside the assigned case.
 
-      Which sources should the next stage be able to trace?
+ocelliq.com/astar-lr                                                                       57 / 78
 
+## Slide 58 · PDF page 89 · Ingest:risk assessment
 
-
-
-ocelliq.com/astar-lr                                           57 / 78
-
-## Slide 58 · PDF page 83 · Ingest:risk assessment
-
-[Slide image](page-083.png)
+[Slide image](page-089.png)
 
 7.8 Ingest: risk assessment
 
@@ -1418,9 +1428,9 @@ ocelliq.com/astar-lr                                           57 / 78
 
 ocelliq.com/astar-lr                                                                              58 / 78
 
-## Slide 59 · PDF page 84 · Ingest:stage boundaries
+## Slide 59 · PDF page 90 · Ingest:stage boundaries
 
-[Slide image](page-084.png)
+[Slide image](page-090.png)
 
 7.9 Ingest: stage boundaries
 
@@ -1442,30 +1452,35 @@ ocelliq.com/astar-lr                                                            
 
 ocelliq.com/astar-lr                                                                                59 / 78
 
-## Slide 60 · PDF page 85 · Draft:settle gates before scoring
+## Slide 60 · PDF page 94 · Draft:settle gates before scoring
 
-[Slide image](page-085.png)
+[Slide image](page-094.png)
 
 7.10 Draft: settle gates before scoring
 
 
+         Seven Risks                     • Rank a bid using an unsupported gate result.
+      1. Erroneous actions               • Invent scores, weights or a missing price.
+      2. Unauthorized actions
+      3. Biased or unfair actions
+                                         • Lose a conflict when combining verifier reports.
+      4. Data breaches                   • Use a stale packet after evidence changes.
+      5. Disrupt connected systems
+      6. Speed and volume                  What must be settled before a bid can be ranked?
+      7. Cascading effects
+        Four Pillars
+     A. Assess and bound risks
+     B. Make humans accountable
+     C. Technical controls
+     D. Enable end-user responsibility
 
 
-     • Rank a bid using an unsupported gate result.
-     • Invent scores, weights or a missing price.
-     • Lose a conflict when combining verifier reports.
-     • Use a stale packet after evidence changes.
 
-      What must be settled before a bid can be ranked?
+ocelliq.com/astar-lr                                                                          60 / 78
 
+## Slide 61 · PDF page 95 · Draft:risk assessment
 
-
-
-ocelliq.com/astar-lr                                      60 / 78
-
-## Slide 61 · PDF page 86 · Draft:risk assessment
-
-[Slide image](page-086.png)
+[Slide image](page-095.png)
 
 7.11 Draft: risk assessment
 
@@ -1492,9 +1507,9 @@ ocelliq.com/astar-lr                                      60 / 78
 
 ocelliq.com/astar-lr                                                                            61 / 78
 
-## Slide 62 · PDF page 87 · Draft:stage boundaries
+## Slide 62 · PDF page 96 · Draft:stage boundaries
 
-[Slide image](page-087.png)
+[Slide image](page-096.png)
 
 7.12 Draft: stage boundaries
 
@@ -1517,30 +1532,35 @@ ocelliq.com/astar-lr                                                            
 
 ocelliq.com/astar-lr                                                                             62 / 78
 
-## Slide 63 · PDF page 88 · Review:make human approval meaningful
+## Slide 63 · PDF page 100 · Review:make human approval meaningful
 
-[Slide image](page-088.png)
+[Slide image](page-100.png)
 
 7.13 Review: make human approval meaningful
 
 
+         Seven Risks                     • Leave a decisive caveat out of a polished slide.
+      1. Erroneous actions               • Mistake a draft recommendation for approval.
+      2. Unauthorized actions
+      3. Biased or unfair actions
+                                         • Rubber-stamp claims without checking sources.
+      4. Data breaches                   • Use an approval for an outdated version.
+      5. Disrupt connected systems
+      6. Speed and volume                 What evidence would help a reviewer make a
+      7. Cascading effects                real decision?
+        Four Pillars
+     A. Assess and bound risks
+     B. Make humans accountable
+     C. Technical controls
+     D. Enable end-user responsibility
 
 
-     • Leave a decisive caveat out of a polished slide.
-     • Mistake a draft recommendation for approval.
-     • Rubber-stamp claims without checking sources.
-     • Use an approval for an outdated version.
 
-      What evidence would help a reviewer make a real decision?
+ocelliq.com/astar-lr                                                                          63 / 78
 
+## Slide 64 · PDF page 101 · Review:risk assessment
 
-
-
-ocelliq.com/astar-lr                                              63 / 78
-
-## Slide 64 · PDF page 89 · Review:risk assessment
-
-[Slide image](page-089.png)
+[Slide image](page-101.png)
 
 7.14 Review: risk assessment
 
@@ -1567,9 +1587,9 @@ ocelliq.com/astar-lr                                              63 / 78
 
 ocelliq.com/astar-lr                                                                             64 / 78
 
-## Slide 65 · PDF page 90 · Review:stage boundaries
+## Slide 65 · PDF page 102 · Review:stage boundaries
 
-[Slide image](page-090.png)
+[Slide image](page-102.png)
 
 7.15 Review: stage boundaries
 
@@ -1591,9 +1611,9 @@ ocelliq.com/astar-lr                                                            
 
 ocelliq.com/astar-lr                                                                        65 / 78
 
-## Slide 66 · PDF page 91 · Ask your AI
+## Slide 66 · PDF page 103 · Ask your AI
 
-[Slide image](page-091.png)
+[Slide image](page-103.png)
 
 7.16 Ask your AI
 
@@ -1613,15 +1633,15 @@ ocelliq.com/astar-lr                                                            
 
 ocelliq.com/astar-lr                  66 / 78
 
-## Slide unnumbered · PDF page 93 · Where do we go from here?
+## Slide unnumbered · PDF page 105 · Where do we go from here?
 
-[Slide image](page-093.png)
+[Slide image](page-105.png)
 
 8.   Where do we go from here?
 
-## Slide 68 · PDF page 94 · Workflows get complicated
+## Slide 68 · PDF page 106 · Workflows get complicated
 
-[Slide image](page-094.png)
+[Slide image](page-106.png)
 
 8.1 Workflows get complicated
 
@@ -1643,9 +1663,9 @@ ocelliq.com/astar-lr                  66 / 78
 
 ocelliq.com/astar-lr                                                                          68 / 78
 
-## Slide 69 · PDF page 95 · Humans are still in charge
+## Slide 69 · PDF page 107 · Humans are still in charge
 
-[Slide image](page-095.png)
+[Slide image](page-107.png)
 
 8.2 Humans are still in charge
 
@@ -1659,9 +1679,9 @@ ocelliq.com/astar-lr                                                            
 
 ocelliq.com/astar-lr              69 / 78
 
-## Slide 70 · PDF page 96 · The future of AI
+## Slide 70 · PDF page 108 · The future of AI
 
-[Slide image](page-096.png)
+[Slide image](page-108.png)
 
 8.3 The future of AI
 
@@ -1681,18 +1701,18 @@ ocelliq.com/astar-lr              69 / 78
 
 ocelliq.com/astar-lr                                                                   70 / 78
 
-## Slide unnumbered · PDF page 97 · The future of AI
+## Slide unnumbered · PDF page 109 · The future of AI
 
-[Slide image](page-097.png)
+[Slide image](page-109.png)
 
 OcelliQ.com/astar-lr
     Download the course slides.
 Free AI training slides and exercises,
        beginner to advanced.             Connect with me on LinkedIn.
 
-## Slide 72 · PDF page 98 · References
+## Slide 72 · PDF page 110 · References
 
-[Slide image](page-098.png)
+[Slide image](page-110.png)
 
 References
      1.   Amazon News. Amazon CEO Andy Jassy talks 6 truths surrounding the rise of AI. 2026.
@@ -1715,9 +1735,9 @@ References
           independently verified.
 ocelliq.com/astar-lr                                                                                           72 / 78
 
-## Slide 73 · PDF page 99 · References
+## Slide 73 · PDF page 111 · References
 
-[Slide image](page-099.png)
+[Slide image](page-111.png)
 
 References
      10. Workshop illustrative model.
@@ -1740,9 +1760,9 @@ References
 
 ocelliq.com/astar-lr                                                                                  73 / 78
 
-## Slide 74 · PDF page 100 · References
+## Slide 74 · PDF page 112 · References
 
-[Slide image](page-100.png)
+[Slide image](page-112.png)
 
 References
      19. Ajay Agrawal, Joshua Gans, Avi Goldfarb.
@@ -1766,9 +1786,9 @@ References
          million tokens, before the introductory discount.
 ocelliq.com/astar-lr                                                                                           74 / 78
 
-## Slide 75 · PDF page 101 · References
+## Slide 75 · PDF page 113 · References
 
-[Slide image](page-101.png)
+[Slide image](page-113.png)
 
 References
      26. Artificial Analysis. Muse Spark 1.3 (max). Read 2 October 2026. AAII 48 under Intelligence Index
@@ -1791,9 +1811,9 @@ References
 
 ocelliq.com/astar-lr                                                                                    75 / 78
 
-## Slide 76 · PDF page 102 · References
+## Slide 76 · PDF page 114 · References
 
-[Slide image](page-102.png)
+[Slide image](page-114.png)
 
 References
      35. Wallace et al. The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions. OpenAI,
@@ -1817,9 +1837,9 @@ References
 
 ocelliq.com/astar-lr                                                                                          76 / 78
 
-## Slide 77 · PDF page 103 · References
+## Slide 77 · PDF page 115 · References
 
-[Slide image](page-103.png)
+[Slide image](page-115.png)
 
 References
      42. International Organization for Standardization / International Electrotechnical Commission.
@@ -1843,9 +1863,9 @@ References
 
 ocelliq.com/astar-lr                                                                                   77 / 78
 
-## Slide 78 · PDF page 104 · References
+## Slide 78 · PDF page 116 · References
 
-[Slide image](page-104.png)
+[Slide image](page-116.png)
 
 References
      47. Klarna.

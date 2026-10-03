@@ -1,6 +1,6 @@
 {
   "deck": "01-intro",
-  "pdf_sha256": "5b20f53778b79a191a785b150df6e0e3e0adce0f9afafa1bf19ae675e8fcf773",
+  "pdf_sha256": "aabcf2925ced84cb8bca33b3e453062687c6d32a893bcb6808df6dd7dccd0ac1",
   "renderer": {
     "version": "pdftoppm version 24.02.0",
     "scale_to": 1600
@@ -385,178 +385,178 @@
       "image_sha256": "8cdc5dfeb8743e0b6d5e128f8db98d9a0f3f811ab4e9fd2a72da4606cbb9a421"
     },
     {
-      "page": 79,
+      "page": 82,
       "slide": 54,
       "title": "Verify:check each offered commitment",
-      "image": "page-079.png",
-      "image_sha256": "f73a2960a32d942d98d2c756825dad9ecd80c42556641ebbd3ae0f30cfa08422"
-    },
-    {
-      "page": 80,
-      "slide": 55,
-      "title": "Verify:risk assessment",
-      "image": "page-080.png",
-      "image_sha256": "4eb9e7578daf211915a5adc958a2ca2600635e70b8dd2446240f311891c8caff"
-    },
-    {
-      "page": 81,
-      "slide": 56,
-      "title": "Verify:stage boundaries",
-      "image": "page-081.png",
-      "image_sha256": "250c8cffe32263c41218545bd3b1fb6f3a52f76885f1c33c77f4b04b8152d071"
-    },
-    {
-      "page": 82,
-      "slide": 57,
-      "title": "Ingest:preserve the evidence",
       "image": "page-082.png",
-      "image_sha256": "fcdc961e21fa319d82fe883b7fc640561830e9c9f80d5bc375a1bee0948022e5"
+      "image_sha256": "3b5a88241813925162ed5df75cf5b39c0af33b844a4256f7c4420e95d092f2ef"
     },
     {
       "page": 83,
-      "slide": 58,
-      "title": "Ingest:risk assessment",
+      "slide": 55,
+      "title": "Verify:risk assessment",
       "image": "page-083.png",
-      "image_sha256": "f65c5628caed077699601621c9f52b83cd64b2055a47c9920e6b42715809ca3e"
+      "image_sha256": "4eb9e7578daf211915a5adc958a2ca2600635e70b8dd2446240f311891c8caff"
     },
     {
       "page": 84,
-      "slide": 59,
-      "title": "Ingest:stage boundaries",
+      "slide": 56,
+      "title": "Verify:stage boundaries",
       "image": "page-084.png",
-      "image_sha256": "bbdfe391ee53a39b6f2ab80d01a1ca4a8cf548f467ec2dc38d4a72d4d3890244"
-    },
-    {
-      "page": 85,
-      "slide": 60,
-      "title": "Draft:settle gates before scoring",
-      "image": "page-085.png",
-      "image_sha256": "e6604495eab984396378cad6c98f60b15b41c3d4c31f4629e14910d9e93734c8"
-    },
-    {
-      "page": 86,
-      "slide": 61,
-      "title": "Draft:risk assessment",
-      "image": "page-086.png",
-      "image_sha256": "3778677bac0443d1ae99ba8b3c16dbe7a4937fa9921c56e41d9fecdf9f319f5b"
-    },
-    {
-      "page": 87,
-      "slide": 62,
-      "title": "Draft:stage boundaries",
-      "image": "page-087.png",
-      "image_sha256": "4b73e959f785eb9157d203b4683e312637dcba7cb682f338998c41ee15e2dcce"
+      "image_sha256": "250c8cffe32263c41218545bd3b1fb6f3a52f76885f1c33c77f4b04b8152d071"
     },
     {
       "page": 88,
-      "slide": 63,
-      "title": "Review:make human approval meaningful",
+      "slide": 57,
+      "title": "Ingest:preserve the evidence",
       "image": "page-088.png",
-      "image_sha256": "79188162622acad56426605072407eafd53554bbc8294476adb5ecc30f76aad8"
+      "image_sha256": "43d10e1c0738e026afa5bbe0fcead844da193288c904002b582bd944d2669623"
     },
     {
       "page": 89,
-      "slide": 64,
-      "title": "Review:risk assessment",
+      "slide": 58,
+      "title": "Ingest:risk assessment",
       "image": "page-089.png",
-      "image_sha256": "fcbc1e08b37ac7e27b4cb065a458d6c80250bfab3658d496985ab05192f7e1f3"
+      "image_sha256": "f65c5628caed077699601621c9f52b83cd64b2055a47c9920e6b42715809ca3e"
     },
     {
       "page": 90,
-      "slide": 65,
-      "title": "Review:stage boundaries",
+      "slide": 59,
+      "title": "Ingest:stage boundaries",
       "image": "page-090.png",
-      "image_sha256": "cb0963ec0264e23dc9e072ecbf37ab39536b058603b2c64f622c0cd1444adff3"
-    },
-    {
-      "page": 91,
-      "slide": 66,
-      "title": "Ask your AI",
-      "image": "page-091.png",
-      "image_sha256": "587a5044bd30252b60e89a8a447eb0c4f42ed5bfba6767abb6f314da053c7a3e"
-    },
-    {
-      "page": 93,
-      "slide": null,
-      "title": "Where do we go from here?",
-      "image": "page-093.png",
-      "image_sha256": "9c7afd37da7ab8d56248fed1065276e5183f8de58a1cda8def153e52168e031f"
+      "image_sha256": "bbdfe391ee53a39b6f2ab80d01a1ca4a8cf548f467ec2dc38d4a72d4d3890244"
     },
     {
       "page": 94,
-      "slide": 68,
-      "title": "Workflows get complicated",
+      "slide": 60,
+      "title": "Draft:settle gates before scoring",
       "image": "page-094.png",
-      "image_sha256": "892127ecd7fa3c2add12a7fda62b42c932515671483543787c0a8d57225e44dd"
+      "image_sha256": "f6d8e3db207f71b6c6ecf48603d28195070659d6801f66f2ded1e2a26bbf5729"
     },
     {
       "page": 95,
-      "slide": 69,
-      "title": "Humans are still in charge",
+      "slide": 61,
+      "title": "Draft:risk assessment",
       "image": "page-095.png",
-      "image_sha256": "879584605de24062581d81f9c2368aa86b14cc38d17a66f3b9dfc081592ee599"
+      "image_sha256": "3778677bac0443d1ae99ba8b3c16dbe7a4937fa9921c56e41d9fecdf9f319f5b"
     },
     {
       "page": 96,
-      "slide": 70,
-      "title": "The future of AI",
+      "slide": 62,
+      "title": "Draft:stage boundaries",
       "image": "page-096.png",
-      "image_sha256": "f24bac5dfe4aeba788dcfc399062a50cfbe85e2263772eb45e7395c2f115b623"
-    },
-    {
-      "page": 97,
-      "slide": null,
-      "title": "The future of AI",
-      "image": "page-097.png",
-      "image_sha256": "a1febf99ecbc83973e0c97f43928fc3c96deea6d3615efaf2f653c53fac14b14"
-    },
-    {
-      "page": 98,
-      "slide": 72,
-      "title": "References",
-      "image": "page-098.png",
-      "image_sha256": "2ad412984b41e2a0ddc86d97bea7863e428c69fff69814fe86281f2b5ac0fccf"
-    },
-    {
-      "page": 99,
-      "slide": 73,
-      "title": "References",
-      "image": "page-099.png",
-      "image_sha256": "5c4159ce63e27358668b0c57ff42ce112d5f92a7532599bc4c59a0d2709efc87"
+      "image_sha256": "4b73e959f785eb9157d203b4683e312637dcba7cb682f338998c41ee15e2dcce"
     },
     {
       "page": 100,
-      "slide": 74,
-      "title": "References",
+      "slide": 63,
+      "title": "Review:make human approval meaningful",
       "image": "page-100.png",
-      "image_sha256": "2bab11ef220a3ae9570cf48906b01a58c83bc45c76c5d8e759ba60420b97146e"
+      "image_sha256": "d8555eb08c6c4cd66f7d7b26e94b9495f64fb8a270e1d0b50dab6d9b5c4dd34f"
     },
     {
       "page": 101,
-      "slide": 75,
-      "title": "References",
+      "slide": 64,
+      "title": "Review:risk assessment",
       "image": "page-101.png",
-      "image_sha256": "719bb6e5d36a76e10fe673c73e9e48392b2ba46d3313db787b320724bcce1809"
+      "image_sha256": "fcbc1e08b37ac7e27b4cb065a458d6c80250bfab3658d496985ab05192f7e1f3"
     },
     {
       "page": 102,
-      "slide": 76,
-      "title": "References",
+      "slide": 65,
+      "title": "Review:stage boundaries",
       "image": "page-102.png",
-      "image_sha256": "1f9fdbdf6590910a8ce0342acea3fa996e86ccb51c067005351c65b5b6e4ecf7"
+      "image_sha256": "cb0963ec0264e23dc9e072ecbf37ab39536b058603b2c64f622c0cd1444adff3"
     },
     {
       "page": 103,
+      "slide": 66,
+      "title": "Ask your AI",
+      "image": "page-103.png",
+      "image_sha256": "587a5044bd30252b60e89a8a447eb0c4f42ed5bfba6767abb6f314da053c7a3e"
+    },
+    {
+      "page": 105,
+      "slide": null,
+      "title": "Where do we go from here?",
+      "image": "page-105.png",
+      "image_sha256": "9c7afd37da7ab8d56248fed1065276e5183f8de58a1cda8def153e52168e031f"
+    },
+    {
+      "page": 106,
+      "slide": 68,
+      "title": "Workflows get complicated",
+      "image": "page-106.png",
+      "image_sha256": "892127ecd7fa3c2add12a7fda62b42c932515671483543787c0a8d57225e44dd"
+    },
+    {
+      "page": 107,
+      "slide": 69,
+      "title": "Humans are still in charge",
+      "image": "page-107.png",
+      "image_sha256": "879584605de24062581d81f9c2368aa86b14cc38d17a66f3b9dfc081592ee599"
+    },
+    {
+      "page": 108,
+      "slide": 70,
+      "title": "The future of AI",
+      "image": "page-108.png",
+      "image_sha256": "f24bac5dfe4aeba788dcfc399062a50cfbe85e2263772eb45e7395c2f115b623"
+    },
+    {
+      "page": 109,
+      "slide": null,
+      "title": "The future of AI",
+      "image": "page-109.png",
+      "image_sha256": "a1febf99ecbc83973e0c97f43928fc3c96deea6d3615efaf2f653c53fac14b14"
+    },
+    {
+      "page": 110,
+      "slide": 72,
+      "title": "References",
+      "image": "page-110.png",
+      "image_sha256": "2ad412984b41e2a0ddc86d97bea7863e428c69fff69814fe86281f2b5ac0fccf"
+    },
+    {
+      "page": 111,
+      "slide": 73,
+      "title": "References",
+      "image": "page-111.png",
+      "image_sha256": "5c4159ce63e27358668b0c57ff42ce112d5f92a7532599bc4c59a0d2709efc87"
+    },
+    {
+      "page": 112,
+      "slide": 74,
+      "title": "References",
+      "image": "page-112.png",
+      "image_sha256": "2bab11ef220a3ae9570cf48906b01a58c83bc45c76c5d8e759ba60420b97146e"
+    },
+    {
+      "page": 113,
+      "slide": 75,
+      "title": "References",
+      "image": "page-113.png",
+      "image_sha256": "719bb6e5d36a76e10fe673c73e9e48392b2ba46d3313db787b320724bcce1809"
+    },
+    {
+      "page": 114,
+      "slide": 76,
+      "title": "References",
+      "image": "page-114.png",
+      "image_sha256": "1f9fdbdf6590910a8ce0342acea3fa996e86ccb51c067005351c65b5b6e4ecf7"
+    },
+    {
+      "page": 115,
       "slide": 77,
       "title": "References",
-      "image": "page-103.png",
+      "image": "page-115.png",
       "image_sha256": "d36417e56e1bbe0bf212690faaa4770b3116c2362b6ca76ce566ec32232c4859"
     },
     {
-      "page": 104,
+      "page": 116,
       "slide": 78,
       "title": "References",
-      "image": "page-104.png",
+      "image": "page-116.png",
       "image_sha256": "0bf68b5c70947517ab8983c27f6b52975e9138d8930d624678259213c5e5b875"
     }
   ],
@@ -932,186 +932,186 @@
     {
       "number": 54,
       "pages": [
-        79
+        82
       ],
       "title": "Verify:check each offered commitment",
-      "image": "page-079.png"
+      "image": "page-082.png"
     },
     {
       "number": 55,
       "pages": [
-        80
+        83
       ],
       "title": "Verify:risk assessment",
-      "image": "page-080.png"
+      "image": "page-083.png"
     },
     {
       "number": 56,
       "pages": [
-        81
+        84
       ],
       "title": "Verify:stage boundaries",
-      "image": "page-081.png"
+      "image": "page-084.png"
     },
     {
       "number": 57,
       "pages": [
-        82
+        88
       ],
       "title": "Ingest:preserve the evidence",
-      "image": "page-082.png"
+      "image": "page-088.png"
     },
     {
       "number": 58,
       "pages": [
-        83
+        89
       ],
       "title": "Ingest:risk assessment",
-      "image": "page-083.png"
+      "image": "page-089.png"
     },
     {
       "number": 59,
       "pages": [
-        84
+        90
       ],
       "title": "Ingest:stage boundaries",
-      "image": "page-084.png"
+      "image": "page-090.png"
     },
     {
       "number": 60,
       "pages": [
-        85
+        94
       ],
       "title": "Draft:settle gates before scoring",
-      "image": "page-085.png"
+      "image": "page-094.png"
     },
     {
       "number": 61,
       "pages": [
-        86
+        95
       ],
       "title": "Draft:risk assessment",
-      "image": "page-086.png"
+      "image": "page-095.png"
     },
     {
       "number": 62,
       "pages": [
-        87
+        96
       ],
       "title": "Draft:stage boundaries",
-      "image": "page-087.png"
+      "image": "page-096.png"
     },
     {
       "number": 63,
       "pages": [
-        88
+        100
       ],
       "title": "Review:make human approval meaningful",
-      "image": "page-088.png"
+      "image": "page-100.png"
     },
     {
       "number": 64,
       "pages": [
-        89
+        101
       ],
       "title": "Review:risk assessment",
-      "image": "page-089.png"
+      "image": "page-101.png"
     },
     {
       "number": 65,
       "pages": [
-        90
+        102
       ],
       "title": "Review:stage boundaries",
-      "image": "page-090.png"
+      "image": "page-102.png"
     },
     {
       "number": 66,
       "pages": [
-        91
+        103
       ],
       "title": "Ask your AI",
-      "image": "page-091.png"
+      "image": "page-103.png"
     },
     {
       "number": 68,
       "pages": [
-        94
+        106
       ],
       "title": "Workflows get complicated",
-      "image": "page-094.png"
+      "image": "page-106.png"
     },
     {
       "number": 69,
       "pages": [
-        95
+        107
       ],
       "title": "Humans are still in charge",
-      "image": "page-095.png"
+      "image": "page-107.png"
     },
     {
       "number": 70,
       "pages": [
-        96
+        108
       ],
       "title": "The future of AI",
-      "image": "page-096.png"
+      "image": "page-108.png"
     },
     {
       "number": 72,
       "pages": [
-        98
+        110
       ],
       "title": "References",
-      "image": "page-098.png"
+      "image": "page-110.png"
     },
     {
       "number": 73,
       "pages": [
-        99
+        111
       ],
       "title": "References",
-      "image": "page-099.png"
+      "image": "page-111.png"
     },
     {
       "number": 74,
       "pages": [
-        100
+        112
       ],
       "title": "References",
-      "image": "page-100.png"
+      "image": "page-112.png"
     },
     {
       "number": 75,
       "pages": [
-        101
+        113
       ],
       "title": "References",
-      "image": "page-101.png"
+      "image": "page-113.png"
     },
     {
       "number": 76,
       "pages": [
-        102
+        114
       ],
       "title": "References",
-      "image": "page-102.png"
+      "image": "page-114.png"
     },
     {
       "number": 77,
       "pages": [
-        103
+        115
       ],
       "title": "References",
-      "image": "page-103.png"
+      "image": "page-115.png"
     },
     {
       "number": 78,
       "pages": [
-        104
+        116
       ],
       "title": "References",
-      "image": "page-104.png"
+      "image": "page-116.png"
     }
   ]
 }
