@@ -1,4 +1,5 @@
 {
+  "enabledMcpjsonServers": ["hadr"],
   "model": "global-anthropic.claude-opus-5-5",
   "availableModels": ["global-anthropic.claude-opus-5-5", "global-anthropic.claude-sonnet-5-5"],
   "availableModelsMatch": "exact",

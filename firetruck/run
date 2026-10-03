@@ -1,0 +1,7 @@
+#!/bin/sh
+set -eu
+directory=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+if [ -x /opt/firetruck/.venv/bin/python ]; then
+    exec /opt/firetruck/.venv/bin/python -m hadr_engine "$@"
+fi
+exec uv run --project "$directory" --frozen --no-dev python -m hadr_engine "$@"

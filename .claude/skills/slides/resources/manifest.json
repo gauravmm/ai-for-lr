@@ -1,6 +1,6 @@
 {
   "deck": "01-intro",
-  "pdf_sha256": "5fbb4b3339e9f7f9582ecdb55d0c8bc91248d322af3604b3cb5fe01448c78048",
+  "pdf_sha256": "f342ce235913ee36259c1bc385a4c900547a264594232c656ec7529acf2b0058",
   "renderer": {
     "version": "pdftoppm version 24.02.0",
     "scale_to": 1600
@@ -18,7 +18,7 @@
       "slide": 1,
       "title": "Outline",
       "image": "page-002.png",
-      "image_sha256": "1d9f67381513363476797bbb5fb29a508e64aa1716f63472e09aec54f2abaf83"
+      "image_sha256": "61859217c08f76e75b378e8495d925edb653948ff6d424bd52f0ad59c9878552"
     },
     {
       "page": 3,
@@ -380,9 +380,9 @@
     {
       "page": 77,
       "slide": 53,
-      "title": "Our Task",
+      "title": "Procurement Agent",
       "image": "page-077.png",
-      "image_sha256": "55843d65d46c19f9a02774565331c36dac724a0e1bb600a4c545728b8397c2ac"
+      "image_sha256": "dbf4fe71cd01c4f845719c3da33d03bd9ea0678c1b4ed9dd12b083d74d76d890"
     },
     {
       "page": 78,
@@ -421,10 +421,10 @@
     },
     {
       "page": 84,
-      "slide": 59,
-      "title": "What do we do next?",
+      "slide": null,
+      "title": "The future of AI",
       "image": "page-084.png",
-      "image_sha256": "bd47a81f669617fadc12e0f8b5d16df4beccd46832b81b9a2ba17faaa732c96d"
+      "image_sha256": "a1febf99ecbc83973e0c97f43928fc3c96deea6d3615efaf2f653c53fac14b14"
     },
     {
       "page": 85,
@@ -842,7 +842,7 @@
       "pages": [
         77
       ],
-      "title": "Our Task",
+      "title": "Procurement Agent",
       "image": "page-077.png"
     },
     {
@@ -876,14 +876,6 @@
       ],
       "title": "The future of AI",
       "image": "page-083.png"
-    },
-    {
-      "number": 59,
-      "pages": [
-        84
-      ],
-      "title": "What do we do next?",
-      "image": "page-084.png"
     },
     {
       "number": 60,

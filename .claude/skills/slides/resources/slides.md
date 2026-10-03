@@ -20,24 +20,24 @@ ocelliq.com/astar-lr
 
 Outline
 
-                                             AI for leadership
+                                              AI for leadership
 
-     1. Background                           This course is for business leaders, not
-     2. What is AI?                          engineers.
+     1. Background                            This course is for business leaders, not
+     2. What is AI?                           engineers.
      3. What makes it agentic?
-                                             1. Focus on AI governance.
+                                              1. Focus on AI governance.
      4. Governing agentic AI
-                                             2. Identifying high-value applications
+                                              2. Identifying high-value applications
      5. Case studies
-                                             3. Mitigating specific risks
-     Hands-on:                               4. Organizational policy levers
-     Set policies and govern a complex AI
-                                             Zero coding.
-     workflow
+                                              3. Mitigating specific risks
+     Hands-on:                                4. Organizational policy levers
+     Set policies for and govern a complex
+                                              Zero coding.
+     AI workflow
 
-                                            Go to https://ocelliq.com/astar-lr/,
-                                            Your TAs will help set up.
-ocelliq.com/astar-lr                                                                    1 / 66
+                                             Go to https://ocelliq.com/astar-lr/,
+                                             Your TAs will help set up.
+ocelliq.com/astar-lr                                                                     1 / 66
 
 ## Slide 2 · PDF page 3 · About Me
 
@@ -1267,30 +1267,30 @@ ocelliq.com/astar-lr                                                            
      3. Price excludes support extension
 ocelliq.com/astar-lr                                                       52 / 66
 
-## Slide 53 · PDF page 77 · Our Task
+## Slide 53 · PDF page 77 · Procurement Agent
 
 [Slide image](page-077.png)
 
-7.3 Our Task
+7.3 Procurement Agent
 
-        INGEST                          VERIFY                          DRAFT                    REVIEW
-                                          Aperture
+        INGEST                        VERIFY                         DRAFT                    REVIEW
+                                        Aperture
 
-                                             Helix
-     Extract docs                                                     Synthesize                   Write
-                                          Meridian
-      & criteria                                                       & score                     slide
-                                          Northstar
-                                          Peregrine
-Understand the requirements         Check each bid for          Score each correct bid using   Update the slides
-                                completeness and correctness      the competitive criteria
+                                           Helix
+     Extract docs                                                  Synthesize                   Write
+                                        Meridian
+      & criteria                                                    & score                     slide
+                                        Northstar
+
+                                        Peregrine
+Understand the requirements       Check each bid for         Score each correct bid using   Update the slides
+                              completeness and correctness     the competitive criteria
 
 
      Your goal is to design and build a repeatable and dependable AI procurement advisor.
-     Your technical team has proposed breaking the problem into different agents handling different parts.
-     You set the policies and human review points.
-
-ocelliq.com/astar-lr                                                                                          53 / 66
+     Your technical team has proposed breaking the problem into different agents handling
+     different parts. You set the policies and human review points.
+ocelliq.com/astar-lr                                                                                       53 / 66
 
 ## Slide 54 · PDF page 78 · Ask your AI
 
@@ -1382,21 +1382,14 @@ ocelliq.com/astar-lr              57 / 66
 
 ocelliq.com/astar-lr                                                                   58 / 66
 
-## Slide 59 · PDF page 84 · What do we do next?
+## Slide unnumbered · PDF page 84 · The future of AI
 
 [Slide image](page-084.png)
 
-8.4 What do we do next?
-
-
-
-
-     TODO: Add ocelliq website with training materials.
-
-
-
-
-ocelliq.com/astar-lr                                      59 / 66
+OcelliQ.com/astar-lr
+    Download the course slides.
+Free AI training slides and exercises,
+       beginner to advanced.             Connect with me on LinkedIn.
 
 ## Slide 60 · PDF page 85 · References
 

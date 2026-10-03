@@ -7,7 +7,18 @@
   "remoteUser": "vscode",
   "updateContentCommand": "python3 .course/course.py dependencies",
   "postCreateCommand": "python3 .course/course.py setup",
-  "postStartCommand": "python3 .course/course.py start",
+  "postStartCommand": {
+    "course": "python3 .course/course.py start",
+    "firetruck": "python3 firetruck/start.py"
+  },
+  "forwardPorts": [8000],
+  "portsAttributes": {
+    "8000": {
+      "label": "Firetruck simulator",
+      "onAutoForward": "silent",
+      "protocol": "http"
+    }
+  },
   "customizations": {
     "vscode": {
       "extensions": [
