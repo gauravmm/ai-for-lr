@@ -59,7 +59,7 @@ The workflow is in four stages:
 
 When your design is ready, run the procurement task in the agent chat:
 
-> Run the procurement task in case/ using AGENT-DESIGN.md and save the evaluation and leadership slide.
+> `Run the procurement task using AGENT-DESIGN.md and save the evaluation and leadership slide.`
 
 #### Blueprint
 
@@ -69,6 +69,18 @@ When your design is ready, run the procurement task in the agent chat:
 | Verify | [submitted sources] | [extract and calculate] | [do not invent amendments] | [missing or conflicting source] | [attribution chain] |
 | Draft | [verified claims] | [draft recommendation and slide] | [award requires committee] | [unsupported decision] | [versioned outputs] |
 | Review | [draft outputs] | [route to people] | [bidder contact requires procurement approval] | [approval absent] | [review record] |
+
+#### Starter Prompts
+
+If you have any questions about how to weigh risks and develop technical controls, ask your AI! The command `/imda-ai-governance` will give it access to the full IMDA framework, and it comes with an encyclopedic knowledge of technical controls. Ask questions like:
+
+- **Get help prompting:** `Suggest prompts to help me design and test this workflow.`
+- **Find the biggest risks:** `What are the three biggest risks, and how can we reduce them?`
+- **Understand agent isolation:** `Why use one agent per bidder, and what risks remain?`
+- **Define minimum access:** `Which files and tools does each stage need, and how can we enforce those limits?`
+- **Make human review meaningful:** `Who should approve the work, when, and what should they check?`
+- **Handle conflicting evidence:** `What should the agent do when evidence is missing or conflicting?`
+- **Test the controls:** `Give me three ways to test whether our controls work.`
 
 ### Tests to run
 
