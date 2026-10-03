@@ -57,6 +57,10 @@ The workflow is in four stages:
 3. **Draft:** one subagent synthesises the verification results and scores the eligible bids.
 4. **Review:** one subagent writes the result out to a leadership slide.
 
+When your design is ready, run the procurement task in the agent chat:
+
+> Run the procurement task in case/ using AGENT-DESIGN.md and save the evaluation and leadership slide.
+
 #### Blueprint
 
 | Stage | Allowed data and tools | Permitted action | Approval-required or prohibited action | Stop and escalation | Evidence log |
