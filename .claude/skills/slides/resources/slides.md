@@ -1324,22 +1324,18 @@ ocelliq.com/astar-lr                                                            
 7.5 Verify: stage boundaries
 
 
-
-
-     Stage and purpose      Each bidder’s verifier checks all seven mandatory gates.
-     Accountable owner      The Evaluation Panel is accountable for each gate decision.
+     Stage and purpose         Each bidder’s verifier checks all seven mandatory gates.
+     Accountable owner         The Evaluation Panel is accountable for each gate decision.
      Allowed data and tools Use only the criteria, assigned bid, reader and calculator.
-     Permitted actions      Recommend pass, fail or unresolved for each gate.
-     Human approvals        The Panel approves gates; Procurement, Finance or the PI
-                            resolves disputes.
-     Prohibited actions     Do not invent terms, use rival bids or contact suppliers.
-     Stop and escalation    Pause until the responsible reviewer resolves missing or
-                            conflicting evidence.
-     Evidence log           Record sources, calculations, gate results and open issues.
+     Permitted actions         Recommend pass, fail or unresolved for each gate.
+     Human approvals           The Panel approves gates; Procurement, Finance or the PI
+                               resolves disputes.
+     Prohibited actions        Do not invent terms, use rival bids or contact suppliers.
+     Stop and escalation       Pause until the responsible reviewer resolves missing or
+                               conflicting evidence.
+     Evidence log              Record sources, calculations, gate results and open issues.
 
-
-
-ocelliq.com/astar-lr                                                                      55 / 73
+ocelliq.com/astar-lr                                                                         55 / 73
 
 ## Slide 56 · PDF page 87 · Ingest:preserve the evidence
 
@@ -1373,20 +1369,17 @@ ocelliq.com/astar-lr                                                            
 
 
 
-
-     Stage: Extract criteria and source packets.    Owner: Mira Tan, Procurement.
-     Allowed: This case; scoped reader/extractor.   Permitted: Extract, classify and cite sources.
-                                                    Prohibited: Other cases, source edits,
-     Approval: Mira; PI and Finance checks.
-                                                    sending.
-     Stop: Unclear criteria → Mira; resolve
-                                                    Log: Files, clauses, versions and exceptions.
-     before handoff.
-
+     Stage and purpose        Extract the criteria and prepare source packets.
+     Accountable owner        Mira Tan in Procurement owns this stage.
+     Allowed data and tools Use only this case and a scoped reader or extractor.
+     Permitted actions        Extract and classify evidence, citing its source.
+     Human approvals          Mira approves criteria; the PI and Finance check their parts.
+     Prohibited actions       Do not read other cases, edit sources or send material.
+     Stop and escalation      Ask Mira to resolve unclear criteria before handoff.
+     Evidence log             Record files, source locations, versions and exceptions.
 
 
-
-ocelliq.com/astar-lr                                                                                57 / 73
+ocelliq.com/astar-lr                                                                          57 / 73
 
 ## Slide 58 · PDF page 92 · Draft:settle gates before scoring
 
@@ -1419,21 +1412,17 @@ ocelliq.com/astar-lr                                                            
 
 
 
-
-     Stage: Synthesise results and calculate
-                                                  Owner: Evaluation Panel; Joel checks costs.
-     scores.
-     Allowed: Reviewed packets; calculator/       Permitted: Score eligible bids; draft
-     writer.                                      narrative.
-     Approval: Panel gates/scores; Finance        Prohibited: New scores, invented prices,
-     arithmetic.                                  award.
-     Stop: Open gate/stale packet → originating   Log: Input versions, formulae and draft
-     reviewer.                                    changes.
+     Stage and purpose        Combine verification results and calculate scores.
+     Accountable owner        The Evaluation Panel owns this stage; Joel checks costs.
+     Allowed data and tools Use reviewed packets, a calculator and a draft writer.
+     Permitted actions        Score only eligible bids and draft the recommendation.
+     Human approvals          The Panel approves gates and scores; Finance checks sums.
+     Prohibited actions       Do not invent scores or prices, or award the tender.
+     Stop and escalation      Return open gates or stale packets to their reviewer.
+     Evidence log             Record input versions, formulae, open issues and edits.
 
 
-
-
-ocelliq.com/astar-lr                                                                            59 / 73
+ocelliq.com/astar-lr                                                                      59 / 73
 
 ## Slide 60 · PDF page 97 · Review:make human approval meaningful
 
@@ -1467,17 +1456,14 @@ ocelliq.com/astar-lr                                                            
 
 
 
-
-     Stage: Prepare leadership slide and review   Owner: Mira Tan; specialists check their
-     pack.                                        claims.
-     Allowed: Draft, excerpts, review records;    Permitted: Reconcile claims; expose open
-     writer.                                      issues.
-     Approval: Procurement routing; committee     Prohibited: Contact, amendments, invented
-     award.                                       sign-off.
-     Stop: Missing/stale approval → Mira; hold    Log: Claims, edits, reviewer, decision and
-     release.                                     version.
-
-
+     Stage and purpose        Prepare the leadership slide and supporting review pack.
+     Accountable owner        Mira Tan owns this stage; specialists check their claims.
+     Allowed data and tools Use the draft, source excerpts, review records and writer.
+     Permitted actions        Reconcile claims with evidence and show unresolved issues.
+     Human approvals          Procurement approves routing; the committee awards the tender.
+     Prohibited actions       Do not contact suppliers, amend bids or invent sign-off.
+     Stop and escalation      Hold release and ask Mira about missing or stale approval.
+     Evidence log             Record claims, edits, reviewers, decisions and versions.
 
 
 ocelliq.com/astar-lr                                                                       61 / 73
