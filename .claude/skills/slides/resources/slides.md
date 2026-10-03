@@ -37,7 +37,7 @@ Outline
 
                                              Go to https://ocelliq.com/astar-lr/,
                                              Your TAs will help set up.
-ocelliq.com/astar-lr                                                                     1 / 78
+ocelliq.com/astar-lr                                                                     1 / 74
 
 ## Slide 2 · PDF page 3 · About Me
 
@@ -58,7 +58,7 @@ About Me
                           gauravmanek
 
 
-ocelliq.com/astar-lr                                                        2 / 78
+ocelliq.com/astar-lr                                                        2 / 74
 
 ## Slide 3 · PDF page 4 · About Our TAs
 
@@ -83,7 +83,7 @@ About Our TAs
 
 
 
-ocelliq.com/astar-lr                                                                                                3 / 78
+ocelliq.com/astar-lr                                                                                                3 / 74
 
 ## Slide unnumbered · PDF page 5 · Industry Landscape
 
@@ -128,7 +128,7 @@ ocelliq.com/astar-lr                                                            
 
 
 
-ocelliq.com/astar-lr                                                                                                                                               5 / 78
+ocelliq.com/astar-lr                                                                                                                                               5 / 74
 
 ## Slide 6 · PDF page 9 · Gold Rush of our age
 
@@ -149,7 +149,7 @@ ocelliq.com/astar-lr                                                            
 
 
 
-ocelliq.com/astar-lr                                                               6 / 78
+ocelliq.com/astar-lr                                                               6 / 74
 
 ## Slide 7 · PDF page 11 · Who Controls What in AI
 
@@ -175,7 +175,7 @@ ocelliq.com/astar-lr                                                            
       External providers
                              model     chips      power      data
                               dev                           centres network
-ocelliq.com/astar-lr                                                                           7 / 78
+ocelliq.com/astar-lr                                                                           7 / 74
 
 ## Slide unnumbered · PDF page 12 · WhatisAI?
 
@@ -204,7 +204,7 @@ ocelliq.com/astar-lr                                                            
 
 
 
-ocelliq.com/astar-lr                                                                         9 / 78
+ocelliq.com/astar-lr                                                                         9 / 74
 
 ## Slide 10 · PDF page 16 · What is a Large Language Model?
 
@@ -226,7 +226,7 @@ ocelliq.com/astar-lr                                                            
 
 
 
-ocelliq.com/astar-lr                                                                         10 / 78
+ocelliq.com/astar-lr                                                                         10 / 74
 
 ## Slide 11 · PDF page 18 · What is a Large Language Model?
 
@@ -251,7 +251,7 @@ ocelliq.com/astar-lr                                                            
          different from humans                      Agent engineering extracts useful work
                                                     despite these limits.
 
-ocelliq.com/astar-lr                                                                            11 / 78
+ocelliq.com/astar-lr                                                                            11 / 74
 
 ## Slide 12 · PDF page 21 · Cost of AI
 
@@ -300,7 +300,7 @@ Artificial Analysis Intelligence Index
                                               $0.001                                  $0.01                                  $0.10                                              $1.00
                                                                                Cost per task (100K input / 8K output tokens), log scale
 
-          ocelliq.com/astar-lr                                                                                                                                                                     12 / 78
+          ocelliq.com/astar-lr                                                                                                                                                                     12 / 74
 
 ## Slide 13 · PDF page 23 · Cost of AI by Lab(Closed-Source)
 
@@ -347,7 +347,7 @@ Artificial Analysis Intelligence Index
                                               $0.001                                  $0.01                                  $0.10                                              $1.00
                                                                                Cost per task (100K input / 8K output tokens), log scale
 
-          ocelliq.com/astar-lr                                                                                                                                                                        13 / 78
+          ocelliq.com/astar-lr                                                                                                                                                                        13 / 74
 
 ## Slide 14 · PDF page 25 · Cost of AI by Launch DateNew→12+ months
 
@@ -396,7 +396,7 @@ Artificial Analysis Intelligence Index
                                               $0.001                                       $0.01                                    $0.10                                              $1.00
                                                                                      Cost per task (100K input / 8K output tokens), log scale
 
-          ocelliq.com/astar-lr                                                                                                                                                                            14 / 78
+          ocelliq.com/astar-lr                                                                                                                                                                            14 / 74
 
 ## Slide 15 · PDF page 26 · Cost of AI by Minimum Hosting Cost
 
@@ -440,7 +440,7 @@ Artificial Analysis Intelligence Index
                                               $0.001                                       $0.01                                  $0.10                                                  $1.00
                                                                                       API cost per task (US$, 100K input / 8K output), log scale
 
-          ocelliq.com/astar-lr                                                                                                                                                                              15 / 78
+          ocelliq.com/astar-lr                                                                                                                                                                              15 / 74
 
 ## Slide unnumbered · PDF page 27 · What makes AI Agentic?
 
@@ -477,7 +477,7 @@ Artificial Analysis Intelligence Index
         “Given this question, what do I answer?”                                        “Given this goal, what do I do next?”
 
      A agent is an LLM with a harness, which provides tools to interact the world.
-ocelliq.com/astar-lr                                                                                                                     17 / 78
+ocelliq.com/astar-lr                                                                                                                     17 / 74
 
 ## Slide 18 · PDF page 29 · Anatomy of an Agent
 
@@ -510,7 +510,7 @@ ocelliq.com/astar-lr                                                            
      Skills are human-language instructions on
      how to do something.
 
-ocelliq.com/astar-lr                                                                                                        18 / 78
+ocelliq.com/astar-lr                                                                                                        18 / 74
 
 ## Slide 19 · PDF page 30 · What does it this look like?
 
@@ -534,7 +534,7 @@ ocelliq.com/astar-lr                                                            
 
 
 
-ocelliq.com/astar-lr                                       19 / 78
+ocelliq.com/astar-lr                                       19 / 74
 
 ## Slide unnumbered · PDF page 31 · LLM intelligence ≠ Human intelligence
 
@@ -563,7 +563,7 @@ ocelliq.com/astar-lr                                       19 / 78
 
 
 
-ocelliq.com/astar-lr                                                                           21 / 78
+ocelliq.com/astar-lr                                                                           21 / 74
 
 ## Slide 22 · PDF page 33 · Theory of Mind:Understanding Intentions
 
@@ -585,7 +585,7 @@ ocelliq.com/astar-lr                                                            
      or shoppers interests?
 
                                                    Anthropic · 27 June 202537
-ocelliq.com/astar-lr                                                            22 / 78
+ocelliq.com/astar-lr                                                            22 / 74
 
 ## Slide 23 · PDF page 34 · Hallucinations
 
@@ -608,7 +608,7 @@ ocelliq.com/astar-lr                                                            
      “almost started a war”
 
 
-ocelliq.com/astar-lr                           23 / 78
+ocelliq.com/astar-lr                           23 / 74
 
 ## Slide 24 · PDF page 35 · Hallucinations
 
@@ -631,7 +631,7 @@ ocelliq.com/astar-lr                           23 / 78
 
 
                                                        Xia et al. · DREAM · Fig. 539
-ocelliq.com/astar-lr                                                              24 / 78
+ocelliq.com/astar-lr                                                              24 / 74
 
 ## Slide 25 · PDF page 36 · Hallucinations
 
@@ -654,7 +654,7 @@ ocelliq.com/astar-lr                                                            
       Technologies
 
                                                               Reuters / MyJoyOnline40
-ocelliq.com/astar-lr                                                                    25 / 78
+ocelliq.com/astar-lr                                                                    25 / 74
 
 ## Slide unnumbered · PDF page 37 · Governing Agentic AI
 
@@ -685,7 +685,7 @@ ocelliq.com/astar-lr                                                            
 
 
 
-ocelliq.com/astar-lr                                                                    27 / 78
+ocelliq.com/astar-lr                                                                    27 / 74
 
 ## Slide 28 · PDF page 40 · The Four Pillars
 
@@ -714,7 +714,7 @@ ocelliq.com/astar-lr                                                            
                                 equip end-users and consumers to operate and
                                 oversee the agent responsibly.
 
-ocelliq.com/astar-lr                                                            28 / 78
+ocelliq.com/astar-lr                                                            28 / 74
 
 ## Slide 29 · PDF page 42 · The Seven Risks
 
@@ -751,7 +751,7 @@ ocelliq.com/astar-lr                                                            
                                                                    }
                                                                        speed and reach outrun
                                                                        existing safeguards
-ocelliq.com/astar-lr                                                                            29 / 78
+ocelliq.com/astar-lr                                                                            29 / 74
 
 ## Slide 30 · PDF page 43 · Even the Experts Get Burned
 
@@ -775,7 +775,7 @@ ocelliq.com/astar-lr                                                            
      ✘ Technical controls                I had to run to my Mac mini like I was defusing a bomb.
      D. Enable end-user responsibility                                            — Summer Yue
 
-ocelliq.com/astar-lr                                                                          30 / 78
+ocelliq.com/astar-lr                                                                          30 / 74
 
 ## Slide 31 · PDF page 45 · Getting It Right:Ask D.A.V.I.D.
 
@@ -799,7 +799,7 @@ ocelliq.com/astar-lr                                                            
      ✓ Make humans accountable           • Restricted to pre-approved data sources.
      ✓ Technical controls
      D. Enable end-user responsibility
-ocelliq.com/astar-lr                                                                        31 / 78
+ocelliq.com/astar-lr                                                                        31 / 74
 
 ## Slide 32 · PDF page 47 · Getting It Right:Hippocratic AI
 
@@ -824,7 +824,7 @@ ocelliq.com/astar-lr                                                            
      ✓ Technical controls             • Check what the AI is saying mid-conversation with
      ✓ Enable end-user responsibility   automated guardrails.
 
-ocelliq.com/astar-lr                                                                     32 / 78
+ocelliq.com/astar-lr                                                                     32 / 74
 
 ## Slide 33 · PDF page 49 · Getting It Wrong:Klarna
 
@@ -850,7 +850,7 @@ ocelliq.com/astar-lr                                                            
      ✘ Make humans accountable
      C. Technical controls
      D. Enable end-user responsibility
-ocelliq.com/astar-lr                                                                        33 / 78
+ocelliq.com/astar-lr                                                                        33 / 74
 
 ## Slide 34 · PDF page 51 · Getting It Wrong:Hacking the Evaluation
 
@@ -876,7 +876,7 @@ ocelliq.com/astar-lr                                                            
                                          Hugging Face disclosed the breach on 16 July.
      D. Enable end-user responsibility
                                          OpenAI connected it to its agents on 20 July.5
-ocelliq.com/astar-lr                                                                           34 / 78
+ocelliq.com/astar-lr                                                                           34 / 74
 
 ## Slide unnumbered · PDF page 52 · IMDA Framework applied to IMCB's ATLAS
 
@@ -906,7 +906,7 @@ ocelliq.com/astar-lr                                                            
 
            AT L A S    High-risk application of AI.
 
-ocelliq.com/astar-lr                                                                 36 / 78
+ocelliq.com/astar-lr                                                                 36 / 74
 
 ## Slide 37 · PDF page 55 · IMCB ATLAS:Document Flow
 
@@ -930,7 +930,7 @@ ocelliq.com/astar-lr                                                            
            AT L A S
                                       Each consumer asks questions about the
                                          documents relevant to their role.
-ocelliq.com/astar-lr                                                               37 / 78
+ocelliq.com/astar-lr                                                               37 / 74
 
 ## Slide 38 · PDF page 56 · Unauthorized access& data breach
 
@@ -953,7 +953,7 @@ ocelliq.com/astar-lr                                                            
      C. Technical controls                   ⋯                                          ⋯
      D. Enable end-user responsibility       What is the biggest risk of doing this naively,
                                              with a single chatbot that everyone talks to?
-ocelliq.com/astar-lr                                                                            38 / 78
+ocelliq.com/astar-lr                                                                            38 / 74
 
 ## Slide 39 · PDF page 58 · Your AI workspace
 
@@ -969,7 +969,7 @@ ocelliq.com/astar-lr                                                            
 
 
 
-ocelliq.com/astar-lr                                 39 / 78
+ocelliq.com/astar-lr                                 39 / 74
 
 ## Slide 40 · PDF page 60 · AI-driven AI analysis
 
@@ -990,7 +990,7 @@ ocelliq.com/astar-lr                                 39 / 78
      3. Control the risk
       Explain a technical control for this.
 
-ocelliq.com/astar-lr                                                                                40 / 78
+ocelliq.com/astar-lr                                                                                40 / 74
 
 ## Slide 41 · PDF page 63 · Unauthorized access& data breach
 
@@ -1013,7 +1013,7 @@ ocelliq.com/astar-lr                                                            
      C. Technical controls                  ⋯                                          ⋯
      D. Enable end-user responsibility     Access control policy: ATLAS can only read or
                                            write documents that PI 1 is authorised to access.
-ocelliq.com/astar-lr                                                                            41 / 78
+ocelliq.com/astar-lr                                                                            41 / 74
 
 ## Slide 42 · PDF page 64 · Unauthorized access:policy and control
 
@@ -1040,7 +1040,7 @@ ocelliq.com/astar-lr                                                            
      C. Technical controls               access to.
      D. Enable end-user responsibility
 
-ocelliq.com/astar-lr                                                                           42 / 78
+ocelliq.com/astar-lr                                                                           42 / 74
 
 ## Slide 43 · PDF page 65 · Erroneous action
 
@@ -1063,7 +1063,7 @@ ocelliq.com/astar-lr                                                            
      C. Technical controls                   ⋯                                     ⋯
      D. Enable end-user responsibility        What if the LLM misreads the document?
 
-ocelliq.com/astar-lr                                                                      43 / 78
+ocelliq.com/astar-lr                                                                      43 / 74
 
 ## Slide 44 · PDF page 66 · Cascading effects
 
@@ -1086,7 +1086,7 @@ ocelliq.com/astar-lr                                                            
      C. Technical controls                  ⋯                                         ⋯
      D. Enable end-user responsibility     What if the error flows into downstream business
                                                                decisions?
-ocelliq.com/astar-lr                                                                          44 / 78
+ocelliq.com/astar-lr                                                                          44 / 74
 
 ## Slide 45 · PDF page 67 · Erroneous action:policy and control
 
@@ -1109,7 +1109,7 @@ ocelliq.com/astar-lr                                                            
      C. Technical controls               • How can we accurately and simply communicate
      D. Enable end-user responsibility     the veracity of information to consumers?
 
-ocelliq.com/astar-lr                                                                        45 / 78
+ocelliq.com/astar-lr                                                                        45 / 74
 
 ## Slide 46 · PDF page 68 · AI-driven AI analysis
 
@@ -1130,7 +1130,7 @@ ocelliq.com/astar-lr                                                            
       Suggest a human check for each use, balancing the risk with
       the effort involved.
 
-ocelliq.com/astar-lr                                                      46 / 78
+ocelliq.com/astar-lr                                                      46 / 74
 
 ## Slide 47 · PDF page 69 · Erroneous action:policy and control
 
@@ -1153,7 +1153,7 @@ ocelliq.com/astar-lr                                                      46 / 7
      keeping human oversight effective?
 
 
-ocelliq.com/astar-lr                                                                         47 / 78
+ocelliq.com/astar-lr                                                                         47 / 74
 
 ## Slide 48 · PDF page 70 · Human oversight in practice
 
@@ -1177,7 +1177,7 @@ ocelliq.com/astar-lr                                                            
 
 
 
-ocelliq.com/astar-lr                                                                               48 / 78
+ocelliq.com/astar-lr                                                                               48 / 74
 
 ## Slide 49 · PDF page 72 · Assess Risks and apply Technical Controls
 
@@ -1214,7 +1214,7 @@ ocelliq.com/astar-lr                                                            
                             audited afterwards                                         retrieval, and answer
       incorrect.
 
-ocelliq.com/astar-lr                                                                                              49 / 78
+ocelliq.com/astar-lr                                                                                              49 / 74
 
 ## Slide unnumbered · PDF page 73 · Set Policies for a Procurement Agent
 
@@ -1240,7 +1240,7 @@ ocelliq.com/astar-lr                                                            
      • Compare technical capability, total cost, acceptance dates and years of support.
      • 86 pages across 47 PDFs: grant records, tender requirements, bids, clarifications and
        evaluation material.
-ocelliq.com/astar-lr                                                                           51 / 78
+ocelliq.com/astar-lr                                                                           51 / 74
 
 ## Slide 52 · PDF page 76 · A convincing recommendation
 
@@ -1265,7 +1265,7 @@ ocelliq.com/astar-lr                                                            
      1. Wrong supplier recommended             4. M2 wrongly passed
      2. M6/M7 wrongly passed                   5. Price conflict ignored
      3. Price excludes support extension
-ocelliq.com/astar-lr                                                       52 / 78
+ocelliq.com/astar-lr                                                       52 / 74
 
 ## Slide 53 · PDF page 78 · Procurement Agent
 
@@ -1291,7 +1291,7 @@ Understand the requirements       Check each bid for         Score each correct 
 
        Begin by assessing Verify. Why do we verify each bid in a separate subagent?
 
-ocelliq.com/astar-lr                                                                                       53 / 78
+ocelliq.com/astar-lr                                                                                       53 / 74
 
 ## Slide 54 · PDF page 82 · Verify:check each offered commitment
 
@@ -1315,42 +1315,13 @@ ocelliq.com/astar-lr                                                            
      C. Technical controls
      D. Enable end-user responsibility
 
-ocelliq.com/astar-lr                                                                       54 / 78
+ocelliq.com/astar-lr                                                                       54 / 74
 
-## Slide 55 · PDF page 83 · Verify:risk assessment
+## Slide 55 · PDF page 83 · Verify:stage boundaries
 
 [Slide image](page-083.png)
 
-7.5 Verify: risk assessment
-
-
-     Illustrative excerpt — proposed controls
-
-      Failure                Before         Control                         Residual
-                             Severity:
-                                            Compare original schedules;     Medium: human
-      Conflict silently      High
-                                            retain uncertainty; route to    interpretation
-      resolved               Likelihood:
-                                            owner.                          remains.
-                             High
-
-     Impact: Wrong eligibility or an                  Owner: Evaluation Panel; Mira, Joel or PI
-     unsupported evaluated price.                     for disputes.
-     Evidence to seek: Give the verifier
-                                                      Status: Untested; residual rating assumes
-     conflicting sources; check that the issue
-                                                      the controls work.
-     stays visible.
-
-
-ocelliq.com/astar-lr                                                                              55 / 78
-
-## Slide 56 · PDF page 84 · Verify:stage boundaries
-
-[Slide image](page-084.png)
-
-7.6 Verify: stage boundaries
+7.5 Verify: stage boundaries
 
 
 
@@ -1369,13 +1340,13 @@ ocelliq.com/astar-lr                                                            
 
 
 
-ocelliq.com/astar-lr                                                                         56 / 78
+ocelliq.com/astar-lr                                                                         55 / 74
 
-## Slide 57 · PDF page 88 · Ingest:preserve the evidence
+## Slide 56 · PDF page 87 · Ingest:preserve the evidence
 
-[Slide image](page-088.png)
+[Slide image](page-087.png)
 
-7.7 Ingest: preserve the evidence
+7.6 Ingest: preserve the evidence
 
          Seven Risks                     • Extract the wrong clause, date or table row.
       1. Erroneous actions               • Treat a generated summary as an authoritative
@@ -1393,42 +1364,13 @@ ocelliq.com/astar-lr                                                            
      C. Technical controls
      D. Enable end-user responsibility
 
-ocelliq.com/astar-lr                                                                       57 / 78
+ocelliq.com/astar-lr                                                                       56 / 74
 
-## Slide 58 · PDF page 89 · Ingest:risk assessment
+## Slide 57 · PDF page 88 · Ingest:stage boundaries
 
-[Slide image](page-089.png)
+[Slide image](page-088.png)
 
-7.8 Ingest: risk assessment
-
-
-     Illustrative excerpt — proposed controls
-
-      Failure            Before             Control                         Residual
-                         Severity:
-                                            Tag source status; check        Medium:
-      Summary treated as High
-                                            original clauses; approve       interpretation can
-      authority          Likelihood:
-                                            criteria.                       still be wrong.
-                         High
-
-     Impact: Wrong criteria can affect every          Owner: Mira Tan; PI and Finance support
-     later gate decision.                             source checks.
-     Evidence to seek: Compare extracted
-                                                      Status: Untested; residual rating assumes
-     criteria with the original clause and table
-                                                      the controls work.
-     row.
-
-
-ocelliq.com/astar-lr                                                                              58 / 78
-
-## Slide 59 · PDF page 90 · Ingest:stage boundaries
-
-[Slide image](page-090.png)
-
-7.9 Ingest: stage boundaries
+7.7 Ingest: stage boundaries
 
 
 
@@ -1446,18 +1388,18 @@ ocelliq.com/astar-lr                                                            
 
 
 
-ocelliq.com/astar-lr                                                                                59 / 78
+ocelliq.com/astar-lr                                                                                57 / 74
 
-## Slide 60 · PDF page 94 · Draft:settle gates before scoring
+## Slide 58 · PDF page 92 · Draft:settle gates before scoring
 
-[Slide image](page-094.png)
+[Slide image](page-092.png)
 
-7.10 Draft: settle gates before scoring
+7.8 Draft: settle gates before scoring
 
-         Seven Risks                     • Rank a bid using an unsupported gate result.
-      1. Erroneous actions               • Invent scores, weights or a missing price.
-      2. Unauthorized actions            • Lose a conflict when combining verifier reports.
-      3. Biased or unfair actions        • Use a stale packet after evidence changes.
+         Seven Risks                      • Rank a bid using an unsupported gate result.
+      1. Erroneous actions                • Invent scores, weights or a missing price.
+      2. Unauthorized actions             • Lose a conflict when combining verifier reports.
+      3. Biased or unfair actions         • Use a stale packet after evidence changes.
       4. Data breaches
                                            What must be settled before a bid can be ranked?
       5. Disrupt connected systems
@@ -1469,42 +1411,13 @@ ocelliq.com/astar-lr                                                            
      C. Technical controls
      D. Enable end-user responsibility
 
-ocelliq.com/astar-lr                                                                          60 / 78
+ocelliq.com/astar-lr                                                                           58 / 74
 
-## Slide 61 · PDF page 95 · Draft:risk assessment
+## Slide 59 · PDF page 93 · Draft:stage boundaries
 
-[Slide image](page-095.png)
+[Slide image](page-093.png)
 
-7.11 Draft: risk assessment
-
-
-     Illustrative excerpt — proposed controls
-
-      Failure              Before         Control                           Residual
-                           Severity:
-                                                                             Medium: gate
-      Rank using wrong     High           Require reviewed gates; score
-                                                                             review can be
-      gate labels          Likelihood:    eligible bids; retain open issues.
-                                                                             mistaken.
-                           High
-
-     Impact: Correct arithmetic can still produce   Owner: Evaluation Panel; Joel checks
-     an invalid ranking.                            calculations.
-     Evidence to seek: Change a gate result;
-                                                    Status: Untested; residual rating assumes
-     check that the dependent ranking is
-                                                    the controls work.
-     invalidated.
-
-
-ocelliq.com/astar-lr                                                                            61 / 78
-
-## Slide 62 · PDF page 96 · Draft:stage boundaries
-
-[Slide image](page-096.png)
-
-7.12 Draft: stage boundaries
+7.9 Draft: stage boundaries
 
 
 
@@ -1523,13 +1436,13 @@ ocelliq.com/astar-lr                                                            
 
 
 
-ocelliq.com/astar-lr                                                                             62 / 78
+ocelliq.com/astar-lr                                                                             59 / 74
 
-## Slide 63 · PDF page 100 · Review:make human approval meaningful
+## Slide 60 · PDF page 97 · Review:make human approval meaningful
 
-[Slide image](page-100.png)
+[Slide image](page-097.png)
 
-7.13 Review: make human approval meaningful
+7.10 Review: make human approval meaningful
 
          Seven Risks                     • Leave a decisive caveat out of a polished slide.
       1. Erroneous actions               • Mistake a draft recommendation for approval.
@@ -1547,42 +1460,13 @@ ocelliq.com/astar-lr                                                            
      C. Technical controls
      D. Enable end-user responsibility
 
-ocelliq.com/astar-lr                                                                          63 / 78
+ocelliq.com/astar-lr                                                                          60 / 74
 
-## Slide 64 · PDF page 101 · Review:risk assessment
+## Slide 61 · PDF page 98 · Review:stage boundaries
 
-[Slide image](page-101.png)
+[Slide image](page-098.png)
 
-7.14 Review: risk assessment
-
-
-     Illustrative excerpt — proposed controls
-
-      Failure                Before        Control                         Residual
-                             Severity:
-                                           Check displayed claims; show    Medium:
-      Slide omits material   High
-                                           open issues; record named       automation bias and
-      caveat                 Likelihood:
-                                           review.                         fatigue remain.
-                             High
-
-     Impact: Leadership relies on an                 Owner: Mira Tan; Panel, Finance and PI
-     unsupported recommendation.                     check their claims.
-     Evidence to seek: Compare displayed
-                                                     Status: Untested; residual rating assumes
-     claims with reviewed evidence and approval
-                                                     the controls work.
-     versions.
-
-
-ocelliq.com/astar-lr                                                                             64 / 78
-
-## Slide 65 · PDF page 102 · Review:stage boundaries
-
-[Slide image](page-102.png)
-
-7.15 Review: stage boundaries
+7.11 Review: stage boundaries
 
 
 
@@ -1600,13 +1484,13 @@ ocelliq.com/astar-lr                                                            
 
 
 
-ocelliq.com/astar-lr                                                                        65 / 78
+ocelliq.com/astar-lr                                                                        61 / 74
 
-## Slide 66 · PDF page 103 · Ask your AI
+## Slide 62 · PDF page 99 · Ask your AI
 
-[Slide image](page-103.png)
+[Slide image](page-099.png)
 
-7.16 Ask your AI
+7.12 Ask your AI
 
 
 
@@ -1622,17 +1506,17 @@ ocelliq.com/astar-lr                                                            
 
 
 
-ocelliq.com/astar-lr                  66 / 78
+ocelliq.com/astar-lr                  62 / 74
 
-## Slide unnumbered · PDF page 105 · Where do we go from here?
+## Slide unnumbered · PDF page 101 · Where do we go from here?
 
-[Slide image](page-105.png)
+[Slide image](page-101.png)
 
 8.   Where do we go from here?
 
-## Slide 68 · PDF page 106 · Workflows get complicated
+## Slide 64 · PDF page 102 · Workflows get complicated
 
-[Slide image](page-106.png)
+[Slide image](page-102.png)
 
 8.1 Workflows get complicated
 
@@ -1652,11 +1536,11 @@ ocelliq.com/astar-lr                  66 / 78
 
 
 
-ocelliq.com/astar-lr                                                                          68 / 78
+ocelliq.com/astar-lr                                                                          64 / 74
 
-## Slide 69 · PDF page 107 · Humans are still in charge
+## Slide 65 · PDF page 103 · Humans are still in charge
 
-[Slide image](page-107.png)
+[Slide image](page-103.png)
 
 8.2 Humans are still in charge
 
@@ -1668,11 +1552,11 @@ ocelliq.com/astar-lr                                                            
 
 
 
-ocelliq.com/astar-lr              69 / 78
+ocelliq.com/astar-lr              65 / 74
 
-## Slide 70 · PDF page 108 · The future of AI
+## Slide 66 · PDF page 104 · The future of AI
 
-[Slide image](page-108.png)
+[Slide image](page-104.png)
 
 8.3 The future of AI
 
@@ -1690,20 +1574,20 @@ ocelliq.com/astar-lr              69 / 78
 
 
 
-ocelliq.com/astar-lr                                                                   70 / 78
+ocelliq.com/astar-lr                                                                   66 / 74
 
-## Slide unnumbered · PDF page 109 · The future of AI
+## Slide unnumbered · PDF page 105 · The future of AI
 
-[Slide image](page-109.png)
+[Slide image](page-105.png)
 
 OcelliQ.com/astar-lr
     Download the course slides.
 Free AI training slides and exercises,
        beginner to advanced.             Connect with me on LinkedIn.
 
-## Slide 72 · PDF page 110 · References
+## Slide 68 · PDF page 106 · References
 
-[Slide image](page-110.png)
+[Slide image](page-106.png)
 
 References
      1.   Amazon News. Amazon CEO Andy Jassy talks 6 truths surrounding the rise of AI. 2026.
@@ -1724,11 +1608,11 @@ References
           Hypothetical Great Wall rebuilding estimate.
           2015. Informal estimate; not a professional quotation. Exact US$452 billion value not
           independently verified.
-ocelliq.com/astar-lr                                                                                           72 / 78
+ocelliq.com/astar-lr                                                                                           68 / 74
 
-## Slide 73 · PDF page 111 · References
+## Slide 69 · PDF page 107 · References
 
-[Slide image](page-111.png)
+[Slide image](page-107.png)
 
 References
      10. Workshop illustrative model.
@@ -1749,11 +1633,11 @@ References
      17. Amazon Web Services. Layered approach for a generative AI platform. AWS Prescriptive Guidance.
      18. NVIDIA. AI’s five-layer cake.
 
-ocelliq.com/astar-lr                                                                                  73 / 78
+ocelliq.com/astar-lr                                                                                  69 / 74
 
-## Slide 74 · PDF page 112 · References
+## Slide 70 · PDF page 108 · References
 
-[Slide image](page-112.png)
+[Slide image](page-108.png)
 
 References
      19. Ajay Agrawal, Joshua Gans, Avi Goldfarb.
@@ -1775,11 +1659,11 @@ References
      25. Artificial Analysis. Gemini 4 Argon: Google is back as one of the top three labs in intelligence
          achieved. 30 September 2026. AAII 53 (high); standard input/output pricing of US$4/US$20 per
          million tokens, before the introductory discount.
-ocelliq.com/astar-lr                                                                                           74 / 78
+ocelliq.com/astar-lr                                                                                           70 / 74
 
-## Slide 75 · PDF page 113 · References
+## Slide 71 · PDF page 109 · References
 
-[Slide image](page-113.png)
+[Slide image](page-109.png)
 
 References
      26. Artificial Analysis. Muse Spark 1.3 (max). Read 2 October 2026. AAII 48 under Intelligence Index
@@ -1800,11 +1684,11 @@ References
          Minds, brains, and programs.
          Behavioral and Brain Sciences 3(3), 417-424, 1980. Chinese Room argument.
 
-ocelliq.com/astar-lr                                                                                    75 / 78
+ocelliq.com/astar-lr                                                                                    71 / 74
 
-## Slide 76 · PDF page 114 · References
+## Slide 72 · PDF page 110 · References
 
-[Slide image](page-114.png)
+[Slide image](page-110.png)
 
 References
      35. Wallace et al. The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions. OpenAI,
@@ -1826,11 +1710,11 @@ References
 
 
 
-ocelliq.com/astar-lr                                                                                          76 / 78
+ocelliq.com/astar-lr                                                                                          72 / 74
 
-## Slide 77 · PDF page 115 · References
+## Slide 73 · PDF page 111 · References
 
-[Slide image](page-115.png)
+[Slide image](page-111.png)
 
 References
      42. International Organization for Standardization / International Electrotechnical Commission.
@@ -1852,11 +1736,11 @@ References
          company-reported. Scope: non-diagnostic clinical conversations.
 
 
-ocelliq.com/astar-lr                                                                                   77 / 78
+ocelliq.com/astar-lr                                                                                   73 / 74
 
-## Slide 78 · PDF page 116 · References
+## Slide 74 · PDF page 112 · References
 
-[Slide image](page-116.png)
+[Slide image](page-112.png)
 
 References
      47. Klarna.
@@ -1879,4 +1763,4 @@ References
 
 
 
-ocelliq.com/astar-lr                                                                                    78 / 78
+ocelliq.com/astar-lr                                                                                    74 / 74
