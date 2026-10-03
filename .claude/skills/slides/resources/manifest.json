@@ -1,6 +1,6 @@
 {
   "deck": "01-intro",
-  "pdf_sha256": "5be103fa8fb82dc87d518fd0fd2e216d877b8aa781a2b959b064edc5f76e6daf",
+  "pdf_sha256": "8ea442355f341030074486e96074a59d16acf6ce8f7f9b218f1bfc7cf2180fb1",
   "renderer": {
     "version": "pdftoppm version 24.02.0",
     "scale_to": 1600
@@ -396,7 +396,7 @@
       "slide": 55,
       "title": "Verify:stage boundaries",
       "image": "page-083.png",
-      "image_sha256": "30bb7a27823f9d606efb319ab83d74c26d8cae34d657d9f49887f591736065c7"
+      "image_sha256": "fad2138c13da8ed0c6ef467779734dd1b660605bfb9ac2bce43e50c2d292dad5"
     },
     {
       "page": 87,
@@ -410,7 +410,7 @@
       "slide": 57,
       "title": "Ingest:stage boundaries",
       "image": "page-088.png",
-      "image_sha256": "54fe5729cb886b515dc0f0e20aff904611dbe66c35d26b831fd98cbbfad8cb86"
+      "image_sha256": "c51971caee968bf72c78b47e0f79baff85dc5881b1558ad294b5c45c6ebe1743"
     },
     {
       "page": 92,
@@ -424,7 +424,7 @@
       "slide": 59,
       "title": "Draft:stage boundaries",
       "image": "page-093.png",
-      "image_sha256": "71d232d9b0c0b087ee5164c900fbf26773a933d4c2fc165676b0deb06afce2b4"
+      "image_sha256": "2b4cd667e753598368f1236efd7f4c573f6285d1be868d7de3cc003993b59767"
     },
     {
       "page": 97,
@@ -438,90 +438,90 @@
       "slide": 61,
       "title": "Review:stage boundaries",
       "image": "page-098.png",
-      "image_sha256": "01416ed65077baf339e0037a483783ecb8bff1549305337cdcda2055048f2706"
+      "image_sha256": "ad8b36913ffcf6f2370dee94d6b0c7443cf24787d0949489edd58e424afb82bd"
     },
     {
-      "page": 100,
+      "page": 99,
       "slide": null,
       "title": "Where do we go from here?",
-      "image": "page-100.png",
+      "image": "page-099.png",
       "image_sha256": "9b869e1cb0317b0e32551e576a98fd26fc1db233c84e9a9e6f72fce2c5cd870c"
     },
     {
-      "page": 101,
+      "page": 100,
       "slide": 63,
       "title": "Workflows get complicated",
+      "image": "page-100.png",
+      "image_sha256": "9cd5d51265d651e4fe00d0627b2735666842757a89b2f0d4bf6ff1a5859440a6"
+    },
+    {
+      "page": 101,
+      "slide": 64,
+      "title": "Humans are still in charge",
       "image": "page-101.png",
-      "image_sha256": "64c4f17def75f1de58429222adacd2c6624855b343ae672137250c8e3c44fd1f"
+      "image_sha256": "a1666e706bcf7a3b4bef610f9c357a29143659777e5810d513f912d545642005"
     },
     {
       "page": 102,
-      "slide": 64,
-      "title": "Humans are still in charge",
+      "slide": 65,
+      "title": "The future of AI",
       "image": "page-102.png",
-      "image_sha256": "edee1221736f73956b965dcb51b8849934414288f7560193cafea8409ce83a57"
+      "image_sha256": "91dc47ffac35737e32f620baf6222df36d5fdafabe80f5c1f753032f4f8591c2"
     },
     {
       "page": 103,
-      "slide": 65,
+      "slide": null,
       "title": "The future of AI",
       "image": "page-103.png",
-      "image_sha256": "85d5b7018e65e8a3aefbc9d882ed8ec815c297c256584b09d243ed4a3c4b50a9"
+      "image_sha256": "ac776bf059581f702dad1d10a2a419692a9dff8acbd7aace2ef1192e834487a6"
     },
     {
       "page": 104,
-      "slide": null,
-      "title": "The future of AI",
-      "image": "page-104.png",
-      "image_sha256": "a1febf99ecbc83973e0c97f43928fc3c96deea6d3615efaf2f653c53fac14b14"
-    },
-    {
-      "page": 105,
       "slide": 67,
       "title": "References",
-      "image": "page-105.png",
+      "image": "page-104.png",
       "image_sha256": "78f79db1bdd7d57164cfe8f97a050220464f930e1ad6a2ae00e93914a79658ef"
     },
     {
-      "page": 106,
+      "page": 105,
       "slide": 68,
       "title": "References",
-      "image": "page-106.png",
+      "image": "page-105.png",
       "image_sha256": "d8341f3f6433fa31b7c3d6981ae75c4bf593330c494622c89fe2782188dc28eb"
     },
     {
-      "page": 107,
+      "page": 106,
       "slide": 69,
       "title": "References",
-      "image": "page-107.png",
+      "image": "page-106.png",
       "image_sha256": "83384cbc3f6d0309d7180e1c8d573ed1bf119fcf8695eedc9c6a53ef9bf98578"
     },
     {
-      "page": 108,
+      "page": 107,
       "slide": 70,
       "title": "References",
-      "image": "page-108.png",
+      "image": "page-107.png",
       "image_sha256": "f305403cacc3c9766d3de08133d9dbaf384634ab166dbb83dbbd65466f851cce"
     },
     {
-      "page": 109,
+      "page": 108,
       "slide": 71,
       "title": "References",
-      "image": "page-109.png",
+      "image": "page-108.png",
       "image_sha256": "1606bf818dbc9d9f3d11b12d56c642da8be5f613eb20b03ce10c6db85f85fe2a"
     },
     {
-      "page": 110,
+      "page": 109,
       "slide": 72,
       "title": "References",
-      "image": "page-110.png",
+      "image": "page-109.png",
       "image_sha256": "5984764eaf6d20c3423d4b975f4c8e577d1c32466d9b1d1b3cf320a6b4296c45"
     },
     {
-      "page": 111,
+      "page": 110,
       "slide": 73,
       "title": "References",
-      "image": "page-111.png",
+      "image": "page-110.png",
       "image_sha256": "613fe99cf31b7a91dabd3d185e80d97afe7c033022223d62706c11de987d866a"
     }
   ],
@@ -961,29 +961,37 @@
     {
       "number": 63,
       "pages": [
-        101
+        100
       ],
       "title": "Workflows get complicated",
-      "image": "page-101.png"
+      "image": "page-100.png"
     },
     {
       "number": 64,
       "pages": [
-        102
+        101
       ],
       "title": "Humans are still in charge",
-      "image": "page-102.png"
+      "image": "page-101.png"
     },
     {
       "number": 65,
       "pages": [
-        103
+        102
       ],
       "title": "The future of AI",
-      "image": "page-103.png"
+      "image": "page-102.png"
     },
     {
       "number": 67,
+      "pages": [
+        104
+      ],
+      "title": "References",
+      "image": "page-104.png"
+    },
+    {
+      "number": 68,
       "pages": [
         105
       ],
@@ -991,7 +999,7 @@
       "image": "page-105.png"
     },
     {
-      "number": 68,
+      "number": 69,
       "pages": [
         106
       ],
@@ -999,7 +1007,7 @@
       "image": "page-106.png"
     },
     {
-      "number": 69,
+      "number": 70,
       "pages": [
         107
       ],
@@ -1007,7 +1015,7 @@
       "image": "page-107.png"
     },
     {
-      "number": 70,
+      "number": 71,
       "pages": [
         108
       ],
@@ -1015,7 +1023,7 @@
       "image": "page-108.png"
     },
     {
-      "number": 71,
+      "number": 72,
       "pages": [
         109
       ],
@@ -1023,20 +1031,12 @@
       "image": "page-109.png"
     },
     {
-      "number": 72,
+      "number": 73,
       "pages": [
         110
       ],
       "title": "References",
       "image": "page-110.png"
-    },
-    {
-      "number": 73,
-      "pages": [
-        111
-      ],
-      "title": "References",
-      "image": "page-111.png"
     }
   ]
 }

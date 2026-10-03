@@ -1324,18 +1324,18 @@ ocelliq.com/astar-lr                                                            
 7.5 Verify: stage boundaries
 
 
-     Stage and purpose         Each bidder’s verifier checks all seven mandatory gates.
+     Stage and purpose         Each bidder’s verifier checks all mandatory gates (seven here).
      Accountable owner         The Evaluation Panel is accountable for each gate decision.
      Allowed data and tools Use only the criteria, assigned bid, reader and calculator.
      Permitted actions         Recommend pass, fail or unresolved for each gate.
-     Human approvals           The Panel approves gates; Procurement, Finance or the PI
-                               resolves disputes.
+     Human approvals           The Panel approves gates; Procurement, Finance or the technical
+                               owner (PI) resolves disputes.
      Prohibited actions        Do not invent terms, use rival bids or contact suppliers.
      Stop and escalation       Pause until the responsible reviewer resolves missing or
                                conflicting evidence.
      Evidence log              Record sources, calculations, gate results and open issues.
 
-ocelliq.com/astar-lr                                                                         55 / 73
+ocelliq.com/astar-lr                                                                             55 / 73
 
 ## Slide 56 · PDF page 87 · Ingest:preserve the evidence
 
@@ -1368,18 +1368,18 @@ ocelliq.com/astar-lr                                                            
 7.7 Ingest: stage boundaries
 
 
-
      Stage and purpose        Extract the criteria and prepare source packets.
-     Accountable owner        Mira Tan in Procurement owns this stage.
+     Accountable owner        Procurement (Mira Tan) owns this stage.
      Allowed data and tools Use only this case and a scoped reader or extractor.
      Permitted actions        Extract and classify evidence, citing its source.
-     Human approvals          Mira approves criteria; the PI and Finance check their parts.
+     Human approvals          Procurement approves criteria; the technical owner (PI) and
+                              Finance check their parts.
      Prohibited actions       Do not read other cases, edit sources or send material.
-     Stop and escalation      Ask Mira to resolve unclear criteria before handoff.
+     Stop and escalation      Ask Procurement to resolve unclear criteria before handoff.
      Evidence log             Record files, source locations, versions and exceptions.
 
 
-ocelliq.com/astar-lr                                                                          57 / 73
+ocelliq.com/astar-lr                                                                        57 / 73
 
 ## Slide 58 · PDF page 92 · Draft:settle gates before scoring
 
@@ -1413,7 +1413,7 @@ ocelliq.com/astar-lr                                                            
 
 
      Stage and purpose        Combine verification results and calculate scores.
-     Accountable owner        The Evaluation Panel owns this stage; Joel checks costs.
+     Accountable owner        The Evaluation Panel owns this stage; Finance (Joel) checks costs.
      Allowed data and tools Use reviewed packets, a calculator and a draft writer.
      Permitted actions        Score only eligible bids and draft the recommendation.
      Human approvals          The Panel approves gates and scores; Finance checks sums.
@@ -1422,7 +1422,7 @@ ocelliq.com/astar-lr                                                            
      Evidence log             Record input versions, formulae, open issues and edits.
 
 
-ocelliq.com/astar-lr                                                                      59 / 73
+ocelliq.com/astar-lr                                                                           59 / 73
 
 ## Slide 60 · PDF page 97 · Review:make human approval meaningful
 
@@ -1455,99 +1455,110 @@ ocelliq.com/astar-lr                                                            
 7.11 Review: stage boundaries
 
 
-
      Stage and purpose        Prepare the leadership slide and supporting review pack.
-     Accountable owner        Mira Tan owns this stage; specialists check their claims.
+     Accountable owner        Procurement (Mira Tan) owns this stage; specialists check claims.
      Allowed data and tools Use the draft, source excerpts, review records and writer.
      Permitted actions        Reconcile claims with evidence and show unresolved issues.
      Human approvals          Procurement approves routing; the committee awards the tender.
      Prohibited actions       Do not contact suppliers, amend bids or invent sign-off.
-     Stop and escalation      Hold release and ask Mira about missing or stale approval.
+     Stop and escalation      Hold release and ask Procurement about missing or stale
+                              approval.
      Evidence log             Record claims, edits, reviewers, decisions and versions.
 
 
-ocelliq.com/astar-lr                                                                       61 / 73
+ocelliq.com/astar-lr                                                                          61 / 73
 
-## Slide unnumbered · PDF page 100 · Where do we go from here?
+## Slide unnumbered · PDF page 99 · Where do we go from here?
 
-[Slide image](page-100.png)
+[Slide image](page-099.png)
 
 8.   Where do we go from here?
 
-## Slide 63 · PDF page 101 · Workflows get complicated
+## Slide 63 · PDF page 100 · Workflows get complicated
 
-[Slide image](page-101.png)
+[Slide image](page-100.png)
 
 8.1 Workflows get complicated
 
 
-
-
-                        web    draft
-                   Search agent A       Critic                             Slides   GATE
+                        web     draft
+                   Search agent A        Critic                             Slides    GATE
 
                                revise
-    Task /                                       reject
-                   Search agent B       Critic            ✕   Synthesize   Email    GATE   Output
+    Task /                                        reject
+                   Search agent B        Critic            ✕   Synthesize   Email     GATE       Output
     query
 
-                   Search agent C       Critic                              Log     GATE
+                   Search agent C        Critic                              Log      GATE
 
 
 
 
-ocelliq.com/astar-lr                                                                          63 / 73
+                                    Today, we’ve only scratched the surface.
+               AI engineering offers new and effective tools for putting policy into practice.
 
-## Slide 64 · PDF page 102 · Humans are still in charge
 
-[Slide image](page-102.png)
+ocelliq.com/astar-lr                                                                                63 / 73
+
+## Slide 64 · PDF page 101 · Humans are still in charge
+
+[Slide image](page-101.png)
 
 8.2 Humans are still in charge
 
+         Seven Risks                     Our frameworks are tools to operationalize this.
+      1. Erroneous actions
+      2. Unauthorized actions
+      3. Biased or unfair actions
+      4. Data breaches
+      5. Disrupt connected systems
+      6. Speed and volume
+      7. Cascading effects
+        Four Pillars
+     A. Assess and bound risks
+     B. Make humans accountable
+     C. Technical controls
+     D. Enable end-user responsibility                 IBM Training Manual, 1979
 
+ocelliq.com/astar-lr                                                                        64 / 73
 
+## Slide 65 · PDF page 102 · The future of AI
 
-                                  IBM Training Manual, 1979
-
-
-
-
-ocelliq.com/astar-lr                                     64 / 73
-
-## Slide 65 · PDF page 103 · The future of AI
-
-[Slide image](page-103.png)
+[Slide image](page-102.png)
 
 8.3 The future of AI
 
-
-
-     • Expecting IPOs for Anthropic/OpenAI.
-     • New regulation to restrict access to frontier intelligence
+     • IPOs for Anthropic/OpenAI expected.          • New regulations on the use of AI
+       ‣ Huge upheaval in market.                     ‣ EU AI Act; South Korea’s AI Basic Act.
+       ‣ Will affect closed- and open-weight          ‣ China’s AI-content labelling, and bans on
+         markets                                        virtual AI partners.
+                                                      ‣ NYC bias audits for hiring tools.
+     • Regulations to restrict access to frontier
+       intelligence                              • Resist vendor lock-in
+       ‣ Synthetic biology research is tightly     ‣ Pace of development mean long-term
+         limited.                                    value is still unknown
+       ‣ This will expand.                         ‣ Expensive value-added services may be
+                                                     much cheaper or obsolete in months.
      • Increased interest in “local” models.
-     • Semiconductor industry is moving towards newer chips to meet demand.
-       ‣ Increased competition from China: Huawei Ascend is about 3-4 years lagging.
-     Dangers:
-     1. Vendor lock-in
-     2. Imminent IPO: huge market upheaval
-     3. Hardware depreciates over a 2-3 year span.
+                                                   ‣ Keep your data exportable and your
+       ‣ Provides freedom and control, sometimes
+                                                     workflows portable.
+         cost savings.
+       ‣ Hardware depreciates quickly.
+ocelliq.com/astar-lr                                                                           65 / 73
 
+## Slide unnumbered · PDF page 103 · The future of AI
 
-
-ocelliq.com/astar-lr                                                                   65 / 73
-
-## Slide unnumbered · PDF page 104 · The future of AI
-
-[Slide image](page-104.png)
+[Slide image](page-103.png)
 
 OcelliQ.com/astar-lr
-    Download the course slides.
-Free AI training slides and exercises,
-       beginner to advanced.             Connect with me on LinkedIn.
+      Download the course slides.
+Free AI training slides and exercises for   Connect with me on
+   your institute: beginner to expert.          LinkedIn.
 
-## Slide 67 · PDF page 105 · References
+## Slide 67 · PDF page 104 · References
 
-[Slide image](page-105.png)
+[Slide image](page-104.png)
 
 References
      1.   Amazon News. Amazon CEO Andy Jassy talks 6 truths surrounding the rise of AI. 2026.
@@ -1570,9 +1581,9 @@ References
           independently verified.
 ocelliq.com/astar-lr                                                                                           67 / 73
 
-## Slide 68 · PDF page 106 · References
+## Slide 68 · PDF page 105 · References
 
-[Slide image](page-106.png)
+[Slide image](page-105.png)
 
 References
      10. Workshop illustrative model.
@@ -1595,9 +1606,9 @@ References
 
 ocelliq.com/astar-lr                                                                                  68 / 73
 
-## Slide 69 · PDF page 107 · References
+## Slide 69 · PDF page 106 · References
 
-[Slide image](page-107.png)
+[Slide image](page-106.png)
 
 References
      19. Ajay Agrawal, Joshua Gans, Avi Goldfarb.
@@ -1621,9 +1632,9 @@ References
          million tokens, before the introductory discount.
 ocelliq.com/astar-lr                                                                                           69 / 73
 
-## Slide 70 · PDF page 108 · References
+## Slide 70 · PDF page 107 · References
 
-[Slide image](page-108.png)
+[Slide image](page-107.png)
 
 References
      26. Artificial Analysis. Muse Spark 1.3 (max). Read 2 October 2026. AAII 48 under Intelligence Index
@@ -1646,9 +1657,9 @@ References
 
 ocelliq.com/astar-lr                                                                                    70 / 73
 
-## Slide 71 · PDF page 109 · References
+## Slide 71 · PDF page 108 · References
 
-[Slide image](page-109.png)
+[Slide image](page-108.png)
 
 References
      35. Wallace et al. The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions. OpenAI,
@@ -1672,9 +1683,9 @@ References
 
 ocelliq.com/astar-lr                                                                                          71 / 73
 
-## Slide 72 · PDF page 110 · References
+## Slide 72 · PDF page 109 · References
 
-[Slide image](page-110.png)
+[Slide image](page-109.png)
 
 References
      42. International Organization for Standardization / International Electrotechnical Commission.
@@ -1698,9 +1709,9 @@ References
 
 ocelliq.com/astar-lr                                                                                   72 / 73
 
-## Slide 73 · PDF page 111 · References
+## Slide 73 · PDF page 110 · References
 
-[Slide image](page-111.png)
+[Slide image](page-110.png)
 
 References
      47. Klarna.
