@@ -1,6 +1,6 @@
 ---
 name: imda-ai-governance
-description: Apply Singapore IMDA's Model AI Governance Framework for Agentic AI (v1.5) when designing, bounding, reviewing or explaining an AI-agent workflow. Use for Task 3 (bounded workflow and boundary tests) or any question about agent risk, human approval, controls or user responsibilities.
+description: Apply Singapore IMDA's Model AI Governance Framework for Agentic AI (v1.5) when designing, bounding, reviewing or explaining an AI-agent workflow. Use for the procurement workflow or any question about agent risk, human approval, controls or user responsibilities.
 ---
 
 # IMDA Model AI Governance Framework for Agentic AI
@@ -56,7 +56,7 @@ Treat them as an iterative loop: monitoring or testing may show a need to reasse
 - **Tencent (pp. 30–31):** default permissions distinguish reading, editing, shell commands, network access and tool-server use; suspicious commands trigger fresh approval.
 - **GovTech (pp. 42–43):** first rollout limited to trained internal users, lower-risk systems and no external tool-server access while logging and controls were prepared.
 
-## Applying it to the Task 3 workflow blueprint
+## Applying it to the procurement workflow blueprint
 
 A bounded tender-analysis workflow should state:
 
@@ -65,7 +65,7 @@ A bounded tender-analysis workflow should state:
 - **Action boundary:** permitted, prohibited and approval-required actions at every stage.
 - **Workflow:** separate collection, verification, drafting, review and sharing, so one error is not silently amplified.
 - **Stops and escalation:** missing or conflicting evidence, sensitive information, an atypical action, a failed control or an unavailable approver.
-- **Boundary test:** attempt cross-case access or an unapproved action, and keep the refusal, access record and escalation as evidence.
+- **Control evidence:** describe how permissions, approvals and handoffs would be checked; distinguish proposed checks from observed results. The workshop does not require a boundary-test exercise.
 - **Pilot:** trained users, low-risk cases, few tools, no external sharing, and named success and safety measures.
 
 ## Page index

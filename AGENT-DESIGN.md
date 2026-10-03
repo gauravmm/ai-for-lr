@@ -17,4 +17,4 @@ Act as the orchestrator and use your built-in subagent tools to run the tasks be
 
 - Use the supplied case evidence and preserve references to the documents and their locations. Flag missing or conflicting evidence; do not invent facts or amendments.
 - Keep award decisions with the committee and bidder contact with Procurement approval.
-- Record the student's agreed access limits, permitted tools, human approvals, stop conditions, and evidence logs in this file as the design develops. Record boundary-test results here after running the workflow.
+- Record the student's agreed access limits, permitted tools, human approvals, stop conditions, and evidence logs in this file as the design develops. Record execution and review findings here after running the workflow.
