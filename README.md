@@ -70,6 +70,25 @@ When your design is ready, run the procurement task in the agent chat:
 | Draft | [verified claims] | [draft recommendation and slide] | [award requires committee] | [unsupported decision] | [versioned outputs] |
 | Review | [draft outputs] | [route to people] | [bidder contact requires procurement approval] | [approval absent] | [review record] |
 
+#### Risk Analysis
+
+Copy this template for each stage (Ingest, Verify, Draft, Review) and save your decisions in `AGENT-DESIGN.md`. For Verify, specify the limits for each bidder's subagent.
+
+- **Stage:** [Name and purpose of this stage.]
+- **Human owner:** [Who is accountable for its outputs?]
+- **Allowed data and tools:** [Which files and tools can it access? How are those limits enforced?]
+- **Permitted actions:** [What can it do without approval, and what should it produce?]
+- **Approval-required actions:** [What needs approval, from whom, and what must they check?]
+- **Prohibited actions:** [What must it never do, even if asked?]
+- **Stop and escalation:** [What makes it stop, who resolves the issue, and when can it resume?]
+- **Evidence log:** [Record sources and locations, calculations, actions, approvals, and outputs. Where will this log be saved?]
+
+For this stage, list the risks below. Rate severity and likelihood before controls as Low, Medium, or High, with a brief reason. For residual risk, describe and rate what remains after controls. Mark untested controls as proposed.
+
+| Risk / failure | Business impact | Severity | Likelihood | Control | Residual risk | Human owner | Test / evidence |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [What could go wrong?] | [Who or what is affected?] | [Rating and reason] | [Rating and reason] | [How is it prevented or detected, and where is the control enforced?] | [What remains, and how serious is it?] | [Who manages or accepts this risk?] | [How will you test the control, and what result will you record?] |
+
 #### Starter Prompts
 
 If you have any questions about how to weigh risks and develop technical controls, ask your AI! The command `/imda-ai-governance` will give it access to the full IMDA framework, and it comes with an encyclopedic knowledge of technical controls. Ask questions like:
