@@ -1,6 +1,6 @@
 {
   "deck": "01-intro",
-  "pdf_sha256": "8ea442355f341030074486e96074a59d16acf6ce8f7f9b218f1bfc7cf2180fb1",
+  "pdf_sha256": "545c55d1f79d556a9b166e5be90f5856af6c766e801093e37a8410e27c9d94a3",
   "renderer": {
     "version": "pdftoppm version 24.02.0",
     "scale_to": 1600
@@ -18,511 +18,539 @@
       "slide": 1,
       "title": "Outline",
       "image": "page-002.png",
-      "image_sha256": "b3b60d9acfe24b997787941ef549ac0e8cc5693719f959472981e62bed616861"
+      "image_sha256": "be287e1812d83601be8c28511891051446dbb0dd056667babde7ebf0b71383ef"
     },
     {
       "page": 3,
       "slide": 2,
       "title": "About Me",
       "image": "page-003.png",
-      "image_sha256": "bfef6aaf85398f98e6ec54e080f7753def41a25f7e1d00deeb26e208553b7057"
+      "image_sha256": "ba552848aeabf44894b618ab31758647c50cb89096ea4d899e5ff2cab45c782a"
     },
     {
       "page": 4,
       "slide": 3,
       "title": "About Our TAs",
       "image": "page-004.png",
-      "image_sha256": "0a083014967e08641288fb67a4d843eccf0989107b6b3d496cd6a455dbd64fcf"
+      "image_sha256": "a9b8dcc3eb948a9e07414f1d6ee9fdad51025d71bc1365454c9aec22065c53cd"
     },
     {
       "page": 5,
       "slide": null,
       "title": "Industry Landscape",
       "image": "page-005.png",
-      "image_sha256": "0ab9ba963e4967e5e785e47e4a7b651006e312499250e0a692d54932421c42e8"
+      "image_sha256": "7387797579a26e4f5ab103d4dadfaf22be704157229059e232de5ae4d7fffa32"
     },
     {
       "page": 8,
       "slide": 5,
       "title": "Industrial revolution",
       "image": "page-008.png",
-      "image_sha256": "6f1efd97ba9ef4d27c53d0f25cc86410a948f1411a07c36a04827bda23c514a9"
+      "image_sha256": "959fcf0279ed43ee9297ab48b69b144390eeac77a893841a81fb0d9122873a09"
     },
     {
       "page": 9,
       "slide": 6,
       "title": "Gold Rush of our age",
       "image": "page-009.png",
-      "image_sha256": "8b7875725fd29b96b4d44e67f0b1e52010ff8dd736d9668bcb68b9f6a36a5705"
+      "image_sha256": "15b1d639639abd00a9b58cc774ae887a2d031db87573cc06de4cfbe4b62a1752"
     },
     {
       "page": 11,
       "slide": 7,
       "title": "Who Controls What in AI",
       "image": "page-011.png",
-      "image_sha256": "e2af22a57dac5771d68dab943eb13f05ac308b11f4221f0454805d3e2daa5ec0"
+      "image_sha256": "697bf7e3f4aa9988a322ae204972416d1920659346ac795603c90204611a76a0"
     },
     {
       "page": 12,
       "slide": null,
       "title": "WhatisAI?",
       "image": "page-012.png",
-      "image_sha256": "59afbeab25ac721e1653143af99ea95f0fcb0d6fce5cc4715efe82fc47ba19a6"
+      "image_sha256": "1d9256afb8306ab1a875072ee68f40ed43b8049cd51456407c5638562d24e6b8"
     },
     {
       "page": 14,
       "slide": 9,
       "title": "What Does\"AI\"Mean?",
       "image": "page-014.png",
-      "image_sha256": "904b1d14016ba538e0510a099c62b40fd9e167811f1826e254f964f78c4fd977"
+      "image_sha256": "77f1f47319c8d9902e0212b2d06583d5a9dc2e13f21914b29be7b1beb7397e73"
     },
     {
       "page": 16,
       "slide": 10,
       "title": "What is a Large Language Model?",
       "image": "page-016.png",
-      "image_sha256": "ec8ef46db3c1e2a1c3b28776e36efbbe1a77a223174bd953814fd79aa8163bd1"
+      "image_sha256": "8324978ae5455bcaf969635f86d88474ca02ce4c11af57036882a6be6d4bb31b"
     },
     {
       "page": 18,
       "slide": 11,
       "title": "What is a Large Language Model?",
       "image": "page-018.png",
-      "image_sha256": "4a30d44a5c1fa78a1b80acfd0bb25fa5dd19ffaf9cccd96fc251fa1d37bbb313"
+      "image_sha256": "cfe3f290665855afea70008df16a684f3d818ed597c36ec13765f77e1f246c6f"
     },
     {
       "page": 21,
       "slide": 12,
       "title": "Cost of AI",
       "image": "page-021.png",
-      "image_sha256": "8fe2c16b7642930eb3196814233a5214b51fc363a5fe5486bfbf64799986d679"
+      "image_sha256": "1388983ace547e95e01531d4f70635a72da50d47847f719fb2c8b4084a3f669d"
     },
     {
       "page": 23,
       "slide": 13,
       "title": "Cost of AI by Lab(Closed-Source)",
       "image": "page-023.png",
-      "image_sha256": "456283096cc73f4a9aadcec3eb4a2d51dfeb0fcf0f129e2013fd352d7ff89cb2"
+      "image_sha256": "0e21c2c9b07244bf0fde71531d73fff7a14bc574cec9b341e4b141c8cbaa04b7"
     },
     {
       "page": 25,
       "slide": 14,
       "title": "Cost of AI by Launch DateNew→12+ months",
       "image": "page-025.png",
-      "image_sha256": "1d9fc2cb86a3d3c3f31900f1f22efed2d8f8af899580ecd8d0a4443d93cbcfe2"
+      "image_sha256": "10892a96fb2d58e9d71fc16b5b537cb967a8692017260c49779406fdf7d74453"
     },
     {
       "page": 26,
       "slide": 15,
       "title": "Cost of AI by Minimum Hosting Cost",
       "image": "page-026.png",
-      "image_sha256": "847e628058f414daa53381422127fca487e7b55c9a549cb1f44d83315b2a8c80"
+      "image_sha256": "41e00334d96a8bb392b08f426d93b6b5e7e4d05e6a3e20948e5f12e1fc088eed"
     },
     {
       "page": 27,
       "slide": null,
       "title": "What makes AI Agentic?",
       "image": "page-027.png",
-      "image_sha256": "b969f1a9bfb27ae16fc2543c5f5dd642bea9b1d4ab09d9ce5f9f72656ebc55a5"
+      "image_sha256": "57aa32d0c99238fad880041ff7507f70524bf2fedc077ccbc7a428f1e8051d73"
     },
     {
       "page": 28,
       "slide": 17,
       "title": "What makes AIAgentic?",
       "image": "page-028.png",
-      "image_sha256": "910dad797134c8823b7cc7c8371b8315ac1f4bc3eca29768aab9a91777700bb2"
+      "image_sha256": "b7926b740d1acb715b895272bf0d0fd1b226524723cfe74d09684bfda54067e9"
     },
     {
       "page": 29,
       "slide": 18,
       "title": "Anatomy of an Agent",
       "image": "page-029.png",
-      "image_sha256": "84e6161933748016f4db3cd5f2661203872a2915bb87e3534bd97fd9c4b03d05"
+      "image_sha256": "f4fdd27ed4af2608a9f34bf8585efc56fce617019ff8dc22664e4746fdb3d642"
     },
     {
       "page": 30,
       "slide": 19,
-      "title": "What does it this look like?",
+      "title": "What does this look like?",
       "image": "page-030.png",
-      "image_sha256": "24e0183bed10f7a1d4884aa09ae7e3b5f6729ced75caefd431a9fb1aedc8b736"
+      "image_sha256": "50ca328698d9ca9552b783a216565551bcaeb168e061fb599cff22afd565803f"
     },
     {
       "page": 31,
       "slide": null,
       "title": "LLM intelligence ≠ Human intelligence",
       "image": "page-031.png",
-      "image_sha256": "2ba7374bbdfc5cf3d5ea1a9962de06750724f1c9ecce018fc746675b991e4717"
+      "image_sha256": "a18a79c3c8b019a9988856739a3552aa4c9f0e20d60713478eac1c98155d669c"
     },
     {
       "page": 32,
       "slide": 21,
       "title": "LLM intelligence fails in common ways",
       "image": "page-032.png",
-      "image_sha256": "7506882b0de52b228c78141a6c43dfda7693862a5fd80acb829b43aaea3dc145"
+      "image_sha256": "0044dff5d42079f746ebd00be283794963f4628cb586040d07c3982cecd10451"
     },
     {
       "page": 33,
       "slide": 22,
       "title": "Theory of Mind:Understanding Intentions",
       "image": "page-033.png",
-      "image_sha256": "0f6f8ab7637b81418d7d53f2b85e7e019e7a46a7a332f24e3b104f80a7c3d24b"
+      "image_sha256": "b9385e95db1684f85a9773c10cb63e710511d4db677c7457da299e3e0110a482"
     },
     {
       "page": 34,
       "slide": 23,
       "title": "Hallucinations",
       "image": "page-034.png",
-      "image_sha256": "a18dd778d1cf770872f181ddab58f5858bac6c33d956efedf7e285c11afbf5c4"
+      "image_sha256": "b1969d3d9a748514a7953ea4d1a9f9d31e76438620290f6e5a97c343fce96ca4"
     },
     {
       "page": 35,
       "slide": 24,
       "title": "Hallucinations",
       "image": "page-035.png",
-      "image_sha256": "3a3aa3173c6e8438d6a4609cd2cea67539188924da8559dfb1c36b961190919e"
+      "image_sha256": "e103215ce399e647c0c43a345825921e87e4614379f806a79e62d3ad766fb919"
     },
     {
       "page": 36,
       "slide": 25,
       "title": "Hallucinations",
       "image": "page-036.png",
-      "image_sha256": "991e604bb98ba67ffa26a760633a830c82fa44223493d891982eabdd47a49f0a"
+      "image_sha256": "4daedd86fc9e6fa0f01c68f76a2faf13c63ba6a030c38bb0aa8c9ec493ba10bc"
     },
     {
       "page": 37,
       "slide": null,
       "title": "Governing Agentic AI",
       "image": "page-037.png",
-      "image_sha256": "3e669dee4ac760eacad91f80d509397d45949cdecf34f054963c7375bffd9142"
+      "image_sha256": "9a556204ffb4adbb77283843f888b6c5aeaf97f27d343d232991671f4cf72ee4"
     },
     {
-      "page": 39,
+      "page": 38,
       "slide": 27,
-      "title": "IMDA Model Governance framework",
-      "image": "page-039.png",
-      "image_sha256": "753b5fd9718aee636d2aa1248ed935f2ea6a8f677805faa21ecbfb90a5ddfe01"
+      "title": "Humans are still in charge",
+      "image": "page-038.png",
+      "image_sha256": "4e55bb6a96d188509b4136300f9c4542b4dcfec912cb522896a0a6ec4fb0d775"
     },
     {
       "page": 40,
       "slide": 28,
-      "title": "The Four Pillars",
+      "title": "IMDA Model Governance framework",
       "image": "page-040.png",
-      "image_sha256": "e5773b2a826cf11b26eeaf3267d4486e2eccad1fe07221477820e4a6b4744ebb"
+      "image_sha256": "7813481fafeb3a3fb6846358c81606fa918ab4e57865f01421b2a48580f0ad98"
     },
     {
-      "page": 42,
+      "page": 41,
       "slide": 29,
-      "title": "The Seven Risks",
-      "image": "page-042.png",
-      "image_sha256": "270e8f2e6da5835ccb49e037efb28a37873c4bbd75df4281c910485b06a3c3b1"
+      "title": "The Four Pillars",
+      "image": "page-041.png",
+      "image_sha256": "4a52493c4d4c548242d5f252ac2d61d472095354948ba7b1515e4cff90088077"
     },
     {
       "page": 43,
       "slide": 30,
-      "title": "Even the Experts Get Burned",
+      "title": "The Seven Risks",
       "image": "page-043.png",
-      "image_sha256": "501be99e1942d0a923d80849ed857f839568f867ba5774fe563c6adf03f30ba6"
+      "image_sha256": "19d7dc1a69cccb50c2beea09c48d69511d108eb9fae8a6ff3239b24e5e279615"
     },
     {
-      "page": 45,
+      "page": 44,
       "slide": 31,
-      "title": "Getting It Right:Ask D.A.V.I.D.",
-      "image": "page-045.png",
-      "image_sha256": "36bad6d28e2818c774d0722e728b994d0bfebdeea1e0896db41eb1716b6e8325"
+      "title": "Even the Experts Get Burned",
+      "image": "page-044.png",
+      "image_sha256": "c59c1403e6afabb90fdb04d249e182fbed22506ab4b0c22212b868e22327a28d"
     },
     {
-      "page": 47,
+      "page": 46,
       "slide": 32,
-      "title": "Getting It Right:Hippocratic AI",
-      "image": "page-047.png",
-      "image_sha256": "96cedcd24f4c447cbc561e3c021208f058a91825d639dd9bf24d2280a101dc68"
+      "title": "Getting It Right:Ask D.A.V.I.D.",
+      "image": "page-046.png",
+      "image_sha256": "41f11b7d465c6f035ce13daf1ad20aaad183f4558a73aa736b326eb67e2f29c9"
     },
     {
-      "page": 49,
+      "page": 48,
       "slide": 33,
-      "title": "Getting It Wrong:Klarna",
-      "image": "page-049.png",
-      "image_sha256": "d6896dcae8798857e6b73bfa33330a9c331fd481f6657b64e15188022c36f1e6"
+      "title": "Getting It Right:Hippocratic AI",
+      "image": "page-048.png",
+      "image_sha256": "95422910c798b1e4b1ff4237fee9d0cc69228475292c03ede576d332e949b1bc"
     },
     {
-      "page": 51,
+      "page": 50,
       "slide": 34,
-      "title": "Getting It Wrong:Hacking the Evaluation",
-      "image": "page-051.png",
-      "image_sha256": "e4e31370f4b9d200c0b3e36ab841a8d5d3a4cef71859e7db95fd55900f4710cd"
+      "title": "Getting It Wrong:Klarna",
+      "image": "page-050.png",
+      "image_sha256": "fe6979a4fb0d58ea6e425cca8d930c7bcc492fc3c8b7647d67a8ffe8920d59d7"
     },
     {
       "page": 52,
-      "slide": null,
-      "title": "IMDA Framework applied to IMCB's ATLAS",
+      "slide": 35,
+      "title": "Getting It Wrong:Hacking the Evaluation",
       "image": "page-052.png",
-      "image_sha256": "cb41b5cc69fdfd48dd84bcb5bf9c28ee6e59213537e1ad82ae2a3e6659d12eef"
+      "image_sha256": "5152fcafa360f8c8a3dab6aebf60e843917819da7b2179a812601e2ab3bec420"
     },
     {
       "page": 53,
-      "slide": 36,
-      "title": "IMCB ATLAS",
+      "slide": null,
+      "title": "IMDA Framework applied to IMCB's ATLAS",
       "image": "page-053.png",
-      "image_sha256": "bc38255c9155d9e2032dda1b80606de254d3958d4283597436d63ab3ea49c0f8"
+      "image_sha256": "7d35dff11ebd5584b85a1eef91acc95a59c4bc6b984eb9bf492868458cbc3055"
     },
     {
-      "page": 55,
+      "page": 54,
       "slide": 37,
-      "title": "IMCB ATLAS:Document Flow",
-      "image": "page-055.png",
-      "image_sha256": "ee89e9fb8354734fcda0f31a79dfd8981d61ec8dfd59c4e03f70ba13a2369b21"
+      "title": "IMCB ATLAS",
+      "image": "page-054.png",
+      "image_sha256": "3dd65d86a5a60e3439ec73a9e2478ce8b03a1c43e915b280a6ff09781f8003d9"
     },
     {
       "page": 56,
       "slide": 38,
-      "title": "Unauthorized access& data breach",
+      "title": "IMCB ATLAS:Document Flow",
       "image": "page-056.png",
-      "image_sha256": "47cb931a4459d7913bbe1b0a19d3a376ec4dbbc0c3237860ec893bac6790c525"
+      "image_sha256": "22c32b44eaec693e5c373affc3b66d808921ab14771dbbb7707c9e7cc04b9857"
     },
     {
-      "page": 58,
+      "page": 57,
       "slide": 39,
-      "title": "Your AI workspace",
-      "image": "page-058.png",
-      "image_sha256": "3db325460218bc633d856d66a5ce1ec4cb864a3b54da1b8bc45555a51af578da"
-    },
-    {
-      "page": 60,
-      "slide": 40,
-      "title": "AI-driven AI analysis",
-      "image": "page-060.png",
-      "image_sha256": "78da274199b444392a0af577afd4d652f42b6d2da2613fc38d337272fb2d2821"
-    },
-    {
-      "page": 63,
-      "slide": 41,
       "title": "Unauthorized access& data breach",
-      "image": "page-063.png",
-      "image_sha256": "c4c2b50f5b489873a1e916ef4acfd9e3a67a60bb01f3c1293f47e49e6fd1664b"
+      "image": "page-057.png",
+      "image_sha256": "e3cdd2c6c31976f824b490284a2eac018b3ca9808ed27d32d4fef0c47bd1f968"
+    },
+    {
+      "page": 59,
+      "slide": 40,
+      "title": "Your AI workspace",
+      "image": "page-059.png",
+      "image_sha256": "1bf539c00dc8992f86f437b0c50df72180c375a29cf4b05e9cb665351941b228"
+    },
+    {
+      "page": 61,
+      "slide": 41,
+      "title": "AI-driven AI analysis",
+      "image": "page-061.png",
+      "image_sha256": "8b89aa620b5d420d6939db2f55d4a6410695262ed102733469f30f3ce34f09d0"
     },
     {
       "page": 64,
       "slide": 42,
-      "title": "Unauthorized access:policy and control",
+      "title": "Unauthorized access& data breach",
       "image": "page-064.png",
-      "image_sha256": "27431c66e0d4212065b2394f08201c798869f015200de6d1e91628e7d840dfc6"
+      "image_sha256": "0e6380bd29710b0cbde45d37877185551649cc0b705fb23f737b7d77044dc7a0"
     },
     {
       "page": 65,
       "slide": 43,
-      "title": "Erroneous action",
+      "title": "Unauthorized access:policy and control",
       "image": "page-065.png",
-      "image_sha256": "95234711bf2167db0b4ecb482e8b3992945ca51cc2c1e4a46c2234877b4ce1d9"
+      "image_sha256": "3bf512b0d17a4da9cc19e297fc67ee3327ec2c485ac9e3b377d4fb94af3e70ee"
     },
     {
       "page": 66,
       "slide": 44,
-      "title": "Cascading effects",
+      "title": "Erroneous action",
       "image": "page-066.png",
-      "image_sha256": "2ef0d77189bac3984fb46fbf4168acdd9ceb594058b096a17000613b203b1c9c"
+      "image_sha256": "016afb060afca958478aa032cb8ed2906bfb0c83d57df24d88ac3a69cded5fa8"
     },
     {
       "page": 67,
       "slide": 45,
-      "title": "Erroneous action:policy and control",
+      "title": "Cascading effects",
       "image": "page-067.png",
-      "image_sha256": "ecdd4e48f51f216721cfe34d9eacb3a210f3f88cfdca5cb91accc2389d47d8b0"
+      "image_sha256": "1cf0af34c82d7143257e15bde82abd09b7d0982a2209144b8941fa526206accb"
     },
     {
       "page": 68,
       "slide": 46,
-      "title": "AI-driven AI analysis",
+      "title": "Erroneous action:policy and control",
       "image": "page-068.png",
-      "image_sha256": "f3c64ffa786df83bda5675ce9acc45f2e065d6e3c594de7f7f9ff41142be5f4e"
+      "image_sha256": "7bd21e0df26b0b94a3479b4f20981a23f506b5364100130712824c6b3cf9915f"
     },
     {
       "page": 69,
       "slide": 47,
-      "title": "Erroneous action:policy and control",
+      "title": "AI-driven AI analysis",
       "image": "page-069.png",
-      "image_sha256": "158b60192572e7b8dbe6597f92436ce77967707071d509c917cbfc25dc013395"
+      "image_sha256": "008d35424a3196ccf85d1fd64cf9eebb74f940dbaa040f01340cf5711a2a16c6"
     },
     {
       "page": 70,
       "slide": 48,
-      "title": "Human oversight in practice",
+      "title": "Erroneous action:policy and control",
       "image": "page-070.png",
-      "image_sha256": "8e38f2d129e60c3d5536ffadfef51b05bf31656afae02c180a5292ec560ee737"
+      "image_sha256": "7048d71dd73866a5ce2d375566575f5cf626ccc68e23b897224b80d20262449a"
     },
     {
-      "page": 72,
+      "page": 71,
       "slide": 49,
-      "title": "Assess Risks and apply Technical Controls",
-      "image": "page-072.png",
-      "image_sha256": "6382355a395863b6b047a001a336d12a880ff7405a3770050e07b56454fcdd27"
+      "title": "Human oversight in practice",
+      "image": "page-071.png",
+      "image_sha256": "b8236e9570e766129bb4e311113bdede77633ca01213f7fcfcf4cc5dcb456b39"
     },
     {
       "page": 73,
-      "slide": null,
-      "title": "Set Policies for a Procurement Agent",
+      "slide": 50,
+      "title": "Assess Risks and apply Technical Controls",
       "image": "page-073.png",
-      "image_sha256": "d9886c281905a8c74cddf6010503caf32e805f511bee75366b50bfa68b535344"
+      "image_sha256": "34e5561d3e0efefb1b823515a7dd6cdf51192d3dca85342d49f1def166246f13"
     },
     {
       "page": 74,
-      "slide": 51,
-      "title": "The procurement case",
+      "slide": null,
+      "title": "Set Policies for a Procurement Agent",
       "image": "page-074.png",
-      "image_sha256": "7696067a7a6a434607a4a596309a45a34198feb5f906fb65aecdcbdcde1c0db4"
+      "image_sha256": "9a86ef12dffb105b1bac18eddea06e89ea7b046340ebe2e2b77a6db664557953"
     },
     {
-      "page": 76,
+      "page": 75,
       "slide": 52,
-      "title": "A convincing recommendation",
-      "image": "page-076.png",
-      "image_sha256": "fc2a821c477f6b5bee82a01da4df399fd35b7948916cbaaaa0d922bfff46366f"
+      "title": "The procurement case",
+      "image": "page-075.png",
+      "image_sha256": "e4975f72825e1d65a60ae35552eaccc0eac9505f9c467c724689ac311dc0d3e4"
     },
     {
-      "page": 78,
+      "page": 77,
       "slide": 53,
-      "title": "Procurement Agent",
-      "image": "page-078.png",
-      "image_sha256": "7951d4861e7b46fd628e1066be4764fdb0c7b58f9c1c2dcfa88b3287266e775e"
+      "title": "A convincing recommendation",
+      "image": "page-077.png",
+      "image_sha256": "214af5ef45317e85391e9565487d9e552c8fc56a982c850490397d6c993059a6"
     },
     {
-      "page": 82,
+      "page": 79,
       "slide": 54,
-      "title": "Verify:check each offered commitment",
-      "image": "page-082.png",
-      "image_sha256": "35b7610f02334fc88326ea896852bda2139450d64524c8fd67b1a9660d24989e"
+      "title": "Procurement Agent",
+      "image": "page-079.png",
+      "image_sha256": "48db7f5ba7d32fc56620b638e37fe50ff423e67bb562b3644b9772b4b6afa20f"
     },
     {
       "page": 83,
       "slide": 55,
-      "title": "Verify:stage boundaries",
+      "title": "Verify:check each offered commitment",
       "image": "page-083.png",
-      "image_sha256": "fad2138c13da8ed0c6ef467779734dd1b660605bfb9ac2bce43e50c2d292dad5"
+      "image_sha256": "b910c0cb61f2b37f2bf2baf049d7252596721f8b2f1242a211778b3124e5af88"
     },
     {
-      "page": 87,
+      "page": 84,
       "slide": 56,
-      "title": "Ingest:preserve the evidence",
-      "image": "page-087.png",
-      "image_sha256": "f0711697f6238ef20c5b2081182a66e985e30045422f9ab0a30ba62e917bbd19"
+      "title": "Verify:stage boundaries",
+      "image": "page-084.png",
+      "image_sha256": "86d1823e603657671fb8fbac0c34a22b2a1decef55e3417c825ebb399b3caefb"
     },
     {
-      "page": 88,
+      "page": 85,
       "slide": 57,
-      "title": "Ingest:stage boundaries",
-      "image": "page-088.png",
-      "image_sha256": "c51971caee968bf72c78b47e0f79baff85dc5881b1558ad294b5c45c6ebe1743"
+      "title": "Make a PowerPoint",
+      "image": "page-085.png",
+      "image_sha256": "a1e987c357f53fb0f4b100f9e67b33e08f357f867f898b46b777780ce4bc58be"
     },
     {
-      "page": 92,
+      "page": 86,
       "slide": 58,
-      "title": "Draft:settle gates before scoring",
-      "image": "page-092.png",
-      "image_sha256": "085fd59335a69b3d5bf9a8c9555e7f97d138e28660a9d0504dd13190b9ca41ae"
+      "title": "Understand/usageand/context",
+      "image": "page-086.png",
+      "image_sha256": "6995d4987ba4f604b1fd8b034394811dde5271132cf56939c9089963c462333c"
     },
     {
-      "page": 93,
+      "page": 90,
       "slide": 59,
-      "title": "Draft:stage boundaries",
-      "image": "page-093.png",
-      "image_sha256": "2b4cd667e753598368f1236efd7f4c573f6285d1be868d7de3cc003993b59767"
+      "title": "Ingest:preserve the evidence",
+      "image": "page-090.png",
+      "image_sha256": "405cca5d89d5da985ad9ca72c64e56cf97a7f953f64de4288d463833a362dd06"
     },
     {
-      "page": 97,
+      "page": 91,
       "slide": 60,
-      "title": "Review:make human approval meaningful",
-      "image": "page-097.png",
-      "image_sha256": "b34aa6cbb56aef87c44cd5fc96cbf7b6d669563b0e19cf4ea465bc33679b5416"
+      "title": "Ingest:stage boundaries",
+      "image": "page-091.png",
+      "image_sha256": "a447763d627710357847835eb0c95cdfd1a59949feef8d2837f3669bcefe9dfe"
     },
     {
-      "page": 98,
+      "page": 95,
       "slide": 61,
-      "title": "Review:stage boundaries",
-      "image": "page-098.png",
-      "image_sha256": "ad8b36913ffcf6f2370dee94d6b0c7443cf24787d0949489edd58e424afb82bd"
+      "title": "Draft:settle gates before scoring",
+      "image": "page-095.png",
+      "image_sha256": "09df2679979cb160598587d489c5394134712aaafe28d93868ad44d70e6af40a"
     },
     {
-      "page": 99,
-      "slide": null,
-      "title": "Where do we go from here?",
-      "image": "page-099.png",
-      "image_sha256": "9b869e1cb0317b0e32551e576a98fd26fc1db233c84e9a9e6f72fce2c5cd870c"
+      "page": 96,
+      "slide": 62,
+      "title": "Draft:stage boundaries",
+      "image": "page-096.png",
+      "image_sha256": "2c58cf25cf4bba57a9a614d246322162d011d8ab462c36c235c459c272455204"
     },
     {
       "page": 100,
       "slide": 63,
-      "title": "Workflows get complicated",
+      "title": "Review:make human approval meaningful",
       "image": "page-100.png",
-      "image_sha256": "9cd5d51265d651e4fe00d0627b2735666842757a89b2f0d4bf6ff1a5859440a6"
+      "image_sha256": "634c5e1ce8a23b2c53054d7c8ff32522a80ebf0186cb32ff31e8f5634cf8221d"
     },
     {
       "page": 101,
       "slide": 64,
-      "title": "Humans are still in charge",
+      "title": "Review:stage boundaries",
       "image": "page-101.png",
-      "image_sha256": "a1666e706bcf7a3b4bef610f9c357a29143659777e5810d513f912d545642005"
+      "image_sha256": "09a7a940f9e3cf5e7e32cce36373523810cc7be1935667da2ec3eadea446edae"
     },
     {
       "page": 102,
-      "slide": 65,
-      "title": "The future of AI",
+      "slide": null,
+      "title": "Where do we go from here?",
       "image": "page-102.png",
-      "image_sha256": "91dc47ffac35737e32f620baf6222df36d5fdafabe80f5c1f753032f4f8591c2"
+      "image_sha256": "feaee8e157629fcfd037d95b4e92f53979fa6b19ebb8f09c279aa0dfc8b09826"
     },
     {
       "page": 103,
-      "slide": null,
-      "title": "The future of AI",
+      "slide": 66,
+      "title": "Workflows get complicated",
       "image": "page-103.png",
-      "image_sha256": "ac776bf059581f702dad1d10a2a419692a9dff8acbd7aace2ef1192e834487a6"
+      "image_sha256": "2f14fb808314a9aa92afe2ef639423a860a968b690603865704ad97b3a1f311e"
     },
     {
       "page": 104,
       "slide": 67,
-      "title": "References",
+      "title": "The future of AI",
       "image": "page-104.png",
-      "image_sha256": "78f79db1bdd7d57164cfe8f97a050220464f930e1ad6a2ae00e93914a79658ef"
+      "image_sha256": "8af933b8efa12c9cd1c20f6be7feb5a54f47f3f39f6082666c77ea2dbe79c917"
     },
     {
       "page": 105,
       "slide": 68,
-      "title": "References",
+      "title": "Build something worth trusting.",
       "image": "page-105.png",
-      "image_sha256": "d8341f3f6433fa31b7c3d6981ae75c4bf593330c494622c89fe2782188dc28eb"
+      "image_sha256": "5bff10a1d26865dcf6c6ef4d671f9335e888151962f9b36d5d7cb317693e5e2e"
     },
     {
       "page": 106,
-      "slide": 69,
-      "title": "References",
+      "slide": null,
+      "title": "Build something worth trusting.",
       "image": "page-106.png",
-      "image_sha256": "83384cbc3f6d0309d7180e1c8d573ed1bf119fcf8695eedc9c6a53ef9bf98578"
+      "image_sha256": "ac776bf059581f702dad1d10a2a419692a9dff8acbd7aace2ef1192e834487a6"
     },
     {
       "page": 107,
       "slide": 70,
       "title": "References",
       "image": "page-107.png",
-      "image_sha256": "f305403cacc3c9766d3de08133d9dbaf384634ab166dbb83dbbd65466f851cce"
+      "image_sha256": "d67dc76de09e13eaa6f7a963b57e22754c5ed5ed07af17ba01d5a1eae97440f2"
     },
     {
       "page": 108,
       "slide": 71,
       "title": "References",
       "image": "page-108.png",
-      "image_sha256": "1606bf818dbc9d9f3d11b12d56c642da8be5f613eb20b03ce10c6db85f85fe2a"
+      "image_sha256": "4547efaac43c7bae81ee79b0b58474b1a447d425607b6495baf3db1c722ef7f7"
     },
     {
       "page": 109,
       "slide": 72,
       "title": "References",
       "image": "page-109.png",
-      "image_sha256": "5984764eaf6d20c3423d4b975f4c8e577d1c32466d9b1d1b3cf320a6b4296c45"
+      "image_sha256": "57891ff4dc606d186db9c67fe7fa4640a2f3d82ccee1601302f3f6e1ac865fa8"
     },
     {
       "page": 110,
       "slide": 73,
       "title": "References",
       "image": "page-110.png",
-      "image_sha256": "613fe99cf31b7a91dabd3d185e80d97afe7c033022223d62706c11de987d866a"
+      "image_sha256": "4a922fb6de8195c4b5c3af9fbd11c9eadbbfff3edb42a7b92c10d89bcdeecd6a"
+    },
+    {
+      "page": 111,
+      "slide": 74,
+      "title": "References",
+      "image": "page-111.png",
+      "image_sha256": "b17310497b48ae7c24596aa1027777a93e45d11d0616c8334062cf850744d508"
+    },
+    {
+      "page": 112,
+      "slide": 75,
+      "title": "References",
+      "image": "page-112.png",
+      "image_sha256": "edf35ad3dfe85657a6c255d78fc7ede4a954108fd53a0bceb3ef56f7412e472d"
+    },
+    {
+      "page": 113,
+      "slide": 76,
+      "title": "References",
+      "image": "page-113.png",
+      "image_sha256": "602d0dd470a29999b33cc32b4dee342216c52eef650d719cfddd3a8154b37588"
+    },
+    {
+      "page": 114,
+      "slide": 77,
+      "title": "References",
+      "image": "page-114.png",
+      "image_sha256": "09f4d40fd8f15ac312fcbf496685c0e85fa1d028e657eb93ca63c5fb9014c4fc"
     }
   ],
   "slides": [
@@ -651,7 +679,7 @@
       "pages": [
         30
       ],
-      "title": "What does it this look like?",
+      "title": "What does this look like?",
       "image": "page-030.png"
     },
     {
@@ -697,121 +725,121 @@
     {
       "number": 27,
       "pages": [
-        39
+        38
       ],
-      "title": "IMDA Model Governance framework",
-      "image": "page-039.png"
+      "title": "Humans are still in charge",
+      "image": "page-038.png"
     },
     {
       "number": 28,
       "pages": [
         40
       ],
-      "title": "The Four Pillars",
+      "title": "IMDA Model Governance framework",
       "image": "page-040.png"
     },
     {
       "number": 29,
       "pages": [
-        42
+        41
       ],
-      "title": "The Seven Risks",
-      "image": "page-042.png"
+      "title": "The Four Pillars",
+      "image": "page-041.png"
     },
     {
       "number": 30,
       "pages": [
         43
       ],
-      "title": "Even the Experts Get Burned",
+      "title": "The Seven Risks",
       "image": "page-043.png"
     },
     {
       "number": 31,
       "pages": [
-        45
+        44
       ],
-      "title": "Getting It Right:Ask D.A.V.I.D.",
-      "image": "page-045.png"
+      "title": "Even the Experts Get Burned",
+      "image": "page-044.png"
     },
     {
       "number": 32,
       "pages": [
-        47
+        46
       ],
-      "title": "Getting It Right:Hippocratic AI",
-      "image": "page-047.png"
+      "title": "Getting It Right:Ask D.A.V.I.D.",
+      "image": "page-046.png"
     },
     {
       "number": 33,
       "pages": [
-        49
+        48
       ],
-      "title": "Getting It Wrong:Klarna",
-      "image": "page-049.png"
+      "title": "Getting It Right:Hippocratic AI",
+      "image": "page-048.png"
     },
     {
       "number": 34,
       "pages": [
-        51
+        50
       ],
-      "title": "Getting It Wrong:Hacking the Evaluation",
-      "image": "page-051.png"
+      "title": "Getting It Wrong:Klarna",
+      "image": "page-050.png"
     },
     {
-      "number": 36,
+      "number": 35,
       "pages": [
-        53
+        52
       ],
-      "title": "IMCB ATLAS",
-      "image": "page-053.png"
+      "title": "Getting It Wrong:Hacking the Evaluation",
+      "image": "page-052.png"
     },
     {
       "number": 37,
       "pages": [
-        55
+        54
       ],
-      "title": "IMCB ATLAS:Document Flow",
-      "image": "page-055.png"
+      "title": "IMCB ATLAS",
+      "image": "page-054.png"
     },
     {
       "number": 38,
       "pages": [
         56
       ],
-      "title": "Unauthorized access& data breach",
+      "title": "IMCB ATLAS:Document Flow",
       "image": "page-056.png"
     },
     {
       "number": 39,
       "pages": [
-        58
+        57
       ],
-      "title": "Your AI workspace",
-      "image": "page-058.png"
+      "title": "Unauthorized access& data breach",
+      "image": "page-057.png"
     },
     {
       "number": 40,
       "pages": [
-        60
+        59
       ],
-      "title": "AI-driven AI analysis",
-      "image": "page-060.png"
+      "title": "Your AI workspace",
+      "image": "page-059.png"
     },
     {
       "number": 41,
       "pages": [
-        63
+        61
       ],
-      "title": "Unauthorized access& data breach",
-      "image": "page-063.png"
+      "title": "AI-driven AI analysis",
+      "image": "page-061.png"
     },
     {
       "number": 42,
       "pages": [
         64
       ],
-      "title": "Unauthorized access:policy and control",
+      "title": "Unauthorized access& data breach",
       "image": "page-064.png"
     },
     {
@@ -819,7 +847,7 @@
       "pages": [
         65
       ],
-      "title": "Erroneous action",
+      "title": "Unauthorized access:policy and control",
       "image": "page-065.png"
     },
     {
@@ -827,7 +855,7 @@
       "pages": [
         66
       ],
-      "title": "Cascading effects",
+      "title": "Erroneous action",
       "image": "page-066.png"
     },
     {
@@ -835,7 +863,7 @@
       "pages": [
         67
       ],
-      "title": "Erroneous action:policy and control",
+      "title": "Cascading effects",
       "image": "page-067.png"
     },
     {
@@ -843,7 +871,7 @@
       "pages": [
         68
       ],
-      "title": "AI-driven AI analysis",
+      "title": "Erroneous action:policy and control",
       "image": "page-068.png"
     },
     {
@@ -851,7 +879,7 @@
       "pages": [
         69
       ],
-      "title": "Erroneous action:policy and control",
+      "title": "AI-driven AI analysis",
       "image": "page-069.png"
     },
     {
@@ -859,111 +887,119 @@
       "pages": [
         70
       ],
-      "title": "Human oversight in practice",
+      "title": "Erroneous action:policy and control",
       "image": "page-070.png"
     },
     {
       "number": 49,
       "pages": [
-        72
+        71
       ],
-      "title": "Assess Risks and apply Technical Controls",
-      "image": "page-072.png"
+      "title": "Human oversight in practice",
+      "image": "page-071.png"
     },
     {
-      "number": 51,
+      "number": 50,
       "pages": [
-        74
+        73
       ],
-      "title": "The procurement case",
-      "image": "page-074.png"
+      "title": "Assess Risks and apply Technical Controls",
+      "image": "page-073.png"
     },
     {
       "number": 52,
       "pages": [
-        76
+        75
       ],
-      "title": "A convincing recommendation",
-      "image": "page-076.png"
+      "title": "The procurement case",
+      "image": "page-075.png"
     },
     {
       "number": 53,
       "pages": [
-        78
+        77
       ],
-      "title": "Procurement Agent",
-      "image": "page-078.png"
+      "title": "A convincing recommendation",
+      "image": "page-077.png"
     },
     {
       "number": 54,
       "pages": [
-        82
+        79
       ],
-      "title": "Verify:check each offered commitment",
-      "image": "page-082.png"
+      "title": "Procurement Agent",
+      "image": "page-079.png"
     },
     {
       "number": 55,
       "pages": [
         83
       ],
-      "title": "Verify:stage boundaries",
+      "title": "Verify:check each offered commitment",
       "image": "page-083.png"
     },
     {
       "number": 56,
       "pages": [
-        87
+        84
       ],
-      "title": "Ingest:preserve the evidence",
-      "image": "page-087.png"
+      "title": "Verify:stage boundaries",
+      "image": "page-084.png"
     },
     {
       "number": 57,
       "pages": [
-        88
+        85
       ],
-      "title": "Ingest:stage boundaries",
-      "image": "page-088.png"
+      "title": "Make a PowerPoint",
+      "image": "page-085.png"
     },
     {
       "number": 58,
       "pages": [
-        92
+        86
       ],
-      "title": "Draft:settle gates before scoring",
-      "image": "page-092.png"
+      "title": "Understand/usageand/context",
+      "image": "page-086.png"
     },
     {
       "number": 59,
       "pages": [
-        93
+        90
       ],
-      "title": "Draft:stage boundaries",
-      "image": "page-093.png"
+      "title": "Ingest:preserve the evidence",
+      "image": "page-090.png"
     },
     {
       "number": 60,
       "pages": [
-        97
+        91
       ],
-      "title": "Review:make human approval meaningful",
-      "image": "page-097.png"
+      "title": "Ingest:stage boundaries",
+      "image": "page-091.png"
     },
     {
       "number": 61,
       "pages": [
-        98
+        95
       ],
-      "title": "Review:stage boundaries",
-      "image": "page-098.png"
+      "title": "Draft:settle gates before scoring",
+      "image": "page-095.png"
+    },
+    {
+      "number": 62,
+      "pages": [
+        96
+      ],
+      "title": "Draft:stage boundaries",
+      "image": "page-096.png"
     },
     {
       "number": 63,
       "pages": [
         100
       ],
-      "title": "Workflows get complicated",
+      "title": "Review:make human approval meaningful",
       "image": "page-100.png"
     },
     {
@@ -971,23 +1007,23 @@
       "pages": [
         101
       ],
-      "title": "Humans are still in charge",
+      "title": "Review:stage boundaries",
       "image": "page-101.png"
     },
     {
-      "number": 65,
+      "number": 66,
       "pages": [
-        102
+        103
       ],
-      "title": "The future of AI",
-      "image": "page-102.png"
+      "title": "Workflows get complicated",
+      "image": "page-103.png"
     },
     {
       "number": 67,
       "pages": [
         104
       ],
-      "title": "References",
+      "title": "The future of AI",
       "image": "page-104.png"
     },
     {
@@ -995,16 +1031,8 @@
       "pages": [
         105
       ],
-      "title": "References",
+      "title": "Build something worth trusting.",
       "image": "page-105.png"
-    },
-    {
-      "number": 69,
-      "pages": [
-        106
-      ],
-      "title": "References",
-      "image": "page-106.png"
     },
     {
       "number": 70,
@@ -1037,6 +1065,38 @@
       ],
       "title": "References",
       "image": "page-110.png"
+    },
+    {
+      "number": 74,
+      "pages": [
+        111
+      ],
+      "title": "References",
+      "image": "page-111.png"
+    },
+    {
+      "number": 75,
+      "pages": [
+        112
+      ],
+      "title": "References",
+      "image": "page-112.png"
+    },
+    {
+      "number": 76,
+      "pages": [
+        113
+      ],
+      "title": "References",
+      "image": "page-113.png"
+    },
+    {
+      "number": 77,
+      "pages": [
+        114
+      ],
+      "title": "References",
+      "image": "page-114.png"
     }
   ]
 }
